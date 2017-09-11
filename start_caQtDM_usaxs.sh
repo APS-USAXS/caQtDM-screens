@@ -7,7 +7,7 @@ export EPICS_APP=/APSshare/epics/synApps_5_8/support/xxx-5-8-3
 
 export APS_UI_DIR=/APSshare/adlsys
 export EPICS_APP_UI_DIR=${EPICS_APP}/xxxApp/op/ui
-export BEAMLINE_UI_DIR=/net/s9dserv/xorApps/screens/usaxs
+export BEAMLINE_UI_DIR=/net/s9dserv/xorApps/epics/screens/usaxs/
 
 #export DEFAULT_EPICS_CA_MAX_ARRAY_BYTES=64008
 export DEFAULT_EPICS_CA_MAX_ARRAY_BYTES=8000100
@@ -71,72 +71,74 @@ eval $output
 # ============  ================  ===========================
 # function      MODULE_VARIABLE   subdirectory with .ui files
 # ============  ================  ===========================
-addScreenPath   EPICS_APP_UI_DIR
-addScreenPath   BEAMLINE_UI_DIR   usaxs
-addScreenPath   BEAMLINE_UI_DIR   saxs
-addScreenPath   BEAMLINE_UI_DIR   user
-addScreenPath   BEAMLINE_UI_DIR   hardware
-addScreenPath   BEAMLINE_UI_DIR   general
-addScreenPath   BEAMLINE_UI_DIR   beamline
-addScreenPath   BEAMLINE_UI_DIR   user
-addScreenPath   BEAMLINE_UI_DIR   legacy
-addScreenPath   ALIVE	          aliveApp/op/ui
-addScreenPath   AREA_DETECTOR	  ADCore/ADApp/op/ui
-addScreenPath   AREA_DETECTOR	  ADCore/ADApp/op/ui/autoconvert
-addScreenPath   ASYN		  opi/caqtdm
-addScreenPath   AUTOSAVE	  asApp/op/ui
-addScreenPath   BUSY		  busyApp/op/ui
-addScreenPath   CALC		  calcApp/op/ui
-addScreenPath   CAMAC		  camacApp/op/ui
-addScreenPath   CAPUTRECORDER	  caputRecorderApp/op/ui
-addScreenPath   DAC128V 	  dac128VApp/op/ui
-addScreenPath   DELAYGEN	  delaygenApp/op/ui
-addScreenPath   DEVIOCSTATS	  op/ui
-addScreenPath   DXP		  dxpApp/op/ui
-addScreenPath   IP		  ipApp/op/ui
-addScreenPath   IP330		  ip330App/op/ui
-addScreenPath   IPUNIDIG	  ipUnidigApp/op/ui
-addScreenPath   LOVE		  loveApp/op/ui
-addScreenPath   MCA		  mcaApp/op/ui
-addScreenPath   MODBUS		  modbusApp/op/ui
-addScreenPath   MOTOR		  motorApp/op/ui
-addScreenPath   OPTICS		  opticsApp/op/ui
-addScreenPath   QUADEM		  quadEMApp/op/ui
-addScreenPath   SOFTGLUE	  softGlueApp/op/ui
-addScreenPath   SSCAN		  sscanApp/op/ui
-addScreenPath   STD		  stdApp/op/ui
-addScreenPath   VAC		  vacApp/op/ui
-addScreenPath   VME		  vmeApp/op/ui
-addScreenPath   APS_UI_DIR        sr
+addScreenPath      EPICS_APP_UI_DIR
+addScreenPath      BEAMLINE_UI_DIR
+addScreenPath      BEAMLINE_UI_DIR       usaxs
+addScreenPath      BEAMLINE_UI_DIR       saxs
+addScreenPath      BEAMLINE_UI_DIR       user
+addScreenPath      BEAMLINE_UI_DIR       hardware
+addScreenPath      BEAMLINE_UI_DIR       general
+addScreenPath      BEAMLINE_UI_DIR       beamline
+addScreenPath      BEAMLINE_UI_DIR       user
+addScreenPath      BEAMLINE_UI_DIR       ../9ida
+addScreenPath      BEAMLINE_UI_DIR       legacy
+addScreenPath      ALIVE                 aliveApp/op/ui
+addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui
+addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui/autoconvert
+addScreenPath      ASYN                  opi/caqtdm
+addScreenPath      AUTOSAVE              asApp/op/ui
+addScreenPath      BUSY                  busyApp/op/ui
+addScreenPath      CALC                  calcApp/op/ui
+addScreenPath      CAMAC                 camacApp/op/ui
+addScreenPath      CAPUTRECORDER         caputRecorderApp/op/ui
+addScreenPath      DAC128V               dac128VApp/op/ui
+addScreenPath      DELAYGEN              delaygenApp/op/ui
+addScreenPath      DEVIOCSTATS           op/ui
+addScreenPath      DXP                   dxpApp/op/ui
+addScreenPath      IP                    ipApp/op/ui
+addScreenPath      IP330                 ip330App/op/ui
+addScreenPath      IPUNIDIG              ipUnidigApp/op/ui
+addScreenPath      LOVE                  loveApp/op/ui
+addScreenPath      MCA                   mcaApp/op/ui
+addScreenPath      MODBUS                modbusApp/op/ui
+addScreenPath      MOTOR                 motorApp/op/ui
+addScreenPath      OPTICS                opticsApp/op/ui
+addScreenPath      QUADEM                quadEMApp/op/ui
+addScreenPath      SOFTGLUE              softGlueApp/op/ui
+addScreenPath      SSCAN                 sscanApp/op/ui
+addScreenPath      STD                   stdApp/op/ui
+addScreenPath      VAC                   vacApp/op/ui
+addScreenPath      VME                   vmeApp/op/ui
+addScreenPath      APS_UI_DIR            sr
 #addScreenPath   APS_UI_DIR        sr/absApp
-addScreenPath   APS_UI_DIR        sr/bleeps
-addScreenPath   APS_UI_DIR        sr/blmApp
-addScreenPath   APS_UI_DIR        sr/bmbpm
-addScreenPath   APS_UI_DIR        sr/bunchIApp
-addScreenPath   APS_UI_DIR        sr/bunchPurity
+addScreenPath      APS_UI_DIR            sr/bleeps
+addScreenPath      APS_UI_DIR            sr/blmApp
+addScreenPath      APS_UI_DIR            sr/bmbpm
+addScreenPath      APS_UI_DIR            sr/bunchIApp
+addScreenPath      APS_UI_DIR            sr/bunchPurity
 #addScreenPath   APS_UI_DIR        sr/cpsApp
 #addScreenPath   APS_UI_DIR        sr/facilitiesApp
-addScreenPath   APS_UI_DIR        sr/fe
-addScreenPath   APS_UI_DIR        sr/flagApp
-addScreenPath   APS_UI_DIR        sr/Gate_Pictures
-addScreenPath   APS_UI_DIR        sr/id
-addScreenPath   APS_UI_DIR        sr/idbpm
-addScreenPath   APS_UI_DIR        sr/imagingApp
-addScreenPath   APS_UI_DIR        sr/iocinfoApp
+addScreenPath      APS_UI_DIR            sr/fe
+addScreenPath      APS_UI_DIR            sr/flagApp
+addScreenPath      APS_UI_DIR            sr/Gate_Pictures
+addScreenPath      APS_UI_DIR            sr/id
+addScreenPath      APS_UI_DIR            sr/idbpm
+addScreenPath      APS_UI_DIR            sr/imagingApp
+addScreenPath      APS_UI_DIR            sr/iocinfoApp
 #addScreenPath   APS_UI_DIR        sr/mpsApp
-addScreenPath   APS_UI_DIR        sr/operationsApp
-addScreenPath   APS_UI_DIR        sr/p0fbApp
-addScreenPath   APS_UI_DIR        sr/pictures
+addScreenPath      APS_UI_DIR            sr/operationsApp
+addScreenPath      APS_UI_DIR            sr/p0fbApp
+addScreenPath      APS_UI_DIR            sr/pictures
 #addScreenPath   APS_UI_DIR        sr/psApp
 #addScreenPath   APS_UI_DIR        sr/psApp/noiseMonitoring
-addScreenPath   APS_UI_DIR        sr/pss
-addScreenPath   APS_UI_DIR        sr/pss/adl
-addScreenPath   APS_UI_DIR        sr/scraperApp
-addScreenPath   APS_UI_DIR        sr/tuneApp
-addScreenPath   APS_UI_DIR        sr/vacApp
-addScreenPath   APS_UI_DIR        time
-addScreenPath   APS_UI_DIR        time/injtimeApp
-addScreenPath   APS_UI_DIR        time/mtimeApp
+addScreenPath      APS_UI_DIR            sr/pss
+addScreenPath      APS_UI_DIR            sr/pss/adl
+addScreenPath      APS_UI_DIR            sr/scraperApp
+addScreenPath      APS_UI_DIR            sr/tuneApp
+addScreenPath      APS_UI_DIR            sr/vacApp
+addScreenPath      APS_UI_DIR            time
+addScreenPath      APS_UI_DIR            time/injtimeApp
+addScreenPath      APS_UI_DIR            time/mtimeApp
 # ============  ================  ===========================
 
 

@@ -1,0 +1,27 @@
+2017-08-04 Qt Designer notes
+
+Use Layouts to resolve font size problems
+  * form layouts for label:entry pairs
+  * grid layouts for all other arrays
+  * adjust spacing to separate items
+
+Setup a window
+  * start designer with caQtDM libraries
+  * create a MainWindow (QMainWindow, by name)
+  * verify caQtDM widgets available
+
+Edit a lot of widgets with the same modification 
+  * (such as font size or a stylesheet customization)
+
+shutter screens look good
+  * need to check the actions on the two buttons
+  * should make a common shutter screen and re-use
+
+9idc_usaxs.ui
+  * needs graphic for the mirrors
+  * apply QGroupBox
+  * apply grid/form layouts
+  * convert stack of labels (if A=1...) to single "mode: ..." display
+
+Refer to poster for a couple more lessons learned
+

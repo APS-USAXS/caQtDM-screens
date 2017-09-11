@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>880</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>840</width>
+      <height>372</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="step1">
+     <attribute name="title">
+      <string>Step 1</string>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QWidget" name="widget_12" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_13">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_14" stretch="0,0,0,0">
+           <item>
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>Set pin-z pinSAXS ops value to safe number, likely ~ USAXS value or larger</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_13" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_16">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_17">
+                <item>
+                 <widget class="QLabel" name="label_15">
+                  <property name="text">
+                   <string>pin_z ops USAXS</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="caTextEntry" name="caTextEntry_7">
+                  <property name="channel" stdset="0">
+                   <string notr="true">9idcLAX:USAXS_Pin:Pin_z_out</string>
+                  </property>
+                  <property name="foreground">
+                   <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                   </color>
+                  </property>
+                  <property name="background">
+                   <color>
+                    <red>235</red>
+                    <green>241</green>
+                    <blue>181</blue>
+                   </color>
+                  </property>
+                  <property name="colorMode">
+                   <enum>caLineEdit::Static</enum>
+                  </property>
+                  <property name="precisionMode">
+                   <enum>caLineEdit::Channel</enum>
+                  </property>
+                  <property name="limitsMode">
+                   <enum>caLineEdit::Channel</enum>
+                  </property>
+                  <property name="maxValue">
+                   <double>1.000000000000000</double>
+                  </property>
+                  <property name="minValue">
+                   <double>0.000000000000000</double>
+                  </property>
+                  <property name="fontScaleMode" stdset="0">
+                   <enum>caLineEdit::WidthAndHeight</enum>
+                  </property>
+                  <property name="formatType">
+                   <enum>caLineEdit::decimal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="text">
+              <string>tba</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_14" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_18">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_19">
+                <item>
+                 <widget class="QLabel" name="label_16">
+                  <property name="text">
+                   <string>pin_z ops pinSAXS</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="caTextEntry" name="caTextEntry_8">
+                  <property name="channel" stdset="0">
+                   <string notr="true">9idcLAX:USAXS_Pin:Pin_z_in</string>
+                  </property>
+                  <property name="foreground">
+                   <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                   </color>
+                  </property>
+                  <property name="background">
+                   <color>
+                    <red>235</red>
+                    <green>241</green>
+                    <blue>181</blue>
+                   </color>
+                  </property>
+                  <property name="colorMode">
+                   <enum>caLineEdit::Static</enum>
+                  </property>
+                  <property name="precisionMode">
+                   <enum>caLineEdit::Channel</enum>
+                  </property>
+                  <property name="limitsMode">
+                   <enum>caLineEdit::Channel</enum>
+                  </property>
+                  <property name="maxValue">
+                   <double>1.000000000000000</double>
+                  </property>
+                  <property name="minValue">
+                   <double>0.000000000000000</double>
+                  </property>
+                  <property name="fontScaleMode" stdset="0">
+                   <enum>caLineEdit::WidthAndHeight</enum>
+                  </property>
+                  <property name="formatType">
+                   <enum>caLineEdit::decimal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_17">
+        <property name="text">
+         <string>Place sample holder in instrument but with sx negative so beam path is empty and no collision between sample holder and pinSAXS chamber is possible. Check in person by looking from side, that the pinSAXS can come down while sample would be in place, then in spec window issue command :  useModePinSAXS</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="step2">
+     <attribute name="title">
+      <string>Step 2</string>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QWidget" name="widget_15" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_15">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_16" stretch="2,1,1">
+           <item>
+            <widget class="QLabel" name="label_18">
+             <property name="text">
+              <string>With pinSAXS in, move sample approximately into the in-beam position</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_16" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_20">
+              <item>
+               <widget class="caSpinbox" name="caspinbox_4">
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcLAX:m58:c2:m1</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="caRelatedDisplay" name="carelateddisplay_4">
+                <property name="label">
+                 <string notr="true">SX</string>
+                </property>
+                <property name="labels">
+                 <string>SX</string>
+                </property>
+                <property name="files">
+                 <string>motorxU.ui</string>
+                </property>
+                <property name="args">
+                 <string>P=9idcLAX:m58:c2:,M=m1</string>
+                </property>
+                <property name="removeParent" stdset="0">
+                 <string>false</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_17" native="true">
+             <layout class="QGridLayout" name="gridLayout_3">
+              <item row="0" column="0">
+               <layout class="QGridLayout" name="gridLayout_4">
+                <item row="0" column="1">
+                 <widget class="caSpinbox" name="caspinbox_5">
+                  <property name="channel" stdset="0">
+                   <string notr="true">9idcLAX:m58:c2:m2</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="caRelatedDisplay" name="carelateddisplay_5">
+                  <property name="label">
+                   <string notr="true">SY</string>
+                  </property>
+                  <property name="labels">
+                   <string>SY</string>
+                  </property>
+                  <property name="files">
+                   <string>motorxU.ui</string>
+                  </property>
+                  <property name="args">
+                   <string>P=9idcLAX:m58:c2:,M=m2</string>
+                  </property>
+                  <property name="removeParent" stdset="0">
+                   <string>false</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_18" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_17">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_18" stretch="2,0,1">
+           <item>
+            <widget class="QLabel" name="label_19">
+             <property name="text">
+              <string>Measure the distance between pinSAXS front and sample, set the pin-z low limit to (current pin-z position - measured distance)</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_20">
+             <property name="text">
+              <string>pin_z motor LIMIT</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="caTextEntry" name="caTextEntry_9">
+             <property name="channel" stdset="0">
+              <string notr="true">tba</string>
+             </property>
+             <property name="foreground">
+              <color>
+               <red>0</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
+             </property>
+             <property name="background">
+              <color>
+               <red>235</red>
+               <green>241</green>
+               <blue>181</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+             <property name="precisionMode">
+              <enum>caLineEdit::Channel</enum>
+             </property>
+             <property name="limitsMode">
+              <enum>caLineEdit::Channel</enum>
+             </property>
+             <property name="maxValue">
+              <double>1.000000000000000</double>
+             </property>
+             <property name="minValue">
+              <double>0.000000000000000</double>
+             </property>
+             <property name="fontScaleMode" stdset="0">
+              <enum>caLineEdit::WidthAndHeight</enum>
+             </property>
+             <property name="formatType">
+              <enum>caLineEdit::decimal</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_19" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_19">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_20" stretch="2,1">
+           <item>
+            <widget class="QLabel" name="label_21">
+             <property name="text">
+              <string>Drive pinSAXS chamber (pin-z) down towards the sample, until the front is about 5 mm from the sample/sample holder... Make sure you are about 5 mm from the place MOST DOWNSTREAM on the sample paddle / holder / heater... Avoid possible collisions between sample and chamber.</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_20" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_21">
+              <item>
+               <widget class="caSpinbox" name="caspinbox_6">
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcLAX:mxv:c0:m2</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="caRelatedDisplay" name="carelateddisplay_6">
+                <property name="label">
+                 <string notr="true">pin-Z</string>
+                </property>
+                <property name="labels">
+                 <string>pin-Z</string>
+                </property>
+                <property name="files">
+                 <string>motorxU.ui</string>
+                </property>
+                <property name="args">
+                 <string>P=9idcLAX:mxv:c0:,M=m2</string>
+                </property>
+                <property name="removeParent" stdset="0">
+                 <string>false</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_21" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_21">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_22" stretch="3,0,0,1">
+           <item>
+            <widget class="QLabel" name="label_22">
+             <property name="text">
+              <string>Set &quot;pin-z ops pinSAXS&quot; to (current pin-z)          -&gt;&gt;&gt;&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="text">
+              <string>tba</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>pin-z ops pinSAXS</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="caTextEntry" name="caTextEntry_10">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:USAXS_Pin:Pin_z_in</string>
+             </property>
+             <property name="foreground">
+              <color>
+               <red>0</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
+             </property>
+             <property name="background">
+              <color>
+               <red>235</red>
+               <green>241</green>
+               <blue>181</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+             <property name="precisionMode">
+              <enum>caLineEdit::Channel</enum>
+             </property>
+             <property name="limitsMode">
+              <enum>caLineEdit::Channel</enum>
+             </property>
+             <property name="maxValue">
+              <double>1.000000000000000</double>
+             </property>
+             <property name="minValue">
+              <double>0.000000000000000</double>
+             </property>
+             <property name="fontScaleMode" stdset="0">
+              <enum>caLineEdit::WidthAndHeight</enum>
+             </property>
+             <property name="formatType">
+              <enum>caLineEdit::decimal</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_22" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_22">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_23" stretch="3,0,0,1">
+           <item>
+            <widget class="QLabel" name="label_24">
+             <property name="text">
+              <string>Set &quot;pin-z ops USAXS&quot; to (current pin-z position+25)     -&gt;&gt;&gt;&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_6">
+             <property name="text">
+              <string>tba</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_25">
+             <property name="text">
+              <string>pin_z ops USAXS</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="caTextEntry" name="caTextEntry_11">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:USAXS_Pin:Pin_z_out</string>
+             </property>
+             <property name="foreground">
+              <color>
+               <red>0</red>
+               <green>0</green>
+               <blue>0</blue>
+              </color>
+             </property>
+             <property name="background">
+              <color>
+               <red>235</red>
+               <green>241</green>
+               <blue>181</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+             <property name="precisionMode">
+              <enum>caLineEdit::Channel</enum>
+             </property>
+             <property name="limitsMode">
+              <enum>caLineEdit::Channel</enum>
+             </property>
+             <property name="maxValue">
+              <double>1.000000000000000</double>
+             </property>
+             <property name="minValue">
+              <double>0.000000000000000</double>
+             </property>
+             <property name="fontScaleMode" stdset="0">
+              <enum>caLineEdit::WidthAndHeight</enum>
+             </property>
+             <property name="formatType">
+              <enum>caLineEdit::decimal</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+     <zorder>widget_15</zorder>
+     <zorder></zorder>
+    </widget>
+    <widget class="QWidget" name="step3">
+     <attribute name="title">
+      <string>Step 3</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="step4">
+     <attribute name="title">
+      <string>Step 4</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>523</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Align pinSAXS - perform in the hutch at the instrument</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>tabWidget</zorder>
+   <zorder>widget_15</zorder>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caTextEntry</class>
+   <extends>caLineEdit</extends>
+   <header>caTextEntry</header>
+  </customwidget>
+  <customwidget>
+   <class>caSpinbox</class>
+   <extends>QFrame</extends>
+   <header>caSpinbox</header>
+  </customwidget>
+  <customwidget>
+   <class>caLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>caLineEdit</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

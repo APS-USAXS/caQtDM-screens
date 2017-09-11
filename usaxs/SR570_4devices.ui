@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="caFrame" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>383</width>
+    <height>190</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="background">
+   <color>
+    <red>182</red>
+    <green>182</green>
+    <blue>186</blue>
+   </color>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>361</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 204)</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;BPM Amplifiers Controls All&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>SENSITIVITY</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>left</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="caMessageButton" name="camessagebutton">
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm1:sens_num.VAL</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="caMessageButton" name="camessagebutton_5">
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm1:sens_unit.VAL</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="caMessageButton" name="camessagebutton_13">
+        <property name="text">
+         <string>SET ALL</string>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm1:init.PROC</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>245</red>
+          <green>228</green>
+          <blue>31</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="caMessageButton" name="camessagebutton_9">
+        <property name="text">
+         <string>DEFAULT</string>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm1:reset.PROC</string>
+        </property>
+        <property name="foreground">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>right</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="caMessageButton" name="camessagebutton_2">
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm4:sens_num.VAL</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="caMessageButton" name="camessagebutton_7">
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm4:sens_unit.VAL</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="caMessageButton" name="camessagebutton_14">
+        <property name="text">
+         <string>SET ALL</string>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm4:init.PROC</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>245</red>
+          <green>228</green>
+          <blue>31</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="caMessageButton" name="camessagebutton_10">
+        <property name="text">
+         <string>DEFAULT</string>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm4:reset.PROC</string>
+        </property>
+        <property name="foreground">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>top</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="caMessageButton" name="camessagebutton_3">
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm3:sens_num.VAL</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="caMessageButton" name="camessagebutton_6">
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm3:sens_unit.VAL</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="caMessageButton" name="camessagebutton_16">
+        <property name="text">
+         <string>SET ALL</string>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm3:init.PROC</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>245</red>
+          <green>228</green>
+          <blue>31</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="caMessageButton" name="camessagebutton_11">
+        <property name="text">
+         <string>DEFAULT</string>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm3:reset.PROC</string>
+        </property>
+        <property name="foreground">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>bottom</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="caMessageButton" name="camessagebutton_4">
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm2:sens_num.VAL</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="caMessageButton" name="camessagebutton_8">
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm2:sens_unit.VAL</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="caMessageButton" name="camessagebutton_15">
+        <property name="text">
+         <string>SET ALL </string>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm2:init.PROC</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>245</red>
+          <green>228</green>
+          <blue>31</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="caMessageButton" name="camessagebutton_12">
+        <property name="text">
+         <string>DEFAULT</string>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">9idcSAXS:bpm2:reset.PROC</string>
+        </property>
+        <property name="foreground">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="caRelatedDisplay" name="carelateddisplay_4">
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="labels">
+       <string>Individual Control Screens</string>
+      </property>
+      <property name="files">
+       <string>;SR570.ui;SR570.ui;SR570.ui;SR570.ui</string>
+      </property>
+      <property name="args">
+       <string>;P=9idcSAXS:,A=bpm1:,WidgetName=xbpm Left;P=9idcSAXS:,A=bpm2:,WidgetName=xbpm Bottom;P=9idcSAXS:,A=bpm3:,WidgetName=xbpm Top;P=9idcSAXS:,A=bpm4:,WidgetName=xbpm Right</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caMessageButton</class>
+   <extends>QPushButton</extends>
+   <header>caMessageButton</header>
+  </customwidget>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

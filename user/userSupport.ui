@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>376</width>
+    <height>261</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1,0">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="caLabel" name="calabel">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>$(P)  User Software Support</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="caRelatedDisplay" name="carelateddisplay">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="label">
+          <string notr="true">scans</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>232</red>
+           <green>232</green>
+           <blue>232</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>Scan1 (for all scans);Scan2 (for all scans);Scan3 (for all scans);Scan4 (for all scans);saveData controls</string>
+         </property>
+         <property name="files">
+          <string>scan_more.ui;scan_more.ui;scan_more.ui;scan_more.ui;scan_saveData.ui</string>
+         </property>
+         <property name="args">
+          <string>N=1,S=scan1,DW=Dwait1,PW=Pwait1;N=2,S=scan2,DW=Dwait2,PW=Pwait2;N=3,S=scan3,DW=Dwait3,PW=Pwait3;N=4,S=scan4,DW=Dwait4,PW=Pwait4;</string>
+         </property>
+         <property name="fontScaleMode" stdset="0">
+          <enum>EPushButton::None</enum>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Menu</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="caRelatedDisplay" name="carelateddisplay_5">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="label">
+          <string notr="true">calculations</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>232</red>
+           <green>232</green>
+           <blue>232</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>calculations</string>
+         </property>
+         <property name="files">
+          <string>userCalcs10.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:</string>
+         </property>
+         <property name="fontScaleMode" stdset="0">
+          <enum>EPushButton::None</enum>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="caRelatedDisplay" name="carelateddisplay_7">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="label">
+          <string notr="true">string calculations</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>232</red>
+           <green>232</green>
+           <blue>232</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>string calculations</string>
+         </property>
+         <property name="files">
+          <string>userStringCalcs10.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:</string>
+         </property>
+         <property name="fontScaleMode" stdset="0">
+          <enum>EPushButton::None</enum>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="caRelatedDisplay" name="carelateddisplay_9">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="label">
+          <string notr="true">transforms</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>232</red>
+           <green>232</green>
+           <blue>232</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>transforms</string>
+         </property>
+         <property name="files">
+          <string>userTransforms10.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:</string>
+         </property>
+         <property name="fontScaleMode" stdset="0">
+          <enum>EPushButton::None</enum>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="caRelatedDisplay" name="carelateddisplay_11">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="label">
+          <string notr="true">sequences</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>232</red>
+           <green>232</green>
+           <blue>232</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>sequences</string>
+         </property>
+         <property name="files">
+          <string>userSequences10.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:</string>
+         </property>
+         <property name="fontScaleMode" stdset="0">
+          <enum>EPushButton::None</enum>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="caRelatedDisplay" name="carelateddisplay_10">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="label">
+          <string notr="true">40-char strings</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>232</red>
+           <green>232</green>
+           <blue>232</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>40-char strings</string>
+         </property>
+         <property name="files">
+          <string>userStrings.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:</string>
+         </property>
+         <property name="fontScaleMode" stdset="0">
+          <enum>EPushButton::None</enum>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="caRelatedDisplay" name="carelateddisplay_8">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="label">
+          <string notr="true">float variables</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>232</red>
+           <green>232</green>
+           <blue>232</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>float variables</string>
+         </property>
+         <property name="files">
+          <string>userFloats.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:</string>
+         </property>
+         <property name="fontScaleMode" stdset="0">
+          <enum>EPushButton::None</enum>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="caRelatedDisplay" name="carelateddisplay_6">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="label">
+          <string notr="true">32-bit int variables</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>232</red>
+           <green>232</green>
+           <blue>232</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>32-bit int variables</string>
+         </property>
+         <property name="files">
+          <string>userLongs.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:</string>
+         </property>
+         <property name="fontScaleMode" stdset="0">
+          <enum>EPushButton::None</enum>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="caRelatedDisplay" name="carelateddisplay_12">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="label">
+          <string notr="true">1-bit variables</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>232</red>
+           <green>232</green>
+           <blue>232</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>1-bit variables</string>
+         </property>
+         <property name="files">
+          <string>userSupport.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:</string>
+         </property>
+         <property name="fontScaleMode" stdset="0">
+          <enum>EPushButton::None</enum>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

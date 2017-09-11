@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>627</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>2</y>
+      <width>181</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>usaxs_parameters.ui</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>12</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>last edited: 2017-08-23</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>611</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_26">
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0)</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS Measurement Parameters&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="carelateddisplay_4">
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>140</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string>All Parameters</string>
+       </property>
+       <property name="files">
+        <string>usaxs_parameters_all.ui</string>
+       </property>
+       <property name="args">
+        <string/>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>611</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>USAXS Scan parameters</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="6" column="0" colspan="4">
+      <widget class="QGroupBox" name="groupBox_6">
+       <property name="title">
+        <string>Optional sample motion</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sa Y step [mm]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="caTextEntry" name="catextentry_13">
+          <property name="channel" stdset="0">
+           <string notr="true">9idcLAX:USAXS:Sample_Y_Step.VAL</string>
+          </property>
+          <property name="background">
+           <color>
+            <red>115</red>
+            <green>215</green>
+            <blue>253</blue>
+           </color>
+          </property>
+          <property name="colorMode">
+           <enum>caLineEdit::Static</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>149</width>
+            <height>2</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="3">
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>149</width>
+            <height>2</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="caTextEntry" name="catextentry_10">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:NumPoints</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="caTextEntry" name="catextentry_14">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:CountTime</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="caTextEntry" name="catextentry_9">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:StartOffset</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;End Q value [1/A]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Count time [s]</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Number of Pnts&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Start offset [deg]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" colspan="4">
+      <widget class="QGroupBox" name="groupBox_5">
+       <property name="title">
+        <string>Pinhole-SAXS Scan parameters</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Acquire Time [s]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="caTextEntry" name="catextentry_15">
+          <property name="channel" stdset="0">
+           <string notr="true">9idcLAX:USAXS_Pin:AcquireTime</string>
+          </property>
+          <property name="background">
+           <color>
+            <red>115</red>
+            <green>215</green>
+            <blue>253</blue>
+           </color>
+          </property>
+          <property name="colorMode">
+           <enum>caLineEdit::Static</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Number of Images</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="caTextEntry" name="catextentry_11">
+          <property name="channel" stdset="0">
+           <string notr="true">9idcLAX:USAXS_Pin:NumImages</string>
+          </property>
+          <property name="background">
+           <color>
+            <red>115</red>
+            <green>215</green>
+            <blue>253</blue>
+           </color>
+          </property>
+          <property name="colorMode">
+           <enum>caLineEdit::Static</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="caTextEntry" name="catextentry_12">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:Finish</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>351</width>
+      <height>134</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Slit positions</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pinhole&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Horiz slit sizes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="caTextEntry" name="catextentry_18">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_Pin:Pin_hslit_ap</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="caTextEntry" name="catextentry_16">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_Pin:USAXS_hslit_ap</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vertical slit sizes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="caTextEntry" name="catextentry_23">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_Pin:Pin_vslit_ap</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="caTextEntry" name="catextentry_19">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_Pin:USAXS_vslit_ap</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Horiz guard slit &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="caTextEntry" name="catextentry_17">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_Pin:Pin_hgslit_ap</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="caTextEntry" name="catextentry_20">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_Pin:USAXS_hgslit_ap</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vertical guard slit &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="caTextEntry" name="catextentry_21">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_Pin:Pin_vgslit_ap</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="caTextEntry" name="catextentry_22">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_Pin:USAXS_vgslit_ap</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>611</width>
+      <height>57</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>SAXS Image Base Directory</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="caTextEntry" name="catextentry_28">
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_Pin:directory</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>270</y>
+      <width>251</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Rot. Stage Centers</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="1" column="1">
+      <widget class="caLineEdit" name="calineedit_80">
+       <property name="text">
+        <string>#####</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:MRcenter.VAL</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_20">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>VDC</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_23">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;AS piezo stage&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_24">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MS piezo stage&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="caLineEdit" name="calineedit_82">
+       <property name="text">
+        <string>#####</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:MSRcenter.VAL</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="caLineEdit" name="calineedit_83">
+       <property name="text">
+        <string>#####</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:ASRcenter.VAL</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="caLineEdit" name="calineedit_81">
+       <property name="text">
+        <string>#####</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:ARcenter.VAL</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_21">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>A Stage </string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_22">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>M Stage </string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_25">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>degrees</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caTextEntry</class>
+   <extends>caLineEdit</extends>
+   <header>caTextEntry</header>
+  </customwidget>
+  <customwidget>
+   <class>caLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>caLineEdit</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

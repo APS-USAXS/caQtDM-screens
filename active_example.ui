@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>296</width>
+    <height>494</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>bit controls</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QGroupBox" name="groupBox_2">
+             <property name="title">
+              <string>inputs</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="text">
+                 <string>bit control</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="caTextEntry" name="catextentry">
+                <property name="channel" stdset="0">
+                 <string notr="true">xxx:userCalc1.A</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="caLineEdit" name="calineedit">
+                <property name="channel" stdset="0">
+                 <string notr="true">xxx:userCalc1</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_8">
+             <property name="title">
+              <string>controls</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <spacer name="horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>72</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="caMessageButton" name="camessagebutton">
+                <property name="text">
+                 <string>turn off</string>
+                </property>
+                <property name="fontScaleMode">
+                 <enum>EPushButton::Height</enum>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">xxx:userCalc1.A</string>
+                </property>
+                <property name="label">
+                 <string notr="true">turn off</string>
+                </property>
+                <property name="pressMessage">
+                 <string notr="true">0</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>73</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="caMessageButton" name="camessagebutton_2">
+                <property name="text">
+                 <string>turn on</string>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">xxx:userCalc1.A</string>
+                </property>
+                <property name="label">
+                 <string notr="true">turn on</string>
+                </property>
+                <property name="pressMessage">
+                 <string notr="true">1</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>1</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_3">
+             <property name="title">
+              <string>targets</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>visible if bit is 1</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="caLabel" name="calabel">
+                <property name="text">
+                 <string>bit is ON</string>
+                </property>
+                <property name="visibility">
+                 <enum>caLabel::IfNotZero</enum>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">xxx:userCalc1</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="title">
+           <string>position controls</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,1,3">
+           <item>
+            <widget class="QGroupBox" name="groupBox_5">
+             <property name="title">
+              <string>inputs</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="caTextEntry" name="pos_entry">
+                <property name="channel" stdset="0">
+                 <string notr="true">xxx:userCalc2.A</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="caLineEdit" name="calineedit_2">
+                <property name="channel" stdset="0">
+                 <string notr="true">xxx:userCalc2</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="enable_cb">
+                <property name="text">
+                 <string>enable</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_6">
+             <property name="title">
+              <string>caQtDM internal calculation</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_2">
+                <property name="text">
+                 <string>x</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <widget class="QLabel" name="label_4">
+                <property name="text">
+                 <string>y</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="4">
+               <widget class="caCalc" name="cacalc_5">
+                <property name="variable">
+                 <string notr="true">slit_left_h</string>
+                </property>
+                <property name="calc">
+                 <string notr="true">50</string>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">slit_left_x</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="caCalc" name="cacalc">
+                <property name="variable">
+                 <string notr="true">slit_left_x</string>
+                </property>
+                <property name="calc">
+                 <string notr="true">max(min(B,80),0)</string>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">slit_left_x</string>
+                </property>
+                <property name="channelB">
+                 <string notr="true">xxx:userCalc2</string>
+                </property>
+                <property name="eventSignal">
+                 <enum>caCalc::onAnyChange</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="caCalc" name="cacalc_3">
+                <property name="variable">
+                 <string notr="true">slit_left_y</string>
+                </property>
+                <property name="calc">
+                 <string notr="true">10</string>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">slit_left_x</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="3">
+               <widget class="caCalc" name="cacalc_4">
+                <property name="variable">
+                 <string notr="true">slit_left_w</string>
+                </property>
+                <property name="calc">
+                 <string notr="true">10</string>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">slit_left_x</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="4">
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>h</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="3">
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>w</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="5">
+               <widget class="caCalc" name="slit_left_calc">
+                <property name="variable">
+                 <string notr="true">my_rect</string>
+                </property>
+                <property name="calc">
+                 <string notr="true">%QRect</string>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">slit_left_x</string>
+                </property>
+                <property name="channelB">
+                 <string notr="true">slit_left_y</string>
+                </property>
+                <property name="channelC">
+                 <string notr="true">slit_left_w</string>
+                </property>
+                <property name="channelD">
+                 <string notr="true">slit_left_h</string>
+                </property>
+                <property name="eventSignal">
+                 <enum>caCalc::onAnyChange</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="5">
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>blade</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_7">
+             <property name="title">
+              <string>targets</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_4" stretch="1,1">
+              <item>
+               <widget class="caFrame" name="caframe">
+                <layout class="QHBoxLayout" name="horizontalLayout_8">
+                 <item>
+                  <widget class="caLinearGauge" name="calineargauge">
+                   <property name="minValue">
+                    <double>0.000000000000000</double>
+                   </property>
+                   <property name="maxValue">
+                    <double>50.000000000000000</double>
+                   </property>
+                   <property name="displayLimits">
+                    <enum>EAbstractGauge::User_Limits</enum>
+                   </property>
+                   <property name="highError">
+                    <double>45.000000000000000</double>
+                   </property>
+                   <property name="lowError">
+                    <double>5.000000000000000</double>
+                   </property>
+                   <property name="lowWarning">
+                    <double>10.000000000000000</double>
+                   </property>
+                   <property name="highWarning">
+                    <double>40.000000000000000</double>
+                   </property>
+                   <property name="alarmLimits">
+                    <enum>EAbstractGauge::User_Alarms</enum>
+                   </property>
+                   <property name="referenceEnabled">
+                    <bool>false</bool>
+                   </property>
+                   <property name="channel" stdset="0">
+                    <string notr="true">woody</string>
+                   </property>
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_10">
+                 <item>
+                  <widget class="QWidget" name="widget" native="true">
+                   <widget class="caGraphics" name="slit_left_rect">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>10</y>
+                      <width>16</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="fillstyle" stdset="0">
+                     <enum>caGraphics::Filled</enum>
+                    </property>
+                    <property name="form">
+                     <enum>caGraphics::Rectangle</enum>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caTextEntry</class>
+   <extends>caLineEdit</extends>
+   <header>caTextEntry</header>
+  </customwidget>
+  <customwidget>
+   <class>caMessageButton</class>
+   <extends>QPushButton</extends>
+   <header>caMessageButton</header>
+  </customwidget>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caGraphics</class>
+   <extends>QWidget</extends>
+   <header>caGraphics</header>
+  </customwidget>
+  <customwidget>
+   <class>caLinearGauge</class>
+   <extends>QWidget</extends>
+   <header>caGauge</header>
+  </customwidget>
+  <customwidget>
+   <class>caLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>caLineEdit</header>
+  </customwidget>
+  <customwidget>
+   <class>caCalc</class>
+   <extends>QLabel</extends>
+   <header>caCalc</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>enable_cb</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>calineargauge</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>225</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>147</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slit_left_calc</sender>
+   <signal>emitSignal(QRect)</signal>
+   <receiver>slit_left_rect</receiver>
+   <slot>animation(QRect)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>147</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>398</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

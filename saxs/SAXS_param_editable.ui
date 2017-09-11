@@ -1,0 +1,2403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="caFrame" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>898</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="background">
+   <color>
+    <red>202</red>
+    <green>202</green>
+    <blue>207</blue>
+   </color>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>881</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_13">
+    <item>
+     <widget class="QLabel" name="label_26">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SAXS Parameters All&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="4,6">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QGroupBox { 
+     border: 2px solid black; 
+     border-radius: 5px; 
+ } </string>
+          </property>
+          <property name="title">
+           <string>SAXS Image Settings</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <item>
+            <spacer name="verticalSpacer_9">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QLabel" name="label_22">
+               <property name="text">
+                <string>SAXS Image Base Directory</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="caTextEntry" name="catextentry_54">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:directory</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QFormLayout" name="formLayout_5">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_24">
+               <property name="text">
+                <string>Sample Name </string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="caTextEntry" name="catextentry_55">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:SampleName</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_23">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Empty File Name &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="caTextEntry" name="catextentry_56">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:FileName_Empty</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_28">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dark File Name&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="caTextEntry" name="catextentry_57">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:FileName_Dark</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_6">
+               <item>
+                <widget class="QLabel" name="label_25">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sample Thickness &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="caTextEntry" name="catextentry_58">
+                 <property name="channel" stdset="0">
+                  <string notr="true">9idcSAXS:sampleThickness.VAL</string>
+                 </property>
+                 <property name="background">
+                  <color>
+                   <red>115</red>
+                   <green>215</green>
+                   <blue>253</blue>
+                  </color>
+                 </property>
+                 <property name="colorMode">
+                  <enum>caLineEdit::Static</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <item>
+                <widget class="QLabel" name="label_29">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Area Detector Prefactor &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="caTextEntry" name="catextentry_59">
+                 <property name="channel" stdset="0">
+                  <string notr="true">9idcSAXS:CCDPV</string>
+                 </property>
+                 <property name="background">
+                  <color>
+                   <red>115</red>
+                   <green>215</green>
+                   <blue>253</blue>
+                  </color>
+                 </property>
+                 <property name="colorMode">
+                  <enum>caLineEdit::Static</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_10">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_14">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QGroupBox { 
+     border: 2px solid black; 
+     border-radius: 5px; 
+ } </string>
+          </property>
+          <property name="title">
+           <string>Filter Selection</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="2">
+            <spacer name="verticalSpacer_11">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>2</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="label_60">
+             <property name="text">
+              <string>SAXS</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLabel" name="label_50">
+             <property name="text">
+              <string>Transmission</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_35">
+             <property name="text">
+              <string>Al</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="caTextEntry" name="catextentry_79">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcSAXS:SAXS_AlFilter.VAL</string>
+             </property>
+             <property name="background">
+              <color>
+               <red>115</red>
+               <green>215</green>
+               <blue>253</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="caTextEntry" name="catextentry_80">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcSAXS:Trans_AlFilter.VAL</string>
+             </property>
+             <property name="background">
+              <color>
+               <red>115</red>
+               <green>215</green>
+               <blue>253</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_36">
+             <property name="text">
+              <string>Ti</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="caTextEntry" name="catextentry_83">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcSAXS:SAXS_TiFilter.VAL</string>
+             </property>
+             <property name="background">
+              <color>
+               <red>115</red>
+               <green>215</green>
+               <blue>253</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="caTextEntry" name="catextentry_82">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcSAXS:Trans_TiFilter.VAL</string>
+             </property>
+             <property name="background">
+              <color>
+               <red>115</red>
+               <green>215</green>
+               <blue>253</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_12">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="font">
+                 <font>
+                  <pointsize>7</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(0, 0, 0)</string>
+                </property>
+                <property name="text">
+                 <string>last edited: 2017-08-04</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="font">
+                 <font>
+                  <pointsize>7</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(0, 0, 0)</string>
+                </property>
+                <property name="text">
+                 <string>saxs_param_editable.ui</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="caRelatedDisplay" name="carelateddisplay_4">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="foreground">
+               <color>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+               </color>
+              </property>
+              <property name="background">
+               <color>
+                <red>0</red>
+                <green>0</green>
+                <blue>140</blue>
+               </color>
+              </property>
+              <property name="labels">
+               <string>Edit Information </string>
+              </property>
+              <property name="files">
+               <string>;SAXS_Param_noneditable.ui</string>
+              </property>
+              <property name="args">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="font">
+               <font>
+                <pointsize>10</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QGroupBox { 
+     border: 2px solid black; 
+     border-radius: 5px; 
+ } </string>
+              </property>
+              <property name="title">
+               <string>Data Collection Params.</string>
+              </property>
+              <layout class="QFormLayout" name="formLayout_4">
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_40">
+                 <property name="text">
+                  <string>Transm time </string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="caTextEntry" name="catextentry_67">
+                 <property name="channel" stdset="0">
+                  <string notr="true">9idcSAXS:transAcquireTime</string>
+                 </property>
+                 <property name="background">
+                  <color>
+                   <red>115</red>
+                   <green>215</green>
+                   <blue>253</blue>
+                  </color>
+                 </property>
+                 <property name="colorMode">
+                  <enum>caLineEdit::Static</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_37">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Acquire time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="caTextEntry" name="catextentry_66">
+                 <property name="channel" stdset="0">
+                  <string notr="true">9idcSAXS:AcquireTime</string>
+                 </property>
+                 <property name="background">
+                  <color>
+                   <red>115</red>
+                   <green>215</green>
+                   <blue>253</blue>
+                  </color>
+                 </property>
+                 <property name="colorMode">
+                  <enum>caLineEdit::Static</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_39">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;AT list &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="caTextEntry" name="catextentry_64">
+                 <property name="channel" stdset="0">
+                  <string notr="true">9idcSAXS:AcquireTimeString</string>
+                 </property>
+                 <property name="background">
+                  <color>
+                   <red>115</red>
+                   <green>215</green>
+                   <blue>253</blue>
+                  </color>
+                 </property>
+                 <property name="colorMode">
+                  <enum>caLineEdit::Static</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label_38">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;# of images &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="caTextEntry" name="catextentry_65">
+                 <property name="channel" stdset="0">
+                  <string notr="true">9idcSAXS:NumImages</string>
+                 </property>
+                 <property name="background">
+                  <color>
+                   <red>115</red>
+                   <green>215</green>
+                   <blue>253</blue>
+                  </color>
+                 </property>
+                 <property name="colorMode">
+                  <enum>caLineEdit::Static</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <spacer name="verticalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_4">
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QGroupBox { 
+     border: 2px solid black; 
+     border-radius: 5px; 
+ } </string>
+            </property>
+            <property name="title">
+             <string>Pinhole Settings</string>
+            </property>
+            <layout class="QFormLayout" name="formLayout_6">
+             <item row="0" column="1">
+              <spacer name="verticalSpacer_12">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_47">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wavelength spread &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="caTextEntry" name="catextentry_68">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcLAX:WavelengthSpread</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_42">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Beam Center X (pixels)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="caTextEntry" name="catextentry_69">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:CCD_BeamCenterX.VAL</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_44">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Beam Center Y (pixels)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="caTextEntry" name="catextentry_71">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:CCD_BeamCenterY.VAL</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_48">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Sa Distance (mm)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="caTextEntry" name="catextentry_72">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:SDD.VAL</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_43">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pixel Size X (mm)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="caTextEntry" name="catextentry_70">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:CCD_PixSizeX.VAL</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_46">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pixel Size Y (mm)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="caTextEntry" name="catextentry_73">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:CCD_PixSizeX.VAL</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_45">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CCD X Center (pixels)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="caTextEntry" name="catextentry_74">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:CCD_CenterX.VAL</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_49">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CCD Y Center (pixels)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="caTextEntry" name="catextentry_75">
+               <property name="channel" stdset="0">
+                <string notr="true">9idcSAXS:CCD_CenterY.VAL</string>
+               </property>
+               <property name="background">
+                <color>
+                 <red>115</red>
+                 <green>215</green>
+                 <blue>253</blue>
+                </color>
+               </property>
+               <property name="colorMode">
+                <enum>caLineEdit::Static</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="1">
+              <spacer name="verticalSpacer_13">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QGroupBox { 
+     border: 2px solid black; 
+     border-radius: 5px; 
+ } </string>
+          </property>
+          <property name="title">
+           <string>Collimator Settings</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_6" columnstretch="0,1,0,1">
+           <item row="1" column="2">
+            <spacer name="verticalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="4" column="2">
+            <widget class="QLabel" name="label_54">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aper VERT Center&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="caTextEntry" name="catextentry_77">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcSAXS:Coll_SizeX.VAL</string>
+             </property>
+             <property name="background">
+              <color>
+               <red>115</red>
+               <green>215</green>
+               <blue>253</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_51">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Coil Center Y&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="caTextEntry" name="catextentry_78">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcSAXS:Coll_CenterY.VAL</string>
+             </property>
+             <property name="background">
+              <color>
+               <red>115</red>
+               <green>215</green>
+               <blue>253</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_57">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Coil Size X&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLabel" name="label_58">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aper HOR Center&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="caLabel" name="calabel">
+             <property name="text">
+              <string>######</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:m58:c2:m6.RBV</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="2">
+            <widget class="QLabel" name="label_53">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aper VERT Size&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_52">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Coil Size Y&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="3">
+            <widget class="caLabel" name="calabel_3">
+             <property name="text">
+              <string>######</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:m58:c2:m8.RBV</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_55">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Coil Center X&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3">
+            <widget class="caLabel" name="calabel_2">
+             <property name="text">
+              <string>######</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:m58:c2:m5.RBV</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="caTextEntry" name="catextentry_81">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcSAXS:Coll_SizeY.VAL</string>
+             </property>
+             <property name="background">
+              <color>
+               <red>115</red>
+               <green>215</green>
+               <blue>253</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="3">
+            <widget class="caLabel" name="calabel_4">
+             <property name="text">
+              <string>######</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:m58:c2:m7.RBV</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QLabel" name="label_56">
+             <property name="text">
+              <string>Aper HOR size</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="caTextEntry" name="catextentry_76">
+             <property name="channel" stdset="0">
+              <string notr="true">9idcSAXS:Coll_CenterX.VAL</string>
+             </property>
+             <property name="background">
+              <color>
+               <red>115</red>
+               <green>215</green>
+               <blue>253</blue>
+              </color>
+             </property>
+             <property name="colorMode">
+              <enum>caLineEdit::Static</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <spacer name="verticalSpacer_15">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox { 
+     border: 2px solid black; 
+     border-radius: 5px; 
+ } </string>
+      </property>
+      <property name="title">
+       <string>Information Panel</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_117">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transmission&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="caLabel" name="calabel_50">
+           <property name="text">
+            <string>######</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <property name="channel" stdset="0">
+            <string notr="true">9idcSAXS:Transmission</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1,1">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QGroupBox" name="groupBox_7">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="title">
+              <string>BPM Transmission Photodiodes</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout">
+              <item row="2" column="1">
+               <widget class="caLabel" name="calabel_5">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_L_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="caLabel" name="calabel_7">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_R_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="caLabel" name="calabel_10">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_T_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="caLabel" name="calabel_9">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_B_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="3">
+               <widget class="caLabel" name="calabel_6">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_T_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="caLabel" name="calabel_11">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_L_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="3">
+               <widget class="caLabel" name="calabel_8">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_R_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QLabel" name="label_83">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>sample</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="caLabel" name="calabel_15">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_T_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="3">
+               <widget class="QLabel" name="label_87">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>dark</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="caLabel" name="calabel_13">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_R_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="caLabel" name="calabel_12">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_L_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="2">
+               <widget class="caLabel" name="calabel_16">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_B_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="3">
+               <widget class="caLabel" name="calabel_14">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBPM_B_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="label_82">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>empty</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_91">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>left</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_99">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>right</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_100">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>top</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="label_101">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>bottom</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_8">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="title">
+              <string>Transmission</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_2">
+              <item row="3" column="1">
+               <widget class="caLabel" name="calabel_31">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBSPD_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="caLabel" name="calabel_26">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transPD_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="caLabel" name="calabel_27">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transPD_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_76">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Nose PD</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_77">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>BS PD</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <spacer name="verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="3" column="3">
+               <widget class="caLabel" name="calabel_30">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBSPD_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="caLabel" name="calabel_29">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transBSPD_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="caLabel" name="calabel_28">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transPD_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="3">
+               <widget class="QLabel" name="label_104">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>dark  </string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="label_102">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>empty</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QLabel" name="label_103">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>sample</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QGroupBox" name="groupBox_11">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="title">
+              <string>Cmir positions</string>
+             </property>
+             <layout class="QFormLayout" name="formLayout">
+              <item row="0" column="0">
+               <spacer name="verticalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_94">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Beam&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="caLabel" name="calabel_17">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BeamIn.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_92">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mirror&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="caLabel" name="calabel_19">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:MirrorIn.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_93">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Diode&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="caLabel" name="calabel_18">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:DiodeIn.VAL</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_10">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="title">
+              <string>I0 transmission</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_7">
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_88">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>transmission</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="QLabel" name="label_109">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>dark  </string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="3" colspan="2">
+               <widget class="caLabel" name="calabel_24">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transI0_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="caLabel" name="calabel_23">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transI0_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_89">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>exposure</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="caLabel" name="calabel_20">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:transI0_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="label_111">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>empty</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QLabel" name="label_110">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>sample</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="caLabel" name="calabel_25">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:I0_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="3" colspan="2">
+               <widget class="caLabel" name="calabel_22">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:I0_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="caLabel" name="calabel_21">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:I0_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <spacer name="verticalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QGroupBox" name="groupBox_12">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="title">
+              <string>BPM Exposure Photodiodes</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_3">
+              <item row="7" column="2">
+               <widget class="caLabel" name="calabel_43">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_B_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="label_107">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>empty</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="2">
+               <widget class="caLabel" name="calabel_39">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_R_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="2">
+               <widget class="caLabel" name="calabel_40">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_T_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QLabel" name="label_116">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>sample</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="label_96">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>right</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="caLabel" name="calabel_38">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_L_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <spacer name="verticalSpacer_7">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>2</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="7" column="1">
+               <widget class="caLabel" name="calabel_37">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_B_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="caLabel" name="calabel_35">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_R_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="caLabel" name="calabel_32">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_L_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_95">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>left</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="0">
+               <widget class="QLabel" name="label_97">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>top</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0">
+               <widget class="QLabel" name="label_98">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>bottom</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1">
+               <widget class="caLabel" name="calabel_33">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_T_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="3">
+               <widget class="QLabel" name="label_118">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>dark</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="caLabel" name="calabel_42">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_L_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="3">
+               <widget class="caLabel" name="calabel_41">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_B_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="3">
+               <widget class="caLabel" name="calabel_36">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_R_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="3">
+               <widget class="caLabel" name="calabel_34">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BPM_T_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_13">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="title">
+              <string>Exposure</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <item row="1" column="2">
+               <widget class="QLabel" name="label_106">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>sample</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="3">
+               <widget class="QLabel" name="label_108">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>dark  </string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="caLabel" name="calabel_44">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:PD_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <spacer name="verticalSpacer_6">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>0</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="label_105">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>empty</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="caLabel" name="calabel_49">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BSPD_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="caLabel" name="calabel_46">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:PD_Sample.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="caLabel" name="calabel_47">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BSPD_Empty.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="3">
+               <widget class="caLabel" name="calabel_45">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:PD_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="3">
+               <widget class="caLabel" name="calabel_48">
+                <property name="text">
+                 <string>######</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="channel" stdset="0">
+                 <string notr="true">9idcSAXS:BSPD_Dark.VAL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_78">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>BS PD</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_79">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Nose PD</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caTextEntry</class>
+   <extends>caLineEdit</extends>
+   <header>caTextEntry</header>
+  </customwidget>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>caLineEdit</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

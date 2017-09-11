@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+<class>MainWindow</class>
+<widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+        <rect>
+            <x>113</x>
+            <y>446</y>
+            <width>558</width>
+            <height>156</height>
+        </rect>
+    </property>
+    <property name="styleSheet">
+        <string>
+
+QWidget#centralWidget {background: rgba(105, 105, 105, 255);}
+QPushButton::menu-indicator {image: url(none.png); width: 0}
+
+</string>
+    </property>
+    <widget class="QWidget" name="centralWidget">
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_0">
+            <property name="geometry">
+                <rect>
+                    <x>11</x>
+                    <y>50</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-Asyn Serial</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>ttyS1;ttyS2;ttyS3</string>
+            </property>
+            <property name="files">
+                <string>asynRecord.adl;asynRecord.adl;asynRecord.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P),R=ttyS1;P=$(P),R=ttyS2;P=$(P),R=ttyS3</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false;false</string>
+            </property>
+        </widget>
+        <widget class="caLabel" name="caLabel_0">
+            <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>249</red>
+                    <green>218</green>
+                    <blue>60</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="0">
+                    <red>249</red>
+                    <green>218</green>
+                    <blue>60</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>XOR-32 USAXS Instrument</string>
+            </property>
+            <property name="fontScaleMode">
+                <enum>ESimpleLabel::WidthAndHeight</enum>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>3</x>
+                    <y>4</y>
+                    <width>552</width>
+                    <height>22</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="caLabel" name="caLabel_1">
+            <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>153</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="0">
+                    <red>153</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>$(P)</string>
+            </property>
+            <property name="fontScaleMode">
+                <enum>ESimpleLabel::WidthAndHeight</enum>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>3</x>
+                    <y>30</y>
+                    <width>552</width>
+                    <height>14</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
+            <property name="geometry">
+                <rect>
+                    <x>192</x>
+                    <y>96</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-Placeholders</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>Analogout;Binaryout;Longout;Stringout</string>
+            </property>
+            <property name="files">
+                <string>phAnalogout.adl;phBinaryout.adl;phLongout.adl;phStringout.adl</string>
+            </property>
+            <property name="args">
+                <string>PV=$(P)sft01:ph01:;PV=$(P)sft01:ph01:;PV=$(P)sft01:ph01:;PV=$(P)sft01:ph01:</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false;false;false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_2">
+            <property name="geometry">
+                <rect>
+                    <x>192</x>
+                    <y>119</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-Scans</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>Scan1 (for all scans);Scan2 (for 2D &amp; higher scans);Scan3 (for 3D &amp; higher scans);Scan4 (for 4D scans);ScanH (for Hardware-assisted scans);test scanParms2Pos;saveData controls</string>
+            </property>
+            <property name="files">
+                <string>scan.adl;scan.adl;scan.adl;scan.adl;scan.adl;scanParms2Pos.adl;scan_saveData.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P),N=1,S=scan1;P=$(P),N=2,S=scan2;P=$(P),N=3,S=scan3;P=$(P),N=4,S=scan4;P=$(P),N=H,S=scanH;P=$(P),Q=m7_8,SCAN=brq:scan1,PV1=brq:m7,PV2=brq:m8;P=$(P)</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false;false;false;false;false;false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_3">
+            <property name="geometry">
+                <rect>
+                    <x>11</x>
+                    <y>73</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-Hardware</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>Hardware;  </string>
+            </property>
+            <property name="files">
+                <string>9idcUSXhdw.adl;9idcUSXhdw.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P);P=$(P)</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_4">
+            <property name="geometry">
+                <rect>
+                    <x>11</x>
+                    <y>96</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-userCalc</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>user calcs 1-10;user stringCalcs 1-10;user transforms 1-10;sseq record 1;sseq record 2;sseq record 3;user average 1-10;user calcOuts</string>
+            </property>
+            <property name="files">
+                <string>userCalcs10.adl;userStringCalcs10.adl;userTransforms10.adl;yySseq.adl;yySseq.adl;yySseq.adl;userAve10.adl;userCalcOuts10.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P);P=$(P);P=$(P);P=$(P),S=Sseq1;P=$(P),S=Sseq2;P=$(P),S=Sseq3;P=$(P);P=$(P)</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false;false;false;false;false;false;false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_5">
+            <property name="geometry">
+                <rect>
+                    <x>373</x>
+                    <y>50</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-PF4 dual filter</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>PF4 dual filter;PF4 Control bits;PF4 dual filter #2</string>
+            </property>
+            <property name="files">
+                <string>pf4.adl;ebrickBitout8.adl;pf4.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P),H=pf4:,A=A,B=B,PV=$(P)omm01:reg03:,MONO=9ida:BraggEAO;P=$(P),PV=$(P)omm01:reg03:,T=USAXS-PF4-Control;P=$(P),H=pf42:,A=A,B=B,PV=$(P)omm01:reg03:,MONO=9ida:BraggEAO</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false;false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_6">
+            <property name="geometry">
+                <rect>
+                    <x>373</x>
+                    <y>73</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-Motors</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>Motors 1-10; </string>
+            </property>
+            <property name="files">
+                <string>topMotors10.adl;topMotors10.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P),M1=pzt:m1,M2=pzt:m2,M3=pzt:m3,M4=pzt:m4,M5=pic:m5,M6=pic:m6,M7=pic:m7,M8=pic:m8,M9=pic:m9,M10=pic:m10;P=$(P),M1=pzt:m1,M2=pzt:m2,M3=pzt:m3,M4=pzt:m4,M5=pic:m5,M6=pic:m6,M7=pic:m7,M8=pic:m8,M9=pic:m9,M10=pic:m10</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_7">
+            <property name="geometry">
+                <rect>
+                    <x>11</x>
+                    <y>119</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string> </string>
+            </property>
+            <property name="files">
+                <string></string>
+            </property>
+            <property name="args">
+                <string></string>
+            </property>
+            <property name="removeParent">
+                <string>false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_8">
+            <property name="geometry">
+                <rect>
+                    <x>373</x>
+                    <y>119</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-System monitor</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>System monitor; </string>
+            </property>
+            <property name="files">
+                <string>ebrickSysMon.adl;ebrickSysMon.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P);P=$(P)</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_9">
+            <property name="geometry">
+                <rect>
+                    <x>192</x>
+                    <y>73</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-Femto amplifiers</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>DLPCA-200 1;DLPCA-200 2;DLPCA-200 3;DLPCA-200 4;DLPCA-200 5;DLPCA-200 6;DLPCA-200 7;DLPCA-200 8;Femto Control bits;DDPCA-300 9</string>
+            </property>
+            <property name="files">
+                <string>femto.adl;femto.adl;femto.adl;femto.adl;femto.adl;femto.adl;femto.adl;femto.adl;RIO-47300-24ExOut.adl;femto300.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P),H=fem01:,F=seq01:,AC=9idcRIO:Galil0Bo3_CMD;P=$(P),H=fem02:,F=seq01:,AC=9idcRIO:Galil0Bo8_CMD;P=$(P),H=fem03:,F=seq01:,AC=9idcRIO:Galil0Bo13_CMD;P=$(P),H=fem04:,F=seq01:,AC=9idcRIO:Galil1Bo2_CMD;P=$(P),H=fem05:,F=seq01:,AC=9idcRIO:Galil1Bo7_CMD;P=$(P),H=fem06:,F=seq01:,AC=9idcRIO:Galil1Bo12_CMD;P=$(P),H=fem07:,F=seq01:,AC=$(P)NONE;P=$(P),H=fem08:,F=seq01:,AC=$(P)NONE;P=$(P);P=$(P),A=fem09:seq02:</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false;false;false;false;false;false;false;false;false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_10">
+            <property name="geometry">
+                <rect>
+                    <x>373</x>
+                    <y>96</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-Scalers</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>16 Scaler; </string>
+            </property>
+            <property name="files">
+                <string>scaler16_more.adl;scaler16_more.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P),S=scaler1;P=$(P),S=scaler1</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false</string>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_11">
+            <property name="geometry">
+                <rect>
+                    <x>192</x>
+                    <y>50</y>
+                    <width>180</width>
+                    <height>22</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>187</red>
+                    <green>187</green>
+                    <blue>187</blue>
+                </color>
+            </property>
+            <property name="label">
+                <string>-Photodiode-Femto</string>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>Femto PhotoDiode;Femto 300 PD;I0 Auto-ranging;I00 Auto-ranging;TR Auto-ranging</string>
+            </property>
+            <property name="files">
+                <string>femtopd.adl;femto300pd.adl;femtopdFine.adl;femtopdFine.adl;femtopdFine.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P),H=pd01:,F=seq01:,AC=9idcRIO:Galil0Bo3_CMD,PS=9idcLAX:,SS=vsc:c0,SC=4;P=$(P),H=pd01:,F=seq02:,PS=9idcLAX:,SS=vsc:c0,SC=4;P=$(P),H=pd02:,F=seq01:,AC=9idcRIO:Galil0Bo8_CMD,PS=9idcLAX:,SS=vsc:c0,SC=2;P=$(P),H=pd03:,F=seq01:,AC=9idcRIO:Galil0Bo13_CMD,PS=9idcLAX:,SS=vsc:c0,SC=3;P=$(P),H=pd05:,F=seq01:,AC=9idcRIO:Galil1Bo7_CMD,PS=9idcLAX:,SS=vsc:c0,SC=5</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false;false;false;false</string>
+            </property>
+        </widget>
+        <zorder>caLabel_0</zorder>
+        <zorder>caLabel_1</zorder>
+        <zorder>caRelatedDisplay_0</zorder>
+        <zorder>caRelatedDisplay_1</zorder>
+        <zorder>caRelatedDisplay_2</zorder>
+        <zorder>caRelatedDisplay_3</zorder>
+        <zorder>caRelatedDisplay_4</zorder>
+        <zorder>caRelatedDisplay_5</zorder>
+        <zorder>caRelatedDisplay_6</zorder>
+        <zorder>caRelatedDisplay_7</zorder>
+        <zorder>caRelatedDisplay_8</zorder>
+        <zorder>caRelatedDisplay_9</zorder>
+        <zorder>caRelatedDisplay_10</zorder>
+        <zorder>caRelatedDisplay_11</zorder>
+    </widget>
+</widget>
+</ui>

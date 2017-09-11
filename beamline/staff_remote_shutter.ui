@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="caFrame" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>613</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="background">
+   <color>
+    <red>184</red>
+    <green>184</green>
+    <blue>188</blue>
+   </color>
+  </property>
+  <widget class="QLabel" name="label_53">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>91</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#0000cc;&quot;&gt;Shutters&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_54">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>181</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Front End Shutter&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_55">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>310</y>
+     <width>131</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Ti/W Shutter&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_56">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>181</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Exp Hutch Shutter&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_57">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>40</y>
+     <width>111</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Auto Open&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_58">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>310</y>
+     <width>151</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;CCD Shutter &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_30">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>230</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shutter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_31">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>70</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_32">
+   <property name="geometry">
+    <rect>
+     <x>232</x>
+     <y>215</y>
+     <width>16</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;B&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_33">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>350</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_34">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>85</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shutter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_35">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>365</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shutter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_36">
+   <property name="geometry">
+    <rect>
+     <x>523</x>
+     <y>365</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shutter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_37">
+   <property name="geometry">
+    <rect>
+     <x>531</x>
+     <y>350</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CCD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="caLineEdit" name="calineedit_24">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>153</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#####</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idcUSX:pf4:filterAl</string>
+   </property>
+  </widget>
+  <widget class="caLineEdit" name="calineedit_25">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>210</y>
+     <width>153</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#####</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idcUSX:pf4:filterAl</string>
+   </property>
+  </widget>
+  <widget class="caLineEdit" name="calineedit_26">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>350</y>
+     <width>153</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#####</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idcUSX:pf4:filterAl</string>
+   </property>
+  </widget>
+  <widget class="caLineEdit" name="calineedit_27">
+   <property name="geometry">
+    <rect>
+     <x>342</x>
+     <y>70</y>
+     <width>153</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#####</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idcUSX:pf4:filterAl</string>
+   </property>
+  </widget>
+  <widget class="caLineEdit" name="calineedit_28">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>350</y>
+     <width>153</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>#####</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idcUSX:pf4:filterAl</string>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to open</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9ida:rShtrA:Open</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>135</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to close</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9ida:rShtrA:Close</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_7">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>110</y>
+     <width>160</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enable</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9ida:rShtrA:Open</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_8">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>130</y>
+     <width>160</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Disable</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9ida:rShtrA:Close</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to open</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9ida:rShtrB:Open</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>390</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to open</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idb:BioEnc2B3</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_5">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>390</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to open</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_6">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>275</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to close</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9ida:rShtrB:Close</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_9">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>415</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to close</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idb:BioEnc2B3</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_10">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>415</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to close</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_1">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>110</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>260</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>390</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_4">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>390</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_5">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>130</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_6">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>410</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_7">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>410</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_8">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>280</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_9">
+   <property name="geometry">
+    <rect>
+     <x>223</x>
+     <y>105</y>
+     <width>35</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>184</red>
+     <green>184</green>
+     <blue>188</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,47;35,60;35,11;0,0;0,47</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_10">
+   <property name="geometry">
+    <rect>
+     <x>223</x>
+     <y>255</y>
+     <width>35</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>184</red>
+     <green>184</green>
+     <blue>188</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,47;35,60;35,11;0,0;0,47</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_11">
+   <property name="geometry">
+    <rect>
+     <x>223</x>
+     <y>385</y>
+     <width>35</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>184</red>
+     <green>184</green>
+     <blue>188</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,47;35,60;35,11;0,0;0,47</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_12">
+   <property name="geometry">
+    <rect>
+     <x>532</x>
+     <y>385</y>
+     <width>35</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>184</red>
+     <green>184</green>
+     <blue>188</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,47;35,60;35,11;0,0;0,47</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <zorder>caPolygon_12</zorder>
+  <zorder>caPolygon_11</zorder>
+  <zorder>caPolygon_10</zorder>
+  <zorder>caPolygon_9</zorder>
+  <zorder>label_53</zorder>
+  <zorder>label_54</zorder>
+  <zorder>label_55</zorder>
+  <zorder>label_56</zorder>
+  <zorder>label_57</zorder>
+  <zorder>label_58</zorder>
+  <zorder>label_30</zorder>
+  <zorder>label_31</zorder>
+  <zorder>label_32</zorder>
+  <zorder>label_33</zorder>
+  <zorder>label_34</zorder>
+  <zorder>label_35</zorder>
+  <zorder>label_36</zorder>
+  <zorder>label_37</zorder>
+  <zorder>calineedit_24</zorder>
+  <zorder>calineedit_25</zorder>
+  <zorder>calineedit_26</zorder>
+  <zorder>calineedit_27</zorder>
+  <zorder>calineedit_28</zorder>
+  <zorder>camessagebutton</zorder>
+  <zorder>camessagebutton_2</zorder>
+  <zorder>camessagebutton_7</zorder>
+  <zorder>camessagebutton_8</zorder>
+  <zorder>camessagebutton_3</zorder>
+  <zorder>camessagebutton_4</zorder>
+  <zorder>camessagebutton_5</zorder>
+  <zorder>camessagebutton_6</zorder>
+  <zorder>camessagebutton_9</zorder>
+  <zorder>camessagebutton_10</zorder>
+  <zorder>caPolygon_1</zorder>
+  <zorder>caPolygon_2</zorder>
+  <zorder>caPolygon_3</zorder>
+  <zorder>caPolygon_4</zorder>
+  <zorder>caPolygon_5</zorder>
+  <zorder>caPolygon_6</zorder>
+  <zorder>caPolygon_7</zorder>
+  <zorder>caPolygon_8</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caMessageButton</class>
+   <extends>QPushButton</extends>
+   <header>caMessageButton</header>
+  </customwidget>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caPolyLine</class>
+   <extends>QWidget</extends>
+   <header>caPolyLine</header>
+  </customwidget>
+  <customwidget>
+   <class>caLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>caLineEdit</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

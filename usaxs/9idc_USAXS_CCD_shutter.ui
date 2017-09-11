@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="caFrame" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>284</width>
+    <height>159</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_36">
+   <property name="geometry">
+    <rect>
+     <x>213</x>
+     <y>75</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shutter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_10">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>125</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to close</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_12">
+   <property name="geometry">
+    <rect>
+     <x>222</x>
+     <y>95</y>
+     <width>35</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>184</red>
+     <green>184</green>
+     <blue>188</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,47;35,60;35,11;0,0;0,47</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_37">
+   <property name="geometry">
+    <rect>
+     <x>221</x>
+     <y>60</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CCD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_4">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>100</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caMessageButton" name="camessagebutton_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Request shutter to open</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>140</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_58">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>151</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;CCD Shutter &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_6">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>120</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="channel" stdset="0">
+    <string>9idcUSX:pmm01:reg01:bo01</string>
+   </property>
+  </widget>
+  <widget class="caLabel" name="caLabel_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>421</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;last edited: 2017-07-21&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="fontScaleMode">
+    <enum>ESimpleLabel::WidthAndHeight</enum>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color alpha="0">
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caLabel" name="caLabel_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>15</y>
+     <width>200</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>9idc_USAXS_CCD_shutter.ui</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="fontScaleMode">
+    <enum>ESimpleLabel::WidthAndHeight</enum>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="background">
+    <color alpha="0">
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caMessageButton</class>
+   <extends>QPushButton</extends>
+   <header>caMessageButton</header>
+  </customwidget>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caPolyLine</class>
+   <extends>QWidget</extends>
+   <header>caPolyLine</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

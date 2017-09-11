@@ -13,5 +13,4 @@ subdirectory | comments
 
 ## OUTDATED
 
-See the [wiki](https://git.aps.anl.gov/USAXS/caQtDM/wikis/home) for more details.
-There are instructions for some [examples](HOWTO).
+See the [wiki](https://github.com/APS-USAXS/caQtDM-screens/wiki/faq) for frquently asked questions.

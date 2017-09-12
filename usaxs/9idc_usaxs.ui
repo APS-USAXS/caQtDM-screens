@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1120</width>
-    <height>495</height>
+    <width>1200</width>
+    <height>772</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -666,7 +666,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="font">
      <font>
-      <pointsize>9</pointsize>
+      <pointsize>5</pointsize>
      </font>
     </property>
     <property name="text">
@@ -741,8 +741,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_6">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>40</y>
+      <x>1010</x>
+      <y>55</y>
       <width>101</width>
       <height>21</height>
      </rect>
@@ -791,7 +791,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="text">
@@ -3670,175 +3670,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="channel" stdset="0">
      <string notr="true">9idcLAX:USAXS:I</string>
     </property>
-   </widget>
-   <widget class="caGraphics" name="caRectangle_28">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>85</y>
-      <width>217</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="linestyle" stdset="0">
-     <enum>caGraphics::Solid</enum>
-    </property>
-    <property name="fillstyle" stdset="0">
-     <enum>caGraphics::Filled</enum>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="form">
-     <enum>caGraphics::Rectangle</enum>
-    </property>
-   </widget>
-   <widget class="caLabel" name="caLabel_43">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>90</y>
-      <width>211</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Protection Fault!</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>255</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
-    </property>
-    <property name="channel" stdset="0">
-     <string>9idcUSX:ath01:ana01:ai06</string>
-    </property>
-   </widget>
-   <widget class="caLabel" name="caLabel_44">
-    <property name="geometry">
-     <rect>
-      <x>700</x>
-      <y>440</y>
-      <width>212</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Feedback Limits Reached</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
-    </property>
-    <property name="visibility">
-     <enum>caLabel::IfNotZero</enum>
-    </property>
-    <property name="channel" stdset="0">
-     <string>9idcUSX:ath01:ana01:ai06</string>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="caRelatedDisplay_34">
-    <property name="geometry">
-     <rect>
-      <x>950</x>
-      <y>440</y>
-      <width>100</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true">-FAULT</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true"/>
-    </property>
-    <property name="files">
-     <string notr="true">plc.ui</string>
-    </property>
-    <property name="args">
-     <string notr="true"/>
-    </property>
-    <property name="stackingMode" stdset="0">
-     <enum>caRowColMenu::Menu</enum>
-    </property>
-    <property name="removeParent" stdset="0">
-     <string>false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false</string>
+    <property name="formatType">
+     <enum>caLineEdit::exponential</enum>
     </property>
    </widget>
    <widget class="caRelatedDisplay" name="caRelatedDisplay_36">
@@ -3886,8 +3719,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_38">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>65</y>
+      <x>1010</x>
+      <y>80</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -3970,7 +3803,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_40">
     <property name="geometry">
      <rect>
-      <x>780</x>
+      <x>710</x>
       <y>270</y>
       <width>100</width>
       <height>21</height>
@@ -4223,8 +4056,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caLabel" name="caLabel_46">
     <property name="geometry">
      <rect>
-      <x>690</x>
-      <y>0</y>
+      <x>940</x>
+      <y>15</y>
       <width>200</width>
       <height>24</height>
      </rect>
@@ -4316,6 +4149,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="channel" stdset="0">
      <string notr="true">9idcUSX:fem03:seq01:gain</string>
     </property>
+    <property name="formatType">
+     <enum>caLineEdit::engr_notation</enum>
+    </property>
    </widget>
    <widget class="caLineEdit" name="calineedit_48">
     <property name="geometry">
@@ -4334,6 +4170,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="channel" stdset="0">
      <string notr="true">9idcUSX:fem02:seq01:gain</string>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::exponential</enum>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_18">
@@ -5073,10 +4912,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>897</x>
-      <y>250</y>
-      <width>201</width>
-      <height>176</height>
+      <x>500</x>
+      <y>490</y>
+      <width>271</width>
+      <height>221</height>
      </rect>
     </property>
     <property name="title">
@@ -5100,6 +4939,12 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           </item>
           <item row="0" column="1">
            <widget class="caLineEdit" name="calineedit_42">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string>#####</string>
             </property>
@@ -5127,6 +4972,12 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           </item>
           <item row="1" column="1">
            <widget class="caLineEdit" name="calineedit_55">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string>#####</string>
             </property>
@@ -5154,6 +5005,12 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           </item>
           <item row="2" column="1">
            <widget class="caLineEdit" name="calineedit_41">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string>#####</string>
             </property>
@@ -5181,6 +5038,12 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           </item>
           <item row="3" column="1">
            <widget class="caLineEdit" name="calineedit_44">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string>#####</string>
             </property>
@@ -5208,6 +5071,12 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           </item>
           <item row="4" column="1">
            <widget class="caLineEdit" name="calineedit_43">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string>#####</string>
             </property>
@@ -5235,6 +5104,12 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           </item>
           <item row="5" column="1">
            <widget class="caLineEdit" name="calineedit_56">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string>#####</string>
             </property>
@@ -5260,249 +5135,11 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </item>
     </layout>
    </widget>
-   <widget class="caGraphics" name="caRectangle_29">
-    <property name="geometry">
-     <rect>
-      <x>694</x>
-      <y>436</y>
-      <width>224</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="linestyle" stdset="0">
-     <enum>caGraphics::Solid</enum>
-    </property>
-    <property name="fillstyle" stdset="0">
-     <enum>caGraphics::Filled</enum>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="visibility">
-     <enum>caGraphics::IfNotZero</enum>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">9idcUSX:ath01:ana01:ai06</string>
-    </property>
-    <property name="form">
-     <enum>caGraphics::Rectangle</enum>
-    </property>
-   </widget>
-   <widget class="QWidget" name="widget_5" native="true">
-    <property name="geometry">
-     <rect>
-      <x>920</x>
-      <y>10</y>
-      <width>179</width>
-      <height>140</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(139, 130, 15);</string>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
-     <item>
-      <layout class="QGridLayout" name="gridLayout_4">
-       <item row="4" column="2">
-        <widget class="QLabel" name="label_37">
-         <property name="text">
-          <string>keV</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="2">
-        <widget class="QLabel" name="label_39">
-         <property name="text">
-          <string>keV</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="label_34">
-         <property name="text">
-          <string>Energy</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="label_36">
-         <property name="text">
-          <string>Und us</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="label_30">
-         <property name="text">
-          <string>Mono T</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="QLabel" name="label_31">
-         <property name="text">
-          <string>K</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="QLabel" name="label_33">
-         <property name="text">
-          <string>mbar</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QLabel" name="label_38">
-         <property name="text">
-          <string>Und ds</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_28">
-         <property name="text">
-          <string>I000</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="2">
-        <widget class="QLabel" name="label_29">
-         <property name="text">
-          <string>%</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="caLineEdit" name="calineedit_57">
-         <property name="text">
-          <string>#####</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:vsc:c2_cts1.B</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="label_32">
-         <property name="text">
-          <string>Mono P</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="2">
-        <widget class="QLabel" name="label_35">
-         <property name="text">
-          <string>keV</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="caLineEdit" name="calineedit_58">
-         <property name="text">
-          <string>#####</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9ida:DP41:s1:temp</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="caLineEdit" name="calineedit_59">
-         <property name="text">
-          <string>#####</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9ida:userStringCalc1</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="1">
-        <widget class="caLineEdit" name="calineedit_60">
-         <property name="text">
-          <string>#####</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9ida:BraggEAO.VAL</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="1">
-        <widget class="caLineEdit" name="calineedit_61">
-         <property name="text">
-          <string>#####</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">ID09us:EnergySet</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="1">
-        <widget class="caLineEdit" name="calineedit_62">
-         <property name="text">
-          <string>#####</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">ID09ds:EnergySet</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-    </layout>
-   </widget>
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>50</y>
+      <x>720</x>
+      <y>40</y>
       <width>208</width>
       <height>34</height>
      </rect>
@@ -5618,90 +5255,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QWidget" name="widget_4" native="true">
-    <property name="geometry">
-     <rect>
-      <x>377</x>
-      <y>218</y>
-      <width>131</width>
-      <height>75</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(139, 130, 15);</string>
-    </property>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="1">
-      <widget class="QLabel" name="label_10">
-       <property name="text">
-        <string>mm Al</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="caLineEdit" name="calineedit_34">
-       <property name="text">
-        <string>#####</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="channel" stdset="0">
-        <string notr="true">9idcUSX:pf4:filterAl</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QLabel" name="label_13">
-       <property name="text">
-        <string>mm Ti</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLabel" name="label_14">
-       <property name="text">
-        <string>mm glass</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="caLineEdit" name="calineedit_33">
-       <property name="text">
-        <string>#####</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="channel" stdset="0">
-        <string notr="true">9idcUSX:pf4:filterTi</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="caLineEdit" name="calineedit_35">
-       <property name="text">
-        <string>#####</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="channel" stdset="0">
-        <string notr="true">9idcUSX:pf42:filterGlass</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
@@ -5812,132 +5365,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>0</y>
-      <width>91</width>
-      <height>100</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QWidget" name="widget_2" native="true">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(139, 130, 15);</string>
-       </property>
-       <layout class="QFormLayout" name="formLayout">
-        <property name="labelAlignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-        <item row="0" column="0">
-         <widget class="QLabel" name="label">
-          <property name="text">
-           <string>I0</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="caLineEdit" name="calineedit_29">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:userAve3.VAL</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="caLineEdit" name="calineedit_39">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:userAve4.VAL</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="caLineEdit" name="calineedit_40">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf4:trans</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>I/I0</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_2">
-          <property name="text">
-           <string>I00</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-     </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_7">
-       <item>
-        <widget class="QLabel" name="label_7">
-         <property name="styleSheet">
-          <string notr="true">color: red;</string>
-         </property>
-         <property name="text">
-          <string>Mem</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="caLineEdit" name="calineedit_46">
-         <property name="text">
-          <string>#####</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:MEM_FREE</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
       <x>530</x>
       <y>270</y>
-      <width>101</width>
+      <width>125</width>
       <height>51</height>
      </rect>
     </property>
@@ -5989,6 +5419,12 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        </item>
        <item>
         <widget class="caLineEdit" name="calineedit_45">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="text">
           <string>#####</string>
          </property>
@@ -6004,9 +5440,672 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </item>
     </layout>
    </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>340</y>
+      <width>271</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>notices</string>
+    </property>
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_34">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>85</y>
+       <width>241</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="label">
+      <string notr="true">-FAULT: PLC</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true"/>
+     </property>
+     <property name="files">
+      <string notr="true">plc.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true"/>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="caLabel_44">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>36</y>
+       <width>251</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>5</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Feedback Limits Reached</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true">(A-B)&lt;0.1 || (C-A)&lt;0.1</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:fbe:omega.OVAL</string>
+     </property>
+     <property name="channelB">
+      <string notr="true">9idcLAX:fbe:omega.DRVL</string>
+     </property>
+     <property name="channelC">
+      <string notr="true">9idcLAX:fbe:omega.DRVH</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="caLabel_43">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>63</y>
+       <width>241</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>5</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Protection Fault!</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::IfZero</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true"/>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:plc:Y0</string>
+     </property>
+     <property name="channelB">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>330</y>
+      <width>181</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>monitors</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>36</y>
+       <width>19</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>I0</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>66</y>
+       <width>32</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>I00</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>96</y>
+       <width>32</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>I/I0</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="calineedit_39">
+     <property name="geometry">
+      <rect>
+       <x>49</x>
+       <y>36</y>
+       <width>121</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>#####</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:userAve4.VAL</string>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="calineedit_29">
+     <property name="geometry">
+      <rect>
+       <x>49</x>
+       <y>66</y>
+       <width>121</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>#####</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:userAve3.VAL</string>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="calineedit_40">
+     <property name="geometry">
+      <rect>
+       <x>49</x>
+       <y>96</y>
+       <width>121</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>#####</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcUSX:pf4:trans</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>490</y>
+      <width>321</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>source</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QWidget" name="widget_5" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(139, 130, 15);</string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="4" column="2">
+           <widget class="QLabel" name="label_37">
+            <property name="text">
+             <string>keV</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QLabel" name="label_39">
+            <property name="text">
+             <string>keV</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_34">
+            <property name="text">
+             <string>Energy</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_36">
+            <property name="text">
+             <string>Und us</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_30">
+            <property name="text">
+             <string>Mono T</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="label_31">
+            <property name="text">
+             <string>K</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="label_33">
+            <property name="text">
+             <string>mbar</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_38">
+            <property name="text">
+             <string>Und ds</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_28">
+            <property name="text">
+             <string>I000</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_29">
+            <property name="text">
+             <string>%</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="caLineEdit" name="calineedit_57">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9idcLAX:vsc:c2_cts1.B</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_32">
+            <property name="text">
+             <string>Mono P</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="label_35">
+            <property name="text">
+             <string>keV</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="caLineEdit" name="calineedit_58">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9ida:DP41:s1:temp</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="caLineEdit" name="calineedit_59">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9ida:userStringCalc1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="caLineEdit" name="calineedit_60">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9ida:BraggEAO.VAL</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="caLineEdit" name="calineedit_61">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">ID09us:EnergySet</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="caLineEdit" name="calineedit_62">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">ID09ds:EnergySet</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>9</y>
+      <width>181</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>filters</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <item>
+      <widget class="QWidget" name="widget_4" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(139, 130, 15);</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_10">
+          <property name="text">
+           <string>mm Al</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="caLineEdit" name="calineedit_34">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcUSX:pf4:filterAl</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_13">
+          <property name="text">
+           <string>mm Ti</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_14">
+          <property name="text">
+           <string>mm glass</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="caLineEdit" name="calineedit_33">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcUSX:pf4:filterTi</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="caLineEdit" name="calineedit_35">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcUSX:pf42:filterGlass</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>groupBox_6</zorder>
+   <zorder>groupBox_4</zorder>
    <zorder>layoutWidget</zorder>
    <zorder>layoutWidget</zorder>
-   <zorder>caRectangle_29</zorder>
    <zorder>cagraphics_4</zorder>
    <zorder>cagraphics_8</zorder>
    <zorder>cagraphics_3</zorder>
@@ -6107,10 +6206,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caRelatedDisplay_33</zorder>
    <zorder>calineedit_31</zorder>
    <zorder>calineedit_32</zorder>
-   <zorder>caRectangle_28</zorder>
-   <zorder>caLabel_43</zorder>
-   <zorder>caLabel_44</zorder>
-   <zorder>caRelatedDisplay_34</zorder>
    <zorder>caRelatedDisplay_36</zorder>
    <zorder>caRelatedDisplay_38</zorder>
    <zorder>caRelatedDisplay_39</zorder>
@@ -6139,13 +6234,14 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>cagraphics</zorder>
    <zorder>cagraphics_2</zorder>
    <zorder>groupBox_2</zorder>
-   <zorder>widget_5</zorder>
    <zorder>widget</zorder>
    <zorder>label_8</zorder>
    <zorder>label_9</zorder>
-   <zorder>widget_4</zorder>
    <zorder>groupBox</zorder>
    <zorder>label_11</zorder>
+   <zorder>groupBox_3</zorder>
+   <zorder>calineedit_39</zorder>
+   <zorder>groupBox_5</zorder>
   </widget>
  </widget>
  <customwidgets>

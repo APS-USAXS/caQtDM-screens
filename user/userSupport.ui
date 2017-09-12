@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>376</width>
-    <height>261</height>
+    <width>635</width>
+    <height>292</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,7 +36,7 @@
           <widget class="caLabel" name="calabel">
            <property name="font">
             <font>
-             <pointsize>13</pointsize>
+             <pointsize>14</pointsize>
             </font>
            </property>
            <property name="text">

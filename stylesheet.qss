@@ -1,3 +1,7 @@
+QWidget {
+    qproperty-verticalpolicy: expanding;
+}
+
 caTable {
        font: 10pt;
        background: cornsilk;
@@ -5,12 +9,14 @@ caTable {
 }
 
 caLineEdit {
+    qproperty-verticalpolicy: expanding;
      border-radius: 1px;
      background: lightyellow;
      color: black;
  }
 
 caTextEntry {
+    qproperty-verticalpolicy: expanding;
     color: rgb(127, 0, 63);
     background-color: cornsilk;
     selection-color: #0a214c;

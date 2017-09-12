@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>980</width>
-    <height>752</height>
+    <width>1077</width>
+    <height>775</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -31,7 +31,7 @@
 </string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <property name="tabsClosable">
      <bool>false</bool>
@@ -429,8 +429,8 @@
        <rect>
         <x>400</x>
         <y>100</y>
-        <width>381</width>
-        <height>20</height>
+        <width>396</width>
+        <height>32</height>
        </rect>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout">
@@ -658,7 +658,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">M=unknown,P=9idcLAX:</string>
+       <string notr="true">M=aero:c2:m1,P=9idcLAX:</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -718,7 +718,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">M1=m58:c2:m1,M2=m58:c2:m2,P=9idcLAX:</string>
+       <string notr="true">M=m58:c1:m3,P=9idcLAX:</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -734,7 +734,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">M1=m58:c2:m1,M2=m58:c2:m2,P=9idcLAX:</string>
+       <string notr="true">M=m58:c1:m7,P=9idcLAX:</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -750,7 +750,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">M1=m58:c2:m1,M2=m58:c2:m2,P=9idcLAX:</string>
+       <string notr="true">M=m58:c1:m8,P=9idcLAX:</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -777,199 +777,263 @@
             <property name="title">
              <string>Slits</string>
             </property>
-            <layout class="QGridLayout" name="gridLayout_6">
-             <item row="1" column="2">
-              <widget class="caSpinbox" name="caspinbox_7">
-               <property name="channel" stdset="0">
-                <string notr="true">9idcLAX:GSlit1H:size</string>
-               </property>
-              </widget>
-             </item>
-             <item row="0" column="1">
-              <widget class="QLabel" name="label_47">
-               <property name="font">
-                <font>
-                 <pointsize>14</pointsize>
-                 <weight>50</weight>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">color:rgb(0, 0, 0)</string>
-               </property>
-               <property name="text">
-                <string>Beam Defining Slits</string>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="1">
-              <widget class="caSpinbox" name="caspinbox_5">
-               <property name="channel" stdset="0">
-                <string notr="true">9idcLAX:m58:c2:m8.VAL</string>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="1">
-              <widget class="caSpinbox" name="caspinbox_6">
-               <property name="channel" stdset="0">
-                <string notr="true">9idcLAX:m58:c2:m7.VAL</string>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="0">
-              <widget class="QLabel" name="label_97">
-               <property name="font">
-                <font>
-                 <pointsize>12</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">color: rgb(0, 0, 0)</string>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vertical&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="1">
-              <widget class="caRelatedDisplay" name="carelateddisplay_22">
-               <property name="label">
-                <string notr="true"/>
-               </property>
-               <property name="foreground">
-                <color>
-                 <red>255</red>
-                 <green>255</green>
-                 <blue>255</blue>
-                </color>
-               </property>
-               <property name="background">
-                <color>
-                 <red>0</red>
-                 <green>0</green>
-                 <blue>153</blue>
-                </color>
-               </property>
-               <property name="labels">
-                <string>??? Full Motor ???</string>
-               </property>
-               <property name="files">
-                <string>motor2xU.ui</string>
-               </property>
-               <property name="args">
-                <string>P=9idcLAX:m58:c2:,M1=m6,M2=m8</string>
-               </property>
-               <property name="stackingMode" stdset="0">
-                <enum>caRowColMenu::Row</enum>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="2">
-              <widget class="caRelatedDisplay" name="carelateddisplay_24">
-               <property name="label">
-                <string notr="true"/>
-               </property>
-               <property name="foreground">
-                <color>
-                 <red>255</red>
-                 <green>255</green>
-                 <blue>255</blue>
-                </color>
-               </property>
-               <property name="background">
-                <color>
-                 <red>0</red>
-                 <green>0</green>
-                 <blue>153</blue>
-                </color>
-               </property>
-               <property name="labels">
-                <string>Guard Slits</string>
-               </property>
-               <property name="files">
-                <string>4slitGraphic.ui ;motor4xU.ui</string>
-               </property>
-               <property name="args">
-                <string>P=9idcLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6;P=9idcLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6</string>
-               </property>
-               <property name="stackingMode" stdset="0">
-                <enum>caRowColMenu::Row</enum>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="2">
-              <widget class="caSpinbox" name="caspinbox_8">
-               <property name="channel" stdset="0">
-                <string notr="true">9idcLAX:GSlit1V:size</string>
-               </property>
-              </widget>
-             </item>
-             <item row="0" column="2">
-              <widget class="QLabel" name="label_48">
-               <property name="font">
-                <font>
-                 <pointsize>14</pointsize>
-                 <weight>50</weight>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">color:rgb(0, 0, 0)</string>
-               </property>
-               <property name="text">
-                <string>Guard Slits</string>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="0">
-              <widget class="QLabel" name="label_88">
-               <property name="font">
-                <font>
-                 <pointsize>12</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">color: rgb(0, 0, 0)</string>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Horizontal&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="1">
-              <widget class="caRelatedDisplay" name="carelateddisplay_23">
-               <property name="label">
-                <string notr="true"/>
-               </property>
-               <property name="foreground">
-                <color>
-                 <red>255</red>
-                 <green>255</green>
-                 <blue>255</blue>
-                </color>
-               </property>
-               <property name="background">
-                <color>
-                 <red>0</red>
-                 <green>0</green>
-                 <blue>153</blue>
-                </color>
-               </property>
-               <property name="labels">
-                <string>??? Full Motor ???</string>
-               </property>
-               <property name="files">
-                <string>motor2xU.ui</string>
-               </property>
-               <property name="args">
-                <string>P=9idcLAX:m58:c2:,M1=m5,M2=m7</string>
-               </property>
-               <property name="stackingMode" stdset="0">
-                <enum>caRowColMenu::Row</enum>
-               </property>
-              </widget>
-             </item>
-            </layout>
+            <widget class="caSpinbox" name="caspinbox_7">
+             <property name="geometry">
+              <rect>
+               <x>489</x>
+               <y>81</y>
+               <width>45</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:GSlit1H:size</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_47">
+             <property name="geometry">
+              <rect>
+               <x>161</x>
+               <y>36</y>
+               <width>322</width>
+               <height>39</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>14</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color:rgb(0, 0, 0)</string>
+             </property>
+             <property name="text">
+              <string>Beam Defining Slits</string>
+             </property>
+            </widget>
+            <widget class="caSpinbox" name="caspinbox_5">
+             <property name="geometry">
+              <rect>
+               <x>210</x>
+               <y>80</y>
+               <width>181</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:m58:c2:m8.VAL</string>
+             </property>
+            </widget>
+            <widget class="caSpinbox" name="caspinbox_6">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>110</y>
+               <width>161</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:m58:c2:m7.VAL</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_97">
+             <property name="geometry">
+              <rect>
+               <x>11</x>
+               <y>120</y>
+               <width>105</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0)</string>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vertical&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+            <widget class="caRelatedDisplay" name="carelateddisplay_22">
+             <property name="geometry">
+              <rect>
+               <x>161</x>
+               <y>159</y>
+               <width>322</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="label">
+              <string notr="true"/>
+             </property>
+             <property name="foreground">
+              <color>
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </property>
+             <property name="background">
+              <color>
+               <red>0</red>
+               <green>0</green>
+               <blue>153</blue>
+              </color>
+             </property>
+             <property name="labels">
+              <string>??? Full Motor ???</string>
+             </property>
+             <property name="files">
+              <string>motor2xU.ui</string>
+             </property>
+             <property name="args">
+              <string>P=9idcLAX:m58:c2:,M1=m6,M2=m8</string>
+             </property>
+             <property name="stackingMode" stdset="0">
+              <enum>caRowColMenu::Row</enum>
+             </property>
+            </widget>
+            <widget class="caRelatedDisplay" name="carelateddisplay_24">
+             <property name="geometry">
+              <rect>
+               <x>489</x>
+               <y>159</y>
+               <width>257</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="label">
+              <string notr="true"/>
+             </property>
+             <property name="foreground">
+              <color>
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </property>
+             <property name="background">
+              <color>
+               <red>0</red>
+               <green>0</green>
+               <blue>153</blue>
+              </color>
+             </property>
+             <property name="labels">
+              <string>Guard Slits</string>
+             </property>
+             <property name="files">
+              <string>4slitGraphic.ui ;motor4xU.ui</string>
+             </property>
+             <property name="args">
+              <string>P=9idcLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6;P=9idcLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6</string>
+             </property>
+             <property name="stackingMode" stdset="0">
+              <enum>caRowColMenu::Row</enum>
+             </property>
+            </widget>
+            <widget class="caSpinbox" name="caspinbox_8">
+             <property name="geometry">
+              <rect>
+               <x>489</x>
+               <y>120</y>
+               <width>45</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcLAX:GSlit1V:size</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_48">
+             <property name="geometry">
+              <rect>
+               <x>489</x>
+               <y>36</y>
+               <width>180</width>
+               <height>39</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>14</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color:rgb(0, 0, 0)</string>
+             </property>
+             <property name="text">
+              <string>Guard Slits</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_88">
+             <property name="geometry">
+              <rect>
+               <x>11</x>
+               <y>81</y>
+               <width>144</width>
+               <height>33</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0)</string>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Horizontal&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+            <widget class="caRelatedDisplay" name="carelateddisplay_23">
+             <property name="geometry">
+              <rect>
+               <x>161</x>
+               <y>189</y>
+               <width>322</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="label">
+              <string notr="true"/>
+             </property>
+             <property name="foreground">
+              <color>
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </property>
+             <property name="background">
+              <color>
+               <red>0</red>
+               <green>0</green>
+               <blue>153</blue>
+              </color>
+             </property>
+             <property name="labels">
+              <string>??? Full Motor ???</string>
+             </property>
+             <property name="files">
+              <string>motor2xU.ui</string>
+             </property>
+             <property name="args">
+              <string>P=9idcLAX:m58:c2:,M1=m5,M2=m7</string>
+             </property>
+             <property name="stackingMode" stdset="0">
+              <enum>caRowColMenu::Row</enum>
+             </property>
+            </widget>
            </widget>
           </item>
          </layout>
@@ -1455,7 +1519,7 @@
      <rect>
       <x>810</x>
       <y>10</y>
-      <width>161</width>
+      <width>238</width>
       <height>321</height>
      </rect>
     </property>
@@ -1483,6 +1547,12 @@
         </item>
         <item row="0" column="1">
          <widget class="caLineEdit" name="calineedit_42">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="text">
            <string>#####</string>
           </property>
@@ -1511,6 +1581,12 @@
         </item>
         <item row="1" column="1">
          <widget class="caLineEdit" name="calineedit_44">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="text">
            <string>#####</string>
           </property>
@@ -1539,6 +1615,12 @@
         </item>
         <item row="2" column="1">
          <widget class="caLineEdit" name="calineedit_43">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="text">
            <string>#####</string>
           </property>
@@ -1567,6 +1649,12 @@
         </item>
         <item row="3" column="1">
          <widget class="caLineEdit" name="calineedit_39">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="text">
            <string>#####</string>
           </property>
@@ -1595,6 +1683,12 @@
         </item>
         <item row="4" column="1">
          <widget class="caLineEdit" name="calineedit_45">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="text">
            <string>#####</string>
           </property>
@@ -1623,6 +1717,12 @@
         </item>
         <item row="5" column="1">
          <widget class="caLineEdit" name="calineedit_41">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="text">
            <string>#####</string>
           </property>
@@ -1651,6 +1751,12 @@
         </item>
         <item row="6" column="1">
          <widget class="caLineEdit" name="calineedit_40">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="text">
            <string>#####</string>
           </property>
@@ -1679,6 +1785,12 @@
         </item>
         <item row="7" column="1">
          <widget class="caLineEdit" name="calineedit_38">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
           <property name="text">
            <string>#####</string>
           </property>
@@ -2107,13 +2219,13 @@
         <property name="title">
          <string>USAXS Parameters</string>
         </property>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="layoutWidget">
          <property name="geometry">
           <rect>
            <x>360</x>
            <y>30</y>
-           <width>191</width>
-           <height>131</height>
+           <width>243</width>
+           <height>172</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -2161,9 +2273,16 @@
             </item>
             <item row="0" column="1">
              <widget class="caTextEntry" name="catextentry_75">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
               <property name="font">
                <font>
                 <family>Monospace</family>
+                <pointsize>8</pointsize>
                 <stylestrategy>PreferDefault</stylestrategy>
                </font>
               </property>
@@ -2199,9 +2318,16 @@
             </item>
             <item row="1" column="1">
              <widget class="caTextEntry" name="catextentry_76">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
               <property name="font">
                <font>
                 <family>Monospace</family>
+                <pointsize>8</pointsize>
                 <stylestrategy>PreferDefault</stylestrategy>
                </font>
               </property>
@@ -2224,7 +2350,7 @@
           </item>
          </layout>
         </widget>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="layoutWidget">
          <property name="geometry">
           <rect>
            <x>12</x>
@@ -2251,9 +2377,16 @@
           </item>
           <item row="0" column="1">
            <widget class="caTextEntry" name="catextentry_65">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="font">
              <font>
               <family>Monospace</family>
+              <pointsize>9</pointsize>
               <stylestrategy>PreferDefault</stylestrategy>
              </font>
             </property>
@@ -2289,9 +2422,16 @@
           </item>
           <item row="1" column="1">
            <widget class="caTextEntry" name="catextentry_66">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="font">
              <font>
               <family>Monospace</family>
+              <pointsize>9</pointsize>
               <stylestrategy>PreferDefault</stylestrategy>
              </font>
             </property>
@@ -2327,9 +2467,16 @@
           </item>
           <item row="2" column="1">
            <widget class="caTextEntry" name="catextentry_67">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="font">
              <font>
               <family>Monospace</family>
+              <pointsize>8</pointsize>
               <stylestrategy>PreferDefault</stylestrategy>
              </font>
             </property>
@@ -2365,9 +2512,16 @@
           </item>
           <item row="3" column="1">
            <widget class="caTextEntry" name="catextentry_74">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="font">
              <font>
               <family>Monospace</family>
+              <pointsize>9</pointsize>
               <stylestrategy>PreferDefault</stylestrategy>
              </font>
             </property>
@@ -2615,13 +2769,13 @@
      <attribute name="title">
       <string>Pre USAXS tune</string>
      </attribute>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>9</x>
         <y>9</y>
-        <width>217</width>
-        <height>46</height>
+        <width>359</width>
+        <height>68</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -2641,13 +2795,13 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>10</x>
         <y>70</y>
-        <width>381</width>
-        <height>71</height>
+        <width>536</width>
+        <height>113</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout">
@@ -2792,7 +2946,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>9</pointsize>
+           <pointsize>5</pointsize>
           </font>
          </property>
          <property name="text">
@@ -2811,7 +2965,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>9</pointsize>
+           <pointsize>5</pointsize>
           </font>
          </property>
          <property name="text">
@@ -2830,7 +2984,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>9</pointsize>
+           <pointsize>5</pointsize>
           </font>
          </property>
          <property name="text">
@@ -2849,7 +3003,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>9</pointsize>
+           <pointsize>5</pointsize>
           </font>
          </property>
          <property name="text">
@@ -3087,7 +3241,6 @@
    <zorder>groupBox_2</zorder>
    <zorder>groupBox</zorder>
    <zorder>tabWidget_3</zorder>
-   <zorder>label_94</zorder>
    <zorder>groupBox_8</zorder>
   </widget>
  </widget>

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1200</width>
-    <height>772</height>
+    <height>724</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -19,42 +19,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
 </string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="caLabel" name="caLabel_0">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>0</y>
-      <width>200</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>USAXS Plan View</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
-    </property>
-   </widget>
    <widget class="caLabel" name="caLabel_1">
     <property name="geometry">
      <rect>
@@ -100,11 +64,18 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caMessageButton" name="caMessageButton_0">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>175</x>
       <y>465</y>
-      <width>196</width>
+      <width>211</width>
       <height>26</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>stop 9idcLAX: motors</string>
@@ -120,8 +91,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="foreground">
      <color>
-      <red>0</red>
-      <green>0</green>
+      <red>255</red>
+      <green>255</green>
       <blue>0</blue>
      </color>
     </property>
@@ -655,47 +626,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>false;false;false;false;false</string>
     </property>
    </widget>
-   <widget class="caLabel" name="caLabel_3">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>15</y>
-      <width>200</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>5</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>9idc_usaxs.ui</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
-    </property>
-   </widget>
    <widget class="caRelatedDisplay" name="caRelatedDisplay_5">
     <property name="geometry">
      <rect>
@@ -778,47 +708,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="removeParent" stdset="0">
      <string>false</string>
-    </property>
-   </widget>
-   <widget class="caLabel" name="caLabel_4">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>411</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>7</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>last edited: 2017-08-23</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
     </property>
    </widget>
    <widget class="caRelatedDisplay" name="caRelatedDisplay_7">
@@ -908,8 +797,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_9">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>395</y>
+      <x>10</x>
+      <y>610</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -950,8 +839,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_10">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>415</y>
+      <x>10</x>
+      <y>630</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -992,8 +881,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_11">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>355</y>
+      <x>10</x>
+      <y>570</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -1034,8 +923,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_12">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>375</y>
+      <x>10</x>
+      <y>590</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -1118,8 +1007,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_14">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>315</y>
+      <x>10</x>
+      <y>530</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -1160,8 +1049,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_15">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>335</y>
+      <x>10</x>
+      <y>550</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -3078,8 +2967,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_26">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>435</y>
+      <x>10</x>
+      <y>650</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -3381,53 +3270,11 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>false;false</string>
     </property>
    </widget>
-   <widget class="caLabel" name="caLabel_16">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>30</y>
-      <width>161</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>BEAM NOT ACTIVE</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>253</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>253</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
-    </property>
-    <property name="visibility">
-     <enum>caLabel::IfZero</enum>
-    </property>
-    <property name="channel" stdset="0">
-     <string>PA:09ID:D_BEAM_ACTIVE</string>
-    </property>
-   </widget>
    <widget class="caRelatedDisplay" name="caRelatedDisplay_29">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>455</y>
+      <x>10</x>
+      <y>670</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -3468,8 +3315,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_30">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>295</y>
+      <x>10</x>
+      <y>510</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -4056,11 +3903,18 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caLabel" name="caLabel_46">
     <property name="geometry">
      <rect>
-      <x>940</x>
-      <y>15</y>
-      <width>200</width>
-      <height>24</height>
+      <x>640</x>
+      <y>10</y>
+      <width>311</width>
+      <height>40</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>9ID Plan View</string>
@@ -4087,48 +3941,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
-    </property>
-   </widget>
-   <widget class="caLabel" name="caLabel_48">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>30</y>
-      <width>101</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>upd too high!</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>253</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>253</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
-    </property>
-    <property name="visibility">
-     <enum>caLabel::IfZero</enum>
-    </property>
-    <property name="channel" stdset="0">
-     <string>PA:09ID:D_BEAM_ACTIVE</string>
     </property>
    </widget>
    <widget class="caLineEdit" name="calineedit_47">
@@ -4912,14 +4724,14 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>490</y>
-      <width>271</width>
-      <height>221</height>
+      <x>520</x>
+      <y>500</y>
+      <width>211</width>
+      <height>211</height>
      </rect>
     </property>
     <property name="title">
-     <string>Cryo</string>
+     <string>cryo</string>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
@@ -4954,12 +4766,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">9idCRYO:MainLevel:val</string>
             </property>
-           </widget>
-          </item>
-          <item row="0" column="2">
-           <widget class="QLabel" name="label_19">
-            <property name="text">
-             <string>%</string>
+            <property name="unitsEnabled">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -4987,12 +4795,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">9idCRYO:BufferLevel:val</string>
             </property>
-           </widget>
-          </item>
-          <item row="1" column="2">
-           <widget class="QLabel" name="label_17">
-            <property name="text">
-             <string>%</string>
+            <property name="unitsEnabled">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -5020,12 +4824,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">9idCRYO:PumpSpeed:val</string>
             </property>
-           </widget>
-          </item>
-          <item row="2" column="2">
-           <widget class="QLabel" name="label_18">
-            <property name="text">
-             <string>Hz</string>
+            <property name="unitsEnabled">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -5053,12 +4853,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">9idCRYO:LN2Flow:val</string>
             </property>
-           </widget>
-          </item>
-          <item row="3" column="2">
-           <widget class="QLabel" name="label_20">
-            <property name="text">
-             <string>l/min</string>
+            <property name="unitsEnabled">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -5086,12 +4882,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">9idCRYO:CoolerPower:val</string>
             </property>
-           </widget>
-          </item>
-          <item row="4" column="2">
-           <widget class="QLabel" name="label_16">
-            <property name="text">
-             <string>W</string>
+            <property name="unitsEnabled">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -5119,12 +4911,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">9idCRYO:PressureDiff:val</string>
             </property>
-           </widget>
-          </item>
-          <item row="5" column="2">
-           <widget class="QLabel" name="label_24">
-            <property name="text">
-             <string>mbar</string>
+            <property name="unitsEnabled">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -5138,8 +4926,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>40</y>
+      <x>220</x>
+      <y>60</y>
       <width>208</width>
       <height>34</height>
      </rect>
@@ -5365,8 +5153,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>270</y>
+      <x>550</x>
+      <y>240</y>
       <width>125</width>
       <height>51</height>
      </rect>
@@ -5443,10 +5231,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QGroupBox" name="groupBox_3">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>340</y>
+      <x>830</x>
+      <y>250</y>
       <width>271</width>
-      <height>131</height>
+      <height>161</height>
      </rect>
     </property>
     <property name="title">
@@ -5455,9 +5243,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <widget class="caRelatedDisplay" name="caRelatedDisplay_34">
      <property name="geometry">
       <rect>
-       <x>11</x>
-       <y>85</y>
-       <width>241</width>
+       <x>10</x>
+       <y>60</y>
+       <width>250</width>
        <height>30</height>
       </rect>
      </property>
@@ -5497,15 +5285,15 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <widget class="caLabel" name="caLabel_44">
      <property name="geometry">
       <rect>
-       <x>11</x>
-       <y>36</y>
-       <width>251</width>
+       <x>10</x>
+       <y>20</y>
+       <width>250</width>
        <height>16</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>5</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -5555,15 +5343,15 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <widget class="caLabel" name="caLabel_43">
      <property name="geometry">
       <rect>
-       <x>11</x>
-       <y>63</y>
-       <width>241</width>
+       <x>10</x>
+       <y>40</y>
+       <width>250</width>
        <height>16</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>5</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -5607,14 +5395,112 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <string notr="true"/>
      </property>
     </widget>
+    <widget class="caLabel" name="caLabel_16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>250</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>BEAM NOT ACTIVE</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>253</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>253</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::IfZero</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string>PA:09ID:D_BEAM_ACTIVE</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="caLabel_48">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>250</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>upd too high!</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>253</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>253</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::IfZero</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string>PA:09ID:D_BEAM_ACTIVE</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_4">
     <property name="geometry">
      <rect>
-      <x>840</x>
-      <y>330</y>
-      <width>181</width>
-      <height>131</height>
+      <x>360</x>
+      <y>500</y>
+      <width>151</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -5623,137 +5509,103 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="title">
      <string>monitors</string>
     </property>
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>11</x>
-       <y>36</y>
-       <width>19</width>
-       <height>24</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>I0</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_2">
-     <property name="geometry">
-      <rect>
-       <x>11</x>
-       <y>66</y>
-       <width>32</width>
-       <height>24</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>I00</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_3">
-     <property name="geometry">
-      <rect>
-       <x>11</x>
-       <y>96</y>
-       <width>32</width>
-       <height>24</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>I/I0</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="calineedit_39">
-     <property name="geometry">
-      <rect>
-       <x>49</x>
-       <y>36</y>
-       <width>121</width>
-       <height>24</height>
-      </rect>
-     </property>
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="text">
-      <string>#####</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:userAve4.VAL</string>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="calineedit_29">
-     <property name="geometry">
-      <rect>
-       <x>49</x>
-       <y>66</y>
-       <width>121</width>
-       <height>24</height>
-      </rect>
-     </property>
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="text">
-      <string>#####</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:userAve3.VAL</string>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="calineedit_40">
-     <property name="geometry">
-      <rect>
-       <x>49</x>
-       <y>96</y>
-       <width>121</width>
-       <height>24</height>
-      </rect>
-     </property>
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="text">
-      <string>#####</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">9idcUSX:pf4:trans</string>
-     </property>
-    </widget>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>I0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="caLineEdit" name="calineedit_39">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>#####</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:userAve4.VAL</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>I00</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="caLineEdit" name="calineedit_29">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>#####</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:userAve3.VAL</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>I/I0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="caLineEdit" name="calineedit_40">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>#####</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcUSX:pf4:trans</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
    <widget class="QGroupBox" name="groupBox_5">
     <property name="geometry">
      <rect>
-      <x>830</x>
-      <y>490</y>
-      <width>321</width>
-      <height>261</height>
+      <x>740</x>
+      <y>500</y>
+      <width>211</width>
+      <height>211</height>
      </rect>
     </property>
     <property name="title">
@@ -5768,20 +5620,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
          <layout class="QGridLayout" name="gridLayout_4">
-          <item row="4" column="2">
-           <widget class="QLabel" name="label_37">
-            <property name="text">
-             <string>keV</string>
-            </property>
-           </widget>
-          </item>
-          <item row="5" column="2">
-           <widget class="QLabel" name="label_39">
-            <property name="text">
-             <string>keV</string>
-            </property>
-           </widget>
-          </item>
           <item row="3" column="0">
            <widget class="QLabel" name="label_34">
             <property name="text">
@@ -5803,20 +5641,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             </property>
            </widget>
           </item>
-          <item row="1" column="2">
-           <widget class="QLabel" name="label_31">
-            <property name="text">
-             <string>K</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="2">
-           <widget class="QLabel" name="label_33">
-            <property name="text">
-             <string>mbar</string>
-            </property>
-           </widget>
-          </item>
           <item row="5" column="0">
            <widget class="QLabel" name="label_38">
             <property name="text">
@@ -5828,13 +5652,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
            <widget class="QLabel" name="label_28">
             <property name="text">
              <string>I000</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="2">
-           <widget class="QLabel" name="label_29">
-            <property name="text">
-             <string>%</string>
             </property>
            </widget>
           </item>
@@ -5858,19 +5675,15 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">9idcLAX:vsc:c2_cts1.B</string>
             </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_32">
             <property name="text">
              <string>Mono P</string>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="2">
-           <widget class="QLabel" name="label_35">
-            <property name="text">
-             <string>keV</string>
             </property>
            </widget>
           </item>
@@ -5894,6 +5707,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">9ida:DP41:s1:temp</string>
             </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item row="2" column="1">
@@ -5915,6 +5731,18 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             </property>
             <property name="channel" stdset="0">
              <string notr="true">9ida:userStringCalc1</string>
+            </property>
+            <property name="precision">
+             <number>4</number>
+            </property>
+            <property name="precisionMode">
+             <enum>caLineEdit::User</enum>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="formatType">
+             <enum>caLineEdit::exponential</enum>
             </property>
            </widget>
           </item>
@@ -5938,6 +5766,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">9ida:BraggEAO.VAL</string>
             </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item row="4" column="1">
@@ -5959,6 +5790,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             </property>
             <property name="channel" stdset="0">
              <string notr="true">ID09us:EnergySet</string>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -5982,6 +5816,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
             <property name="channel" stdset="0">
              <string notr="true">ID09ds:EnergySet</string>
             </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
          </layout>
@@ -5994,10 +5831,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QGroupBox" name="groupBox_6">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>9</y>
-      <width>181</width>
-      <height>121</height>
+      <x>380</x>
+      <y>220</y>
+      <width>161</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="title">
@@ -6009,18 +5846,21 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <property name="styleSheet">
         <string notr="true">background-color: rgb(139, 130, 15);</string>
        </property>
-       <layout class="QGridLayout" name="gridLayout">
-        <item row="0" column="1">
+       <layout class="QFormLayout" name="formLayout">
+        <property name="fieldGrowthPolicy">
+         <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+        </property>
+        <item row="0" column="0">
          <widget class="QLabel" name="label_10">
           <property name="text">
-           <string>mm Al</string>
+           <string>Al</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
         </item>
-        <item row="0" column="0">
+        <item row="0" column="1">
          <widget class="caLineEdit" name="calineedit_34">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -6037,29 +5877,22 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           <property name="channel" stdset="0">
            <string notr="true">9idcUSX:pf4:filterAl</string>
           </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QLabel" name="label_13">
-          <property name="text">
-           <string>mm Ti</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QLabel" name="label_14">
-          <property name="text">
-           <string>mm glass</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          <property name="unitsEnabled">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
         <item row="1" column="0">
+         <widget class="QLabel" name="label_13">
+          <property name="text">
+           <string>Ti</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
          <widget class="caLineEdit" name="calineedit_33">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -6076,9 +5909,22 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           <property name="channel" stdset="0">
            <string notr="true">9idcUSX:pf4:filterTi</string>
           </property>
+          <property name="unitsEnabled">
+           <bool>true</bool>
+          </property>
          </widget>
         </item>
         <item row="2" column="0">
+         <widget class="QLabel" name="label_14">
+          <property name="text">
+           <string>glass</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
          <widget class="caLineEdit" name="calineedit_35">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -6095,6 +5941,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           <property name="channel" stdset="0">
            <string notr="true">9idcUSX:pf42:filterGlass</string>
           </property>
+          <property name="unitsEnabled">
+           <bool>true</bool>
+          </property>
          </widget>
         </item>
        </layout>
@@ -6102,9 +5951,129 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </item>
     </layout>
    </widget>
+   <widget class="caLabel" name="caLabel_0">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>371</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>USAXS Plan View</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+    </property>
+    <property name="fontScaleMode">
+     <enum>ESimpleLabel::WidthAndHeight</enum>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>12</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="caLabel" name="caLabel_4">
+       <property name="text">
+        <string>last edited: 2017-09-12</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="fontScaleMode">
+        <enum>ESimpleLabel::WidthAndHeight</enum>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color alpha="0">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caLabel" name="caLabel_3">
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>9idc_usaxs.ui</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="fontScaleMode">
+        <enum>ESimpleLabel::WidthAndHeight</enum>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color alpha="0">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>layoutWidget</zorder>
    <zorder>groupBox_6</zorder>
    <zorder>groupBox_4</zorder>
-   <zorder>layoutWidget</zorder>
    <zorder>layoutWidget</zorder>
    <zorder>cagraphics_4</zorder>
    <zorder>cagraphics_8</zorder>
@@ -6114,7 +6083,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>cagraphics_10</zorder>
    <zorder>cagraphics_5</zorder>
    <zorder>cagraphics_7</zorder>
-   <zorder>caLabel_0</zorder>
    <zorder>caLabel_1</zorder>
    <zorder>caLabel_2</zorder>
    <zorder>caRectangle_0</zorder>
@@ -6125,8 +6093,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caRectangle_5</zorder>
    <zorder>caRectangle_6</zorder>
    <zorder>caRectangle_7</zorder>
-   <zorder>caLabel_3</zorder>
-   <zorder>caLabel_4</zorder>
    <zorder>caRectangle_8</zorder>
    <zorder>caRectangle_9</zorder>
    <zorder>caPolyLine_0</zorder>
@@ -6168,7 +6134,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caPolygon_15</zorder>
    <zorder>caPolygon_16</zorder>
    <zorder>caPolygon_17</zorder>
-   <zorder>caLabel_16</zorder>
    <zorder>caMessageButton_0</zorder>
    <zorder>caRelatedDisplay_0</zorder>
    <zorder>caRelatedDisplay_1</zorder>
@@ -6216,7 +6181,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caPolyLine_3</zorder>
    <zorder>caPolyLine_4</zorder>
    <zorder>caLabel_46</zorder>
-   <zorder>caLabel_48</zorder>
    <zorder>calineedit_47</zorder>
    <zorder>calineedit_48</zorder>
    <zorder>caPolygon_19</zorder>
@@ -6240,8 +6204,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>groupBox</zorder>
    <zorder>label_11</zorder>
    <zorder>groupBox_3</zorder>
-   <zorder>calineedit_39</zorder>
    <zorder>groupBox_5</zorder>
+   <zorder>caLabel_0</zorder>
   </widget>
  </widget>
  <customwidgets>

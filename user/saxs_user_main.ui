@@ -63,375 +63,6 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>50</y>
-      <width>181</width>
-      <height>320</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_2">
-     <item>
-      <widget class="QGroupBox" name="groupBox">
-       <property name="title">
-        <string>monitors</string>
-       </property>
-       <layout class="QFormLayout" name="formLayout">
-        <property name="fieldGrowthPolicy">
-         <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
-        </property>
-        <item row="0" column="0">
-         <widget class="QLabel" name="label_33">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>Nitrogen Gas</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="caLineEdit" name="calineedit_24">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf4:trans</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_32">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>Helium Gas</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="caLineEdit" name="calineedit_33">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf4:trans</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="label_30">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>Argon Gas</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0">
-         <widget class="QLabel" name="label_25">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>User Gas</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="0">
-         <widget class="QLabel" name="label_54">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>I0</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="1">
-         <widget class="caLineEdit" name="calineedit_39">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:userAve4.VAL</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="0">
-         <widget class="QLabel" name="label_56">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>I0 gain</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="1">
-         <widget class="caLineEdit" name="calineedit_45">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:fem02:seq01:gain</string>
-          </property>
-         </widget>
-        </item>
-        <item row="6" column="0">
-         <widget class="QLabel" name="label_53">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>I00</string>
-          </property>
-         </widget>
-        </item>
-        <item row="6" column="1">
-         <widget class="caLineEdit" name="calineedit_41">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:userAve3.VAL</string>
-          </property>
-         </widget>
-        </item>
-        <item row="7" column="0">
-         <widget class="QLabel" name="label_51">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>I000</string>
-          </property>
-         </widget>
-        </item>
-        <item row="7" column="1">
-         <widget class="caLineEdit" name="calineedit_40">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:vsc:c2_cts1.B</string>
-          </property>
-         </widget>
-        </item>
-        <item row="8" column="0">
-         <widget class="QLabel" name="label_57">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>Energy, keV</string>
-          </property>
-         </widget>
-        </item>
-        <item row="8" column="1">
-         <widget class="caLineEdit" name="calineedit_38">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9ida:BraggEAO.VAL</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="caLineEdit" name="calineedit_34">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf4:trans</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="caLineEdit" name="calineedit_35">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf4:trans</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-     </item>
-     <item>
-      <widget class="QGroupBox" name="groupBox_8">
-       <property name="title">
-        <string>Filters</string>
-       </property>
-       <layout class="QFormLayout" name="formLayout_2">
-        <item row="0" column="0">
-         <widget class="caLineEdit" name="calineedit_30">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf4:filterAl</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QLabel" name="label_44">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>mm Al</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="caLineEdit" name="calineedit_31">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf4:filterTi</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QLabel" name="label_46">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>mm Ti</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="caLineEdit" name="calineedit_32">
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf42:filterGlass</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QLabel" name="label_45">
-          <property name="font">
-           <font>
-            <pointsize>10</pointsize>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0)</string>
-          </property>
-          <property name="text">
-           <string>mm Glass</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="QGroupBox" name="groupBox_4">
     <property name="geometry">
      <rect>
@@ -447,6 +78,12 @@
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="caTextEntry" name="catextentry_28">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:directory</string>
        </property>
@@ -559,7 +196,7 @@
 </string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <property name="tabsClosable">
      <bool>false</bool>
@@ -1379,6 +1016,453 @@
     <property name="text">
      <string>10 TOO LOW</string>
     </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>51</y>
+      <width>171</width>
+      <height>338</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>monitors</string>
+       </property>
+       <layout class="QFormLayout" name="formLayout">
+        <property name="fieldGrowthPolicy">
+         <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_33">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>Nitrogen Gas</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="caLineEdit" name="calineedit_24">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcUSX:pf4:trans</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_32">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>Helium Gas</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="caLineEdit" name="calineedit_33">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcUSX:pf4:trans</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_30">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>Argon Gas</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_25">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>User Gas</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_54">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>I0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="caLineEdit" name="calineedit_39">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcLAX:userAve4.VAL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_56">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>I0 gain</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="caLineEdit" name="calineedit_45">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcUSX:fem02:seq01:gain</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_53">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>I00</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="caLineEdit" name="calineedit_41">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcLAX:userAve3.VAL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="label_51">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>I000</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="caLineEdit" name="calineedit_40">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcLAX:vsc:c2_cts1.B</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="label_57">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0)</string>
+          </property>
+          <property name="text">
+           <string>Energy, keV</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="caLineEdit" name="calineedit_38">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9ida:BraggEAO.VAL</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="caLineEdit" name="calineedit_34">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcUSX:pf4:trans</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="caLineEdit" name="calineedit_35">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>#####</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcUSX:pf4:trans</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_6">
+       <property name="title">
+        <string>filters</string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QWidget" name="widget_4" native="true">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(139, 130, 15);</string>
+          </property>
+          <layout class="QFormLayout" name="formLayout_2">
+           <property name="fieldGrowthPolicy">
+            <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Al</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="caLineEdit" name="calineedit_36">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>#####</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcUSX:pf4:filterAl</string>
+             </property>
+             <property name="unitsEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>Ti</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="caLineEdit" name="calineedit_37">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>#####</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcUSX:pf4:filterTi</string>
+             </property>
+             <property name="unitsEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>glass</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="caLineEdit" name="calineedit_42">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>#####</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="channel" stdset="0">
+              <string notr="true">9idcUSX:pf42:filterGlass</string>
+             </property>
+             <property name="unitsEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
  </widget>

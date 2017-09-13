@@ -7,7 +7,7 @@ export EPICS_APP=/APSshare/epics/synApps_5_8/support/xxx-5-8-3
 
 export APS_UI_DIR=/APSshare/adlsys
 export EPICS_APP_UI_DIR=${EPICS_APP}/xxxApp/op/ui
-export BEAMLINE_UI_DIR=/net/s9dserv/xorApps/epics/screens/usaxs/
+export BEAMLINE_UI_DIR=/net/s9dserv/xorApps/epics/screens/usaxs
 #export STYLESHEET=${BEAMLINE_UI_DIR}/pete.qss
 export STYLESHEET=${BEAMLINE_UI_DIR}/stylesheet.qss
 
@@ -227,4 +227,4 @@ fi
 #######################################
 # start caQtDM
 #$CAQTDM -noMsg ${screen_s} 
-$CAQTDM -style plastique -stylesheet ${STYLESHEET} -noMsg ${screen_s} 
+$CAQTDM -style plastique -stylefile ${STYLESHEET} -noMsg ${screen_s} 

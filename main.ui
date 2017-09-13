@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>970</width>
-    <height>785</height>
+    <width>607</width>
+    <height>558</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,0,0,1">
+   <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,1,0,5">
     <item>
      <widget class="QWidget" name="widget" native="true">
       <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -55,7 +55,7 @@
             </font>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;main.ui&lt;br/&gt;2017-08-22: prj&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;main.ui&lt;br/&gt;2017-09-13: prj&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -75,7 +75,7 @@
       <property name="title">
        <string>USER Experiment Information</string>
       </property>
-      <layout class="QGridLayout" name="gridLayout_6" rowstretch="1,0,0">
+      <layout class="QGridLayout" name="gridLayout_6" rowstretch="0,0,0">
        <item row="1" column="0">
         <widget class="QLabel" name="label_31">
          <property name="font">
@@ -123,7 +123,7 @@
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>11</pointsize>
+           <pointsize>9</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -155,7 +155,7 @@
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>11</pointsize>
+           <pointsize>9</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -187,7 +187,7 @@
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>11</pointsize>
+           <pointsize>9</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -231,21 +231,17 @@
         </spacer>
        </item>
        <item>
-        <widget class="caShellCommand" name="cashellcommand">
+        <widget class="caScriptButton" name="cascriptbutton">
          <property name="label">
-          <string notr="true">-Reset Order Numbers</string>
+          <string notr="true">Reset Order Numbers</string>
          </property>
-         <property name="labels">
-          <string>-Reset Order Numbers</string>
-         </property>
-         <property name="files">
-          <string>python resetOrderNumbers.py</string>
-         </property>
-         <property name="args">
-          <string/>
-         </property>
-         <property name="fontScaleMode" stdset="0">
-          <enum>EPushButton::None</enum>
+         <property name="scriptCommand">
+          <string notr="true">caput 9idcLAX:USAXS:FS_OrderNumber  1;
+caput usaxs_pilatus1:cam1:FileNumber  1;
+caput usaxs_pilatus1:Nexus1:FileNumber  1;
+caput usaxs_pilatus2:Nexus1:FileNumber  1;
+caput usaxs_pilatus2:cam1:FileNumber  1
+</string>
          </property>
         </widget>
        </item>
@@ -260,7 +256,7 @@
        </font>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -826,9 +822,9 @@
    <header>caLineEdit</header>
   </customwidget>
   <customwidget>
-   <class>caShellCommand</class>
+   <class>caScriptButton</class>
    <extends>QWidget</extends>
-   <header>caShellCommand</header>
+   <header>caScriptButton</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -8,6 +8,7 @@ export EPICS_APP=/APSshare/epics/synApps_5_8/support/xxx-5-8-3
 export APS_UI_DIR=/APSshare/adlsys
 export EPICS_APP_UI_DIR=${EPICS_APP}/xxxApp/op/ui
 export BEAMLINE_UI_DIR=/net/s9dserv/xorApps/epics/screens/usaxs
+export DSERV_EPICS_DIR=/net/s9dserv/xorApps/epics
 #export STYLESHEET=${BEAMLINE_UI_DIR}/pete.qss
 export STYLESHEET=${BEAMLINE_UI_DIR}/stylesheet.qss
 
@@ -15,6 +16,8 @@ export STYLESHEET=${BEAMLINE_UI_DIR}/stylesheet.qss
 export DEFAULT_EPICS_CA_MAX_ARRAY_BYTES=8000100
 
 #export CAQTDM=/APSshare/bin/caQtDM
+# Use an older version of caQtDM until Kevin confirms the cpu-usage bug is fixed
+#export CAQTDM=/APSshare/bin/caQtDM-4.0.0
 export CAQTDM=/APSshare/bin/caQtDM-GIT
 
 
@@ -84,6 +87,7 @@ addScreenPath      BEAMLINE_UI_DIR       beamline
 addScreenPath      BEAMLINE_UI_DIR       user
 addScreenPath      BEAMLINE_UI_DIR       ../9ida
 addScreenPath      BEAMLINE_UI_DIR       legacy
+addScreenPath      DSERV_EPICS_DIR       synApps_5_7/ioc/9idcLAX/9idcLAXApp/op/adl
 addScreenPath      ALIVE                 aliveApp/op/ui
 addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui
 addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui/autoconvert

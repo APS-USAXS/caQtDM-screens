@@ -88,6 +88,7 @@ addScreenPath      BEAMLINE_UI_DIR       user
 addScreenPath      BEAMLINE_UI_DIR       ../9ida
 addScreenPath      BEAMLINE_UI_DIR       legacy
 addScreenPath      DSERV_EPICS_DIR       synApps_5_7/ioc/9idcLAX/9idcLAXApp/op/adl
+addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/9idcRIO/9idcRIOApp/op/adl
 addScreenPath      ALIVE                 aliveApp/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui/autoconvert
 # AREA_DETECTOR needs to be defined because xxx doesn't include it

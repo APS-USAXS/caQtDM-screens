@@ -89,8 +89,12 @@ addScreenPath      BEAMLINE_UI_DIR       ../9ida
 addScreenPath      BEAMLINE_UI_DIR       legacy
 addScreenPath      DSERV_EPICS_DIR       synApps_5_7/ioc/9idcLAX/9idcLAXApp/op/adl
 addScreenPath      ALIVE                 aliveApp/op/ui
+# AREA_DETECTOR needs to be defined because xxx doesn't include it
+AREA_DETECTOR=/APSshare/epics/synApps_5_8/support/areaDetector-2-4
 addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui
 addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui/autoconvert
+addScreenPath      AREA_DETECTOR         ADPilatus/pilatusApp/op/ui
+addScreenPath      AREA_DETECTOR         ADPilatus/pilatusApp/op/ui/autoconvert
 addScreenPath      ASYN                  opi/caqtdm
 addScreenPath      AUTOSAVE              asApp/op/ui
 addScreenPath      BUSY                  busyApp/op/ui

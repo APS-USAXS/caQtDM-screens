@@ -47,7 +47,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcUSX:pmm01:reg01:bo01</string>
+    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
    </property>
    <property name="foreground">
     <color>
@@ -62,6 +62,9 @@
      <green>0</green>
      <blue>140</blue>
     </color>
+   </property>
+   <property name="pressMessage">
+    <string notr="true">0</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_12">
@@ -172,7 +175,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
    </property>
   </widget>
   <widget class="caMessageButton" name="camessagebutton_5">
@@ -188,7 +191,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcUSX:pmm01:reg01:bo01</string>
+    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
    </property>
    <property name="foreground">
     <color>
@@ -203,6 +206,9 @@
      <green>0</green>
      <blue>140</blue>
     </color>
+   </property>
+   <property name="pressMessage">
+    <string notr="true">1</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_58">
@@ -267,10 +273,10 @@
     <enum>caPolyLine::Polygon</enum>
    </property>
    <property name="visibility">
-    <enum>caPolyLine::IfNotZero</enum>
+    <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
    </property>
   </widget>
   <widget class="caLabel" name="caLabel_4">
@@ -284,11 +290,8 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>10</pointsize>
+     <pointsize>8</pointsize>
     </font>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;last edited: 2017-07-21&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -313,6 +316,9 @@
      <blue>0</blue>
     </color>
    </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
   </widget>
   <widget class="caLabel" name="caLabel_3">
    <property name="geometry">
@@ -327,9 +333,6 @@
     <font>
      <pointsize>11</pointsize>
     </font>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
    </property>
    <property name="text">
     <string>9idc_USAXS_CCD_shutter.ui</string>
@@ -353,6 +356,9 @@
      <green>0</green>
      <blue>0</blue>
     </color>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
    </property>
   </widget>
  </widget>

@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>609</width>
-    <height>673</height>
+    <width>746</width>
+    <height>927</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -103,7 +109,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -157,13 +163,13 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>70</y>
-      <width>601</width>
-      <height>592</height>
+      <width>732</width>
+      <height>653</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_13">
@@ -318,7 +324,7 @@
            <property name="font">
             <font>
              <family>Lucida Sans Typewriter</family>
-             <pointsize>8</pointsize>
+             <pointsize>7</pointsize>
             </font>
            </property>
            <property name="channel" stdset="0">
@@ -351,7 +357,7 @@
            <property name="font">
             <font>
              <family>Lucida Sans Typewriter</family>
-             <pointsize>8</pointsize>
+             <pointsize>7</pointsize>
             </font>
            </property>
            <property name="channel" stdset="0">
@@ -384,7 +390,7 @@
            <property name="font">
             <font>
              <family>Lucida Sans Typewriter</family>
-             <pointsize>8</pointsize>
+             <pointsize>7</pointsize>
             </font>
            </property>
            <property name="channel" stdset="0">
@@ -417,7 +423,7 @@
            <property name="font">
             <font>
              <family>Lucida Sans Typewriter</family>
-             <pointsize>8</pointsize>
+             <pointsize>7</pointsize>
             </font>
            </property>
            <property name="channel" stdset="0">
@@ -452,8 +458,8 @@
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>573</width>
-              <height>204</height>
+              <width>704</width>
+              <height>444</height>
              </rect>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -2408,297 +2414,472 @@
        </layout>
       </widget>
      </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <item>
-        <layout class="QVBoxLayout" name="verticalLayout_3">
-         <item>
-          <widget class="QGroupBox" name="groupBox_10">
-           <property name="title">
-            <string>Detector Distances</string>
-           </property>
-           <layout class="QVBoxLayout" name="verticalLayout_10">
-            <item>
-             <widget class="QLabel" name="label">
-              <property name="text">
-               <string>note: Keep USAXS SDD &amp;gt; 400mm!</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_6">
-              <item>
-               <widget class="QLabel" name="label_57">
-                <property name="text">
-                 <string>SDD, mm</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="caTextEntry" name="catextentry_54">
-                <property name="channel" stdset="0">
-                 <string notr="true">9idcLAX:USAXS:SDD</string>
-                </property>
-                <property name="background">
-                 <color>
-                  <red>115</red>
-                  <green>215</green>
-                  <blue>253</blue>
-                 </color>
-                </property>
-                <property name="colorMode">
-                 <enum>caLineEdit::Static</enum>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_54">
-                <property name="text">
-                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SAD, mm&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="caTextEntry" name="catextentry_55">
-                <property name="channel" stdset="0">
-                 <string notr="true">9idcLAX:USAXS:SAD</string>
-                </property>
-                <property name="background">
-                 <color>
-                  <red>115</red>
-                  <green>215</green>
-                  <blue>253</blue>
-                 </color>
-                </property>
-                <property name="colorMode">
-                 <enum>caLineEdit::Static</enum>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-           </layout>
-          </widget>
-         </item>
-         <item>
-          <widget class="QGroupBox" name="groupBox_16">
-           <property name="title">
-            <string>Starting Y positions, mm</string>
-           </property>
-           <layout class="QVBoxLayout" name="verticalLayout_9">
-            <item>
-             <widget class="QLabel" name="label_13">
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_5">
-              <item>
-               <widget class="QLabel" name="label_66">
-                <property name="text">
-                 <string>AY0, mm</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="caTextEntry" name="catextentry_109">
-                <property name="channel" stdset="0">
-                 <string notr="true">9idcLAX:USAXS:AY0.VAL</string>
-                </property>
-                <property name="background">
-                 <color>
-                  <red>115</red>
-                  <green>215</green>
-                  <blue>253</blue>
-                 </color>
-                </property>
-                <property name="colorMode">
-                 <enum>caLineEdit::Static</enum>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_82">
-                <property name="text">
-                 <string>DY0, mm</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="caTextEntry" name="catextentry_111">
-                <property name="channel" stdset="0">
-                 <string notr="true">9idcLAX:USAXS:DY0.VAL</string>
-                </property>
-                <property name="background">
-                 <color>
-                  <red>115</red>
-                  <green>215</green>
-                  <blue>253</blue>
-                 </color>
-                </property>
-                <property name="colorMode">
-                 <enum>caLineEdit::Static</enum>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-           </layout>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
-        <widget class="QGroupBox" name="groupBox_14">
-         <property name="title">
-          <string>other controls</string>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout_8">
-          <item>
-           <layout class="QVBoxLayout" name="verticalLayout_7">
-            <item>
-             <widget class="QCheckBox" name="checkBox">
-              <property name="text">
-               <string>Run preUSAXStune on qdo?</string>
-              </property>
-              <property name="Channel" stdset="0">
-               <string>9idcLAX:USAXS:RunPreUSAXStuneOnQdo</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="checkBox_2">
-              <property name="text">
-               <string>Label	Run preUSAXStune next?</string>
-              </property>
-              <property name="Channel" stdset="0">
-               <string>9idcLAX:USAXS:RunPreUSAXStuneNext</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="checkBox_3">
-              <property name="text">
-               <string>Measure pin Transm?</string>
-              </property>
-              <property name="tristate">
-               <bool>false</bool>
-              </property>
-              <property name="Channel" stdset="0">
-               <string>9idcLAX:USAXS:TR_MeasurePinTrans</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QGridLayout" name="gridLayout_8">
-            <item row="0" column="0">
-             <widget class="QLabel" name="label_84">
-              <property name="text">
-               <string>From the last tune</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="0">
-             <widget class="caTextEntry" name="catextentry_81">
-              <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:USAXS:NumScansFromLastTune</string>
-              </property>
-              <property name="background">
-               <color>
-                <red>115</red>
-                <green>215</green>
-                <blue>253</blue>
-               </color>
-              </property>
-              <property name="colorMode">
-               <enum>caLineEdit::Static</enum>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="1">
-             <widget class="caTextEntry" name="catextentry_84">
-              <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:USAXS:ReqNumScansBetweenTune</string>
-              </property>
-              <property name="background">
-               <color>
-                <red>115</red>
-                <green>215</green>
-                <blue>253</blue>
-               </color>
-              </property>
-              <property name="colorMode">
-               <enum>caLineEdit::Static</enum>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="2">
-             <widget class="QLabel" name="label_85">
-              <property name="text">
-               <string>No. of scans</string>
-              </property>
-             </widget>
-            </item>
-            <item row="2" column="0">
-             <widget class="caTextEntry" name="catextentry_82">
-              <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:USAXS:EPOCHTimeOfLastTune</string>
-              </property>
-              <property name="background">
-               <color>
-                <red>115</red>
-                <green>215</green>
-                <blue>253</blue>
-               </color>
-              </property>
-              <property name="colorMode">
-               <enum>caLineEdit::Static</enum>
-              </property>
-             </widget>
-            </item>
-            <item row="2" column="1">
-             <widget class="caTextEntry" name="catextentry_83">
-              <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:USAXS:ReqTimeBetweenTune</string>
-              </property>
-              <property name="background">
-               <color>
-                <red>115</red>
-                <green>215</green>
-                <blue>253</blue>
-               </color>
-              </property>
-              <property name="colorMode">
-               <enum>caLineEdit::Static</enum>
-              </property>
-             </widget>
-            </item>
-            <item row="2" column="2">
-             <widget class="QLabel" name="label_86">
-              <property name="text">
-               <string>Time [s]</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="1" colspan="2">
-             <widget class="QLabel" name="label_83">
-              <property name="text">
-               <string>Requested between tunes</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-         </layout>
-        </widget>
-       </item>
-      </layout>
-     </item>
     </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_14">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>730</y>
+      <width>321</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>other controls</string>
+    </property>
+    <widget class="caToggleButton" name="catogglebutton">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>51</y>
+       <width>290</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Run PreUSAXS tune next</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneNext</string>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton_2">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>26</y>
+       <width>290</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Run PreUSAXS tune on CollectData</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneOnQdo</string>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>76</y>
+       <width>290</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Measure pin Transmission</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:TR_MeasurePinTrans</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_84">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>130</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:ReqNumScansBetweenTune</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_86">
+     <property name="geometry">
+      <rect>
+       <x>217</x>
+       <y>151</y>
+       <width>50</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Time [s]</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_84">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>110</y>
+       <width>115</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>From the last tune</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_83">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>151</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:ReqTimeBetweenTune</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_83">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>110</y>
+       <width>165</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Requested between tunes</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_85">
+     <property name="geometry">
+      <rect>
+       <x>217</x>
+       <y>130</y>
+       <width>78</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>No. of scans</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_82">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>151</y>
+       <width>115</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:EPOCHTimeOfLastTune</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_81">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>130</y>
+       <width>115</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:NumScansFromLastTune</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+    <zorder>catextentry_81</zorder>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_10">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>732</y>
+      <width>380</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Detector Distances</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>25</y>
+       <width>227</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>note: Keep USAXS SDD &gt; 400mm!</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_54">
+     <property name="geometry">
+      <rect>
+       <x>205</x>
+       <y>46</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SAD, mm&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_54">
+     <property name="geometry">
+      <rect>
+       <x>74</x>
+       <y>46</y>
+       <width>93</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:SDD</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_57">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>46</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SDD, mm</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_55">
+     <property name="geometry">
+      <rect>
+       <x>266</x>
+       <y>46</y>
+       <width>93</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:SAD</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_16">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>810</y>
+      <width>380</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Starting Y positions, mm</string>
+    </property>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>25</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_111">
+     <property name="geometry">
+      <rect>
+       <x>266</x>
+       <y>28</y>
+       <width>93</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:DY0.VAL</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_66">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>28</y>
+       <width>52</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>AY0, mm</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_82">
+     <property name="geometry">
+      <rect>
+       <x>205</x>
+       <y>28</y>
+       <width>53</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>DY0, mm</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_109">
+     <property name="geometry">
+      <rect>
+       <x>74</x>
+       <y>28</y>
+       <width>93</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:AY0.VAL</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
    </widget>
   </widget>
  </widget>
@@ -2717,6 +2898,11 @@
    <class>caMessageButton</class>
    <extends>QPushButton</extends>
    <header>caMessageButton</header>
+  </customwidget>
+  <customwidget>
+   <class>caToggleButton</class>
+   <extends>QCheckBox</extends>
+   <header>caToggleButton</header>
   </customwidget>
   <customwidget>
    <class>caLineEdit</class>

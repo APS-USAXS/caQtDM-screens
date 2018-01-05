@@ -329,13 +329,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>USAXS Femto Amplifier photodiode controls</string>
+     <string>USAXS Femto Amplifier 300;USAXS Femto Amplifier 200</string>
     </property>
     <property name="files">
-     <string>femto300pd.ui</string>
+     <string>femtopdFine.ui;femtopdFine.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcUSX:,H=pd01:,F=seq02:,PS=9idcLAX:,SS=vsc:c0,SC=4</string>
+     <string>P=9idcUSX:,H=pd01:,F=seq02:,PS=9idcLAX:,SS=vsc:c0,SC=4;P=9idcUSX:, H=pd01:, F=seq01:, PS=9idcLAX:, SS=vsc:c0, SC=4</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -695,55 +695,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>09ID Beamline Components</string>
+     <string>09ID Beamline Components;9id_user;9ibdb_user</string>
     </property>
     <property name="files">
-     <string>9ida.ui</string>
+     <string>9ida.ui;9id_user.ui;9idb_user.ui</string>
     </property>
     <property name="args">
-     <string/>
-    </property>
-    <property name="stackingMode" stdset="0">
-     <enum>caRowColMenu::Menu</enum>
-    </property>
-    <property name="removeParent" stdset="0">
-     <string>false</string>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="caRelatedDisplay_7">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>80</y>
-      <width>151</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string>-display USAXS scan terms</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>140</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string>USAXS scan terms</string>
-    </property>
-    <property name="files">
-     <string>USAXS_terms.ui</string>
-    </property>
-    <property name="args">
-     <string/>
+     <string>;;</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -1056,7 +1014,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="label">
-     <string>-brq motors</string>
+     <string notr="true">-softglue</string>
     </property>
     <property name="foreground">
      <color>
@@ -1073,13 +1031,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>BRQ PZT motors 1-4;BRQ pico motors 5-10</string>
+     <string>SoftGlue</string>
     </property>
     <property name="files">
-     <string>motor4xU.ui;motor6xU.ui</string>
+     <string>softGlueMenu.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcUSX:, M1=pzt:m1, M2=pzt:m2, M3=pzt:m3, M4=pzt:m4;P=9idcUSX:, M1=pic:m5, M2=pic:m6, M3=pic:m7, M4=pic:m8, M5=pic:m9, M6=pic:m10</string>
+     <string>P=9idcLAX:, H=softGlue:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -1487,10 +1445,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>DX, DY motors;USAXS photodiode controls;CCD focus</string>
+     <string>DX, DY motors;CCD focus</string>
     </property>
     <property name="files">
-     <string>motor2xU.ui;femto300pd.ui;motorxU.ui</string>
+     <string>motor2xU.ui;motorxU.ui</string>
     </property>
     <property name="args">
      <string>P=9idcLAX:, M1=m58:c2:m3, M2=aero:c2:m1;P=9idcUSX:, H=pd01:, F=seq02:, PS=9idcLAX:, SS=vsc:c0, SC=4;P=9idcLAX:, M=m58:c1:m3</string>
@@ -2196,7 +2154,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcRIO:Galil2Bo8_STATUS.VAL</string>
+     <string notr="true">9idcUSX:pf4:displayBit1B</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_3">
@@ -2241,7 +2199,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string>9idcUSX:omm01:reg03:bo07</string>
+     <string notr="true">9idcUSX:pf4:displayBit2B</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_4">
@@ -2286,7 +2244,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string>9idcUSX:omm01:reg03:bo06</string>
+     <string notr="true">9idcUSX:pf4:displayBit3B</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_5">
@@ -2331,7 +2289,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string>9idcUSX:omm01:reg03:bo05</string>
+     <string notr="true">9idcUSX:pf4:displayBit4B</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_6">
@@ -2376,7 +2334,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string>9idcUSX:omm01:reg03:bo04</string>
+     <string notr="true">9idcUSX:pf4:displayBit1A</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_7">
@@ -2421,7 +2379,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string>9idcUSX:omm01:reg03:bo03</string>
+     <string notr="true">9idcUSX:pf4:displayBit2A</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_8">
@@ -2466,7 +2424,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string>9idcUSX:omm01:reg03:bo01</string>
+     <string notr="true">9idcUSX:pf4:displayBit4A</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_9">
@@ -2511,7 +2469,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string>9idcUSX:omm01:reg03:bo02</string>
+     <string notr="true">9idcUSX:pf4:displayBit3A</string>
     </property>
    </widget>
    <widget class="caRelatedDisplay" name="caRelatedDisplay_24">
@@ -3009,8 +2967,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_27">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>105</y>
+      <x>20</x>
+      <y>60</y>
       <width>151</width>
       <height>21</height>
      </rect>
@@ -3033,109 +2991,19 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>USAXS parameters;USAXS-Pin parameters</string>
+     <string>USAXS All parameters;USAXS One page parameters;USAXS Parameters short;USAXS-Pin parameters;USAXS terms</string>
     </property>
     <property name="files">
-     <string>usaxs_parameters.ui;usaxs_pin_parameters.ui</string>
+     <string>usaxs_parameters_all.ui;usaxs_parameters_onePage.ui;usaxs_parameters.ui;usaxs_pin_parameters.ui;USAXS_terms.ui</string>
     </property>
     <property name="args">
-     <string>;</string>
+     <string>;;;;</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
     </property>
     <property name="removeParent" stdset="0">
      <string>false;false</string>
-    </property>
-   </widget>
-   <widget class="caPolyLine" name="caPolygon_14">
-    <property name="geometry">
-     <rect>
-      <x>482</x>
-      <y>196</y>
-      <width>9</width>
-      <height>15</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>82</red>
-      <green>218</green>
-      <blue>59</blue>
-     </color>
-    </property>
-    <property name="linestyle" stdset="0">
-     <enum>caPolyLine::Solid</enum>
-    </property>
-    <property name="lineSize">
-     <number>2</number>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>82</red>
-      <green>218</green>
-      <blue>59</blue>
-     </color>
-    </property>
-    <property name="xyPairs" stdset="0">
-     <string notr="true">0,11;6,15;6,3;0,0;0,11</string>
-    </property>
-    <property name="fillstyle" stdset="0">
-     <enum>caPolyLine::Filled</enum>
-    </property>
-    <property name="polystyle" stdset="0">
-     <enum>caPolyLine::Polygon</enum>
-    </property>
-    <property name="visibility">
-     <enum>caPolyLine::IfZero</enum>
-    </property>
-    <property name="channel" stdset="0">
-     <string>9idcUSX:ath01:reg01:bo02</string>
-    </property>
-   </widget>
-   <widget class="caPolyLine" name="caPolygon_15">
-    <property name="geometry">
-     <rect>
-      <x>490</x>
-      <y>197</y>
-      <width>8</width>
-      <height>14</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>115</red>
-      <green>255</green>
-      <blue>107</blue>
-     </color>
-    </property>
-    <property name="linestyle" stdset="0">
-     <enum>caPolyLine::Solid</enum>
-    </property>
-    <property name="lineSize">
-     <number>2</number>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>115</red>
-      <green>255</green>
-      <blue>107</blue>
-     </color>
-    </property>
-    <property name="xyPairs" stdset="0">
-     <string notr="true">0,11;6,15;6,3;0,0;0,11</string>
-    </property>
-    <property name="fillstyle" stdset="0">
-     <enum>caPolyLine::Filled</enum>
-    </property>
-    <property name="polystyle" stdset="0">
-     <enum>caPolyLine::Polygon</enum>
-    </property>
-    <property name="visibility">
-     <enum>caPolyLine::IfZero</enum>
-    </property>
-    <property name="channel" stdset="0">
-     <string>9idcUSX:ath01:reg01:bo01</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_16">
@@ -3255,61 +3123,19 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>SAXS x,y,z;WAXS x;Guard Slits;Guard Slits blades;Guard Slits x, y;Align SAXS page;;Pilatus</string>
+     <string>SAXS x,y,z;WAXS x;Guard Slits;Guard Slits blades;Guard Slits x, y;Align SAXS page;Pilatus</string>
     </property>
     <property name="files">
-     <string>motor3xU.ui;motorxU.ui;slist;motor4xU.ui;motor2xU.ui;AlignPapage;;pilatusDetector.ui</string>
+     <string>motor3xU.ui;motorxU.ui;slist;motor4xU.ui;motor2xU.ui;AlignPapage;pilatusDetector.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX:, M1=mxv:c0:m1, M2=mxv:c0:m2, M3=mxv:c0:m8;P=9idcLAX:, M=m58:c0:m4;P=9idcLAX:, M1=mxv:c0:m1;P=9idcLAX:, M1=mxv:c0:m3,  M2=mxv:c0:m4,  M3=mxv:c0:m5,  M4=mxv:c0:m6;P=9idcLAX:, M1=m58:c1:m5, M2=m58:c0:m6;;P=9idcPIL:, R=cam1:</string>
+     <string>P=9idcLAX:, M1=mxv:c0:m1, M2=mxv:c0:m2, M3=mxv:c0:m8;P=9idcLAX:, M=m58:c0:m4;P=9idcLAX:, M1=mxv:c0:m1;P=9idcLAX:, M1=mxv:c0:m3,  M2=mxv:c0:m4,  M3=mxv:c0:m5,  M4=mxv:c0:m6;P=9idcLAX:, M1=m58:c1:m5, M2=m58:c0:m6;P=9idcPIL:, R=cam1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
     </property>
     <property name="removeParent" stdset="0">
      <string>false;false</string>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="caRelatedDisplay_29">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>670</y>
-      <width>100</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true">-graph</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>140</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true"/>
-    </property>
-    <property name="files">
-     <string notr="true">Graphs.ui</string>
-    </property>
-    <property name="args">
-     <string notr="true">P=9idcLAX:</string>
-    </property>
-    <property name="stackingMode" stdset="0">
-     <enum>caRowColMenu::Menu</enum>
-    </property>
-    <property name="removeParent" stdset="0">
-     <string>false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false</string>
     </property>
    </widget>
    <widget class="caRelatedDisplay" name="caRelatedDisplay_30">
@@ -3339,13 +3165,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true"/>
+     <string notr="true">FLyScan main;Scaler</string>
     </property>
     <property name="files">
-     <string notr="true"/>
+     <string notr="true">USAXSfly.ui;SIS38XX.ui</string>
     </property>
     <property name="args">
-     <string notr="true"/>
+     <string notr="true">P=9idcLAX:,Q=USAXSfly:;P=9idcLAX:3820:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -3381,13 +3207,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SAXS Pilatus;WAXS Pilatus;</string>
+     <string notr="true">SAXS Pilatus;WAXS Pilatus;Apogee;BlackFly;DP Perkin Elmer;Mythen DP</string>
     </property>
     <property name="files">
-     <string notr="true">pilatusDetector.ui;pilatusDetector.ui</string>
+     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;apogee.ui;PerkinElmer.ui;mythen.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;</string>
+     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -3593,10 +3419,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true"/>
     </property>
     <property name="files">
-     <string notr="true"/>
+     <string notr="true">EPS_ID_FE.ui;</string>
     </property>
     <property name="args">
-     <string notr="true"/>
+     <string notr="true">a=09,WIN=BE,TYPE=BEWIN,ID1=09ids,disp=Controls_new_BIV;</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -3897,49 +3723,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="channel" stdset="0">
      <string>9idcLAX:userCalc1.VAL</string>
-    </property>
-   </widget>
-   <widget class="caLabel" name="caLabel_46">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>10</y>
-      <width>311</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>9ID Plan View</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
     </property>
    </widget>
    <widget class="caLineEdit" name="calineedit_47">
@@ -4943,77 +4726,97 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <height>34</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_6">
-     <item>
-      <widget class="QLabel" name="label_4">
-       <property name="text">
-        <string>mode:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_4">
-       <item>
-        <widget class="caLed" name="caled">
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
-         </property>
-         <property name="trueColor">
-          <color>
-           <red>0</red>
-           <green>255</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="trueValue">
-          <string notr="true">2</string>
-         </property>
-         <property name="falseValue">
-          <string notr="true">2</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_5">
-         <property name="text">
-          <string>USAXS</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_5">
-       <item>
-        <widget class="caLed" name="caled_2">
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
-         </property>
-         <property name="trueColor">
-          <color>
-           <red>0</red>
-           <green>255</green>
-           <blue>0</blue>
-          </color>
-         </property>
-         <property name="trueValue">
-          <string notr="true">3</string>
-         </property>
-         <property name="falseValue">
-          <string notr="true">1</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_6">
-         <property name="text">
-          <string>SAXS</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-    </layout>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>9</y>
+       <width>39</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>mode:</string>
+     </property>
+    </widget>
+    <widget class="caLed" name="caled_2">
+     <property name="geometry">
+      <rect>
+       <x>143</x>
+       <y>10</y>
+       <width>18</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+     </property>
+     <property name="trueColor">
+      <color>
+       <red>0</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="trueValue">
+      <string notr="true">3</string>
+     </property>
+     <property name="falseValue">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>167</x>
+       <y>10</y>
+       <width>31</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SAXS</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>95</x>
+       <y>10</y>
+       <width>40</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>USAXS</string>
+     </property>
+    </widget>
+    <widget class="caLed" name="caled">
+     <property name="geometry">
+      <rect>
+       <x>71</x>
+       <y>10</y>
+       <width>18</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+     </property>
+     <property name="trueColor">
+      <color>
+       <red>0</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="trueValue">
+      <string notr="true">2</string>
+     </property>
+     <property name="falseValue">
+      <string notr="true"/>
+     </property>
+    </widget>
    </widget>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
@@ -6108,7 +5911,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">4</string>
     </property>
     <property name="falseValue">
-     <string notr="true">1</string>
+     <string notr="true"/>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -6147,7 +5950,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">1</string>
     </property>
     <property name="falseValue">
-     <string notr="true">1</string>
+     <string notr="true"/>
     </property>
    </widget>
    <widget class="QLabel" name="label_12">
@@ -6186,7 +5989,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">-1</string>
     </property>
     <property name="falseValue">
-     <string notr="true">1</string>
+     <string notr="true"/>
     </property>
    </widget>
    <widget class="QLabel" name="label_15">
@@ -6225,7 +6028,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">5</string>
     </property>
     <property name="falseValue">
-     <string notr="true">1</string>
+     <string notr="true"/>
     </property>
    </widget>
    <widget class="QLabel" name="label_16">
@@ -6239,51 +6042,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="text">
      <string>Imaging</string>
-    </property>
-   </widget>
-   <widget class="caMessageButton" name="camessagebutton">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>518</y>
-      <width>100</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
-    </property>
-    <property name="label">
-     <string notr="true">USAXS mode</string>
-    </property>
-    <property name="releaseMessage">
-     <string notr="true">2</string>
-    </property>
-   </widget>
-   <widget class="caLed" name="caled_9">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>520</y>
-      <width>18</width>
-      <height>14</height>
-     </rect>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
-    </property>
-    <property name="trueColor">
-     <color>
-      <red>0</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="trueValue">
-     <string notr="true">2</string>
-    </property>
-    <property name="falseValue">
-     <string notr="true">2</string>
     </property>
    </widget>
    <zorder>layoutWidget</zorder>
@@ -6345,8 +6103,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caRectangle_25</zorder>
    <zorder>caRectangle_26</zorder>
    <zorder>caRectangle_27</zorder>
-   <zorder>caPolygon_14</zorder>
-   <zorder>caPolygon_15</zorder>
    <zorder>caPolygon_16</zorder>
    <zorder>caPolygon_17</zorder>
    <zorder>caMessageButton_0</zorder>
@@ -6357,7 +6113,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caRelatedDisplay_4</zorder>
    <zorder>caRelatedDisplay_5</zorder>
    <zorder>caRelatedDisplay_6</zorder>
-   <zorder>caRelatedDisplay_7</zorder>
    <zorder>caRelatedDisplay_8</zorder>
    <zorder>caRelatedDisplay_9</zorder>
    <zorder>Galil</zorder>
@@ -6379,7 +6134,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caRelatedDisplay_26</zorder>
    <zorder>caRelatedDisplay_27</zorder>
    <zorder>caRelatedDisplay_28</zorder>
-   <zorder>caRelatedDisplay_29</zorder>
    <zorder>caRelatedDisplay_30</zorder>
    <zorder>caRelatedDisplay_31</zorder>
    <zorder>caRelatedDisplay_32</zorder>
@@ -6395,7 +6149,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caRelatedDisplay_43</zorder>
    <zorder>caPolyLine_3</zorder>
    <zorder>caPolyLine_4</zorder>
-   <zorder>caLabel_46</zorder>
    <zorder>calineedit_47</zorder>
    <zorder>calineedit_48</zorder>
    <zorder>caPolygon_19</zorder>
@@ -6429,8 +6182,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>label_15</zorder>
    <zorder>caled_8</zorder>
    <zorder>label_16</zorder>
-   <zorder>camessagebutton</zorder>
-   <zorder>caled_9</zorder>
   </widget>
  </widget>
  <customwidgets>

@@ -1907,21 +1907,6 @@
         <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneOnQdo</string>
        </property>
       </widget>
-      <zorder>catextentry_74</zorder>
-      <zorder>label_72</zorder>
-      <zorder>catextentry_76</zorder>
-      <zorder>label_73</zorder>
-      <zorder>label_75</zorder>
-      <zorder>catextentry_75</zorder>
-      <zorder>label_73</zorder>
-      <zorder>label_75</zorder>
-      <zorder>catextentry_76</zorder>
-      <zorder>catextentry_75</zorder>
-      <zorder>catogglebutton_4</zorder>
-      <zorder>catogglebutton_2</zorder>
-      <zorder>catogglebutton_3</zorder>
-      <zorder>catogglebutton_8</zorder>
-      <zorder>catogglebutton_9</zorder>
      </widget>
      <widget class="QGroupBox" name="groupBox_13">
       <property name="geometry">
@@ -2205,7 +2190,10 @@ caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">caput 9idcLAX:m58:c2:m8.VAL  2.5;caput 9idcLAX:m58:c2:m7.VAL  1.5;caput 9idcLAX:GSlit1H:size.VAL  2.8;caput 9idcLAX:SGSlit1V:size.VAL  1.6;
+       <string notr="true">caput 9idcLAX:m58:c2:m8.VAL  2.5
+caput 9idcLAX:m58:c2:m7.VAL  1.5
+caput 9idcLAX:GSlit1H:size.VAL  2.8
+caput 9idcLAX:SGSlit1V:size.VAL  1.6;
 </string>
       </property>
      </widget>

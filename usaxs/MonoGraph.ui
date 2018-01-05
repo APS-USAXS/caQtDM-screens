@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="caFrame" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>912</width>
+    <height>908</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="caStripPlot" name="LevelsPlot">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>861</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="Title" stdset="0">
+    <string notr="true">Levels 9id Mono</string>
+   </property>
+   <property name="TitleX">
+    <string notr="true">Time</string>
+   </property>
+   <property name="TitleY">
+    <string notr="true">Levels %</string>
+   </property>
+   <property name="channels" stdset="0">
+    <string>9idCRYO:MainLevel:val;9idCRYO:BufferLevel:val</string>
+   </property>
+   <property name="units">
+    <enum>caStripPlot::Minute</enum>
+   </property>
+   <property name="period">
+    <double>6000.000000000000000</double>
+   </property>
+   <property name="refreshRate" stdset="0">
+    <enum>caStripPlot::Low</enum>
+   </property>
+   <property name="YaxisLimitsMax_1">
+    <double>85.000000000000000</double>
+   </property>
+   <property name="YaxisLimitsMin_1">
+    <double>65.000000000000000</double>
+   </property>
+   <property name="YaxisScalingMax_1" stdset="0">
+    <enum>caStripPlot::User</enum>
+   </property>
+   <property name="YaxisScalingMin_1" stdset="0">
+    <enum>caStripPlot::User</enum>
+   </property>
+   <property name="color_1">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="YaxisLimitsMax_2">
+    <double>70.000000000000000</double>
+   </property>
+   <property name="YaxisLimitsMin_2">
+    <double>63.000000000000000</double>
+   </property>
+   <property name="YaxisScalingMax_2" stdset="0">
+    <enum>caStripPlot::User</enum>
+   </property>
+   <property name="YaxisScalingMin_2" stdset="0">
+    <enum>caStripPlot::User</enum>
+   </property>
+   <property name="background">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caStripPlot" name="Temperature">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>861</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="Title" stdset="0">
+    <string notr="true">Temperature 9id Mono</string>
+   </property>
+   <property name="TitleX">
+    <string notr="true">Time</string>
+   </property>
+   <property name="TitleY">
+    <string notr="true">Temperature [K]</string>
+   </property>
+   <property name="channels" stdset="0">
+    <string>9ida:DP41:s1:temp</string>
+   </property>
+   <property name="units">
+    <enum>caStripPlot::Minute</enum>
+   </property>
+   <property name="period">
+    <double>6000.000000000000000</double>
+   </property>
+   <property name="refreshRate" stdset="0">
+    <enum>caStripPlot::Low</enum>
+   </property>
+   <property name="YaxisLimitsMax_1">
+    <double>85.000000000000000</double>
+   </property>
+   <property name="YaxisLimitsMin_1">
+    <double>65.000000000000000</double>
+   </property>
+   <property name="YaxisScalingMax_1" stdset="0">
+    <enum>caStripPlot::User</enum>
+   </property>
+   <property name="YaxisScalingMin_1" stdset="0">
+    <enum>caStripPlot::User</enum>
+   </property>
+   <property name="color_1">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="YaxisLimitsMax_2">
+    <double>94.000000000000000</double>
+   </property>
+   <property name="YaxisLimitsMin_2">
+    <double>88.000000000000000</double>
+   </property>
+   <property name="YaxisScalingMax_2" stdset="0">
+    <enum>caStripPlot::User</enum>
+   </property>
+   <property name="YaxisScalingMin_2" stdset="0">
+    <enum>caStripPlot::User</enum>
+   </property>
+   <property name="background">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="caStripPlot" name="Temperature_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>610</y>
+     <width>861</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="Title" stdset="0">
+    <string notr="true">Pressure and feedback 9id Mono</string>
+   </property>
+   <property name="TitleX">
+    <string notr="true">Time</string>
+   </property>
+   <property name="TitleY">
+    <string notr="true">Pressuer/Feedback</string>
+   </property>
+   <property name="channels" stdset="0">
+    <string>9idCRYO:PressureDiff:val;9ida:DAC1_1</string>
+   </property>
+   <property name="units">
+    <enum>caStripPlot::Minute</enum>
+   </property>
+   <property name="period">
+    <double>6000.000000000000000</double>
+   </property>
+   <property name="refreshRate" stdset="0">
+    <enum>caStripPlot::Low</enum>
+   </property>
+   <property name="YAxisScaling" stdset="0">
+    <enum>caStripPlot::autoScale</enum>
+   </property>
+   <property name="YaxisLimitsMax_1">
+    <double>85.000000000000000</double>
+   </property>
+   <property name="YaxisLimitsMin_1">
+    <double>65.000000000000000</double>
+   </property>
+   <property name="YaxisScalingMax_1" stdset="0">
+    <enum>caStripPlot::Channel</enum>
+   </property>
+   <property name="YaxisScalingMin_1" stdset="0">
+    <enum>caStripPlot::Channel</enum>
+   </property>
+   <property name="color_1">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="YaxisLimitsMax_2">
+    <double>94.000000000000000</double>
+   </property>
+   <property name="YaxisLimitsMin_2">
+    <double>88.000000000000000</double>
+   </property>
+   <property name="YaxisScalingMax_2" stdset="0">
+    <enum>caStripPlot::Channel</enum>
+   </property>
+   <property name="YaxisScalingMin_2" stdset="0">
+    <enum>caStripPlot::Channel</enum>
+   </property>
+   <property name="background">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caStripPlot</class>
+   <extends>QFrame</extends>
+   <header>caStripPlot</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

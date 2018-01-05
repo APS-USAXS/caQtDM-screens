@@ -3500,13 +3500,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Mono energy control;Feedback;Steering;2nd Xtal piezo</string>
+     <string notr="true">Mono energy control;Feedback;Steering;2nd Xtal piezo;Mono Levels Graph</string>
     </property>
     <property name="files">
-     <string notr="true">kohzuSeqCtl_All.ui;fb_epid.ui;motor2xU.ui;singleDAC.ui</string>
+     <string notr="true">kohzuSeqCtl_All.ui;fb_epid.ui;motor2xU.ui;singleDAC.ui;MonoGraph.ui;</string>
     </property>
     <property name="args">
-     <string notr="true">P=9ida:;P=9idcLAX:fbe:omega;P=9ida:,M1=m16,M2=m15;P=9ida:,D=1,C=1;</string>
+     <string notr="true">P=9ida:;P=9idcLAX:fbe:omega;P=9ida:,M1=m16,M2=m15;P=9ida:,D=1,C=1;:;</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

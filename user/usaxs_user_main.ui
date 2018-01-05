@@ -703,60 +703,6 @@
       <string>Fly Scan Not Saved</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBox_6">
-     <property name="geometry">
-      <rect>
-       <x>380</x>
-       <y>55</y>
-       <width>250</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Stop after this scan?</string>
-     </property>
-    </widget>
-    <widget class="QCheckBox" name="checkBox_4">
-     <property name="geometry">
-      <rect>
-       <x>380</x>
-       <y>35</y>
-       <width>250</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Run preUSAXStune next?</string>
-     </property>
-    </widget>
-    <widget class="QCheckBox" name="checkBox_7">
-     <property name="geometry">
-      <rect>
-       <x>380</x>
-       <y>15</y>
-       <width>250</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Pause scans?</string>
-     </property>
-    </widget>
     <widget class="caTextEntry" name="catextentry_5">
      <property name="geometry">
       <rect>
@@ -810,227 +756,340 @@
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
+    <widget class="caToggleButton" name="catogglebutton_10">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>60</y>
+       <width>285</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Stop after this scan?</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:StopBeforeNextScan</string>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton_11">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>35</y>
+       <width>250</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Run preUSAXStune next?</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneNext</string>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton_12">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>10</y>
+       <width>250</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Pause Scans</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:PauseBeforeNextScan</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>880</x>
-      <y>380</y>
-      <width>181</width>
+      <x>1030</x>
+      <y>260</y>
+      <width>81</width>
       <height>111</height>
      </rect>
     </property>
     <property name="title">
-     <string>ranges</string>
+     <string>Diode</string>
     </property>
-    <layout class="QGridLayout" name="gridLayout_7">
-     <property name="spacing">
-      <number>2</number>
+    <widget class="caGraphics" name="caRectangle_27">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>59</width>
+       <height>14</height>
+      </rect>
      </property>
-     <item row="0" column="0">
-      <widget class="caGraphics" name="cagraphics_21">
-       <property name="foreground">
-        <color>
-         <red>255</red>
-         <green>176</green>
-         <blue>255</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-       <property name="lineColor">
-        <color>
-         <red>128</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="caGraphics" name="cagraphics_22">
-       <property name="foreground">
-        <color>
-         <red>255</red>
-         <green>176</green>
-         <blue>255</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-       <property name="lineColor">
-        <color>
-         <red>128</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="caGraphics" name="cagraphics_23">
-       <property name="foreground">
-        <color>
-         <red>214</red>
-         <green>127</green>
-         <blue>226</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-       <property name="lineColor">
-        <color>
-         <red>128</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="caGraphics" name="cagraphics_24">
-       <property name="foreground">
-        <color>
-         <red>214</red>
-         <green>127</green>
-         <blue>226</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-       <property name="lineColor">
-        <color>
-         <red>128</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="caGraphics" name="cagraphics_25">
-       <property name="foreground">
-        <color>
-         <red>174</red>
-         <green>78</green>
-         <blue>188</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-       <property name="lineColor">
-        <color>
-         <red>128</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="caGraphics" name="cagraphics_26">
-       <property name="foreground">
-        <color>
-         <red>174</red>
-         <green>78</green>
-         <blue>188</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-       <property name="lineColor">
-        <color>
-         <red>128</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="caGraphics" name="cagraphics_27">
-       <property name="foreground">
-        <color>
-         <red>139</red>
-         <green>26</green>
-         <blue>150</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-       <property name="lineColor">
-        <color>
-         <red>128</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1">
-      <widget class="caGraphics" name="cagraphics_28">
-       <property name="foreground">
-        <color>
-         <red>139</red>
-         <green>26</green>
-         <blue>150</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-       <property name="lineColor">
-        <color>
-         <red>128</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="caGraphics" name="cagraphics_29">
-       <property name="foreground">
-        <color>
-         <red>97</red>
-         <green>10</green>
-         <blue>117</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-       <property name="lineColor">
-        <color>
-         <red>128</red>
-         <green>0</green>
-         <blue>255</blue>
-        </color>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="1">
-      <widget class="caGraphics" name="cagraphics_30">
-       <property name="foreground">
-        <color>
-         <red>97</red>
-         <green>10</green>
-         <blue>117</blue>
-        </color>
-       </property>
-       <property name="fillstyle" stdset="0">
-        <enum>caGraphics::Filled</enum>
-       </property>
-      </widget>
-     </item>
-    </layout>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>176</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="linestyle" stdset="0">
+      <enum>caGraphics::Solid</enum>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>255</red>
+       <green>176</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caGraphics::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string>A&lt;=0</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string>9idcUSX:pd01:seq02:reqrange</string>
+     </property>
+     <property name="form">
+      <enum>caGraphics::Rectangle</enum>
+     </property>
+    </widget>
+    <widget class="caGraphics" name="caRectangle_25">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>59</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>174</red>
+       <green>78</green>
+       <blue>188</blue>
+      </color>
+     </property>
+     <property name="linestyle" stdset="0">
+      <enum>caGraphics::Solid</enum>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>174</red>
+       <green>78</green>
+       <blue>188</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caGraphics::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string>A&lt;=2</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string>9idcUSX:pd01:seq02:reqrange</string>
+     </property>
+     <property name="form">
+      <enum>caGraphics::Rectangle</enum>
+     </property>
+    </widget>
+    <widget class="caGraphics" name="caRectangle_24">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>65</y>
+       <width>59</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>139</red>
+       <green>26</green>
+       <blue>150</blue>
+      </color>
+     </property>
+     <property name="linestyle" stdset="0">
+      <enum>caGraphics::Solid</enum>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>139</red>
+       <green>26</green>
+       <blue>150</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caGraphics::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string>A&lt;=3</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string>9idcUSX:pd01:seq02:reqrange</string>
+     </property>
+     <property name="form">
+      <enum>caGraphics::Rectangle</enum>
+     </property>
+    </widget>
+    <widget class="caGraphics" name="caRectangle_23">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>59</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>97</red>
+       <green>10</green>
+       <blue>117</blue>
+      </color>
+     </property>
+     <property name="linestyle" stdset="0">
+      <enum>caGraphics::Solid</enum>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>97</red>
+       <green>10</green>
+       <blue>117</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caGraphics::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string>A&lt;=5</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string>9idcUSX:pd01:seq02:reqrange</string>
+     </property>
+     <property name="form">
+      <enum>caGraphics::Rectangle</enum>
+     </property>
+    </widget>
+    <widget class="caGraphics" name="caRectangle_26">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>35</y>
+       <width>59</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>127</green>
+       <blue>226</blue>
+      </color>
+     </property>
+     <property name="linestyle" stdset="0">
+      <enum>caGraphics::Solid</enum>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>214</red>
+       <green>127</green>
+       <blue>226</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caGraphics::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string>A&lt;=1</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string>9idcUSX:pd01:seq02:reqrange</string>
+     </property>
+     <property name="form">
+      <enum>caGraphics::Rectangle</enum>
+     </property>
+    </widget>
    </widget>
    <widget class="QTabWidget" name="tabWidget_3">
     <property name="geometry">
@@ -1042,7 +1101,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab_7">
      <attribute name="title">
@@ -1533,10 +1592,10 @@
      <widget class="QGroupBox" name="groupBox_7">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>10</y>
-        <width>281</width>
-        <height>271</height>
+        <x>10</x>
+        <y>0</y>
+        <width>301</width>
+        <height>291</height>
        </rect>
       </property>
       <property name="title">
@@ -1788,13 +1847,13 @@
         </font>
        </property>
        <property name="text">
-        <string>measure pin transmission?</string>
+        <string>Measure pin transmission?</string>
        </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS:TR_MeasurePinTrans</string>
        </property>
       </widget>
-      <widget class="QCheckBox" name="checkBox_3">
+      <widget class="caToggleButton" name="catogglebutton_8">
        <property name="geometry">
         <rect>
          <x>10</x>
@@ -1803,23 +1862,11 @@
          <height>20</height>
         </rect>
        </property>
-       <property name="font">
-        <font>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>Run preUSAXStune on qdo?</string>
-       </property>
-      </widget>
-      <widget class="QCheckBox" name="checkBox_2">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>240</y>
-         <width>240</width>
-         <height>20</height>
-        </rect>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
        <property name="font">
         <font>
@@ -1828,6 +1875,36 @@
        </property>
        <property name="text">
         <string>Run preUSAXStune next?</string>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneNext</string>
+       </property>
+      </widget>
+      <widget class="caToggleButton" name="catogglebutton_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>240</y>
+         <width>285</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Run preUSAXStune on CollectData?</string>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneOnQdo</string>
        </property>
       </widget>
       <zorder>catextentry_74</zorder>
@@ -1843,14 +1920,14 @@
       <zorder>catogglebutton_4</zorder>
       <zorder>catogglebutton_2</zorder>
       <zorder>catogglebutton_3</zorder>
-      <zorder>checkBox_3</zorder>
-      <zorder>checkBox_2</zorder>
+      <zorder>catogglebutton_8</zorder>
+      <zorder>catogglebutton_9</zorder>
      </widget>
      <widget class="QGroupBox" name="groupBox_13">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>10</y>
+        <x>320</x>
+        <y>0</y>
         <width>311</width>
         <height>171</height>
        </rect>
@@ -2069,168 +2146,6 @@
         <enum>caLineEdit::Static</enum>
        </property>
       </widget>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tab_11">
-     <attribute name="title">
-      <string>SAXS/WAXS parameters</string>
-     </attribute>
-     <widget class="QGroupBox" name="groupBox_9">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>451</width>
-        <height>111</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>SAXS/WAXS Image Parameters</string>
-      </property>
-      <layout class="QGridLayout" name="gridLayout_4">
-       <item row="0" column="1">
-        <widget class="QLabel" name="label_83">
-         <property name="text">
-          <string>SAXS</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="2">
-        <widget class="QLabel" name="label_84">
-         <property name="text">
-          <string>WAXS</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="label_82">
-         <property name="font">
-          <font>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Acquire Time [s]</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="caTextEntry" name="catextentry_87">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:AcquireTime</string>
-         </property>
-         <property name="background">
-          <color>
-           <red>115</red>
-           <green>215</green>
-           <blue>253</blue>
-          </color>
-         </property>
-         <property name="colorMode">
-          <enum>caLineEdit::Static</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="caTextEntry" name="catextentry_88">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_WAXS:AcquireTime</string>
-         </property>
-         <property name="background">
-          <color>
-           <red>115</red>
-           <green>215</green>
-           <blue>253</blue>
-          </color>
-         </property>
-         <property name="colorMode">
-          <enum>caLineEdit::Static</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="label_95">
-         <property name="font">
-          <font>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Number of Images &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="caTextEntry" name="catextentry_89">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:NumImages</string>
-         </property>
-         <property name="background">
-          <color>
-           <red>115</red>
-           <green>215</green>
-           <blue>253</blue>
-          </color>
-         </property>
-         <property name="colorMode">
-          <enum>caLineEdit::Static</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="caTextEntry" name="catextentry_90">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_WAXS:NumImages</string>
-         </property>
-         <property name="background">
-          <color>
-           <red>115</red>
-           <green>215</green>
-           <blue>253</blue>
-          </color>
-         </property>
-         <property name="colorMode">
-          <enum>caLineEdit::Static</enum>
-         </property>
-        </widget>
-       </item>
-      </layout>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_8">
@@ -3067,7 +2982,7 @@ caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
      <rect>
       <x>880</x>
       <y>260</y>
-      <width>191</width>
+      <width>141</width>
       <height>111</height>
      </rect>
     </property>
@@ -3365,6 +3280,9 @@ caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
        </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcUSX:fem02:seq01:gain</string>
+       </property>
+       <property name="formatType">
+        <enum>caLineEdit::exponential</enum>
        </property>
       </widget>
      </item>

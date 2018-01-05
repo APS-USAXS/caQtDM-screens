@@ -6,798 +6,484 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>607</width>
-    <height>558</height>
+    <width>633</width>
+    <height>325</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,1,0,5">
+   <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,1,0">
     <item>
      <widget class="QWidget" name="widget" native="true">
-      <layout class="QHBoxLayout" name="horizontalLayout_2">
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1,0">
-         <item>
-          <widget class="QLabel" name="label">
-           <property name="font">
-            <font>
-             <pointsize>10</pointsize>
-            </font>
-           </property>
-           <property name="text">
-            <string>9ID-C USAXS-SAXS</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="label_2">
-           <property name="font">
-            <font>
-             <pointsize>16</pointsize>
-            </font>
-           </property>
-           <property name="text">
-            <string>Main View</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="label_3">
-           <property name="font">
-            <font>
-             <pointsize>6</pointsize>
-            </font>
-           </property>
-           <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;main.ui&lt;br/&gt;2017-09-13: prj&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-           </property>
-           <property name="wordWrap">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-      </layout>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>10</y>
+         <width>108</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Main View</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>10</y>
+         <width>62</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>6</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;main.ui&lt;br/&gt;2017-09-13: prj&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>124</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>9ID-C USAXS-SAXS</string>
+       </property>
+      </widget>
      </widget>
     </item>
     <item>
      <widget class="QGroupBox" name="groupBox_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="title">
        <string>USER Experiment Information</string>
       </property>
-      <layout class="QGridLayout" name="gridLayout_6" rowstretch="0,0,0">
-       <item row="1" column="0">
-        <widget class="QLabel" name="label_31">
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;User Name &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_30">
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Run Cycle &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="label_32">
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;GUP Number &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="caTextEntry" name="catextentry_47">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <family>Lucida Sans Typewriter</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:RunCycle</string>
-         </property>
-         <property name="background">
-          <color>
-           <red>115</red>
-           <green>215</green>
-           <blue>253</blue>
-          </color>
-         </property>
-         <property name="colorMode">
-          <enum>caLineEdit::Static</enum>
-         </property>
-         <property name="styleSheet" stdset="0">
-          <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="caTextEntry" name="catextentry_49">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <family>Lucida Sans Typewriter</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:GUPNumber</string>
-         </property>
-         <property name="background">
-          <color>
-           <red>115</red>
-           <green>215</green>
-           <blue>253</blue>
-          </color>
-         </property>
-         <property name="colorMode">
-          <enum>caLineEdit::Static</enum>
-         </property>
-         <property name="styleSheet" stdset="0">
-          <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="caTextEntry" name="catextentry_48">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <family>Lucida Sans Typewriter</family>
-           <pointsize>9</pointsize>
-          </font>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:UserName</string>
-         </property>
-         <property name="background">
-          <color>
-           <red>115</red>
-           <green>215</green>
-           <blue>253</blue>
-          </color>
-         </property>
-         <property name="colorMode">
-          <enum>caLineEdit::Static</enum>
-         </property>
-         <property name="styleSheet" stdset="0">
-          <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
-    <item>
-     <widget class="QGroupBox" name="groupBox_2">
-      <property name="title">
-       <string>reset button</string>
-      </property>
-      <layout class="QHBoxLayout" name="horizontalLayout_5">
-       <item>
-        <spacer name="horizontalSpacer">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>459</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <widget class="caScriptButton" name="cascriptbutton">
-         <property name="label">
-          <string notr="true">Reset Order Numbers</string>
-         </property>
-         <property name="scriptCommand">
-          <string notr="true">caput 9idcLAX:USAXS:FS_OrderNumber  1;
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>57</y>
+         <width>100</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;User Name &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>27</y>
+         <width>100</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Run Cycle &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_32">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>87</y>
+         <width>100</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;GUP Number &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_47">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>25</y>
+         <width>300</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Lucida Sans Typewriter</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:RunCycle</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="styleSheet" stdset="0">
+        <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_49">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>85</y>
+         <width>300</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Lucida Sans Typewriter</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:GUPNumber</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="styleSheet" stdset="0">
+        <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_48">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>55</y>
+         <width>300</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Lucida Sans Typewriter</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:UserName</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="styleSheet" stdset="0">
+        <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+       </property>
+      </widget>
+      <widget class="caRelatedDisplay" name="carelateddisplay_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>191</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string>Users Main Display</string>
+       </property>
+       <property name="files">
+        <string>usaxs_user_main.ui</string>
+       </property>
+       <property name="args">
+        <string/>
+       </property>
+       <property name="fontScaleMode" stdset="0">
+        <enum>EPushButton::None</enum>
+       </property>
+      </widget>
+      <widget class="caRelatedDisplay" name="carelateddisplay_6">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>180</y>
+         <width>181</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="label">
+        <string notr="true">USAXS Staff Main</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string>Staff Main Display</string>
+       </property>
+       <property name="files">
+        <string>9idc_usaxs.ui</string>
+       </property>
+       <property name="args">
+        <string/>
+       </property>
+       <property name="fontScaleMode" stdset="0">
+        <enum>EPushButton::None</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+      <widget class="caRelatedDisplay" name="carelateddisplay_7">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>180</y>
+         <width>161</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="label">
+        <string notr="true">9 ID Synoptic</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string>9 ID Synoptic</string>
+       </property>
+       <property name="files">
+        <string>9ida.ui</string>
+       </property>
+       <property name="args">
+        <string/>
+       </property>
+       <property name="fontScaleMode" stdset="0">
+        <enum>EPushButton::None</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+      <widget class="caScriptButton" name="cascriptbutton">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>130</y>
+         <width>165</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="label">
+        <string notr="true">Reset Order Numbers</string>
+       </property>
+       <property name="checkBoxVisible" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="scriptCommand">
+        <string notr="true">caput 9idcLAX:USAXS:FS_OrderNumber  1;
 caput usaxs_pilatus1:cam1:FileNumber  1;
 caput usaxs_pilatus1:Nexus1:FileNumber  1;
 caput usaxs_pilatus2:Nexus1:FileNumber  1;
 caput usaxs_pilatus2:cam1:FileNumber  1
 </string>
-         </property>
-        </widget>
-       </item>
-      </layout>
+       </property>
+      </widget>
      </widget>
     </item>
     <item>
-     <widget class="QTabWidget" name="tabWidget">
+     <widget class="caLabel" name="caLabel_46">
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
+        <pointsize>4</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
        </font>
       </property>
-      <property name="currentIndex">
-       <number>0</number>
+      <property name="text">
+       <string>9ID Plan View</string>
       </property>
-      <widget class="QWidget" name="tab">
-       <attribute name="title">
-        <string>General Users</string>
-       </attribute>
-       <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="0,1">
-        <item>
-         <widget class="QWidget" name="widget_4" native="true">
-          <layout class="QVBoxLayout" name="verticalLayout_2" stretch="2,1,1,2">
-           <item>
-            <spacer name="verticalSpacer">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>20</width>
-               <height>40</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-           <item>
-            <widget class="caRelatedDisplay" name="carelateddisplay_4">
-             <property name="font">
-              <font>
-               <pointsize>12</pointsize>
-              </font>
-             </property>
-             <property name="foreground">
-              <color>
-               <red>255</red>
-               <green>255</green>
-               <blue>255</blue>
-              </color>
-             </property>
-             <property name="background">
-              <color>
-               <red>0</red>
-               <green>0</green>
-               <blue>255</blue>
-              </color>
-             </property>
-             <property name="labels">
-              <string>USAXS Main</string>
-             </property>
-             <property name="files">
-              <string>usaxs_user_main.ui</string>
-             </property>
-             <property name="args">
-              <string/>
-             </property>
-             <property name="fontScaleMode" stdset="0">
-              <enum>EPushButton::None</enum>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caRelatedDisplay" name="carelateddisplay_3">
-             <property name="font">
-              <font>
-               <pointsize>12</pointsize>
-              </font>
-             </property>
-             <property name="foreground">
-              <color>
-               <red>255</red>
-               <green>255</green>
-               <blue>255</blue>
-              </color>
-             </property>
-             <property name="background">
-              <color>
-               <red>0</red>
-               <green>0</green>
-               <blue>255</blue>
-              </color>
-             </property>
-             <property name="labels">
-              <string>SAXS Main</string>
-             </property>
-             <property name="files">
-              <string>saxs_user_main.ui</string>
-             </property>
-             <property name="args">
-              <string/>
-             </property>
-             <property name="fontScaleMode" stdset="0">
-              <enum>EPushButton::None</enum>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <spacer name="verticalSpacer_2">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>20</width>
-               <height>40</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-          </layout>
-         </widget>
-        </item>
-        <item>
-         <widget class="QTabWidget" name="tabWidget_3">
-          <property name="font">
-           <font>
-            <pointsize>12</pointsize>
-           </font>
-          </property>
-          <property name="currentIndex">
-           <number>0</number>
-          </property>
-          <widget class="QWidget" name="tab_5">
-           <attribute name="title">
-            <string>Software Support</string>
-           </attribute>
-           <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="0">
-            <property name="sizeConstraint">
-             <enum>QLayout::SetMaximumSize</enum>
-            </property>
-            <item>
-             <widget class="caInclude" name="cainclude">
-              <property name="font">
-               <font>
-                <pointsize>12</pointsize>
-               </font>
-              </property>
-              <property name="macro">
-               <string>P=9idcLAX:</string>
-              </property>
-              <property name="filename" stdset="0">
-               <string notr="true">userSupport.ui</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="tab_6">
-           <attribute name="title">
-            <string>Tools</string>
-           </attribute>
-           <layout class="QHBoxLayout" name="horizontalLayout_3">
-            <item>
-             <widget class="caInclude" name="cainclude_2">
-              <property name="font">
-               <font>
-                <pointsize>12</pointsize>
-               </font>
-              </property>
-              <property name="macro">
-               <string>P=9idcLAX:</string>
-              </property>
-              <property name="filename" stdset="0">
-               <string notr="true">other_tools.ui</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_2">
-       <attribute name="title">
-        <string>BEAMLINE STAFF ONLY</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout" rowstretch="3,2">
-        <item row="0" column="0">
-         <widget class="QGroupBox" name="groupBox_6">
-          <property name="title">
-           <string>Setup &amp; Alignment </string>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout">
-           <item>
-            <widget class="caRelatedDisplay" name="carelateddisplay_15">
-             <property name="font">
-              <font>
-               <pointsize>12</pointsize>
-              </font>
-             </property>
-             <property name="label">
-              <string notr="true">setup FOE</string>
-             </property>
-             <property name="foreground">
-              <color>
-               <red>0</red>
-               <green>0</green>
-               <blue>0</blue>
-              </color>
-             </property>
-             <property name="background">
-              <color>
-               <red>232</red>
-               <green>232</green>
-               <blue>232</blue>
-              </color>
-             </property>
-             <property name="labels">
-              <string>setup FOE</string>
-             </property>
-             <property name="files">
-              <string>tba</string>
-             </property>
-             <property name="args">
-              <string/>
-             </property>
-             <property name="fontScaleMode" stdset="0">
-              <enum>EPushButton::None</enum>
-             </property>
-             <property name="stackingMode" stdset="0">
-              <enum>caRowColMenu::Row</enum>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caRelatedDisplay" name="carelateddisplay_17">
-             <property name="font">
-              <font>
-               <pointsize>12</pointsize>
-              </font>
-             </property>
-             <property name="label">
-              <string notr="true">tba</string>
-             </property>
-             <property name="foreground">
-              <color>
-               <red>0</red>
-               <green>0</green>
-               <blue>0</blue>
-              </color>
-             </property>
-             <property name="background">
-              <color>
-               <red>232</red>
-               <green>232</green>
-               <blue>232</blue>
-              </color>
-             </property>
-             <property name="labels">
-              <string>setup SAXS Frontend</string>
-             </property>
-             <property name="files">
-              <string>tba</string>
-             </property>
-             <property name="args">
-              <string/>
-             </property>
-             <property name="fontScaleMode" stdset="0">
-              <enum>EPushButton::None</enum>
-             </property>
-             <property name="stackingMode" stdset="0">
-              <enum>caRowColMenu::Row</enum>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caRelatedDisplay" name="carelateddisplay_18">
-             <property name="font">
-              <font>
-               <pointsize>12</pointsize>
-              </font>
-             </property>
-             <property name="label">
-              <string notr="true">tba</string>
-             </property>
-             <property name="foreground">
-              <color>
-               <red>0</red>
-               <green>0</green>
-               <blue>0</blue>
-              </color>
-             </property>
-             <property name="background">
-              <color>
-               <red>232</red>
-               <green>232</green>
-               <blue>232</blue>
-              </color>
-             </property>
-             <property name="labels">
-              <string>setup Table</string>
-             </property>
-             <property name="files">
-              <string>tba</string>
-             </property>
-             <property name="args">
-              <string/>
-             </property>
-             <property name="fontScaleMode" stdset="0">
-              <enum>EPushButton::None</enum>
-             </property>
-             <property name="stackingMode" stdset="0">
-              <enum>caRowColMenu::Row</enum>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QGroupBox" name="groupBox">
-          <property name="title">
-           <string>Advanced Hardware Controls</string>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_4" stretch="1,1,1">
-           <item>
-            <widget class="caRelatedDisplay" name="carelateddisplay_16">
-             <property name="font">
-              <font>
-               <pointsize>12</pointsize>
-              </font>
-             </property>
-             <property name="label">
-              <string notr="true">SAXS Scaler</string>
-             </property>
-             <property name="foreground">
-              <color>
-               <red>0</red>
-               <green>0</green>
-               <blue>0</blue>
-              </color>
-             </property>
-             <property name="background">
-              <color>
-               <red>232</red>
-               <green>232</green>
-               <blue>232</blue>
-              </color>
-             </property>
-             <property name="labels">
-              <string>SAXS Scaler</string>
-             </property>
-             <property name="files">
-              <string>tba</string>
-             </property>
-             <property name="args">
-              <string/>
-             </property>
-             <property name="fontScaleMode" stdset="0">
-              <enum>EPushButton::None</enum>
-             </property>
-             <property name="stackingMode" stdset="0">
-              <enum>caRowColMenu::Row</enum>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caRelatedDisplay" name="carelateddisplay_19">
-             <property name="font">
-              <font>
-               <pointsize>12</pointsize>
-              </font>
-             </property>
-             <property name="label">
-              <string notr="true">SAXS Detectors</string>
-             </property>
-             <property name="foreground">
-              <color>
-               <red>0</red>
-               <green>0</green>
-               <blue>0</blue>
-              </color>
-             </property>
-             <property name="background">
-              <color>
-               <red>232</red>
-               <green>232</green>
-               <blue>232</blue>
-              </color>
-             </property>
-             <property name="labels">
-              <string>SAXS Detectors</string>
-             </property>
-             <property name="files">
-              <string>tba</string>
-             </property>
-             <property name="args">
-              <string/>
-             </property>
-             <property name="fontScaleMode" stdset="0">
-              <enum>EPushButton::None</enum>
-             </property>
-             <property name="stackingMode" stdset="0">
-              <enum>caRowColMenu::Row</enum>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caRelatedDisplay" name="carelateddisplay_20">
-             <property name="font">
-              <font>
-               <pointsize>12</pointsize>
-              </font>
-             </property>
-             <property name="label">
-              <string notr="true">Sample/Calibrant</string>
-             </property>
-             <property name="foreground">
-              <color>
-               <red>0</red>
-               <green>0</green>
-               <blue>0</blue>
-              </color>
-             </property>
-             <property name="background">
-              <color>
-               <red>232</red>
-               <green>232</green>
-               <blue>232</blue>
-              </color>
-             </property>
-             <property name="labels">
-              <string>Sample/Calibrant</string>
-             </property>
-             <property name="files">
-              <string>tba</string>
-             </property>
-             <property name="args">
-              <string/>
-             </property>
-             <property name="fontScaleMode" stdset="0">
-              <enum>EPushButton::None</enum>
-             </property>
-             <property name="stackingMode" stdset="0">
-              <enum>caRowColMenu::Row</enum>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="caRelatedDisplay" name="carelateddisplay_6">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>14</pointsize>
-           </font>
-          </property>
-          <property name="label">
-           <string notr="true">USAXS Staff Main</string>
-          </property>
-          <property name="foreground">
-           <color>
-            <red>255</red>
-            <green>255</green>
-            <blue>255</blue>
-           </color>
-          </property>
-          <property name="background">
-           <color>
-            <red>0</red>
-            <green>0</green>
-            <blue>255</blue>
-           </color>
-          </property>
-          <property name="labels">
-           <string>Main</string>
-          </property>
-          <property name="files">
-           <string>9idc_usaxs.ui</string>
-          </property>
-          <property name="args">
-           <string/>
-          </property>
-          <property name="fontScaleMode" stdset="0">
-           <enum>EPushButton::None</enum>
-          </property>
-          <property name="removeParent" stdset="0">
-           <string>false</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="caRelatedDisplay" name="carelateddisplay_7">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>14</pointsize>
-           </font>
-          </property>
-          <property name="label">
-           <string notr="true">9 ID Synoptic</string>
-          </property>
-          <property name="foreground">
-           <color>
-            <red>255</red>
-            <green>255</green>
-            <blue>255</blue>
-           </color>
-          </property>
-          <property name="background">
-           <color>
-            <red>0</red>
-            <green>0</green>
-            <blue>255</blue>
-           </color>
-          </property>
-          <property name="labels">
-           <string>9 ID Synoptic</string>
-          </property>
-          <property name="files">
-           <string>9ida.ui</string>
-          </property>
-          <property name="args">
-           <string/>
-          </property>
-          <property name="fontScaleMode" stdset="0">
-           <enum>EPushButton::None</enum>
-          </property>
-          <property name="removeParent" stdset="0">
-           <string>false</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
+      <property name="alignment">
+       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+      </property>
+      <property name="fontScaleMode">
+       <enum>ESimpleLabel::WidthAndHeight</enum>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color alpha="0">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
      </widget>
     </item>
    </layout>
-   <zorder>tabWidget</zorder>
-   <zorder>widget</zorder>
-   <zorder>groupBox_3</zorder>
-   <zorder>groupBox_2</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -812,9 +498,9 @@ caput usaxs_pilatus2:cam1:FileNumber  1
    <header>caTextEntry</header>
   </customwidget>
   <customwidget>
-   <class>caInclude</class>
-   <extends>QWidget</extends>
-   <header>caInclude</header>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
   </customwidget>
   <customwidget>
    <class>caLineEdit</class>

@@ -2177,7 +2177,7 @@ caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
      <widget class="caScriptButton" name="cascriptbutton">
       <property name="geometry">
        <rect>
-        <x>20</x>
+        <x>15</x>
         <y>160</y>
         <width>165</width>
         <height>28</height>
@@ -2190,11 +2190,7 @@ caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">caput 9idcLAX:m58:c2:m8.VAL  2.5
-caput 9idcLAX:m58:c2:m7.VAL  1.5
-caput 9idcLAX:GSlit1H:size.VAL  2.8
-caput 9idcLAX:SGSlit1V:size.VAL  1.6;
-</string>
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/openSlits.sh</string>
       </property>
      </widget>
      <widget class="caScriptButton" name="cascriptbutton_5">
@@ -2250,10 +2246,7 @@ caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">caput 9idcLAX:m58:c2:m8.VAL  (caget 9idcLAX:USAXS_Pin:Pin_hslit_ap);
-caput 9idcLAX:m58:c2:m7.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vslit_ap);
-caput 9idcLAX:GSlit1H:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_hgslit_ap);
-caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeSWAXSSlits.sh
 </string>
       </property>
      </widget>
@@ -2273,11 +2266,7 @@ caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">caput 9idcLAX:m58:c2:m8.VAL  (caget 9idcLAX:USAXS_Pin:Pin_hslit_ap);
-caput 9idcLAX:m58:c2:m7.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vslit_ap);
-caput 9idcLAX:GSlit1H:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_hgslit_ap);
-caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
-</string>
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeUSAXSSlits.sh</string>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_96">

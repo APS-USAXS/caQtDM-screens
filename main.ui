@@ -366,7 +366,7 @@
         <property name="geometry">
          <rect>
           <x>410</x>
-          <y>120</y>
+          <y>130</y>
           <width>180</width>
           <height>25</height>
          </rect>
@@ -374,11 +374,14 @@
         <property name="label">
          <string notr="true">Reset Order Numbers</string>
         </property>
+        <property name="scriptDisplay">
+         <enum>caScriptButton::Invisible</enum>
+        </property>
         <property name="checkBoxVisible" stdset="0">
          <bool>false</bool>
         </property>
         <property name="scriptCommand">
-         <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/resetOrderNumbers.sh</string>
+         <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/resetOrderNumbers.py</string>
         </property>
        </widget>
       </widget>

@@ -46,7 +46,7 @@
         <x>390</x>
         <y>0</y>
         <width>391</width>
-        <height>201</height>
+        <height>251</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -149,7 +149,7 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="1">
+       <item row="7" column="1">
         <widget class="caLineEdit" name="calineedit_10">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -168,7 +168,7 @@
          </property>
         </widget>
        </item>
-       <item row="8" column="0">
+       <item row="12" column="0">
         <widget class="QLabel" name="label_6">
          <property name="font">
           <font>
@@ -183,7 +183,7 @@
          </property>
         </widget>
        </item>
-       <item row="8" column="1">
+       <item row="12" column="1">
         <widget class="caLineEdit" name="calineedit_12">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -213,11 +213,11 @@
           <string notr="true">color: rgb(0, 0, 0)</string>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Scan&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Spec Scan N&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
-       <item row="9" column="0">
+       <item row="13" column="0">
         <widget class="QLabel" name="label_5">
          <property name="font">
           <font>
@@ -232,7 +232,7 @@
          </property>
         </widget>
        </item>
-       <item row="9" column="1">
+       <item row="13" column="1">
         <widget class="caLineEdit" name="calineedit_11">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -251,7 +251,7 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="0">
+       <item row="7" column="0">
         <widget class="QLabel" name="label_4">
          <property name="font">
           <font>
@@ -263,6 +263,40 @@
          </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Spec Data Directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="caLineEdit" name="calineedit_16">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>#####</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:USAXS:FS_OrderNumber</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Next File order N&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
@@ -1101,7 +1135,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="tab_7">
      <attribute name="title">
@@ -2167,11 +2201,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">caput 9idcLAX:m58:c2:m8.VAL  (caget 9idcLAX:USAXS_Pin:Pin_hslit_ap);
-caput 9idcLAX:m58:c2:m7.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vslit_ap);
-caput 9idcLAX:GSlit1H:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_hgslit_ap);
-caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
-</string>
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setSWAXSSlits.sh</string>
       </property>
      </widget>
      <widget class="caScriptButton" name="cascriptbutton">
@@ -2223,11 +2253,7 @@ caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">caput 9idcLAX:m58:c2:m8.VAL  (caget 9idcLAX:USAXS_Pin:Pin_hslit_ap);
-caput 9idcLAX:m58:c2:m7.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vslit_ap);
-caput 9idcLAX:GSlit1H:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_hgslit_ap);
-caput 9idcLAX:SGSlit1V:size.VAL    (caget 9idcLAX:USAXS_Pin:Pin_vgslit_ap);
-</string>
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setUSAXSSlits.sh</string>
       </property>
      </widget>
      <widget class="caScriptButton" name="cascriptbutton_2">

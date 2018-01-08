@@ -3500,13 +3500,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Mono energy control;Feedback;Steering;2nd Xtal piezo;Mono Levels Graph</string>
+     <string notr="true">Mono energy control;Feedback;Steering;2nd Xtal piezo;Mono Levels Graph;pvHistory;pvHistory2</string>
     </property>
     <property name="files">
-     <string notr="true">kohzuSeqCtl_All.ui;fb_epid.ui;motor2xU.ui;singleDAC.ui;MonoGraph.ui;</string>
+     <string notr="true">kohzuSeqCtl_All.ui;fb_epid.ui;motor2xU.ui;singleDAC.ui;MonoGraph.ui;pvHistory.ui;pvHistory.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=9ida:;P=9idcLAX:fbe:omega;P=9ida:,M1=m16,M2=m15;P=9ida:,D=1,C=1;:;</string>
+     <string notr="true">P=9ida:;P=9idcLAX:fbe:omega;P=9ida:,M1=m16,M2=m15;P=9ida:,D=1,C=1;:;P=9idcLAX:,N=1;P=9idcLAX:,N=2</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -6044,6 +6044,51 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>Imaging</string>
     </property>
    </widget>
+   <widget class="caLabel" name="caLabel_5">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>10</y>
+      <width>220</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dala Collection In Progress</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+    </property>
+    <property name="fontScaleMode">
+     <enum>ESimpleLabel::WidthAndHeight</enum>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>51</red>
+      <green>153</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLabel::Static</enum>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="visibility">
+     <enum>caLabel::IfNotZero</enum>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">9idcLAX:dataColInProgress</string>
+    </property>
+   </widget>
    <zorder>layoutWidget</zorder>
    <zorder>groupBox_6</zorder>
    <zorder>groupBox_4</zorder>
@@ -6182,6 +6227,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>label_15</zorder>
    <zorder>caled_8</zorder>
    <zorder>label_16</zorder>
+   <zorder>caLabel_5</zorder>
   </widget>
  </widget>
  <customwidgets>

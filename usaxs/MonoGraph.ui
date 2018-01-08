@@ -144,9 +144,9 @@
    </property>
    <property name="color_1">
     <color>
-     <red>0</red>
+     <red>255</red>
      <green>0</green>
-     <blue>255</blue>
+     <blue>0</blue>
     </color>
    </property>
    <property name="YaxisLimitsMax_2">

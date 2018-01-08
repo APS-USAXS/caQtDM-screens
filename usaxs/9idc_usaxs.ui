@@ -3609,7 +3609,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="label">
-     <string notr="true">-M Slits</string>
+     <string notr="true">-MB Slits</string>
     </property>
     <property name="foreground">
      <color>

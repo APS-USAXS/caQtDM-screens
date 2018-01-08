@@ -135,7 +135,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Start offset [deg]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Start offset [1/A]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -274,7 +274,7 @@
        <x>310</x>
        <y>10</y>
        <width>281</width>
-       <height>51</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="title">
@@ -283,8 +283,8 @@
      <widget class="QLabel" name="label_10">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>20</y>
+        <x>30</x>
+        <y>18</y>
         <width>111</width>
         <height>16</height>
        </rect>
@@ -296,8 +296,8 @@
      <widget class="caTextEntry" name="catextentry_24">
       <property name="geometry">
        <rect>
-        <x>140</x>
-        <y>20</y>
+        <x>150</x>
+        <y>14</y>
         <width>100</width>
         <height>20</height>
        </rect>
@@ -324,7 +324,7 @@
      <property name="geometry">
       <rect>
        <x>310</x>
-       <y>60</y>
+       <y>50</y>
        <width>281</width>
        <height>101</height>
       </rect>
@@ -335,8 +335,8 @@
      <widget class="QLabel" name="label_8">
       <property name="geometry">
        <rect>
-        <x>14</x>
-        <y>17</y>
+        <x>10</x>
+        <y>20</y>
         <width>89</width>
         <height>16</height>
        </rect>
@@ -348,8 +348,8 @@
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>14</x>
-        <y>42</y>
+        <x>10</x>
+        <y>45</y>
         <width>97</width>
         <height>16</height>
        </rect>
@@ -361,8 +361,8 @@
      <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
-        <x>14</x>
-        <y>67</y>
+        <x>10</x>
+        <y>70</y>
         <width>95</width>
         <height>16</height>
        </rect>
@@ -374,8 +374,8 @@
      <widget class="caTextEntry" name="catextentry_14">
       <property name="geometry">
        <rect>
-        <x>145</x>
-        <y>15</y>
+        <x>141</x>
+        <y>18</y>
         <width>100</width>
         <height>20</height>
        </rect>
@@ -397,8 +397,8 @@
      <widget class="caTextEntry" name="catextentry_13">
       <property name="geometry">
        <rect>
-        <x>145</x>
-        <y>65</y>
+        <x>141</x>
+        <y>68</y>
         <width>100</width>
         <height>20</height>
        </rect>
@@ -420,8 +420,8 @@
      <widget class="caTextEntry" name="catextentry_10">
       <property name="geometry">
        <rect>
-        <x>145</x>
-        <y>40</y>
+        <x>141</x>
+        <y>43</y>
         <width>100</width>
         <height>20</height>
        </rect>
@@ -1546,17 +1546,6 @@
       <enum>caLineEdit::Static</enum>
      </property>
     </widget>
-    <zorder>label_18</zorder>
-    <zorder>catextentry_111</zorder>
-    <zorder>label_66</zorder>
-    <zorder>label_82</zorder>
-    <zorder>catextentry_109</zorder>
-    <zorder>groupBox_14</zorder>
-    <zorder>label</zorder>
-    <zorder>label_57</zorder>
-    <zorder>label_54</zorder>
-    <zorder>catextentry_68</zorder>
-    <zorder>catextentry_69</zorder>
    </widget>
    <widget class="QGroupBox" name="groupBox_14">
     <property name="geometry">
@@ -1587,7 +1576,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1614,7 +1603,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1650,7 +1639,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1852,14 +1841,14 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
       <string>use FlyScan</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:useFlyscan</string>
+      <string notr="true">9idcLAX:USAXS:UseFlyscan</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_5">
@@ -1879,7 +1868,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1906,7 +1895,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1923,29 +1912,40 @@
       <x>720</x>
       <y>130</y>
       <width>379</width>
-      <height>92</height>
+      <height>101</height>
      </rect>
     </property>
     <property name="title">
      <string>Filter Selection</string>
     </property>
     <layout class="QGridLayout" name="gridLayout_6">
-     <item row="0" column="1">
-      <widget class="QLabel" name="label_29">
-       <property name="text">
-        <string>SAXS</string>
-       </property>
-      </widget>
-     </item>
      <item row="0" column="2">
       <widget class="QLabel" name="label_19">
        <property name="text">
         <string>WAXS</string>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_29">
+       <property name="text">
+        <string>SAXS</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
       </widget>
      </item>
      <item row="1" column="0">
       <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
        <property name="text">
         <string>Fxp Al Filter</string>
        </property>
@@ -1953,6 +1953,13 @@
      </item>
      <item row="1" column="1">
       <widget class="caTextEntry" name="catextentry_71">
+       <property name="font">
+        <font>
+         <family>Monospace</family>
+         <pointsize>7</pointsize>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:Exp_Al_Filter.VAL</string>
        </property>
@@ -1970,6 +1977,13 @@
      </item>
      <item row="1" column="2">
       <widget class="caTextEntry" name="catextentry_73">
+       <property name="font">
+        <font>
+         <family>Monospace</family>
+         <pointsize>7</pointsize>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_WAXS:Exp_Al_Filter.VAL</string>
        </property>
@@ -1987,6 +2001,11 @@
      </item>
      <item row="2" column="0">
       <widget class="QLabel" name="label_30">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
        <property name="text">
         <string>Fxp Ti Filter</string>
        </property>
@@ -1994,6 +2013,13 @@
      </item>
      <item row="2" column="1">
       <widget class="caTextEntry" name="catextentry_74">
+       <property name="font">
+        <font>
+         <family>Monospace</family>
+         <pointsize>7</pointsize>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:Exp_Ti_Filter.VAL</string>
        </property>
@@ -2011,6 +2037,13 @@
      </item>
      <item row="2" column="2">
       <widget class="caTextEntry" name="catextentry_72">
+       <property name="font">
+        <font>
+         <family>Monospace</family>
+         <pointsize>7</pointsize>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_WAXS:Exp_Ti_Filter.VAL</string>
        </property>

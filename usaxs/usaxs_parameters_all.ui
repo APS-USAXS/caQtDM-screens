@@ -392,18 +392,18 @@
      </font>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
-      <string>Scan Controls</string>
+      <string>FlyScan</string>
      </attribute>
      <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
         <x>40</x>
         <y>22</y>
-        <width>88</width>
+        <width>130</width>
         <height>16</height>
        </rect>
       </property>
@@ -413,7 +413,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Start Q Offset</string>
+       <string>Start Q Offset [1/A]</string>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_5">
@@ -450,7 +450,7 @@
        <rect>
         <x>40</x>
         <y>52</y>
-        <width>78</width>
+        <width>130</width>
         <height>16</height>
        </rect>
       </property>
@@ -460,7 +460,7 @@
        </font>
       </property>
       <property name="text">
-       <string>End Q Value</string>
+       <string>End Q Value [1/A]</string>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_2">
@@ -497,7 +497,7 @@
        <rect>
         <x>40</x>
         <y>82</y>
-        <width>94</width>
+        <width>130</width>
         <height>16</height>
        </rect>
       </property>
@@ -538,7 +538,7 @@
        <rect>
         <x>40</x>
         <y>112</y>
-        <width>54</width>
+        <width>130</width>
         <height>16</height>
        </rect>
       </property>
@@ -574,13 +574,496 @@
        <enum>caLineEdit::Static</enum>
       </property>
      </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>232</y>
+        <width>120</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Traj Min Step&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_11">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>200</y>
+        <width>250</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:FS_NumberOfPoints</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>172</y>
+        <width>120</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Array Num PSO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>142</y>
+        <width>120</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FlyScan time [s]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_9">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>140</y>
+        <width>250</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:FS_ScanTime</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>202</y>
+        <width>120</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Num Way pnts&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_8">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>230</y>
+        <width>250</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:MinStepTraj</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_10">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>170</y>
+        <width>250</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:traj1:NumPulsePositions</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>50</y>
+        <width>161</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="caMessageButton" name="camessagebutton_6">
+         <property name="text">
+          <string>Fixed</string>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:traj1:PulseMode</string>
+         </property>
+         <property name="label">
+          <string notr="true">Fixed</string>
+         </property>
+         <property name="releaseMessage">
+          <string notr="true">Fixed</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="caMessageButton" name="camessagebutton">
+         <property name="text">
+          <string>Array</string>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:traj1:PulseMode</string>
+         </property>
+         <property name="label">
+          <string notr="true">Array</string>
+         </property>
+         <property name="releaseMessage">
+          <string notr="true">Array</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="caMessageButton" name="camessagebutton_2">
+         <property name="text">
+          <string>TrajPoints</string>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:traj1:PulseMode</string>
+         </property>
+         <property name="label">
+          <string notr="true">TrajPoints</string>
+         </property>
+         <property name="releaseMessage">
+          <string notr="true">TrajPoints</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="caMessageButton" name="camessagebutton_7">
+         <property name="text">
+          <string>None</string>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:traj1:PulseMode</string>
+         </property>
+         <property name="label">
+          <string notr="true">None</string>
+         </property>
+         <property name="releaseMessage">
+          <string notr="true">None</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="caMessageButton" name="camessagebutton_3">
+         <property name="text">
+          <string>Both</string>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:traj1:PulseDir</string>
+         </property>
+         <property name="label">
+          <string notr="true">Both</string>
+         </property>
+         <property name="background">
+          <color>
+           <red>197</red>
+           <green>197</green>
+           <blue>197</blue>
+          </color>
+         </property>
+         <property name="releaseMessage">
+          <string notr="true">0</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="caMessageButton" name="camessagebutton_4">
+         <property name="text">
+          <string>Pos</string>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:traj1:PulseDir</string>
+         </property>
+         <property name="label">
+          <string notr="true">Pos</string>
+         </property>
+         <property name="background">
+          <color>
+           <red>197</red>
+           <green>197</green>
+           <blue>197</blue>
+          </color>
+         </property>
+         <property name="releaseMessage">
+          <string notr="true">1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="caMessageButton" name="camessagebutton_5">
+         <property name="text">
+          <string>Neg</string>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:traj1:PulseDir</string>
+         </property>
+         <property name="label">
+          <string notr="true">Neg</string>
+         </property>
+         <property name="background">
+          <color>
+           <red>197</red>
+           <green>197</green>
+           <blue>197</blue>
+          </color>
+         </property>
+         <property name="releaseMessage">
+          <string notr="true">2</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="caLed" name="caled_9">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>70</y>
+        <width>18</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:traj1:PulseMode</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">Array</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true">2</string>
+      </property>
+     </widget>
+     <widget class="caLed" name="caled_10">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>50</y>
+        <width>18</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:traj1:PulseMode</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">Fixed</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true">2</string>
+      </property>
+     </widget>
+     <widget class="caLed" name="caled_11">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>90</y>
+        <width>18</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:traj1:PulseMode</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">TrajPoints</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true">2</string>
+      </property>
+     </widget>
+     <widget class="caLed" name="caled_13">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>130</y>
+        <width>18</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:traj1:PulseDir</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">0</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="caLed" name="caled_12">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>110</y>
+        <width>18</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:traj1:PulseMode</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">None</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true">2</string>
+      </property>
+     </widget>
+     <widget class="caLed" name="caled_14">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>150</y>
+        <width>18</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:traj1:PulseDir</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">1</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true">0</string>
+      </property>
+     </widget>
+     <widget class="caLed" name="caled_15">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>170</y>
+        <width>18</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:traj1:PulseDir</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">2</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true"/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_2">
      <property name="enabled">
       <bool>true</bool>
      </property>
      <attribute name="title">
-      <string>Step Controls</string>
+      <string>Step scans</string>
      </attribute>
      <widget class="QLabel" name="label_22">
       <property name="geometry">
@@ -1012,7 +1495,7 @@
            <rect>
             <x>182</x>
             <y>154</y>
-            <width>80</width>
+            <width>100</width>
             <height>20</height>
            </rect>
           </property>
@@ -1031,7 +1514,7 @@
            <rect>
             <x>182</x>
             <y>106</y>
-            <width>80</width>
+            <width>100</width>
             <height>20</height>
            </rect>
           </property>
@@ -1066,7 +1549,7 @@
            <rect>
             <x>182</x>
             <y>82</y>
-            <width>80</width>
+            <width>100</width>
             <height>20</height>
            </rect>
           </property>
@@ -1114,7 +1597,7 @@
            <rect>
             <x>182</x>
             <y>10</y>
-            <width>80</width>
+            <width>100</width>
             <height>20</height>
            </rect>
           </property>
@@ -1133,7 +1616,7 @@
            <rect>
             <x>182</x>
             <y>130</y>
-            <width>80</width>
+            <width>100</width>
             <height>20</height>
            </rect>
           </property>
@@ -1152,7 +1635,7 @@
            <rect>
             <x>182</x>
             <y>58</y>
-            <width>80</width>
+            <width>100</width>
             <height>20</height>
            </rect>
           </property>
@@ -1213,7 +1696,7 @@
            <rect>
             <x>182</x>
             <y>178</y>
-            <width>80</width>
+            <width>100</width>
             <height>20</height>
            </rect>
           </property>
@@ -1232,7 +1715,7 @@
            <rect>
             <x>182</x>
             <y>34</y>
-            <width>80</width>
+            <width>100</width>
             <height>20</height>
            </rect>
           </property>
@@ -1285,798 +1768,296 @@
     </widget>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
-      <string>Fly scan</string>
+      <string>FS amplifier</string>
      </attribute>
-     <layout class="QHBoxLayout" name="horizontalLayout_3">
-      <item>
-       <widget class="QTabWidget" name="tabWidget_2">
-        <property name="currentIndex">
-         <number>0</number>
-        </property>
-        <widget class="QWidget" name="tab_6">
-         <attribute name="title">
-          <string>Fly Scan Controls</string>
-         </attribute>
-         <widget class="caLed" name="caled_9">
-          <property name="geometry">
-           <rect>
-            <x>470</x>
-            <y>30</y>
-            <width>18</width>
-            <height>14</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:traj1:PulseMode</string>
-          </property>
-          <property name="trueColor">
-           <color>
-            <red>0</red>
-            <green>255</green>
-            <blue>0</blue>
-           </color>
-          </property>
-          <property name="trueValue">
-           <string notr="true">Array</string>
-          </property>
-          <property name="falseValue">
-           <string notr="true">2</string>
-          </property>
-         </widget>
-         <widget class="caLed" name="caled_10">
-          <property name="geometry">
-           <rect>
-            <x>470</x>
-            <y>10</y>
-            <width>18</width>
-            <height>14</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:traj1:PulseMode</string>
-          </property>
-          <property name="trueColor">
-           <color>
-            <red>0</red>
-            <green>255</green>
-            <blue>0</blue>
-           </color>
-          </property>
-          <property name="trueValue">
-           <string notr="true">Fixed</string>
-          </property>
-          <property name="falseValue">
-           <string notr="true">2</string>
-          </property>
-         </widget>
-         <widget class="caLed" name="caled_11">
-          <property name="geometry">
-           <rect>
-            <x>470</x>
-            <y>50</y>
-            <width>18</width>
-            <height>14</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:traj1:PulseMode</string>
-          </property>
-          <property name="trueColor">
-           <color>
-            <red>0</red>
-            <green>255</green>
-            <blue>0</blue>
-           </color>
-          </property>
-          <property name="trueValue">
-           <string notr="true">TrajPoints</string>
-          </property>
-          <property name="falseValue">
-           <string notr="true">2</string>
-          </property>
-         </widget>
-         <widget class="caLed" name="caled_12">
-          <property name="geometry">
-           <rect>
-            <x>470</x>
-            <y>70</y>
-            <width>18</width>
-            <height>14</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:traj1:PulseMode</string>
-          </property>
-          <property name="trueColor">
-           <color>
-            <red>0</red>
-            <green>255</green>
-            <blue>0</blue>
-           </color>
-          </property>
-          <property name="trueValue">
-           <string notr="true">None</string>
-          </property>
-          <property name="falseValue">
-           <string notr="true">2</string>
-          </property>
-         </widget>
-         <widget class="caLed" name="caled_13">
-          <property name="geometry">
-           <rect>
-            <x>470</x>
-            <y>90</y>
-            <width>18</width>
-            <height>14</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:traj1:PulseDir</string>
-          </property>
-          <property name="trueColor">
-           <color>
-            <red>0</red>
-            <green>255</green>
-            <blue>0</blue>
-           </color>
-          </property>
-          <property name="trueValue">
-           <string notr="true">0</string>
-          </property>
-          <property name="falseValue">
-           <string notr="true"/>
-          </property>
-         </widget>
-         <widget class="caLed" name="caled_14">
-          <property name="geometry">
-           <rect>
-            <x>470</x>
-            <y>110</y>
-            <width>18</width>
-            <height>14</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:traj1:PulseDir</string>
-          </property>
-          <property name="trueColor">
-           <color>
-            <red>0</red>
-            <green>255</green>
-            <blue>0</blue>
-           </color>
-          </property>
-          <property name="trueValue">
-           <string notr="true">1</string>
-          </property>
-          <property name="falseValue">
-           <string notr="true">0</string>
-          </property>
-         </widget>
-         <widget class="caLed" name="caled_15">
-          <property name="geometry">
-           <rect>
-            <x>470</x>
-            <y>130</y>
-            <width>18</width>
-            <height>14</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:traj1:PulseDir</string>
-          </property>
-          <property name="trueColor">
-           <color>
-            <red>0</red>
-            <green>255</green>
-            <blue>0</blue>
-           </color>
-          </property>
-          <property name="trueValue">
-           <string notr="true">2</string>
-          </property>
-          <property name="falseValue">
-           <string notr="true"/>
-          </property>
-         </widget>
-         <widget class="QWidget" name="layoutWidget">
-          <property name="geometry">
-           <rect>
-            <x>505</x>
-            <y>9</y>
-            <width>161</width>
-            <height>141</height>
-           </rect>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout">
-           <property name="spacing">
-            <number>0</number>
-           </property>
-           <item>
-            <widget class="caMessageButton" name="camessagebutton_6">
-             <property name="text">
-              <string>Fixed</string>
-             </property>
-             <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:traj1:PulseMode</string>
-             </property>
-             <property name="label">
-              <string notr="true">Fixed</string>
-             </property>
-             <property name="releaseMessage">
-              <string notr="true">Fixed</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caMessageButton" name="camessagebutton">
-             <property name="text">
-              <string>Array</string>
-             </property>
-             <property name="default">
-              <bool>false</bool>
-             </property>
-             <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:traj1:PulseMode</string>
-             </property>
-             <property name="label">
-              <string notr="true">Array</string>
-             </property>
-             <property name="releaseMessage">
-              <string notr="true">Array</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caMessageButton" name="camessagebutton_2">
-             <property name="text">
-              <string>TrajPoints</string>
-             </property>
-             <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:traj1:PulseMode</string>
-             </property>
-             <property name="label">
-              <string notr="true">TrajPoints</string>
-             </property>
-             <property name="releaseMessage">
-              <string notr="true">TrajPoints</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caMessageButton" name="camessagebutton_7">
-             <property name="text">
-              <string>None</string>
-             </property>
-             <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:traj1:PulseMode</string>
-             </property>
-             <property name="label">
-              <string notr="true">None</string>
-             </property>
-             <property name="releaseMessage">
-              <string notr="true">None</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caMessageButton" name="camessagebutton_3">
-             <property name="text">
-              <string>Both</string>
-             </property>
-             <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:traj1:PulseDir</string>
-             </property>
-             <property name="label">
-              <string notr="true">Both</string>
-             </property>
-             <property name="background">
-              <color>
-               <red>197</red>
-               <green>197</green>
-               <blue>197</blue>
-              </color>
-             </property>
-             <property name="releaseMessage">
-              <string notr="true">0</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caMessageButton" name="camessagebutton_4">
-             <property name="text">
-              <string>Pos</string>
-             </property>
-             <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:traj1:PulseDir</string>
-             </property>
-             <property name="label">
-              <string notr="true">Pos</string>
-             </property>
-             <property name="background">
-              <color>
-               <red>197</red>
-               <green>197</green>
-               <blue>197</blue>
-              </color>
-             </property>
-             <property name="releaseMessage">
-              <string notr="true">1</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="caMessageButton" name="camessagebutton_5">
-             <property name="text">
-              <string>Neg</string>
-             </property>
-             <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:traj1:PulseDir</string>
-             </property>
-             <property name="label">
-              <string notr="true">Neg</string>
-             </property>
-             <property name="background">
-              <color>
-               <red>197</red>
-               <green>197</green>
-               <blue>197</blue>
-              </color>
-             </property>
-             <property name="releaseMessage">
-              <string notr="true">2</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_8">
-          <property name="geometry">
-           <rect>
-            <x>150</x>
-            <y>100</y>
-            <width>250</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:MinStepTraj</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_10">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>102</y>
-            <width>120</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Traj Min Step&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_11">
-          <property name="geometry">
-           <rect>
-            <x>150</x>
-            <y>70</y>
-            <width>250</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:FS_NumberOfPoints</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_9">
-          <property name="geometry">
-           <rect>
-            <x>150</x>
-            <y>10</y>
-            <width>250</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:FS_ScanTime</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_8">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>42</y>
-            <width>120</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Array Num PSO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_7">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>12</y>
-            <width>120</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FlyScan time [s]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_9">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>72</y>
-            <width>120</width>
-            <height>16</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Num Way pnts&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_10">
-          <property name="geometry">
-           <rect>
-            <x>150</x>
-            <y>40</y>
-            <width>250</width>
-            <height>25</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:traj1:NumPulsePositions</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-        </widget>
-        <widget class="QWidget" name="tab_7">
-         <attribute name="title">
-          <string>Fly Scan Gain</string>
-         </attribute>
-         <widget class="QLabel" name="label_67">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>10</y>
-            <width>142</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 1 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_68">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>5</y>
-            <width>150</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:FS_AmpR1BlockTime</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_68">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>37</y>
-            <width>142</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 2 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_70">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>35</y>
-            <width>150</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:FS_AmpR2BlockTime</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_69">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>67</y>
-            <width>142</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 3 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_75">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>65</y>
-            <width>150</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:FS_AmpR3BlockTime</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_72">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>97</y>
-            <width>142</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 4 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_74">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>95</y>
-            <width>150</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:FS_AmpR4BlockTime</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_71">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>127</y>
-            <width>142</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 5 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_69">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>125</y>
-            <width>150</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:FS_AmpR5BlockTime</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_70">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>157</y>
-            <width>101</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;upd Amplifier:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_71">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>155</y>
-            <width>150</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:femto:model</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_73">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>187</y>
-            <width>109</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;upd Size [mm]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_73">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>185</y>
-            <width>150</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:UPDsize</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_74">
-          <property name="geometry">
-           <rect>
-            <x>20</x>
-            <y>217</y>
-            <width>130</width>
-            <height>18</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fly Scan order No&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-         <widget class="caTextEntry" name="catextentry_72">
-          <property name="geometry">
-           <rect>
-            <x>220</x>
-            <y>215</y>
-            <width>150</width>
-            <height>20</height>
-           </rect>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS:FS_OrderNumber</string>
-          </property>
-          <property name="background">
-           <color>
-            <red>115</red>
-            <green>215</green>
-            <blue>253</blue>
-           </color>
-          </property>
-          <property name="colorMode">
-           <enum>caLineEdit::Static</enum>
-          </property>
-         </widget>
-        </widget>
-       </widget>
-      </item>
-     </layout>
+     <widget class="caTextEntry" name="catextentry_69">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>130</y>
+        <width>150</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:FS_AmpR5BlockTime</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_74">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>100</y>
+        <width>150</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:FS_AmpR4BlockTime</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_73">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>190</y>
+        <width>150</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:UPDsize</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_75">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>70</y>
+        <width>150</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:FS_AmpR3BlockTime</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_71">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>160</y>
+        <width>150</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcUSX:femto:model</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_68">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>10</y>
+        <width>150</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:FS_AmpR1BlockTime</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_70">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>40</y>
+        <width>150</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:FS_AmpR2BlockTime</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_72">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>220</y>
+        <width>150</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:FS_OrderNumber</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_74">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>220</y>
+        <width>130</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fly Scan order No&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_69">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>70</y>
+        <width>142</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 3 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_70">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>160</y>
+        <width>101</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;upd Amplifier:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_73">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>190</y>
+        <width>109</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;upd Size [mm]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_67">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>13</y>
+        <width>142</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 1 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_72">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>142</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 4 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_68">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>40</y>
+        <width>142</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 2 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_71">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>130</y>
+        <width>142</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Range 5 Block time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_5">
      <attribute name="title">
@@ -2775,7 +2756,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>132</y>
+           <y>120</y>
            <width>125</width>
            <height>18</height>
           </rect>
@@ -2791,7 +2772,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>72</y>
+           <y>60</y>
            <width>78</width>
            <height>18</height>
           </rect>
@@ -2807,7 +2788,7 @@
          <property name="geometry">
           <rect>
            <x>450</x>
-           <y>100</y>
+           <y>88</y>
            <width>150</width>
            <height>25</height>
           </rect>
@@ -2830,7 +2811,7 @@
          <property name="geometry">
           <rect>
            <x>180</x>
-           <y>100</y>
+           <y>88</y>
            <width>150</width>
            <height>25</height>
           </rect>
@@ -2853,7 +2834,7 @@
          <property name="geometry">
           <rect>
            <x>228</x>
-           <y>20</y>
+           <y>8</y>
            <width>87</width>
            <height>18</height>
           </rect>
@@ -2869,7 +2850,7 @@
          <property name="geometry">
           <rect>
            <x>450</x>
-           <y>130</y>
+           <y>118</y>
            <width>150</width>
            <height>25</height>
           </rect>
@@ -2892,7 +2873,7 @@
          <property name="geometry">
           <rect>
            <x>450</x>
-           <y>40</y>
+           <y>28</y>
            <width>150</width>
            <height>25</height>
           </rect>
@@ -2915,7 +2896,7 @@
          <property name="geometry">
           <rect>
            <x>510</x>
-           <y>20</y>
+           <y>8</y>
            <width>50</width>
            <height>18</height>
           </rect>
@@ -2931,7 +2912,7 @@
          <property name="geometry">
           <rect>
            <x>180</x>
-           <y>130</y>
+           <y>118</y>
            <width>150</width>
            <height>25</height>
           </rect>
@@ -2954,7 +2935,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>42</y>
+           <y>30</y>
            <width>62</width>
            <height>18</height>
           </rect>
@@ -2970,7 +2951,7 @@
          <property name="geometry">
           <rect>
            <x>180</x>
-           <y>40</y>
+           <y>28</y>
            <width>150</width>
            <height>25</height>
           </rect>
@@ -2993,7 +2974,7 @@
          <property name="geometry">
           <rect>
            <x>180</x>
-           <y>70</y>
+           <y>58</y>
            <width>150</width>
            <height>25</height>
           </rect>
@@ -3016,7 +2997,7 @@
          <property name="geometry">
           <rect>
            <x>450</x>
-           <y>70</y>
+           <y>58</y>
            <width>150</width>
            <height>25</height>
           </rect>
@@ -3039,7 +3020,7 @@
          <property name="geometry">
           <rect>
            <x>20</x>
-           <y>102</y>
+           <y>90</y>
            <width>109</width>
            <height>18</height>
           </rect>
@@ -3051,13 +3032,486 @@
           <set>Qt::AlignCenter</set>
          </property>
         </widget>
+        <widget class="QLabel" name="label_88">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>217</y>
+           <width>79</width>
+           <height>19</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Horizontal&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="caScriptButton" name="cascriptbutton_5">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>150</y>
+           <width>120</width>
+           <height>15</height>
+          </rect>
+         </property>
+         <property name="label">
+          <string notr="true">Set Slits Positions</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>255</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="checkBoxVisible" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="scriptCommand">
+          <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setUSAXSSlits.sh</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_98">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>242</y>
+           <width>56</width>
+           <height>19</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vertical&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="caScriptButton" name="cascriptbutton">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>170</y>
+           <width>121</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="label">
+          <string notr="true">Open Slits</string>
+         </property>
+         <property name="checkBoxVisible" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="scriptCommand">
+          <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/openSlits.sh</string>
+         </property>
+        </widget>
+        <widget class="caScriptButton" name="cascriptbutton_4">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>150</y>
+           <width>120</width>
+           <height>15</height>
+          </rect>
+         </property>
+         <property name="label">
+          <string notr="true">Set Slits Positions</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>255</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="checkBoxVisible" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="scriptCommand">
+          <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setSWAXSSlits.sh</string>
+         </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="carelateddisplay_23">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>242</y>
+           <width>65</width>
+           <height>19</height>
+          </rect>
+         </property>
+         <property name="label">
+          <string notr="true"/>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>153</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>v motors</string>
+         </property>
+         <property name="files">
+          <string>motor2xU.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:m58:c2:,M1=m5,M2=m7</string>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+        <widget class="caScriptButton" name="cascriptbutton_3">
+         <property name="geometry">
+          <rect>
+           <x>440</x>
+           <y>170</y>
+           <width>165</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="label">
+          <string notr="true">Move Slits</string>
+         </property>
+         <property name="checkBoxVisible" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="scriptCommand">
+          <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeUSAXSSlits.sh</string>
+         </property>
+        </widget>
+        <widget class="caScriptButton" name="cascriptbutton_2">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>170</y>
+           <width>165</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="label">
+          <string notr="true">Move Slits</string>
+         </property>
+         <property name="checkBoxVisible" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="scriptCommand">
+          <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeSWAXSSlits.sh
+</string>
+         </property>
+        </widget>
+        <widget class="caTextEntry" name="catextentry_76">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>240</y>
+           <width>120</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Monospace</family>
+           <pointsize>10</pointsize>
+           <stylestrategy>PreferDefault</stylestrategy>
+          </font>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:m58:c2:m7.VAL</string>
+         </property>
+         <property name="background">
+          <color>
+           <red>115</red>
+           <green>215</green>
+           <blue>253</blue>
+          </color>
+         </property>
+         <property name="colorMode">
+          <enum>caLineEdit::Static</enum>
+         </property>
+        </widget>
+        <widget class="caTextEntry" name="catextentry_77">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>215</y>
+           <width>120</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Monospace</family>
+           <pointsize>10</pointsize>
+           <stylestrategy>PreferDefault</stylestrategy>
+          </font>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:m58:c2:m8.VAL</string>
+         </property>
+         <property name="background">
+          <color>
+           <red>115</red>
+           <green>215</green>
+           <blue>253</blue>
+          </color>
+         </property>
+         <property name="colorMode">
+          <enum>caLineEdit::Static</enum>
+         </property>
+        </widget>
+        <widget class="caTextEntry" name="catextentry_78">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>240</y>
+           <width>120</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Monospace</family>
+           <pointsize>10</pointsize>
+           <stylestrategy>PreferDefault</stylestrategy>
+          </font>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:GSlit1V:size</string>
+         </property>
+         <property name="background">
+          <color>
+           <red>115</red>
+           <green>215</green>
+           <blue>253</blue>
+          </color>
+         </property>
+         <property name="colorMode">
+          <enum>caLineEdit::Static</enum>
+         </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="carelateddisplay_24">
+         <property name="geometry">
+          <rect>
+           <x>550</x>
+           <y>225</y>
+           <width>120</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="label">
+          <string notr="true">-Guard Slits</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>153</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>Slits GUI;Blade motors;X,Y motors</string>
+         </property>
+         <property name="files">
+          <string>4slitGraphic.ui ;motor4xU.ui;motor2xU.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:,H=GSlit1H:,V=GSlit1V:,SLIT=Guard Slits;P=9idcLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6;P=9idcLAX:,M1=m58:c1:m5,M2=m58:c0:m6</string>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Menu</enum>
+         </property>
+        </widget>
+        <widget class="caTextEntry" name="catextentry_79">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>215</y>
+           <width>120</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Monospace</family>
+           <pointsize>10</pointsize>
+           <stylestrategy>PreferDefault</stylestrategy>
+          </font>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:GSlit1H:size</string>
+         </property>
+         <property name="background">
+          <color>
+           <red>115</red>
+           <green>215</green>
+           <blue>253</blue>
+          </color>
+         </property>
+         <property name="colorMode">
+          <enum>caLineEdit::Static</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_50">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>195</y>
+           <width>103</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(0, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string>Guard Slits</string>
+         </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="carelateddisplay_22">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>217</y>
+           <width>66</width>
+           <height>19</height>
+          </rect>
+         </property>
+         <property name="label">
+          <string notr="true"/>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>153</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>h motors</string>
+         </property>
+         <property name="files">
+          <string>motor2xU.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:m58:c2:,M1=m6,M2=m8</string>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_51">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>195</y>
+           <width>181</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(0, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string>Beam Defining Slits</string>
+         </property>
+        </widget>
        </widget>
       </item>
      </layout>
     </widget>
     <widget class="QWidget" name="tab_23">
      <attribute name="title">
-      <string>Experimental</string>
+      <string>SAXS/WAXS</string>
      </attribute>
      <layout class="QHBoxLayout" name="horizontalLayout_11">
       <item>
@@ -3338,7 +3792,7 @@
       <x>0</x>
       <y>602</y>
       <width>380</width>
-      <height>71</height>
+      <height>85</height>
      </rect>
     </property>
     <property name="title">
@@ -3360,8 +3814,8 @@
     <widget class="QLabel" name="label_54">
      <property name="geometry">
       <rect>
-       <x>205</x>
-       <y>46</y>
+       <x>200</x>
+       <y>50</y>
        <width>55</width>
        <height>16</height>
       </rect>
@@ -3376,7 +3830,7 @@
        <x>74</x>
        <y>46</y>
        <width>93</width>
-       <height>16</height>
+       <height>25</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
@@ -3396,8 +3850,8 @@
     <widget class="QLabel" name="label_57">
      <property name="geometry">
       <rect>
-       <x>12</x>
-       <y>46</y>
+       <x>7</x>
+       <y>50</y>
        <width>56</width>
        <height>16</height>
       </rect>
@@ -3412,7 +3866,7 @@
        <x>266</x>
        <y>46</y>
        <width>93</width>
-       <height>16</height>
+       <height>25</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
@@ -3434,9 +3888,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>680</y>
+      <y>690</y>
       <width>380</width>
-      <height>71</height>
+      <height>85</height>
      </rect>
     </property>
     <property name="title">
@@ -3461,7 +3915,7 @@
        <x>266</x>
        <y>28</y>
        <width>93</width>
-       <height>16</height>
+       <height>25</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
@@ -3481,8 +3935,8 @@
     <widget class="QLabel" name="label_66">
      <property name="geometry">
       <rect>
-       <x>12</x>
-       <y>28</y>
+       <x>7</x>
+       <y>30</y>
        <width>52</width>
        <height>16</height>
       </rect>
@@ -3494,8 +3948,8 @@
     <widget class="QLabel" name="label_82">
      <property name="geometry">
       <rect>
-       <x>205</x>
-       <y>28</y>
+       <x>200</x>
+       <y>30</y>
        <width>53</width>
        <height>16</height>
       </rect>
@@ -3510,7 +3964,7 @@
        <x>74</x>
        <y>28</y>
        <width>93</width>
-       <height>16</height>
+       <height>25</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
@@ -4110,6 +4564,11 @@
  </widget>
  <customwidgets>
   <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
    <class>caTextEntry</class>
    <extends>caLineEdit</extends>
    <header>caTextEntry</header>
@@ -4133,6 +4592,11 @@
    <class>caLineEdit</class>
    <extends>QLineEdit</extends>
    <header>caLineEdit</header>
+  </customwidget>
+  <customwidget>
+   <class>caScriptButton</class>
+   <extends>QWidget</extends>
+   <header>caScriptButton</header>
   </customwidget>
  </customwidgets>
  <resources/>

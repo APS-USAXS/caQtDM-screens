@@ -38,7 +38,7 @@
      <string notr="true">color:rgb(0, 0, 0)</string>
     </property>
     <property name="text">
-     <string>usaxs_parameters_all.adl</string>
+     <string>usaxs_parameters_all.ui</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_157">
@@ -59,7 +59,7 @@
      <string notr="true">color:rgb(0, 0, 0)</string>
     </property>
     <property name="text">
-     <string>last edited: 2017-08-23</string>
+     <string>last edited: 2018-01-09</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_35">
@@ -86,27 +86,6 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_90">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>30</y>
-      <width>181</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>TODO: selects one of 6-7  instrument modes</string>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
     </property>
    </widget>
    <widget class="QGroupBox" name="groupBox_14">
@@ -392,7 +371,7 @@
      </font>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -1761,6 +1740,28 @@
            <set>Qt::AlignCenter</set>
           </property>
          </widget>
+         <widget class="caMessageButton" name="camessagebutton_13">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>210</y>
+            <width>231</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Switch off Data Col. in Progress msg.</string>
+          </property>
+          <property name="channel" stdset="0">
+           <string notr="true">9idcLAX:dataColInProgress</string>
+          </property>
+          <property name="label">
+           <string notr="true">USAXS mode</string>
+          </property>
+          <property name="releaseMessage">
+           <string notr="true">0</string>
+          </property>
+         </widget>
         </widget>
        </widget>
       </item>
@@ -3035,8 +3036,8 @@
         <widget class="QLabel" name="label_88">
          <property name="geometry">
           <rect>
-           <x>50</x>
-           <y>217</y>
+           <x>60</x>
+           <y>220</y>
            <width>79</width>
            <height>19</height>
           </rect>
@@ -3089,8 +3090,8 @@
         <widget class="QLabel" name="label_98">
          <property name="geometry">
           <rect>
-           <x>60</x>
-           <y>242</y>
+           <x>70</x>
+           <y>245</y>
            <width>56</width>
            <height>19</height>
           </rect>
@@ -3159,45 +3160,6 @@
           <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setSWAXSSlits.sh</string>
          </property>
         </widget>
-        <widget class="caRelatedDisplay" name="carelateddisplay_23">
-         <property name="geometry">
-          <rect>
-           <x>310</x>
-           <y>242</y>
-           <width>65</width>
-           <height>19</height>
-          </rect>
-         </property>
-         <property name="label">
-          <string notr="true"/>
-         </property>
-         <property name="foreground">
-          <color>
-           <red>255</red>
-           <green>255</green>
-           <blue>255</blue>
-          </color>
-         </property>
-         <property name="background">
-          <color>
-           <red>0</red>
-           <green>0</green>
-           <blue>153</blue>
-          </color>
-         </property>
-         <property name="labels">
-          <string>v motors</string>
-         </property>
-         <property name="files">
-          <string>motor2xU.ui</string>
-         </property>
-         <property name="args">
-          <string>P=9idcLAX:m58:c2:,M1=m5,M2=m7</string>
-         </property>
-         <property name="stackingMode" stdset="0">
-          <enum>caRowColMenu::Row</enum>
-         </property>
-        </widget>
         <widget class="caScriptButton" name="cascriptbutton_3">
          <property name="geometry">
           <rect>
@@ -3240,8 +3202,8 @@
         <widget class="caTextEntry" name="catextentry_76">
          <property name="geometry">
           <rect>
-           <x>180</x>
-           <y>240</y>
+           <x>190</x>
+           <y>243</y>
            <width>120</width>
            <height>20</height>
           </rect>
@@ -3276,8 +3238,8 @@
         <widget class="caTextEntry" name="catextentry_77">
          <property name="geometry">
           <rect>
-           <x>180</x>
-           <y>215</y>
+           <x>190</x>
+           <y>218</y>
            <width>120</width>
            <height>20</height>
           </rect>
@@ -3443,11 +3405,34 @@
           <string>Guard Slits</string>
          </property>
         </widget>
+        <widget class="QLabel" name="label_51">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>198</y>
+           <width>181</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(0, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string>Beam Defining Slits</string>
+         </property>
+        </widget>
         <widget class="caRelatedDisplay" name="carelateddisplay_22">
          <property name="geometry">
           <rect>
-           <x>310</x>
-           <y>217</y>
+           <x>330</x>
+           <y>220</y>
            <width>66</width>
            <height>19</height>
           </rect>
@@ -3470,39 +3455,55 @@
           </color>
          </property>
          <property name="labels">
-          <string>h motors</string>
+          <string>Centers</string>
          </property>
          <property name="files">
           <string>motor2xU.ui</string>
          </property>
          <property name="args">
-          <string>P=9idcLAX:m58:c2:,M1=m6,M2=m8</string>
+          <string>P=9idcLAX:m58:c2:,M1=m6,M2=m5</string>
          </property>
          <property name="stackingMode" stdset="0">
           <enum>caRowColMenu::Row</enum>
          </property>
         </widget>
-        <widget class="QLabel" name="label_51">
+        <widget class="caRelatedDisplay" name="carelateddisplay_23">
          <property name="geometry">
           <rect>
-           <x>170</x>
-           <y>195</y>
-           <width>181</width>
-           <height>20</height>
+           <x>330</x>
+           <y>240</y>
+           <width>65</width>
+           <height>19</height>
           </rect>
          </property>
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
+         <property name="label">
+          <string notr="true"/>
          </property>
-         <property name="styleSheet">
-          <string notr="true">color:rgb(0, 0, 0)</string>
+         <property name="foreground">
+          <color>
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
          </property>
-         <property name="text">
-          <string>Beam Defining Slits</string>
+         <property name="background">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>153</blue>
+          </color>
+         </property>
+         <property name="labels">
+          <string>Apertures</string>
+         </property>
+         <property name="files">
+          <string>motor2xU.ui</string>
+         </property>
+         <property name="args">
+          <string>P=9idcLAX:m58:c2:,M1=m8,M2=m7</string>
+         </property>
+         <property name="stackingMode" stdset="0">
+          <enum>caRowColMenu::Row</enum>
          </property>
         </widget>
        </widget>

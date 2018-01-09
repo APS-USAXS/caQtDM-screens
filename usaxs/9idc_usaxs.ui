@@ -3165,7 +3165,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">FLyScan main;Scaler</string>
+     <string notr="true">FLyScan main;Struk</string>
     </property>
     <property name="files">
      <string notr="true">USAXSfly.ui;SIS38XX.ui</string>
@@ -4726,26 +4726,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <height>34</height>
      </rect>
     </property>
-    <widget class="QLabel" name="label_4">
-     <property name="geometry">
-      <rect>
-       <x>9</x>
-       <y>9</y>
-       <width>39</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>mode:</string>
-     </property>
-    </widget>
     <widget class="caLed" name="caled_2">
      <property name="geometry">
       <rect>
        <x>143</x>
        <y>10</y>
        <width>18</width>
-       <height>16</height>
+       <height>18</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
@@ -4765,39 +4752,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <string notr="true"/>
      </property>
     </widget>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>167</x>
-       <y>10</y>
-       <width>31</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>SAXS</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_5">
-     <property name="geometry">
-      <rect>
-       <x>95</x>
-       <y>10</y>
-       <width>40</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>USAXS</string>
-     </property>
-    </widget>
     <widget class="caLed" name="caled">
      <property name="geometry">
       <rect>
        <x>71</x>
        <y>10</y>
        <width>18</width>
-       <height>16</height>
+       <height>18</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
@@ -5304,10 +5265,16 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="visibility">
-      <enum>caLabel::IfZero</enum>
+      <enum>caLabel::IfNotZero</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true">A&lt;=0 &amp;&amp; B&gt;500000</string>
      </property>
      <property name="channel" stdset="0">
-      <string>PA:09ID:D_BEAM_ACTIVE</string>
+      <string notr="true">9idcUSX:pd01:seq02:reqrange</string>
+     </property>
+     <property name="channelB">
+      <string notr="true">9idcLAX:vsc:c0_cts1.D</string>
      </property>
     </widget>
    </widget>
@@ -5824,7 +5791,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <item>
       <widget class="caLabel" name="caLabel_4">
        <property name="text">
-        <string>last edited: 2018-01-01</string>
+        <string>last edited: 2018-01-09</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -5894,7 +5861,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <x>430</x>
       <y>60</y>
       <width>18</width>
-      <height>14</height>
+      <height>18</height>
      </rect>
     </property>
     <property name="channel" stdset="0">
@@ -5917,10 +5884,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>60</y>
-      <width>31</width>
-      <height>14</height>
+      <x>452</x>
+      <y>62</y>
+      <width>50</width>
+      <height>15</height>
      </rect>
     </property>
     <property name="text">
@@ -5933,7 +5900,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <x>490</x>
       <y>60</y>
       <width>18</width>
-      <height>14</height>
+      <height>18</height>
      </rect>
     </property>
     <property name="channel" stdset="0">
@@ -5956,10 +5923,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>60</y>
-      <width>41</width>
-      <height>10</height>
+      <x>512</x>
+      <y>62</y>
+      <width>50</width>
+      <height>15</height>
      </rect>
     </property>
     <property name="text">
@@ -5972,7 +5939,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <x>560</x>
       <y>60</y>
       <width>18</width>
-      <height>14</height>
+      <height>18</height>
      </rect>
     </property>
     <property name="channel" stdset="0">
@@ -5995,10 +5962,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>60</y>
-      <width>41</width>
-      <height>10</height>
+      <x>584</x>
+      <y>62</y>
+      <width>50</width>
+      <height>15</height>
      </rect>
     </property>
     <property name="text">
@@ -6011,7 +5978,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <x>640</x>
       <y>60</y>
       <width>18</width>
-      <height>14</height>
+      <height>18</height>
      </rect>
     </property>
     <property name="channel" stdset="0">
@@ -6034,10 +6001,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>60</y>
-      <width>41</width>
-      <height>10</height>
+      <x>665</x>
+      <y>62</y>
+      <width>50</width>
+      <height>15</height>
      </rect>
     </property>
     <property name="text">
@@ -6049,7 +6016,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>640</x>
       <y>10</y>
-      <width>220</width>
+      <width>280</width>
       <height>30</height>
      </rect>
     </property>
@@ -6087,6 +6054,45 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="channel" stdset="0">
      <string notr="true">9idcLAX:dataColInProgress</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>229</x>
+      <y>62</y>
+      <width>50</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mode:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>314</x>
+      <y>62</y>
+      <width>50</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>USAXS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>386</x>
+      <y>62</y>
+      <width>50</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SAXS</string>
     </property>
    </widget>
    <zorder>layoutWidget</zorder>
@@ -6228,6 +6234,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caled_8</zorder>
    <zorder>label_16</zorder>
    <zorder>caLabel_5</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
   </widget>
  </widget>
  <customwidgets>

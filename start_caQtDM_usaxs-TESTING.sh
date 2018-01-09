@@ -54,7 +54,7 @@ function addScreenPath
       fi
       if [ -d ${module_path} ]; then
         # only proceed if directory actually exists
- 	QTDMDP=${QTDMDP}:${module_path}
+        QTDMDP=${QTDMDP}:${module_path}
       fi
 
     fi
@@ -179,6 +179,8 @@ addScreenPath      APS_UI_DIR            sr/vacApp
 addScreenPath      APS_UI_DIR            time
 addScreenPath      APS_UI_DIR            time/injtimeApp
 addScreenPath      APS_UI_DIR            time/mtimeApp
+H1003_UI_DIR=/net/s9dserv/xorApps/epics/synApps_5_8/ioc/9idcH1003/9idcH1003App/op/ui/
+addScreenPath      H1003_UI_DIR
 # ============  ================  ===========================
 
 

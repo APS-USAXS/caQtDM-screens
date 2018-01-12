@@ -1089,7 +1089,7 @@
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="visibility">
-      <enum>caLabel::IfNotZero</enum>
+      <enum>caLabel::Calc</enum>
      </property>
      <property name="visibilityCalc">
       <string notr="true">A&lt;=0 &amp;&amp; B&gt;500000</string>

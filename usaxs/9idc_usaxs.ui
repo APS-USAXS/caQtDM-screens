@@ -678,7 +678,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="label">
-     <string notr="true">-9ID synoptic</string>
+     <string notr="true">-9ID iocs</string>
     </property>
     <property name="foreground">
      <color>
@@ -695,13 +695,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>09ID Beamline Components;9id_user;9ibdb_user</string>
+     <string>09ID Beamline Components;9id_user;9ibdb_user;LAX</string>
     </property>
     <property name="files">
-     <string>9ida.ui;9id_user.ui;9idb_user.ui</string>
+     <string>9ida.ui;9id_user.ui;9idb_user.ui;9idcLAX.ui</string>
     </property>
     <property name="args">
-     <string>;;</string>
+     <string>;;;</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -5265,7 +5265,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="visibility">
-      <enum>caLabel::IfNotZero</enum>
+      <enum>caLabel::Calc</enum>
      </property>
      <property name="visibilityCalc">
       <string notr="true">A&lt;=0 &amp;&amp; B&gt;500000</string>

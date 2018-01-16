@@ -89,6 +89,7 @@ addScreenPath      BEAMLINE_UI_DIR       ../9ida
 addScreenPath      BEAMLINE_UI_DIR       legacy
 addScreenPath      DSERV_EPICS_DIR       synApps_5_7/ioc/9idcLAX/9idcLAXApp/op/adl
 addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/9idcRIO/9idcRIOApp/op/adl
+addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/9idcH1003/9idcH1003App/op/ui
 addScreenPath      DSERV_EPICS_DIR       synApps_5_7/ioc/9id/9idApp/op/adl
 addScreenPath      DSERV_EPICS_DIR       synApps_5_7/ioc/9id/9idaApp/op/adl
 addScreenPath      DSERV_EPICS_DIR       synApps_5_7/ioc/9id/9idbApp/op/adl
@@ -179,8 +180,6 @@ addScreenPath      APS_UI_DIR            sr/vacApp
 addScreenPath      APS_UI_DIR            time
 addScreenPath      APS_UI_DIR            time/injtimeApp
 addScreenPath      APS_UI_DIR            time/mtimeApp
-H1003_UI_DIR=/net/s9dserv/xorApps/epics/synApps_5_8/ioc/9idcH1003/9idcH1003App/op/ui/
-addScreenPath      H1003_UI_DIR
 # ============  ================  ===========================
 
 

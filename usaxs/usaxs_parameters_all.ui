@@ -1283,8 +1283,8 @@
          <widget class="caMessageButton" name="camessagebutton_8">
           <property name="geometry">
            <rect>
-            <x>470</x>
-            <y>8</y>
+            <x>480</x>
+            <y>36</y>
             <width>100</width>
             <height>22</height>
            </rect>
@@ -1302,8 +1302,8 @@
          <widget class="caLed" name="caled_16">
           <property name="geometry">
            <rect>
-            <x>440</x>
-            <y>12</y>
+            <x>450</x>
+            <y>40</y>
             <width>18</width>
             <height>14</height>
            </rect>
@@ -1328,8 +1328,8 @@
          <widget class="caLed" name="caled_17">
           <property name="geometry">
            <rect>
-            <x>440</x>
-            <y>44</y>
+            <x>450</x>
+            <y>72</y>
             <width>18</width>
             <height>14</height>
            </rect>
@@ -1354,8 +1354,8 @@
          <widget class="caMessageButton" name="camessagebutton_9">
           <property name="geometry">
            <rect>
-            <x>470</x>
-            <y>40</y>
+            <x>480</x>
+            <y>68</y>
             <width>100</width>
             <height>22</height>
            </rect>
@@ -1373,8 +1373,8 @@
          <widget class="caLed" name="caled_18">
           <property name="geometry">
            <rect>
-            <x>440</x>
-            <y>74</y>
+            <x>450</x>
+            <y>102</y>
             <width>18</width>
             <height>14</height>
            </rect>
@@ -1399,8 +1399,8 @@
          <widget class="caMessageButton" name="camessagebutton_10">
           <property name="geometry">
            <rect>
-            <x>470</x>
-            <y>70</y>
+            <x>480</x>
+            <y>98</y>
             <width>100</width>
             <height>22</height>
            </rect>
@@ -1418,8 +1418,8 @@
          <widget class="caLed" name="caled_19">
           <property name="geometry">
            <rect>
-            <x>440</x>
-            <y>104</y>
+            <x>450</x>
+            <y>132</y>
             <width>18</width>
             <height>14</height>
            </rect>
@@ -1444,8 +1444,8 @@
          <widget class="caMessageButton" name="camessagebutton_11">
           <property name="geometry">
            <rect>
-            <x>470</x>
-            <y>100</y>
+            <x>480</x>
+            <y>128</y>
             <width>100</width>
             <height>22</height>
            </rect>
@@ -1463,8 +1463,8 @@
          <widget class="caLed" name="caled_20">
           <property name="geometry">
            <rect>
-            <x>440</x>
-            <y>134</y>
+            <x>450</x>
+            <y>162</y>
             <width>18</width>
             <height>14</height>
            </rect>
@@ -1489,8 +1489,8 @@
          <widget class="caMessageButton" name="camessagebutton_12">
           <property name="geometry">
            <rect>
-            <x>470</x>
-            <y>130</y>
+            <x>480</x>
+            <y>158</y>
             <width>100</width>
             <height>22</height>
            </rect>
@@ -1786,7 +1786,7 @@
            </rect>
           </property>
           <property name="text">
-           <string>USAXS mode</string>
+           <string>do not use yet - mode change</string>
           </property>
           <property name="channel" stdset="0">
            <string notr="true">9idcLAX:dataColInProgress</string>
@@ -1796,6 +1796,22 @@
           </property>
           <property name="releaseMessage">
            <string notr="true">0</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_52">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>10</y>
+            <width>161</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Instrument mode</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </widget>
@@ -1829,6 +1845,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_74">
       <property name="geometry">
@@ -1851,6 +1873,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_73">
@@ -1875,6 +1903,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_75">
       <property name="geometry">
@@ -1897,6 +1931,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_71">
@@ -1944,6 +1984,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_70">
       <property name="geometry">
@@ -1967,6 +2013,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_72">
       <property name="geometry">
@@ -1989,6 +2041,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_74">
@@ -3694,12 +3752,12 @@
           <rect>
            <x>20</x>
            <y>47</y>
-           <width>95</width>
+           <width>131</width>
            <height>18</height>
           </rect>
          </property>
          <property name="text">
-          <string>Acquire Time</string>
+          <string>Acquire Time [s]</string>
          </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_172">
@@ -3789,12 +3847,12 @@
           <rect>
            <x>20</x>
            <y>107</y>
-           <width>51</width>
+           <width>121</width>
            <height>18</height>
           </rect>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Al filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Al filter [No]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_163">
@@ -3854,6 +3912,12 @@
          </property>
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
+         </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
          </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_182">
@@ -3936,6 +4000,12 @@
          </property>
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
+         </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
          </property>
         </widget>
        </widget>

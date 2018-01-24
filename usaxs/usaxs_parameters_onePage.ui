@@ -446,9 +446,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>490</y>
+      <y>483</y>
       <width>351</width>
-      <height>134</height>
+      <height>141</height>
      </rect>
     </property>
     <property name="title">
@@ -484,6 +484,12 @@
      </item>
      <item row="1" column="1">
       <widget class="caTextEntry" name="catextentry_18">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:Pin_hslit_ap</string>
        </property>
@@ -501,6 +507,12 @@
      </item>
      <item row="1" column="2">
       <widget class="caTextEntry" name="catextentry_16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:USAXS_hslit_ap</string>
        </property>
@@ -525,6 +537,12 @@
      </item>
      <item row="2" column="1">
       <widget class="caTextEntry" name="catextentry_23">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:Pin_vslit_ap</string>
        </property>
@@ -542,6 +560,12 @@
      </item>
      <item row="2" column="2">
       <widget class="caTextEntry" name="catextentry_19">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:USAXS_vslit_ap</string>
        </property>
@@ -566,6 +590,12 @@
      </item>
      <item row="3" column="1">
       <widget class="caTextEntry" name="catextentry_17">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:Pin_hgslit_ap</string>
        </property>
@@ -583,6 +613,12 @@
      </item>
      <item row="3" column="2">
       <widget class="caTextEntry" name="catextentry_20">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:USAXS_hgslit_ap</string>
        </property>
@@ -607,6 +643,12 @@
      </item>
      <item row="4" column="1">
       <widget class="caTextEntry" name="catextentry_21">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:Pin_vgslit_ap</string>
        </property>
@@ -624,6 +666,12 @@
      </item>
      <item row="4" column="2">
       <widget class="caTextEntry" name="catextentry_22">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS_Pin:USAXS_vgslit_ap</string>
        </property>
@@ -1912,7 +1960,7 @@
       <x>720</x>
       <y>130</y>
       <width>379</width>
-      <height>101</height>
+      <height>111</height>
      </rect>
     </property>
     <property name="title">
@@ -1923,16 +1971,6 @@
       <widget class="QLabel" name="label_19">
        <property name="text">
         <string>WAXS</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QLabel" name="label_29">
-       <property name="text">
-        <string>SAXS</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -1951,41 +1989,23 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
-      <widget class="caTextEntry" name="catextentry_71">
+     <item row="2" column="1">
+      <widget class="caTextEntry" name="catextentry_74">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>7</pointsize>
+         <pointsize>11</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS_Pin:Exp_Al_Filter.VAL</string>
-       </property>
-       <property name="background">
-        <color>
-         <red>115</red>
-         <green>215</green>
-         <blue>253</blue>
-        </color>
-       </property>
-       <property name="colorMode">
-        <enum>caLineEdit::Static</enum>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="2">
-      <widget class="caTextEntry" name="catextentry_73">
-       <property name="font">
-        <font>
-         <family>Monospace</family>
-         <pointsize>7</pointsize>
-         <stylestrategy>PreferDefault</stylestrategy>
-        </font>
-       </property>
-       <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS_WAXS:Exp_Al_Filter.VAL</string>
+        <string notr="true">9idcLAX:USAXS_Pin:Exp_Ti_Filter.VAL</string>
        </property>
        <property name="background">
         <color>
@@ -2011,17 +2031,53 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="1">
-      <widget class="caTextEntry" name="catextentry_74">
+     <item row="1" column="1">
+      <widget class="caTextEntry" name="catextentry_71">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>7</pointsize>
+         <pointsize>11</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS_Pin:Exp_Ti_Filter.VAL</string>
+        <string notr="true">9idcLAX:USAXS_Pin:Exp_Al_Filter.VAL</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="caTextEntry" name="catextentry_73">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Monospace</family>
+         <pointsize>11</pointsize>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS_WAXS:Exp_Al_Filter.VAL</string>
        </property>
        <property name="background">
         <color>
@@ -2037,10 +2093,16 @@
      </item>
      <item row="2" column="2">
       <widget class="caTextEntry" name="catextentry_72">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>7</pointsize>
+         <pointsize>11</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -2056,6 +2118,16 @@
        </property>
        <property name="colorMode">
         <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_29">
+       <property name="text">
+        <string>SAXS</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
      </item>
@@ -2095,6 +2167,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>6</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="QLabel" name="label_31">
      <property name="geometry">
@@ -2131,6 +2209,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_59">
      <property name="geometry">
@@ -2154,6 +2238,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_61">
      <property name="geometry">
@@ -2176,6 +2266,12 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="QLabel" name="label_32">
@@ -2212,6 +2308,12 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="QLabel" name="label_33">
@@ -2271,6 +2373,12 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="QLabel" name="label_34">
@@ -2357,6 +2465,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="QLabel" name="label_37">
      <property name="geometry">
@@ -2393,6 +2507,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_57">
      <property name="geometry">
@@ -2415,6 +2535,12 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="QLabel" name="label_48">
@@ -2452,6 +2578,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_65">
      <property name="geometry">
@@ -2474,6 +2606,12 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="QLabel" name="label_49">
@@ -2514,6 +2652,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="QLabel" name="label_50">
      <property name="geometry">
@@ -2550,6 +2694,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_66">
      <property name="geometry">
@@ -2573,6 +2723,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_67">
      <property name="geometry">
@@ -2595,6 +2751,12 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="QLabel" name="label_51">
@@ -2671,6 +2833,12 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="QLabel" name="label_5">
      <property name="geometry">
@@ -2732,6 +2900,12 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_26">

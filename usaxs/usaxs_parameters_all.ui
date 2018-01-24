@@ -1036,6 +1036,42 @@
        <string notr="true"/>
       </property>
      </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>170</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>use &gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>70</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>use &gt;</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_2">
      <property name="enabled">
@@ -1750,7 +1786,7 @@
            </rect>
           </property>
           <property name="text">
-           <string>Switch off Data Col. in Progress msg.</string>
+           <string>USAXS mode</string>
           </property>
           <property name="channel" stdset="0">
            <string notr="true">9idcLAX:dataColInProgress</string>
@@ -2112,6 +2148,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_100">
       <property name="geometry">
@@ -2134,6 +2176,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_94">
@@ -2171,6 +2219,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="QLabel" name="label_99">
       <property name="geometry">
@@ -2207,6 +2261,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_96">
       <property name="geometry">
@@ -2230,6 +2290,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_95">
       <property name="geometry">
@@ -2252,6 +2318,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>0</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_97">
@@ -2289,6 +2361,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_90">
       <property name="geometry">
@@ -2312,6 +2390,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_99">
       <property name="geometry">
@@ -2334,6 +2418,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_89">
@@ -2371,6 +2461,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_104">
       <property name="geometry">
@@ -2393,6 +2489,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_87">
@@ -2417,6 +2519,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_97">
       <property name="geometry">
@@ -2439,6 +2547,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_20">
@@ -2489,6 +2603,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_103">
       <property name="geometry">
@@ -2511,6 +2631,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_101">
@@ -2548,6 +2674,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_92">
       <property name="geometry">
@@ -2577,12 +2709,12 @@
        <rect>
         <x>9</x>
         <y>192</y>
-        <width>63</width>
+        <width>121</width>
         <height>18</height>
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Distance&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Distance (mm)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_92">
@@ -2620,6 +2752,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_94">
       <property name="geometry">
@@ -2642,6 +2780,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_95">
@@ -2692,6 +2836,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>5</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="QLabel" name="label_96">
       <property name="geometry">
@@ -2740,6 +2890,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
     </widget>
@@ -4017,6 +4173,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="QLabel" name="label_44">
      <property name="geometry">
@@ -4072,6 +4231,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="QLabel" name="label_46">
      <property name="geometry">
@@ -4108,6 +4270,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_44">
      <property name="geometry">
@@ -4130,6 +4295,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_42">
@@ -4154,6 +4322,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_49">
      <property name="geometry">
@@ -4176,6 +4347,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="QLabel" name="label_47">
@@ -4213,6 +4387,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_40">
      <property name="geometry">
@@ -4235,6 +4412,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_37">
@@ -4259,6 +4439,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_48">
      <property name="geometry">
@@ -4281,6 +4464,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_33">
@@ -4305,6 +4491,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_38">
      <property name="geometry">
@@ -4328,6 +4517,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_34">
      <property name="geometry">
@@ -4350,6 +4542,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="QLabel" name="label_45">
@@ -4387,6 +4582,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_39">
      <property name="geometry">
@@ -4409,6 +4607,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_36">
@@ -4433,6 +4634,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_50">
      <property name="geometry">
@@ -4456,6 +4660,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_41">
      <property name="geometry">
@@ -4478,6 +4685,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="QLabel" name="label_40">

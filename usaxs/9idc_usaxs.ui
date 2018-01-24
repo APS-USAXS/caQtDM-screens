@@ -179,13 +179,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>LAX scaler (more);LAX scaler dark signal;LAX scaler #2</string>
+     <string>LAX scaler (more);LAX scaler dark signal;LAX scaler gated;LAX scaler I000</string>
     </property>
     <property name="files">
-     <string>scaler16_full.ui;dark16.ui;scaler16_full.ui</string>
+     <string>scaler16_full.ui;dark16.ui;scaler16_full.ui;scaler16_full.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX:, S=vsc:c0;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=9idcLAX:, S=vsc:c1</string>
+     <string>P=9idcLAX:, S=vsc:c0;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=9idcLAX:, S=vsc:c1;P=9idcLAX:, S=vsc:c2</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -404,13 +404,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>SX, SY motors;SA motor;Fulel inj.</string>
+     <string>SX, SY motors;SA motor;Fulel inj.;Huber head</string>
     </property>
     <property name="files">
-     <string>motor2xU.ui;motorxU.ui;motor2xU.ui</string>
+     <string>motor2xU.ui;motorxU.ui;motor2xU.ui;huber_1003.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX:, M1=m58:c2:m1, M2=m58:c2:m2;P=9idcLAX:, M=m58:c2:m3;P=9idcLAX:, M1=m58:c1:m7,M2=mxv:c0:m7</string>
+     <string>P=9idcLAX:, M1=m58:c2:m1, M2=m58:c2:m2;P=9idcLAX:, M=m58:c2:m3;P=9idcLAX:, M1=m58:c1:m7,M2=mxv:c0:m7;P=9idcH1003:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -3184,7 +3184,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>390</y>
+      <y>405</y>
       <width>100</width>
       <height>21</height>
      </rect>
@@ -3207,13 +3207,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SAXS Pilatus;WAXS Pilatus;Apogee;BlackFly;DP Perkin Elmer;Mythen DP</string>
+     <string notr="true">SAXS Pilatus;WAXS Pilatus;Apogee;BlackFly;DP Perkin Elmer;Mythen DP;BlackFlyImage</string>
     </property>
     <property name="files">
-     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;apogee.ui;PerkinElmer.ui;mythen.ui</string>
+     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;PerkinElmer.ui;mythen.ui;ad_cam_image.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:</string>
+     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=9idFLY1:,R=cam1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -5489,7 +5489,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
              <bool>true</bool>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9ida:DP41:s1:temp</string>
+             <string notr="true">BL:09ID:TEMP4_CURRENT</string>
             </property>
             <property name="unitsEnabled">
              <bool>true</bool>
@@ -6095,6 +6095,37 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>SAXS</string>
     </property>
    </widget>
+   <widget class="caLineEdit" name="calineedit_63">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>630</y>
+      <width>117</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>#####</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">BL:09:TEMP1_CURRENT</string>
+    </property>
+    <property name="unitsEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
    <zorder>layoutWidget</zorder>
    <zorder>groupBox_6</zorder>
    <zorder>groupBox_4</zorder>
@@ -6237,6 +6268,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
    <zorder>label_6</zorder>
+   <zorder>calineedit_63</zorder>
   </widget>
  </widget>
  <customwidgets>

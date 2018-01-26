@@ -757,7 +757,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>10</x>
       <y>610</y>
-      <width>100</width>
+      <width>120</width>
       <height>21</height>
      </rect>
     </property>
@@ -799,7 +799,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>10</x>
       <y>630</y>
-      <width>100</width>
+      <width>120</width>
       <height>21</height>
      </rect>
     </property>
@@ -841,7 +841,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>10</x>
       <y>570</y>
-      <width>100</width>
+      <width>120</width>
       <height>21</height>
      </rect>
     </property>
@@ -883,7 +883,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>10</x>
       <y>590</y>
-      <width>100</width>
+      <width>120</width>
       <height>21</height>
      </rect>
     </property>
@@ -967,7 +967,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>10</x>
       <y>530</y>
-      <width>100</width>
+      <width>120</width>
       <height>21</height>
      </rect>
     </property>
@@ -1009,7 +1009,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>10</x>
       <y>550</y>
-      <width>100</width>
+      <width>120</width>
       <height>21</height>
      </rect>
     </property>
@@ -2927,7 +2927,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>10</x>
       <y>650</y>
-      <width>100</width>
+      <width>120</width>
       <height>21</height>
      </rect>
     </property>
@@ -3143,7 +3143,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>10</x>
       <y>510</y>
-      <width>100</width>
+      <width>120</width>
       <height>21</height>
      </rect>
     </property>
@@ -3542,13 +3542,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">WB slits (H);WMB slits (W)</string>
+     <string notr="true">HHL Slits</string>
     </property>
     <property name="files">
-     <string notr="true">2slit.ui;2slit.ui</string>
+     <string notr="true">wbs1.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=9IDA:,SLIT=Slit1H,mXp=m15,mXn=m13;P=9IDA:,SLIT=Slit1V,mXp=m16,mXn=m14;P=9IDA:,SLIT=Slit1H,mXn=m15,mXp=m13;P=9IDA:,SLIT=Slit1V,mXn=m16, mXp=m14</string>
+     <string notr="true">P=9ida:,W=wbs</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -5012,7 +5012,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <x>830</x>
       <y>250</y>
       <width>271</width>
-      <height>161</height>
+      <height>201</height>
      </rect>
     </property>
     <property name="title">
@@ -5277,6 +5277,116 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <string notr="true">9idcLAX:vsc:c0_cts1.D</string>
      </property>
     </widget>
+    <widget class="caLabel" name="caLabel_49">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>250</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>BLEPS Warning</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>253</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true">A&gt;1</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idBLEPS:YELLOW_LIGHT</string>
+     </property>
+     <property name="channelB">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="caLabel" name="caLabel_50">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>250</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>BLEPS Failure</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>253</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>253</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true">A&gt;0</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idBLEPS:RED_LIGHT</string>
+     </property>
+     <property name="channelB">
+      <string notr="true"/>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_4">
     <property name="geometry">
@@ -5467,7 +5577,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           <item row="2" column="0">
            <widget class="QLabel" name="label_32">
             <property name="text">
-             <string>Mono P</string>
+             <string>Mono T</string>
             </property>
            </widget>
           </item>
@@ -5489,7 +5599,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
              <bool>true</bool>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">BL:09ID:TEMP4_CURRENT</string>
+             <string notr="true">9idBLEPS:TEMP4_CURRENT</string>
             </property>
             <property name="unitsEnabled">
              <bool>true</bool>
@@ -5514,19 +5624,19 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
              <bool>true</bool>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9ida:userStringCalc1</string>
+             <string notr="true">9idBLEPS:TEMP3_CURRENT</string>
             </property>
             <property name="precision">
-             <number>4</number>
+             <number>2</number>
             </property>
             <property name="precisionMode">
-             <enum>caLineEdit::User</enum>
+             <enum>caLineEdit::Channel</enum>
             </property>
             <property name="unitsEnabled">
              <bool>true</bool>
             </property>
             <property name="formatType">
-             <enum>caLineEdit::exponential</enum>
+             <enum>caLineEdit::decimal</enum>
             </property>
            </widget>
           </item>
@@ -6095,35 +6205,46 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>SAXS</string>
     </property>
    </widget>
-   <widget class="caLineEdit" name="calineedit_63">
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_44">
     <property name="geometry">
      <rect>
-      <x>1040</x>
-      <y>630</y>
-      <width>117</width>
+      <x>1010</x>
+      <y>105</y>
+      <width>100</width>
       <height>21</height>
      </rect>
     </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
+    <property name="label">
+     <string notr="true">-9ID BLEPS</string>
     </property>
-    <property name="text">
-     <string>#####</string>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>140</blue>
+     </color>
     </property>
-    <property name="readOnly">
-     <bool>true</bool>
+    <property name="labels">
+     <string notr="true"/>
     </property>
-    <property name="channel" stdset="0">
-     <string notr="true">BL:09:TEMP1_CURRENT</string>
+    <property name="files">
+     <string notr="true">EPS_ID_FE.ui;</string>
     </property>
-    <property name="unitsEnabled">
-     <bool>true</bool>
+    <property name="args">
+     <string notr="true">a=09,WIN=BE,TYPE=BEWIN,ID1=09ids,disp=Controls_new_BIV;</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false</string>
     </property>
    </widget>
    <zorder>layoutWidget</zorder>
@@ -6268,7 +6389,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
    <zorder>label_6</zorder>
-   <zorder>calineedit_63</zorder>
+   <zorder>caRelatedDisplay_44</zorder>
   </widget>
  </widget>
  <customwidgets>

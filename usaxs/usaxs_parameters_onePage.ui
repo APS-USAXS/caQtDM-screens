@@ -2773,19 +2773,6 @@
      </property>
     </widget>
    </widget>
-   <widget class="QGroupBox" name="groupBox_9">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>240</y>
-      <width>431</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="title">
-     <string>Scan parameters</string>
-    </property>
-   </widget>
    <widget class="QGroupBox" name="groupBox_5">
     <property name="geometry">
      <rect>
@@ -2832,9 +2819,6 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precision">
-      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
@@ -2900,9 +2884,6 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precision">
-      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>

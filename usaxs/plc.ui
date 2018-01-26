@@ -100,8 +100,11 @@
      <blue>140</blue>
     </color>
    </property>
+   <property name="releaseMessage">
+    <string notr="true">1</string>
+   </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -384,7 +387,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>370</x>
@@ -572,7 +575,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -607,20 +610,42 @@
         </property>
        </widget>
       </item>
-      <item>
-       <widget class="caLineEdit" name="calineedit_24">
-        <property name="text">
-         <string>#####</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-        <property name="channel" stdset="0">
-         <string notr="true">$(P)$(PLC)time</string>
-        </property>
-       </widget>
-      </item>
      </layout>
+    </item>
+    <item>
+     <widget class="caTextEntry" name="catextentry_55">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">$(P)$(PLC)time</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+     </widget>
     </item>
     <item>
      <spacer name="horizontalSpacer">
@@ -657,11 +682,14 @@
         <blue>140</blue>
        </color>
       </property>
+      <property name="releaseMessage">
+       <string notr="true">1</string>
+      </property>
      </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -717,6 +745,9 @@
           <green>0</green>
           <blue>140</blue>
          </color>
+        </property>
+        <property name="releaseMessage">
+         <string notr="true">1</string>
         </property>
        </widget>
       </item>
@@ -774,6 +805,11 @@
   </widget>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>caTextEntry</class>
+   <extends>caLineEdit</extends>
+   <header>caTextEntry</header>
+  </customwidget>
   <customwidget>
    <class>caMessageButton</class>
    <extends>QPushButton</extends>

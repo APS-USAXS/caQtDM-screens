@@ -113,7 +113,7 @@
     <string notr="true">Temperature [K]</string>
    </property>
    <property name="channels" stdset="0">
-    <string>9ida:DP41:s1:temp</string>
+    <string>9idBLEPS:TEMP3_CURRENT;9idBLEPS:TEMP4_CURRENT</string>
    </property>
    <property name="units">
     <enum>caStripPlot::Minute</enum>
@@ -160,6 +160,13 @@
    </property>
    <property name="YaxisScalingMin_2" stdset="0">
     <enum>caStripPlot::User</enum>
+   </property>
+   <property name="color_2">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
    </property>
    <property name="background">
     <color>

@@ -863,13 +863,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>LAX user support</string>
+     <string>LAX user support;LAX user AVe</string>
     </property>
     <property name="files">
-     <string>userSupport.ui</string>
+     <string>userSupport.ui;userAve10.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX:</string>
+     <string>P=9idcLAX:;P=9idcLAX:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -6232,13 +6232,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true"/>
+     <string notr="true">BLEPS faults - fix;BLEPS overview - fix;BKEPS small overview, fix;Trips;Faults;Warns;Faults, Trips, Warns</string>
     </property>
     <property name="files">
-     <string notr="true">EPS_ID_FE.ui;</string>
+     <string notr="true">BLEPS_Faults.ui;BLEPS_Adv.ui;BLEPS_Header.ui;BLEPS_PLC_Stacks_HEADER.ui;BLEPS_PLC_Stacks_HEADER.ui;BLEPS_PLC_Stacks_HEADER.ui;BLEPS_PLC_Stacks.ui</string>
     </property>
     <property name="args">
-     <string notr="true">a=09,WIN=BE,TYPE=BEWIN,ID1=09ids,disp=Controls_new_BIV;</string>
+     <string notr="true">P=9idBLEPS:,xx=09,yy=ID;P=9idBLEPS:,xx=09,yy=ID;P=9idBLEPS:,xx=09,yy=ID;P=9idBLEPS:,xx=09,yy=ID, TYPE=TRIP;P=9idBLEPS:,xx=09,yy=ID, TYPE=FAULT;P=9idBLEPS:,xx=09,yy=ID, TYPE=WARN;P=9idBLEPS:,xx=09,yy=ID;</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

@@ -503,7 +503,7 @@
     <string>Enable</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9ida:rShtrA:Open</string>
+    <string notr="true">9ida:AShtr:Enable</string>
    </property>
    <property name="foreground">
     <color>
@@ -519,8 +519,11 @@
      <blue>140</blue>
     </color>
    </property>
-   <property name="pressMessage">
+   <property name="releaseMessage">
     <string notr="true">1</string>
+   </property>
+   <property name="pressMessage">
+    <string notr="true"/>
    </property>
   </widget>
   <widget class="caMessageButton" name="camessagebutton_8">
@@ -536,7 +539,7 @@
     <string>Disable</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9ida:rShtrA:Close</string>
+    <string notr="true">9ida:AShtr:Enable</string>
    </property>
    <property name="foreground">
     <color>
@@ -552,8 +555,11 @@
      <blue>140</blue>
     </color>
    </property>
-   <property name="pressMessage">
+   <property name="releaseMessage">
     <string notr="true">0</string>
+   </property>
+   <property name="pressMessage">
+    <string notr="true"/>
    </property>
   </widget>
   <widget class="caMessageButton" name="camessagebutton_3">

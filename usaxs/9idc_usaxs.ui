@@ -2949,13 +2949,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Feedback;Pilatus;Microlab;Love Controllers;xiahsc;9idc Linkam;Feedback Input Calcs;Mirror Feedback;Pilatus disk free space</string>
+     <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Feedback;Pilatus;Microlab;Love Controllers;xiahsc;9idc Linkam;Feedback Input Calcs;Mirror Feedback;Pilatus disk free space;Adam RTD</string>
     </property>
     <property name="files">
-     <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;fb_epid.ui;pilatusDetector.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;userCalcs10.ui;fb_epid.ui;epicsdf.ui</string>
+     <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;fb_epid.ui;pilatusDetector.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;userCalcs10.ui;fb_epid.ui;epicsdf.ui;ADAM_4015.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX;P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO;P=9idcLAX,PORT=:rs232b7;P=9idcLAX:,PORT=:rs232b6;P=9idcLAX:fbe:omega;P=9idcPIL:,R=cam1:;P=9idcLAX:,R=microlab:,S=cmdReplya7_do_IO;P=9idcLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=9idcLAX:,HSC=hsc1:;P=9idcLAX:;P=9idcLAX:fbCalc:;P=9idcLAX:fbe:mirror;P=9idcLAX:,D=p100:</string>
+     <string>P=9idcLAX;P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO;P=9idcLAX,PORT=:rs232b7;P=9idcLAX:,PORT=:rs232b6;P=9idcLAX:fbe:omega;P=9idcPIL:,R=cam1:;P=9idcLAX:,R=microlab:,S=cmdReplya7_do_IO;P=9idcLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=9idcLAX:,HSC=hsc1:;P=9idcLAX:;P=9idcLAX:fbCalc:;P=9idcLAX:fbe:mirror;P=9idcLAX:,D=p100:;P=9idcLAX:,R=adam1</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -6247,6 +6247,265 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false</string>
     </property>
    </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>500</y>
+      <width>211</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Temperatures</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_10">
+     <item>
+      <widget class="QWidget" name="widget_6" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(139, 130, 15);</string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_35">
+            <property name="text">
+             <string>RTD3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_37">
+            <property name="text">
+             <string>RTD4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_31">
+            <property name="text">
+             <string>RTCD1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_39">
+            <property name="text">
+             <string>Und ds</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_29">
+            <property name="text">
+             <string>Hutch</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="caLineEdit" name="calineedit_63">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9idcLAX:adam1:rtd0.VAL</string>
+            </property>
+            <property name="precision">
+             <number>2</number>
+            </property>
+            <property name="precisionMode">
+             <enum>caLineEdit::User</enum>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_33">
+            <property name="text">
+             <string>RTD2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="caLineEdit" name="calineedit_64">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9idcLAX:adam1:rtd0.VAL</string>
+            </property>
+            <property name="precision">
+             <number>2</number>
+            </property>
+            <property name="precisionMode">
+             <enum>caLineEdit::User</enum>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="caLineEdit" name="calineedit_65">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9idcLAX:adam1:rtd2.VAL</string>
+            </property>
+            <property name="precision">
+             <number>2</number>
+            </property>
+            <property name="precisionMode">
+             <enum>caLineEdit::User</enum>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="formatType">
+             <enum>caLineEdit::decimal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="caLineEdit" name="calineedit_66">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9idcLAX:adam1:rtd3.VAL</string>
+            </property>
+            <property name="precision">
+             <number>2</number>
+            </property>
+            <property name="precisionMode">
+             <enum>caLineEdit::User</enum>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="caLineEdit" name="calineedit_67">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9idcLAX:adam1:rtd4.VAL</string>
+            </property>
+            <property name="precision">
+             <number>2</number>
+            </property>
+            <property name="precisionMode">
+             <enum>caLineEdit::User</enum>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="caLineEdit" name="calineedit_68">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">9idcLAX:adam1:rtd5.VAL</string>
+            </property>
+            <property name="precision">
+             <number>2</number>
+            </property>
+            <property name="precisionMode">
+             <enum>caLineEdit::User</enum>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
    <zorder>layoutWidget</zorder>
    <zorder>groupBox_6</zorder>
    <zorder>groupBox_4</zorder>
@@ -6390,6 +6649,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>label_5</zorder>
    <zorder>label_6</zorder>
    <zorder>caRelatedDisplay_44</zorder>
+   <zorder>groupBox_7</zorder>
   </widget>
  </widget>
  <customwidgets>

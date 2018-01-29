@@ -105,8 +105,8 @@
       <rect>
        <x>12</x>
        <y>51</y>
-       <width>290</width>
-       <height>19</height>
+       <width>295</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -114,6 +114,17 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>Run PreUSAXS tune next</string>
@@ -127,8 +138,8 @@
       <rect>
        <x>12</x>
        <y>26</y>
-       <width>290</width>
-       <height>19</height>
+       <width>295</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -136,6 +147,17 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>Run PreUSAXS tune on CollectData</string>
@@ -152,8 +174,8 @@
       <rect>
        <x>12</x>
        <y>76</y>
-       <width>290</width>
-       <height>19</height>
+       <width>295</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -161,6 +183,12 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
      </property>
      <property name="maximumSize">
       <size>
@@ -170,7 +198,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1786,7 +1814,7 @@
            </rect>
           </property>
           <property name="text">
-           <string>do not use yet - mode change</string>
+           <string>USAXS mode</string>
           </property>
           <property name="channel" stdset="0">
            <string notr="true">9idcLAX:dataColInProgress</string>

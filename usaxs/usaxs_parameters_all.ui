@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>731</width>
+    <width>735</width>
     <height>798</height>
    </rect>
   </property>
@@ -217,6 +217,9 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS:ReqNumScansBetweenTune</string>
      </property>
@@ -272,6 +275,9 @@
        <width>81</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS:ReqTimeBetweenTune</string>
@@ -329,6 +335,9 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS:EPOCHTimeOfLastTune</string>
      </property>
@@ -362,6 +371,9 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS:NumScansFromLastTune</string>
      </property>
@@ -388,7 +400,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>70</y>
+      <y>50</y>
       <width>701</width>
       <height>321</height>
      </rect>
@@ -398,10 +410,16 @@
       <pointsize>11</pointsize>
      </font>
     </property>
-    <property name="currentIndex">
-     <number>0</number>
+    <property name="toolTip">
+     <string/>
     </property>
-    <widget class="QWidget" name="tab">
+    <property name="whatsThis">
+     <string/>
+    </property>
+    <property name="currentIndex">
+     <number>7</number>
+    </property>
+    <widget class="QWidget" name="Flyscan">
      <attribute name="title">
       <string>FlyScan</string>
      </attribute>
@@ -437,6 +455,9 @@
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:StartOffset</string>
@@ -485,6 +506,9 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:Finish</string>
       </property>
@@ -525,6 +549,9 @@
         <width>250</width>
         <height>22</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:MinStep</string>
@@ -567,6 +594,9 @@
         <height>22</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:UATerm</string>
       </property>
@@ -602,6 +632,9 @@
         <width>250</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:FS_NumberOfPoints</string>
@@ -658,6 +691,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:FS_ScanTime</string>
       </property>
@@ -694,6 +730,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:MinStepTraj</string>
       </property>
@@ -716,6 +755,9 @@
         <width>250</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:traj1:NumPulsePositions</string>
@@ -1101,12 +1143,433 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab_2">
+    <widget class="QWidget" name="Radiography">
+     <attribute name="title">
+      <string>Radiography</string>
+     </attribute>
+     <widget class="QLabel" name="label_53">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>50</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CCD dx (mm)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_51">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>50</y>
+        <width>117</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:CCD_dx</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_55">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>431</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Radiography parameters&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_56">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>80</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CCD dy (mm)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_52">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>80</y>
+        <width>117</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:CCD_dy</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_53">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>50</y>
+        <width>117</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:Img_Al_Filter</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_58">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Rad. Al filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_59">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>80</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Rad. Ti filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_56">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>80</y>
+        <width>117</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:Img_Ti_Filter</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_57">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>220</y>
+        <width>117</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:Scan_Ti_Filter</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_60">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>190</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS dx (mm)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_58">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>190</y>
+        <width>117</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:Diode_dx</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_59">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>190</y>
+        <width>117</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:Scan_Al_Filter</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_60">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>220</y>
+        <width>117</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:DY0</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_61">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>150</y>
+        <width>431</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS parameters&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_62">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>220</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS dy (mm)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_63">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>190</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS Al filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_64">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>220</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS Ti filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Step">
      <property name="enabled">
       <bool>true</bool>
      </property>
      <attribute name="title">
-      <string>Step scans</string>
+      <string>Step</string>
      </attribute>
      <widget class="QLabel" name="label_22">
       <property name="geometry">
@@ -1138,6 +1601,9 @@
         <family>Lucida Sans Typewriter</family>
         <pointsize>13</pointsize>
        </font>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:CountTime</string>
@@ -1184,6 +1650,9 @@
         <pointsize>13</pointsize>
        </font>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:NumPoints</string>
       </property>
@@ -1228,6 +1697,9 @@
         <family>Lucida Sans Typewriter</family>
         <pointsize>13</pointsize>
        </font>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:Sample_Y_Step.VAL</string>
@@ -1274,6 +1746,9 @@
         <pointsize>13</pointsize>
        </font>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:Prescaler_Wait.VAL</string>
       </property>
@@ -1289,7 +1764,7 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab_3">
+    <widget class="QWidget" name="Info">
      <attribute name="title">
       <string>info</string>
      </attribute>
@@ -1305,7 +1780,7 @@
            <x>0</x>
            <y>0</y>
            <width>675</width>
-           <height>271</height>
+           <height>261</height>
           </rect>
          </property>
          <widget class="caMessageButton" name="camessagebutton_8">
@@ -1847,7 +2322,7 @@
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="tab_4">
+    <widget class="QWidget" name="AMplifier">
      <attribute name="title">
       <string>FS amplifier</string>
      </attribute>
@@ -1859,6 +2334,9 @@
         <width>150</width>
         <height>20</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:FS_AmpR5BlockTime</string>
@@ -1889,6 +2367,9 @@
         <height>20</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:FS_AmpR4BlockTime</string>
       </property>
@@ -1917,6 +2398,9 @@
         <width>150</width>
         <height>20</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:UPDsize</string>
@@ -1947,6 +2431,9 @@
         <height>20</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:FS_AmpR3BlockTime</string>
       </property>
@@ -1976,6 +2463,9 @@
         <height>20</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcUSX:femto:model</string>
       </property>
@@ -1998,6 +2488,9 @@
         <width>150</width>
         <height>20</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:FS_AmpR1BlockTime</string>
@@ -2028,6 +2521,9 @@
         <height>20</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:FS_AmpR2BlockTime</string>
       </property>
@@ -2056,6 +2552,9 @@
         <width>150</width>
         <height>20</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS:FS_OrderNumber</string>
@@ -2182,7 +2681,7 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab_5">
+    <widget class="QWidget" name="Geometry">
      <attribute name="title">
       <string>Geometry</string>
      </attribute>
@@ -2221,6 +2720,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Pin:PinPixSizeY</string>
       </property>
@@ -2249,6 +2751,9 @@
         <width>122</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_WAXS:PinPixSizeY</string>
@@ -2292,6 +2797,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_WAXS:Distance</string>
       </property>
@@ -2334,6 +2842,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_WAXS:PinPixSizeX</string>
       </property>
@@ -2363,6 +2874,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Img:ImgPixSizeX</string>
       </property>
@@ -2391,6 +2905,9 @@
         <width>122</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Img:Magnification</string>
@@ -2434,6 +2951,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Pin:DetectorTiltY</string>
       </property>
@@ -2463,6 +2983,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_WAXS:DetectorTiltY</string>
       </property>
@@ -2491,6 +3014,9 @@
         <width>122</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_WAXS:BeamCenterY</string>
@@ -2534,6 +3060,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Img:SampleToScintDistance</string>
       </property>
@@ -2562,6 +3091,9 @@
         <width>122</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Img:ImgPixSizeY</string>
@@ -2592,6 +3124,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Pin:BeamCenterX</string>
       </property>
@@ -2620,6 +3155,9 @@
         <width>122</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Pin:PinPixSizeX</string>
@@ -2676,6 +3214,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_WAXS:DetectorTiltX</string>
       </property>
@@ -2704,6 +3245,9 @@
         <width>122</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Pin:Distance</string>
@@ -2747,6 +3291,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Pin:BeamCenterY</string>
       </property>
@@ -2775,6 +3322,9 @@
         <width>122</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Img:ScintillatorType</string>
@@ -2825,6 +3375,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Img:ScintToAnalDistance</string>
       </property>
@@ -2853,6 +3406,9 @@
         <width>122</width>
         <height>25</height>
        </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_WAXS:BeamCenterX</string>
@@ -2909,6 +3465,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:WavelengthSpread</string>
       </property>
@@ -2964,6 +3523,9 @@
         <height>25</height>
        </rect>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
       <property name="channel" stdset="0">
        <string notr="true">9idcLAX:USAXS_Pin:DetectorTiltX</string>
       </property>
@@ -2985,7 +3547,7 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab_22">
+    <widget class="QWidget" name="Slits">
      <attribute name="title">
       <string>Slits</string>
      </attribute>
@@ -3036,6 +3598,9 @@
            <height>25</height>
           </rect>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:USAXS_hgslit_ap</string>
          </property>
@@ -3058,6 +3623,9 @@
            <width>150</width>
            <height>25</height>
           </rect>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:Pin_hgslit_ap</string>
@@ -3098,6 +3666,9 @@
            <height>25</height>
           </rect>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:USAXS_vgslit_ap</string>
          </property>
@@ -3120,6 +3691,9 @@
            <width>150</width>
            <height>25</height>
           </rect>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:USAXS_hslit_ap</string>
@@ -3160,6 +3734,9 @@
            <height>25</height>
           </rect>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:Pin_vgslit_ap</string>
          </property>
@@ -3199,6 +3776,9 @@
            <height>25</height>
           </rect>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:Pin_hslit_ap</string>
          </property>
@@ -3222,6 +3802,9 @@
            <height>25</height>
           </rect>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:Pin_vslit_ap</string>
          </property>
@@ -3244,6 +3827,9 @@
            <width>150</width>
            <height>25</height>
           </rect>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:USAXS_vslit_ap</string>
@@ -3463,6 +4049,9 @@
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:m58:c2:m7.VAL</string>
          </property>
@@ -3499,6 +4088,9 @@
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:m58:c2:m8.VAL</string>
          </property>
@@ -3534,6 +4126,9 @@
            <pointsize>10</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:GSlit1V:size</string>
@@ -3609,6 +4204,9 @@
            <pointsize>10</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:GSlit1H:size</string>
@@ -3752,7 +4350,7 @@
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="tab_23">
+    <widget class="QWidget" name="SWAXS">
      <attribute name="title">
       <string>SAXS/WAXS</string>
      </attribute>
@@ -3820,6 +4418,9 @@
            <height>25</height>
           </rect>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_WAXS:Exp_Al_Filter.VAL</string>
          </property>
@@ -3855,6 +4456,9 @@
            <width>150</width>
            <height>25</height>
           </rect>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:NumImages</string>
@@ -3905,6 +4509,9 @@
            <height>25</height>
           </rect>
          </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_WAXS:NumImages</string>
          </property>
@@ -3927,6 +4534,9 @@
            <width>150</width>
            <height>25</height>
           </rect>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_WAXS:AcquireTime</string>
@@ -3956,6 +4566,9 @@
            <width>150</width>
            <height>25</height>
           </rect>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:Exp_Al_Filter.VAL</string>
@@ -4015,6 +4628,9 @@
            <width>150</width>
            <height>25</height>
           </rect>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">9idcLAX:USAXS_Pin:AcquireTime</string>
@@ -4088,6 +4704,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS:SDD</string>
      </property>
@@ -4123,6 +4742,9 @@
        <width>93</width>
        <height>25</height>
       </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS:SAD</string>
@@ -4173,6 +4795,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS:DY0.VAL</string>
      </property>
@@ -4222,6 +4847,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS:AY0.VAL</string>
      </property>
@@ -4257,6 +4885,9 @@
        <width>116</width>
        <height>25</height>
       </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:ax_limit_offset</string>
@@ -4316,6 +4947,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:dx_in</string>
      </property>
@@ -4328,6 +4962,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
@@ -4355,6 +4992,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:ax_in</string>
      </property>
@@ -4368,6 +5008,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
      </property>
@@ -4380,6 +5023,9 @@
        <width>116</width>
        <height>25</height>
       </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:Pin_y_limit_offset</string>
@@ -4407,6 +5053,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Img:ax_in</string>
      </property>
@@ -4420,6 +5069,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
      </property>
@@ -4432,6 +5084,9 @@
        <width>116</width>
        <height>25</height>
       </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:dx_limit_offset</string>
@@ -4472,6 +5127,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:Pin_z_in</string>
      </property>
@@ -4484,6 +5142,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
@@ -4498,6 +5159,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:Pin_y_in</string>
      </property>
@@ -4510,6 +5174,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
@@ -4524,6 +5191,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:waxs_x_out</string>
      </property>
@@ -4536,6 +5206,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
@@ -4550,6 +5223,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:waxs_x_out</string>
      </property>
@@ -4562,6 +5238,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
@@ -4576,6 +5255,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:Pin_z_out</string>
      </property>
@@ -4588,6 +5270,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
@@ -4602,6 +5287,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:waxs_x_in</string>
      </property>
@@ -4614,6 +5302,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
@@ -4628,6 +5319,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:dx_out</string>
      </property>
@@ -4640,6 +5334,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
@@ -4667,6 +5364,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:ax_out</string>
      </property>
@@ -4680,6 +5380,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
      </property>
@@ -4692,6 +5395,9 @@
        <width>116</width>
        <height>25</height>
       </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:Pin_z_limit_offset</string>
@@ -4719,6 +5425,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:Pin_y_out</string>
      </property>
@@ -4732,6 +5441,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
      </property>
@@ -4744,6 +5456,9 @@
        <width>116</width>
        <height>25</height>
       </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Pin:waxs_x_limit_offset</string>
@@ -4771,6 +5486,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcLAX:USAXS_Img:waxs_x_in</string>
      </property>
@@ -4783,6 +5501,9 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>

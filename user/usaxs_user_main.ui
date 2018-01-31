@@ -175,7 +175,7 @@
           <string notr="true">color: rgb(0, 0, 0)</string>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Next File order N&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Next FS order N&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
@@ -719,8 +719,8 @@
     <widget class="QLabel" name="label_90">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>15</y>
+       <x>97</x>
+       <y>12</y>
        <width>191</width>
        <height>21</height>
       </rect>
@@ -793,8 +793,8 @@
     <widget class="caLed" name="caled_3">
      <property name="geometry">
       <rect>
-       <x>240</x>
-       <y>12</y>
+       <x>250</x>
+       <y>10</y>
        <width>25</width>
        <height>25</height>
       </rect>
@@ -1432,6 +1432,31 @@
       <string notr="true"/>
      </property>
     </widget>
+    <zorder>widget</zorder>
+    <zorder>label_90</zorder>
+    <zorder>catextentry_5</zorder>
+    <zorder>label_66</zorder>
+    <zorder>caLabel_45</zorder>
+    <zorder>caLabel_46</zorder>
+    <zorder>caLabel_43</zorder>
+    <zorder>caLabel_44</zorder>
+    <zorder>caLabel_48</zorder>
+    <zorder>caLabel_1</zorder>
+    <zorder>caLabel_2</zorder>
+    <zorder>label_9</zorder>
+    <zorder>caled</zorder>
+    <zorder>label_11</zorder>
+    <zorder>label_12</zorder>
+    <zorder>caled_2</zorder>
+    <zorder>caled_5</zorder>
+    <zorder>label_15</zorder>
+    <zorder>caled_6</zorder>
+    <zorder>label_16</zorder>
+    <zorder>caled_7</zorder>
+    <zorder>label_17</zorder>
+    <zorder>label_18</zorder>
+    <zorder>caled_8</zorder>
+    <zorder>caled_3</zorder>
    </widget>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
@@ -1698,6 +1723,821 @@
     <property name="currentIndex">
      <number>0</number>
     </property>
+    <property name="movable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="tab_8">
+     <attribute name="title">
+      <string>Slits</string>
+     </attribute>
+     <widget class="caScriptButton" name="cascriptbutton_4">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>133</y>
+        <width>120</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="label">
+       <string notr="true">Set Slits Positions</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="checkBoxVisible" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="scriptCommand">
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setSWAXSSlits.sh</string>
+      </property>
+     </widget>
+     <widget class="caScriptButton" name="cascriptbutton">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>160</y>
+        <width>165</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="label">
+       <string notr="true">Open Slits</string>
+      </property>
+      <property name="checkBoxVisible" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="scriptCommand">
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/openSlits.sh</string>
+      </property>
+     </widget>
+     <widget class="caScriptButton" name="cascriptbutton_5">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>133</y>
+        <width>120</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="label">
+       <string notr="true">Set Slits Positions</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="checkBoxVisible" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="scriptCommand">
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setUSAXSSlits.sh</string>
+      </property>
+     </widget>
+     <widget class="caScriptButton" name="cascriptbutton_2">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>160</y>
+        <width>165</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="label">
+       <string notr="true">Move Slits</string>
+      </property>
+      <property name="checkBoxVisible" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="scriptCommand">
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeSWAXSSlits.sh
+</string>
+      </property>
+     </widget>
+     <widget class="caScriptButton" name="cascriptbutton_3">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>160</y>
+        <width>165</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="label">
+       <string notr="true">Move Slits</string>
+      </property>
+      <property name="checkBoxVisible" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="scriptCommand">
+       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeUSAXSSlits.sh</string>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_96">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>103</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>#####</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_Pin:USAXS_vgslit_ap</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_86">
+      <property name="geometry">
+       <rect>
+        <x>225</x>
+        <y>28</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>#####</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_Pin:Pin_hslit_ap</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_93">
+      <property name="geometry">
+       <rect>
+        <x>225</x>
+        <y>103</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>#####</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_Pin:Pin_vgslit_ap</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_107">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>150</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Horiz slit</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_92">
+      <property name="geometry">
+       <rect>
+        <x>225</x>
+        <y>78</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>#####</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_Pin:Pin_hgslit_ap</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_110">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>105</y>
+        <width>180</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Vertical guard slit</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_108">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>55</y>
+        <width>150</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Vertical slit</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_91">
+      <property name="geometry">
+       <rect>
+        <x>225</x>
+        <y>53</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>#####</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_Pin:Pin_vslit_ap</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_95">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>78</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>#####</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_Pin:USAXS_hgslit_ap</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_105">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>0</y>
+        <width>150</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SAXS/WAXS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_109">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>80</y>
+        <width>150</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Horiz guard slit</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_85">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>28</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>#####</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_Pin:USAXS_hslit_ap</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_106">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>0</y>
+        <width>150</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_94">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>53</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>#####</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_Pin:USAXS_vslit_ap</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_48">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>203</y>
+        <width>103</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Guard Slits</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_47">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>203</y>
+        <width>181</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Beam Defining Slits</string>
+      </property>
+     </widget>
+     <widget class="caRelatedDisplay" name="carelateddisplay_22">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>240</y>
+        <width>66</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="label">
+       <string notr="true"/>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>153</blue>
+       </color>
+      </property>
+      <property name="labels">
+       <string>Centers</string>
+      </property>
+      <property name="files">
+       <string>motor2xU.ui</string>
+      </property>
+      <property name="args">
+       <string>P=9idcLAX:m58:c2:,M1=m6,M2=m5</string>
+      </property>
+      <property name="stackingMode" stdset="0">
+       <enum>caRowColMenu::Row</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_88">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>230</y>
+        <width>79</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Horizontal&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_68">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>228</y>
+        <width>120</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monospace</family>
+        <pointsize>13</pointsize>
+        <stylestrategy>PreferDefault</stylestrategy>
+       </font>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:m58:c2:m8.VAL</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_71">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>228</y>
+        <width>120</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monospace</family>
+        <pointsize>13</pointsize>
+        <stylestrategy>PreferDefault</stylestrategy>
+       </font>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:GSlit1H:size</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_70">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>258</y>
+        <width>120</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monospace</family>
+        <pointsize>13</pointsize>
+        <stylestrategy>PreferDefault</stylestrategy>
+       </font>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:GSlit1V:size</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_97">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>260</y>
+        <width>56</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vertical&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_69">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>258</y>
+        <width>120</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Monospace</family>
+        <pointsize>13</pointsize>
+        <stylestrategy>PreferDefault</stylestrategy>
+       </font>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:m58:c2:m7.VAL</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caRelatedDisplay" name="carelateddisplay_23">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>240</y>
+        <width>65</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="label">
+       <string notr="true"/>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>153</blue>
+       </color>
+      </property>
+      <property name="labels">
+       <string>Apertures</string>
+      </property>
+      <property name="files">
+       <string>motor2xU.ui</string>
+      </property>
+      <property name="args">
+       <string>P=9idcLAX:m58:c2:,M1=m8,M2=m7</string>
+      </property>
+      <property name="stackingMode" stdset="0">
+       <enum>caRowColMenu::Row</enum>
+      </property>
+     </widget>
+     <widget class="caRelatedDisplay" name="carelateddisplay_24">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>243</y>
+        <width>90</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="label">
+       <string notr="true">-Guard Slits</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>153</blue>
+       </color>
+      </property>
+      <property name="labels">
+       <string>Slits GUI;Blade motors;X,Y motors</string>
+      </property>
+      <property name="files">
+       <string>4slitGraphic.ui ;motor4xU.ui;motor2xU.ui</string>
+      </property>
+      <property name="args">
+       <string>P=9idcLAX:,H=GSlit1H:,V=GSlit1V:,SLIT=Guard Slits;P=9idcLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6;P=9idcLAX:,M1=m58:c1:m5,M2=m58:c0:m6</string>
+      </property>
+      <property name="stackingMode" stdset="0">
+       <enum>caRowColMenu::Menu</enum>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="tab_7">
      <attribute name="title">
       <string>Fly scans/SAXS/WAXS</string>
@@ -2726,818 +3566,6 @@
         <enum>caLineEdit::Static</enum>
        </property>
       </widget>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tab_8">
-     <attribute name="title">
-      <string>Slits</string>
-     </attribute>
-     <widget class="caScriptButton" name="cascriptbutton_4">
-      <property name="geometry">
-       <rect>
-        <x>220</x>
-        <y>133</y>
-        <width>120</width>
-        <height>19</height>
-       </rect>
-      </property>
-      <property name="label">
-       <string notr="true">Set Slits Positions</string>
-      </property>
-      <property name="foreground">
-       <color>
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </property>
-      <property name="background">
-       <color>
-        <red>255</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </property>
-      <property name="checkBoxVisible" stdset="0">
-       <bool>false</bool>
-      </property>
-      <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setSWAXSSlits.sh</string>
-      </property>
-     </widget>
-     <widget class="caScriptButton" name="cascriptbutton">
-      <property name="geometry">
-       <rect>
-        <x>15</x>
-        <y>160</y>
-        <width>165</width>
-        <height>28</height>
-       </rect>
-      </property>
-      <property name="label">
-       <string notr="true">Open Slits</string>
-      </property>
-      <property name="checkBoxVisible" stdset="0">
-       <bool>false</bool>
-      </property>
-      <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/openSlits.sh</string>
-      </property>
-     </widget>
-     <widget class="caScriptButton" name="cascriptbutton_5">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>133</y>
-        <width>120</width>
-        <height>19</height>
-       </rect>
-      </property>
-      <property name="label">
-       <string notr="true">Set Slits Positions</string>
-      </property>
-      <property name="foreground">
-       <color>
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </property>
-      <property name="background">
-       <color>
-        <red>255</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </property>
-      <property name="checkBoxVisible" stdset="0">
-       <bool>false</bool>
-      </property>
-      <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setUSAXSSlits.sh</string>
-      </property>
-     </widget>
-     <widget class="caScriptButton" name="cascriptbutton_2">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>160</y>
-        <width>165</width>
-        <height>28</height>
-       </rect>
-      </property>
-      <property name="label">
-       <string notr="true">Move Slits</string>
-      </property>
-      <property name="checkBoxVisible" stdset="0">
-       <bool>false</bool>
-      </property>
-      <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeSWAXSSlits.sh
-</string>
-      </property>
-     </widget>
-     <widget class="caScriptButton" name="cascriptbutton_3">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>160</y>
-        <width>165</width>
-        <height>28</height>
-       </rect>
-      </property>
-      <property name="label">
-       <string notr="true">Move Slits</string>
-      </property>
-      <property name="checkBoxVisible" stdset="0">
-       <bool>false</bool>
-      </property>
-      <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeUSAXSSlits.sh</string>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_96">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>103</y>
-        <width>120</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="placeholderText">
-       <string>#####</string>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:USAXS_vgslit_ap</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_86">
-      <property name="geometry">
-       <rect>
-        <x>225</x>
-        <y>28</y>
-        <width>120</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="placeholderText">
-       <string>#####</string>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:Pin_hslit_ap</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_93">
-      <property name="geometry">
-       <rect>
-        <x>225</x>
-        <y>103</y>
-        <width>120</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="placeholderText">
-       <string>#####</string>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:Pin_vgslit_ap</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_107">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>30</y>
-        <width>150</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Horiz slit</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_92">
-      <property name="geometry">
-       <rect>
-        <x>225</x>
-        <y>78</y>
-        <width>120</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="placeholderText">
-       <string>#####</string>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:Pin_hgslit_ap</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_110">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>105</y>
-        <width>180</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Vertical guard slit</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_108">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>55</y>
-        <width>150</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Vertical slit</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_91">
-      <property name="geometry">
-       <rect>
-        <x>225</x>
-        <y>53</y>
-        <width>120</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="placeholderText">
-       <string>#####</string>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:Pin_vslit_ap</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_95">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>78</y>
-        <width>120</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="placeholderText">
-       <string>#####</string>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:USAXS_hgslit_ap</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_105">
-      <property name="geometry">
-       <rect>
-        <x>210</x>
-        <y>0</y>
-        <width>150</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SAXS/WAXS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_109">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>80</y>
-        <width>150</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Horiz guard slit</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_85">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>28</y>
-        <width>120</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="placeholderText">
-       <string>#####</string>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:USAXS_hslit_ap</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_106">
-      <property name="geometry">
-       <rect>
-        <x>400</x>
-        <y>0</y>
-        <width>150</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>13</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_94">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>53</y>
-        <width>120</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="placeholderText">
-       <string>#####</string>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:USAXS_vslit_ap</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_48">
-      <property name="geometry">
-       <rect>
-        <x>420</x>
-        <y>203</y>
-        <width>103</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>14</pointsize>
-        <weight>50</weight>
-        <bold>false</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:rgb(0, 0, 0)</string>
-      </property>
-      <property name="text">
-       <string>Guard Slits</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_47">
-      <property name="geometry">
-       <rect>
-        <x>100</x>
-        <y>203</y>
-        <width>181</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>14</pointsize>
-        <weight>50</weight>
-        <bold>false</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:rgb(0, 0, 0)</string>
-      </property>
-      <property name="text">
-       <string>Beam Defining Slits</string>
-      </property>
-     </widget>
-     <widget class="caRelatedDisplay" name="carelateddisplay_22">
-      <property name="geometry">
-       <rect>
-        <x>260</x>
-        <y>240</y>
-        <width>66</width>
-        <height>19</height>
-       </rect>
-      </property>
-      <property name="label">
-       <string notr="true"/>
-      </property>
-      <property name="foreground">
-       <color>
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </property>
-      <property name="background">
-       <color>
-        <red>0</red>
-        <green>0</green>
-        <blue>153</blue>
-       </color>
-      </property>
-      <property name="labels">
-       <string>Centers</string>
-      </property>
-      <property name="files">
-       <string>motor2xU.ui</string>
-      </property>
-      <property name="args">
-       <string>P=9idcLAX:m58:c2:,M1=m6,M2=m5</string>
-      </property>
-      <property name="stackingMode" stdset="0">
-       <enum>caRowColMenu::Row</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_88">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>230</y>
-        <width>79</width>
-        <height>19</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0)</string>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Horizontal&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_68">
-      <property name="geometry">
-       <rect>
-        <x>130</x>
-        <y>228</y>
-        <width>120</width>
-        <height>25</height>
-       </rect>
-      </property>
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Monospace</family>
-        <pointsize>13</pointsize>
-        <stylestrategy>PreferDefault</stylestrategy>
-       </font>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:m58:c2:m8.VAL</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_71">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>228</y>
-        <width>120</width>
-        <height>25</height>
-       </rect>
-      </property>
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Monospace</family>
-        <pointsize>13</pointsize>
-        <stylestrategy>PreferDefault</stylestrategy>
-       </font>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:GSlit1H:size</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_70">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>258</y>
-        <width>120</width>
-        <height>25</height>
-       </rect>
-      </property>
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Monospace</family>
-        <pointsize>13</pointsize>
-        <stylestrategy>PreferDefault</stylestrategy>
-       </font>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:GSlit1V:size</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_97">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>260</y>
-        <width>56</width>
-        <height>19</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0)</string>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vertical&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-     <widget class="caTextEntry" name="catextentry_69">
-      <property name="geometry">
-       <rect>
-        <x>130</x>
-        <y>258</y>
-        <width>120</width>
-        <height>25</height>
-       </rect>
-      </property>
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Monospace</family>
-        <pointsize>13</pointsize>
-        <stylestrategy>PreferDefault</stylestrategy>
-       </font>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:m58:c2:m7.VAL</string>
-      </property>
-      <property name="background">
-       <color>
-        <red>115</red>
-        <green>215</green>
-        <blue>253</blue>
-       </color>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Static</enum>
-      </property>
-     </widget>
-     <widget class="caRelatedDisplay" name="carelateddisplay_23">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>240</y>
-        <width>65</width>
-        <height>19</height>
-       </rect>
-      </property>
-      <property name="label">
-       <string notr="true"/>
-      </property>
-      <property name="foreground">
-       <color>
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </property>
-      <property name="background">
-       <color>
-        <red>0</red>
-        <green>0</green>
-        <blue>153</blue>
-       </color>
-      </property>
-      <property name="labels">
-       <string>Apertures</string>
-      </property>
-      <property name="files">
-       <string>motor2xU.ui</string>
-      </property>
-      <property name="args">
-       <string>P=9idcLAX:m58:c2:,M1=m8,M2=m7</string>
-      </property>
-      <property name="stackingMode" stdset="0">
-       <enum>caRowColMenu::Row</enum>
-      </property>
-     </widget>
-     <widget class="caRelatedDisplay" name="carelateddisplay_24">
-      <property name="geometry">
-       <rect>
-        <x>540</x>
-        <y>243</y>
-        <width>90</width>
-        <height>25</height>
-       </rect>
-      </property>
-      <property name="label">
-       <string notr="true">-Guard Slits</string>
-      </property>
-      <property name="foreground">
-       <color>
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </property>
-      <property name="background">
-       <color>
-        <red>0</red>
-        <green>0</green>
-        <blue>153</blue>
-       </color>
-      </property>
-      <property name="labels">
-       <string>Slits GUI;Blade motors;X,Y motors</string>
-      </property>
-      <property name="files">
-       <string>4slitGraphic.ui ;motor4xU.ui;motor2xU.ui</string>
-      </property>
-      <property name="args">
-       <string>P=9idcLAX:,H=GSlit1H:,V=GSlit1V:,SLIT=Guard Slits;P=9idcLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6;P=9idcLAX:,M1=m58:c1:m5,M2=m58:c0:m6</string>
-      </property>
-      <property name="stackingMode" stdset="0">
-       <enum>caRowColMenu::Menu</enum>
-      </property>
      </widget>
     </widget>
    </widget>

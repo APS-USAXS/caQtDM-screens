@@ -1937,13 +1937,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>scaler;amplifier;scaler dark signal;ion chamber stage</string>
+     <string>scaler;amplifier;scaler dark signal;Guard/I0 xy stage;Guard Slits size;Guard Slits motors</string>
     </property>
     <property name="files">
-     <string>scaler_full.ui;femto.ui;dark16.ui;motorxU.ui</string>
+     <string>scaler_full.ui;femto.ui;dark16.ui;motor2xU.ui;4slitGraphic.ui;motor4xU.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcUSX:, S=scaler1;P=9idcUSX:,H=fem02:,F=seq01:,AC=9idcRIO:Galil0Bo8_CMD;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=9idcLAX:, M=m58:c0:m2</string>
+     <string>P=9idcUSX:, S=scaler1;P=9idcUSX:,H=fem02:,F=seq01:,AC=9idcRIO:Galil0Bo8_CMD;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=9idcLAX:, M1=m58:c1:m5, M2=m58:c0:m6;P=9idcLAX:, H=GSlit1H:, V=GSlit1V:, SLIT=Guard Slits;P=9idcLAX:, M1=mxv:c0:m3,  M2=mxv:c0:m4,  M3=mxv:c0:m5,  M4=mxv:c0:m6</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -5279,7 +5279,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <enum>caLabel::IfZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string>PA:09ID:D_BEAM_ACTIVE</string>
+      <string notr="true">9idcLAX:userCalc4.VAL</string>
      </property>
     </widget>
     <widget class="caLabel" name="caLabel_48">
@@ -5328,7 +5328,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <enum>caLabel::Calc</enum>
      </property>
      <property name="visibilityCalc">
-      <string notr="true">A&lt;=0 &amp;&amp; B&gt;500000</string>
+      <string notr="true">A&lt;=0 &amp;&amp; B&gt;900000</string>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">9idcUSX:pd01:seq02:reqrange</string>

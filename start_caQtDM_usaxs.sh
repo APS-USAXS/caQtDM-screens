@@ -138,6 +138,7 @@ addScreenPath      MCA                   mcaApp/op/ui/autoconvert
 addScreenPath      MODBUS                modbusApp/op/ui
 addScreenPath      MODBUS                modbusApp/op/ui/autoconvert
 addScreenPath      MOTOR                 motorApp/op/ui
+addScreenPath      MOTOR                 motorApp/op/ui/autoconvert
 addScreenPath      OPTICS                opticsApp/op/ui
 addScreenPath      OPTICS                opticsApp/op/ui/autoconvert
 addScreenPath      QUADEM                quadEMApp/op/ui
@@ -264,6 +265,10 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/APSshare/epics/base-3.14.12.5/lib/lin
 if [ "" = "${EPICS_CA_ADDR_LIST}" ]; then
     export EPICS_CA_ADDR_LIST=`/APSshare/bin/sector_epics_net 9id`
 fi
+
+#!ldd $CAQTDM
+
+#! echo $CAQTDM_DISPLAY_PATH | sed -e 's/:/\n/g'
 
 #######################################
 # start caQtDM

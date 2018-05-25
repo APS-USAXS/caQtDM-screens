@@ -28,6 +28,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <height>20</height>
      </rect>
     </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
     <property name="text">
      <string>Motor(s) Moving</string>
     </property>
@@ -50,9 +53,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <green>153</green>
       <blue>0</blue>
      </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
     </property>
     <property name="visibility">
      <enum>caLabel::IfZero</enum>
@@ -119,6 +119,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <height>20</height>
      </rect>
     </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
     <property name="text">
      <string>Scaler Counting</string>
     </property>
@@ -141,9 +144,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <green>153</green>
       <blue>0</blue>
      </color>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
     </property>
     <property name="visibility">
      <enum>caLabel::IfNotZero</enum>
@@ -5021,7 +5021,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <string notr="true">femto.ui</string>
        </property>
        <property name="args">
-        <string notr="true">P=9idcLAX:,H=fem04:,AC=9idcUSX:rmm01:reg03:bo03,F=seq01:</string>
+        <string notr="true">P=9idcRIO:,H=fem04:,AC=9idcRIO:Galil1Bo7_CMD,F=seq01:</string>
        </property>
        <property name="stackingMode" stdset="0">
         <enum>caRowColMenu::Menu</enum>
@@ -5136,6 +5136,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <bold>true</bold>
       </font>
      </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
      <property name="text">
       <string>Feedback Limits Reached</string>
      </property>
@@ -5158,9 +5161,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <green>255</green>
        <blue>0</blue>
       </color>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="visibility">
       <enum>caLabel::Calc</enum>
@@ -5194,6 +5194,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <bold>true</bold>
       </font>
      </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
      <property name="text">
       <string>Protection Fault!</string>
      </property>
@@ -5216,9 +5219,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <green>0</green>
        <blue>0</blue>
       </color>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="visibility">
       <enum>caLabel::IfZero</enum>
@@ -5249,6 +5249,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <bold>true</bold>
       </font>
      </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
      <property name="text">
       <string>BEAM NOT ACTIVE</string>
      </property>
@@ -5271,9 +5274,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <green>0</green>
        <blue>0</blue>
       </color>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="visibility">
       <enum>caLabel::IfZero</enum>
@@ -5298,6 +5298,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <bold>true</bold>
       </font>
      </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
      <property name="text">
       <string>upd too high!</string>
      </property>
@@ -5320,9 +5323,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <green>0</green>
        <blue>0</blue>
       </color>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="visibility">
       <enum>caLabel::Calc</enum>
@@ -5353,6 +5353,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <bold>true</bold>
       </font>
      </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
      <property name="text">
       <string>BLEPS Warning</string>
      </property>
@@ -5375,9 +5378,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <green>0</green>
        <blue>0</blue>
       </color>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="visibility">
       <enum>caLabel::Calc</enum>
@@ -5408,6 +5408,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <bold>true</bold>
       </font>
      </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
      <property name="text">
       <string>BLEPS Failure</string>
      </property>
@@ -5430,9 +5433,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <green>0</green>
        <blue>0</blue>
       </color>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
      </property>
      <property name="visibility">
       <enum>caLabel::Calc</enum>
@@ -5974,6 +5974,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <bold>true</bold>
      </font>
     </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
     <property name="text">
      <string>USAXS Plan View</string>
     </property>
@@ -5997,24 +6000,24 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <blue>0</blue>
      </color>
     </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
-    </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>22</x>
+      <x>12</x>
       <y>12</y>
-      <width>151</width>
+      <width>181</width>
       <height>41</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="caLabel" name="caLabel_4">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
        <property name="text">
-        <string>last edited: 2018-01-09</string>
+        <string>last edited: 2018-05-25, PRJ</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6036,9 +6039,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <blue>0</blue>
         </color>
        </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
       </widget>
      </item>
      <item>
@@ -6047,6 +6047,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
        </property>
        <property name="text">
         <string>9idc_usaxs.ui</string>
@@ -6070,9 +6073,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <green>0</green>
          <blue>0</blue>
         </color>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
        </property>
       </widget>
      </item>
@@ -6243,6 +6243,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <height>30</height>
      </rect>
     </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
     <property name="text">
      <string>Dala Collection In Progress</string>
     </property>
@@ -6268,9 +6271,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="colorMode">
      <enum>caLabel::Static</enum>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
     </property>
     <property name="visibility">
      <enum>caLabel::IfNotZero</enum>

@@ -2527,7 +2527,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="text">
-     <string>4</string>
+     <string>5</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -2536,7 +2536,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>$(P)$(H)$(F)reqrange</string>
     </property>
     <property name="label">
-     <string notr="true">4</string>
+     <string notr="true">5</string>
     </property>
     <property name="foreground">
      <color>
@@ -2575,7 +2575,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>$(P)$(H)$(F)reqrange</string>
     </property>
     <property name="label">
-     <string notr="true">0</string>
+     <string notr="true">1</string>
     </property>
     <property name="foreground">
      <color>
@@ -2608,7 +2608,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="text">
-     <string>1</string>
+     <string>2</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -2617,7 +2617,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>$(P)$(H)$(F)reqrange</string>
     </property>
     <property name="label">
-     <string notr="true">1</string>
+     <string notr="true">2</string>
     </property>
     <property name="foreground">
      <color>
@@ -2650,7 +2650,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="text">
-     <string>2</string>
+     <string>3</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -2659,7 +2659,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>$(P)$(H)$(F)reqrange</string>
     </property>
     <property name="label">
-     <string notr="true">2</string>
+     <string notr="true">3</string>
     </property>
     <property name="foreground">
      <color>
@@ -2692,7 +2692,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="text">
-     <string>3</string>
+     <string>4</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -2701,7 +2701,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>$(P)$(H)$(F)reqrange</string>
     </property>
     <property name="label">
-     <string notr="true">3</string>
+     <string notr="true">4</string>
     </property>
     <property name="foreground">
      <color>

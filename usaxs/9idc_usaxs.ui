@@ -335,7 +335,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>femtopdFine.ui;femtopdFine.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcUSX:,H=pd01:,F=seq02:,PS=9idcLAX:,SS=vsc:c0,SC=4;P=9idcUSX:, H=pd01:, F=seq01:, PS=9idcLAX:, SS=vsc:c0, SC=4</string>
+     <string>P=9idcLAX:,H=pd01:,F=seq02:,PS=9idcLAX:,SS=vsc:c0,SC=4;P=9idcLAX:, H=pd01:, F=seq01:, PS=9idcLAX:, SS=vsc:c0, SC=4</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -404,7 +404,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>SX, SY motors;SA motor;Fulel inj.;Huber head</string>
+     <string>SX, SY motors;SA motor;Fuel inj.;Huber head</string>
     </property>
     <property name="files">
      <string>motor2xU.ui;motorxU.ui;motor2xU.ui;huber_1003.ui</string>
@@ -743,7 +743,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>scaler_full.ui;femto.ui;dark16.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcUSX:, S=scaler1;P=9idcUSX:, H=fem03:, F=seq01:, AC=9idcRIO:Galil0Bo13_CMD;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed</string>
+     <string>P=9idcLAX:, S=scaler1;P=9idcLAX:, H=fem03:, F=seq01:, AC=9idcRIO:Galil0Bo13_CMD;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -863,7 +863,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>LAX user support;LAX user AVe</string>
+     <string>LAX user support;LAX user Avg</string>
     </property>
     <property name="files">
      <string>userSupport.ui;userAve10.ui</string>
@@ -1451,7 +1451,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>motor2xU.ui;motorxU.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX:, M1=m58:c2:m3, M2=aero:c2:m1;P=9idcUSX:, H=pd01:, F=seq02:, PS=9idcLAX:, SS=vsc:c0, SC=4;P=9idcLAX:, M=m58:c1:m3</string>
+     <string>P=9idcLAX:, M1=m58:c2:m3, M2=aero:c2:m1;P=9idcLAX:, H=pd01:, F=seq02:, PS=9idcLAX:, SS=vsc:c0, SC=4;P=9idcLAX:, M=m58:c1:m3</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -1943,7 +1943,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>scaler_full.ui;femto.ui;dark16.ui;motor2xU.ui;4slitGraphic.ui;motor4xU.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcUSX:, S=scaler1;P=9idcUSX:,H=fem02:,F=seq01:,AC=9idcRIO:Galil0Bo8_CMD;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=9idcLAX:, M1=m58:c1:m5, M2=m58:c0:m6;P=9idcLAX:, H=GSlit1H:, V=GSlit1V:, SLIT=Guard Slits;P=9idcLAX:, M1=mxv:c0:m3,  M2=mxv:c0:m4,  M3=mxv:c0:m5,  M4=mxv:c0:m6</string>
+     <string>P=9idcLAX:, S=scaler1;P=9idcLAX:,H=fem02:,F=seq01:,AC=9idcRIO:Galil0Bo8_CMD;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=9idcLAX:, M1=m58:c1:m5, M2=m58:c0:m6;P=9idcLAX:, H=GSlit1H:, V=GSlit1V:, SLIT=Guard Slits;P=9idcLAX:, M1=mxv:c0:m3,  M2=mxv:c0:m4,  M3=mxv:c0:m5,  M4=mxv:c0:m6</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -2063,7 +2063,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>pf4more.ui;pf4more.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcUSX:,H=pf4:,A=A,B=B,MONO=9ida:BraggEAO;P=9idcUSX:,H=pf42:,A=A,B=B,MONO=9ida:BraggEAO</string>
+     <string>P=9idcLAX:,H=pf4:,A=A,B=B,MONO=9ida:BraggEAO;P=9idcLAX:,H=pf42:,A=A,B=B,MONO=9ida:BraggEAO</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -2505,7 +2505,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">staff_remote_shutter.ui</string>
     </property>
     <property name="args">
-     <string/>
+     <string>P=9ida:;</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -3207,13 +3207,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SAXS Pilatus;WAXS Pilatus;Apogee;BlackFly;DP Perkin Elmer;Mythen DP;BlackFlyImage</string>
+     <string notr="true">SAXS Pilatus;WAXS Pilatus;Alta;BlackFly;BlackFlyImage;DP Perkin Elmer;Mythen DP;</string>
     </property>
     <property name="files">
-     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;PerkinElmer.ui;mythen.ui;ad_cam_image.ui</string>
+     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera.ui;PerkinElmer.ui;mythen.ui;</string>
     </property>
     <property name="args">
-     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=9idFLY1:,R=cam1:</string>
+     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -3255,7 +3255,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">femto.ui;femto20010.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=9idcUSX:,H=fem05:,F=seq01:,AC=9idcUSX:rmm02:reg01:bo04</string>
+     <string notr="true">P=9idcLAX:,H=fem05:,F=seq01:,AC=9idcUSX:rmm02:reg01:bo04</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -3741,7 +3741,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcUSX:fem03:seq01:gain</string>
+     <string notr="true">9idcLAX:pd03:seq01:gain</string>
     </property>
     <property name="formatType">
      <enum>caLineEdit::engr_notation</enum>
@@ -3763,7 +3763,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcUSX:fem02:seq01:gain</string>
+     <string notr="true">9idcLAX:pd02:seq01:gain</string>
     </property>
     <property name="formatType">
      <enum>caLineEdit::exponential</enum>
@@ -5021,7 +5021,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <string notr="true">femto.ui</string>
        </property>
        <property name="args">
-        <string notr="true">P=9idcUSX:,H=fem04:,AC=9idcUSX:rmm01:reg03:bo03,F=seq01:</string>
+        <string notr="true">P=9idcLAX:,H=fem04:,AC=9idcUSX:rmm01:reg03:bo03,F=seq01:</string>
        </property>
        <property name="stackingMode" stdset="0">
         <enum>caRowColMenu::Menu</enum>
@@ -6398,14 +6398,14 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           <item row="1" column="0">
            <widget class="QLabel" name="label_31">
             <property name="text">
-             <string>RTCD1</string>
+             <string>RTD1</string>
             </property>
            </widget>
           </item>
           <item row="5" column="0">
            <widget class="QLabel" name="label_39">
             <property name="text">
-             <string>Und ds</string>
+             <string>RTD5</string>
             </property>
            </widget>
           </item>
@@ -6472,7 +6472,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
              <bool>true</bool>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:adam1:rtd0.VAL</string>
+             <string notr="true">9idcLAX:adam1:rtd1.VAL</string>
             </property>
             <property name="precision">
              <number>2</number>
@@ -6677,7 +6677,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcUSX:fem05:seq01:gain</string>
+     <string notr="true">9idcLAX:pd05:seq01:gain</string>
     </property>
     <property name="formatType">
      <enum>caLineEdit::exponential</enum>
@@ -7012,6 +7012,48 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </item>
     </layout>
    </widget>
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>670</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">-Sequence Amps</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>140</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string>USAXS Femto Amplifier 300;USAXS Femto Amplifier 200;I0;I00;TR diode</string>
+    </property>
+    <property name="files">
+     <string>femtopdFine.ui;femtopdFine.ui;femtopdFine.ui;femtopdFine.ui;femtopdFine.ui</string>
+    </property>
+    <property name="args">
+     <string>P=9idcLAX:,H=pd01:,F=seq02:,PS=9idcLAX:,SS=vsc:c0,SC=4;P=9idcLAX:, H=pd01:, F=seq01:, PS=9idcLAX:, SS=vsc:c0, SC=4;P=9idcLAX:, H=pd02:, F=seq01:, PS=9idcLAX:, SS=vsc:c0, SC=4;P=9idcLAX:, H=pd02:, F=seq01:, PS=9idcLAX:, SS=vsc:c0, SC=4;P=9idcLAX:, H=pd05:, F=seq01:, PS=9idcLAX:, SS=vsc:c0, SC=4</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false</string>
+    </property>
+   </widget>
    <zorder>layoutWidget</zorder>
    <zorder>groupBox_6</zorder>
    <zorder>groupBox_4</zorder>
@@ -7162,6 +7204,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>calineedit_46</zorder>
    <zorder>label_18</zorder>
    <zorder>groupBox_8</zorder>
+   <zorder>caRelatedDisplay_7</zorder>
   </widget>
  </widget>
  <customwidgets>

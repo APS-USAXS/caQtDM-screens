@@ -18,7 +18,8 @@ export DEFAULT_EPICS_CA_MAX_ARRAY_BYTES=8000100
 #export CAQTDM=/APSshare/bin/caQtDM
 # Use an older version of caQtDM until Kevin confirms the cpu-usage bug is fixed
 #export CAQTDM=/APSshare/bin/caQtDM-4.0.0
-export CAQTDM=/APSshare/bin/caQtDM-GIT
+#!export CAQTDM=/APSshare/bin/caQtDM-GIT
+export CAQTDM=/APSshare/bin/caQtDM-4.2.0
 
 
 if [ "" != "$*" ]; then

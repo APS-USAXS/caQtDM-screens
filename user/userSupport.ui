@@ -418,7 +418,7 @@
           <string>1-bit variables</string>
          </property>
          <property name="files">
-          <string>userSupport.ui</string>
+          <string>userBits.ui</string>
          </property>
          <property name="args">
           <string>P=9idcLAX:</string>

@@ -549,13 +549,13 @@
        </color>
       </property>
       <property name="labels">
-       <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Microlab;Love Controllers;xiahsc;9idc Linkam;Huber gonio;Vortex dp;Eurotherm;Keithley 2400;Mythen dp;Tomo X and Y</string>
+       <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Microlab;Love Controllers;xiahsc;9idc Linkam;9idc New Linkam;Huber gonio;Vortex dp;Eurotherm;Keithley 2400;Mythen dp;Tomo X and Y;Pyrometer</string>
       </property>
       <property name="files">
-       <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;huber_1003.ui;dxpSaturn.ui;eurotherm_modbus.ui;Keithley2400.ui;mca.ui;motor2xU.ui</string>
+       <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;Linkam_T96.ui;huber_1003.ui;dxpSaturn.ui;eurotherm_modbus.ui;Keithley2400.ui;mca.ui;motor2xU.ui;Metis_M322.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX;P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO;P=9idcLAX,PORT=:rs232b7;P=9idcLAX:,PORT=:rs232b6;P=9idcLAX:,R=microlab:,S=cmdReplya7_do_IO;P=9idcLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=9idcLAX:,HSC=hsc1:;P=9idcLAX:;P=9idcH1003:,R=dcm:;P=dp_vortex_xrd75:,D=dxp1:,M=mca1;P=9idcLAX:,TC=tc1;P=9idcLAX:,R=k24k:;P=dp_mythen:;P=9idcLAX:, M1=m58:c0:m8, M2=mxv:c0:m7</string>
+       <string>P=9idcLAX;P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO;P=9idcLAX,PORT=:rs232b7;P=9idcLAX:,PORT=:rs232b6;P=9idcLAX:,R=microlab:,S=cmdReplya7_do_IO;P=9idcLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=9idcLAX:,HSC=hsc1:;P=9idcLAX:;P=9idcLINKAM:,T=tc1, R=asyn;P=9idcH1003:,R=dcm:;P=dp_vortex_xrd75:,D=dxp1:,M=mca1;P=9idcLAX:,TC=tc1;P=9idcLAX:,R=k24k:;P=dp_mythen:;P=9idcLAX:, M1=m58:c0:m8, M2=mxv:c0:m7;P=9idcPYRO:,R=m322</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -1642,7 +1642,7 @@
       <enum>caLabel::Calc</enum>
      </property>
      <property name="visibilityCalc">
-      <string notr="true">A&gt;100000</string>
+      <string notr="true">A&gt;200000</string>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">usaxs_pilatus2:Stats1:MeanValue_RBV</string>
@@ -5520,7 +5520,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Dala Collection In Progress !!!</string>
+     <string>Data Collection In Progress !!!</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>

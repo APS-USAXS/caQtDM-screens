@@ -608,7 +608,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idb:BioEnc2B3</string>
+    <string notr="true">9idcLAX:userTran3.A</string>
    </property>
    <property name="foreground">
     <color>
@@ -625,7 +625,7 @@
     </color>
    </property>
    <property name="pressMessage">
-    <string notr="true">Up</string>
+    <string notr="true">1</string>
    </property>
   </widget>
   <widget class="caMessageButton" name="camessagebutton_5">
@@ -710,7 +710,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idb:BioEnc2B3</string>
+    <string notr="true">9idcLAX:userTran3.A</string>
    </property>
    <property name="foreground">
     <color>
@@ -727,7 +727,7 @@
     </color>
    </property>
    <property name="pressMessage">
-    <string notr="true">Down</string>
+    <string notr="true">0</string>
    </property>
   </widget>
   <widget class="caMessageButton" name="camessagebutton_10">
@@ -895,7 +895,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idb:BioEnc2B3</string>
+    <string notr="true">9idcLAX:userTran3.A</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_4">
@@ -1075,7 +1075,7 @@
     <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idb:BioEnc2B3</string>
+    <string notr="true">9idcLAX:userTran3.A</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_8">

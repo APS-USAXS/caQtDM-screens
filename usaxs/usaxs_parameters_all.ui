@@ -402,7 +402,7 @@
       <x>10</x>
       <y>50</y>
       <width>701</width>
-      <height>321</height>
+      <height>335</height>
      </rect>
     </property>
     <property name="font">
@@ -1985,29 +1985,6 @@
           <string>Acquire Time [s]</string>
          </property>
         </widget>
-        <widget class="caTextEntry" name="catextentry_172">
-         <property name="geometry">
-          <rect>
-           <x>112</x>
-           <y>277</y>
-           <width>275</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Exp_Ti_Filter.VAL</string>
-         </property>
-         <property name="background">
-          <color>
-           <red>115</red>
-           <green>215</green>
-           <blue>253</blue>
-          </color>
-         </property>
-         <property name="colorMode">
-          <enum>caLineEdit::Static</enum>
-         </property>
-        </widget>
         <widget class="caTextEntry" name="catextentry_186">
          <property name="geometry">
           <rect>
@@ -2084,19 +2061,6 @@
          </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Al filter [No]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_163">
-         <property name="geometry">
-          <rect>
-           <x>11</x>
-           <y>276</y>
-           <width>50</width>
-           <height>18</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ti filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_187">
@@ -2194,29 +2158,6 @@
          </property>
          <property name="text">
           <string>WAXS</string>
-         </property>
-        </widget>
-        <widget class="caTextEntry" name="catextentry_185">
-         <property name="geometry">
-          <rect>
-           <x>393</x>
-           <y>277</y>
-           <width>275</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_WAXS:Exp_Ti_Filter.VAL</string>
-         </property>
-         <property name="background">
-          <color>
-           <red>115</red>
-           <green>215</green>
-           <blue>253</blue>
-          </color>
-         </property>
-         <property name="colorMode">
-          <enum>caLineEdit::Static</enum>
          </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_173">
@@ -3606,6 +3547,89 @@
        <enum>caLineEdit::User</enum>
       </property>
      </widget>
+     <widget class="caTextEntry" name="catextentry_106">
+      <property name="geometry">
+       <rect>
+        <x>182</x>
+        <y>278</y>
+        <width>122</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_Pin:CalibrationConstant</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+      <property name="formatType">
+       <enum>caLineEdit::exponential</enum>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_107">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>278</y>
+        <width>122</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS_WAXS:CalibrationConstant</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>3</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
+      <property name="formatType">
+       <enum>caLineEdit::exponential</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_103">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>280</y>
+        <width>130</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Calibration factor&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="Step">
      <property name="enabled">
@@ -3822,8 +3846,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>675</width>
-           <height>271</height>
+           <width>96</width>
+           <height>26</height>
           </rect>
          </property>
          <widget class="caMessageButton" name="camessagebutton_8">

@@ -1188,7 +1188,7 @@
               <string>#####</string>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:USAXS_Pin:USAXS_hslit_ap</string>
+              <string notr="true">9idcLAX:SAXS:USAXS_hslit_ap</string>
              </property>
              <property name="background">
               <color>
@@ -1208,7 +1208,7 @@
               <string>#####</string>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:USAXS_Pin:Pin_hslit_ap</string>
+              <string notr="true">9idcLAX:SAXS:SAXS_hslit_ap</string>
              </property>
              <property name="background">
               <color>
@@ -1243,7 +1243,7 @@
               <string>#####</string>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:USAXS_Pin:USAXS_hgslit_ap</string>
+              <string notr="true">9idcLAX:SAXS:USAXS_hgslit_ap</string>
              </property>
              <property name="background">
               <color>
@@ -1263,7 +1263,7 @@
               <string>#####</string>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:USAXS_Pin:Pin_hgslit_ap</string>
+              <string notr="true">9idcLAX:SAXS:SAXS_hgslit_ap</string>
              </property>
              <property name="background">
               <color>
@@ -1364,7 +1364,7 @@
               <string>#####</string>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:USAXS_Pin:USAXS_vgslit_ap</string>
+              <string notr="true">9idcLAX:SAXS:USAXS_vgslit_ap</string>
              </property>
              <property name="background">
               <color>
@@ -1399,7 +1399,7 @@
               <string>#####</string>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:USAXS_Pin:USAXS_vslit_ap</string>
+              <string notr="true">9idcLAX:SAXS:USAXS_vslit_ap</string>
              </property>
              <property name="background">
               <color>
@@ -1419,7 +1419,7 @@
               <string>#####</string>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:USAXS_Pin:Pin_vslit_ap</string>
+              <string notr="true">9idcLAX:SAXS:SAXS_vslit_ap</string>
              </property>
              <property name="background">
               <color>
@@ -1439,7 +1439,7 @@
               <string>#####</string>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:USAXS_Pin:Pin_vgslit_ap</string>
+              <string notr="true">9idcLAX:SAXS:SAXS_vgslit_ap</string>
              </property>
              <property name="background">
               <color>
@@ -2463,7 +2463,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:AcquireTime</string>
+          <string notr="true">9idcLAX:SAXS:AcquireTime</string>
          </property>
          <property name="background">
           <color>
@@ -2486,7 +2486,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_WAXS:AcquireTime</string>
+          <string notr="true">9idcLAX:WAXS:AcquireTime</string>
          </property>
          <property name="background">
           <color>
@@ -2524,7 +2524,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:NumImages</string>
+          <string notr="true">9idcLAX:SAXS:NumImages</string>
          </property>
          <property name="background">
           <color>
@@ -2547,7 +2547,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_WAXS:NumImages</string>
+          <string notr="true">9idcLAX:WAXS:NumImages</string>
          </property>
          <property name="background">
           <color>

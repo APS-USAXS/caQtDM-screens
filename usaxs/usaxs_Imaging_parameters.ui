@@ -1239,7 +1239,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:dx_limit_offset</string>
+     <string notr="true">9idcLAX:SAXS:dx_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1340,7 +1340,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:dx_out</string>
+     <string notr="true">9idcLAX:SAXS:dx_out</string>
     </property>
     <property name="background">
      <color>
@@ -1369,7 +1369,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:dx_in</string>
+     <string notr="true">9idcLAX:SAXS:dx_in</string>
     </property>
     <property name="background">
      <color>
@@ -1426,7 +1426,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:ax_in</string>
+     <string notr="true">9idcLAX:SAXS:ax_in</string>
     </property>
     <property name="background">
      <color>
@@ -1455,7 +1455,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:ax_out</string>
+     <string notr="true">9idcLAX:SAXS:ax_out</string>
     </property>
     <property name="background">
      <color>
@@ -1513,7 +1513,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:ax_limit_offset</string>
+     <string notr="true">9idcLAX:SAXS:ax_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1586,7 +1586,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXS_hslit_ap</string>
+     <string notr="true">9idcLAX:SAXS:USAXS_hslit_ap</string>
     </property>
     <property name="background">
      <color>
@@ -1615,7 +1615,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:waxs_x_out</string>
+     <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
     </property>
     <property name="background">
      <color>
@@ -1644,7 +1644,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:Pin_z_out</string>
+     <string notr="true">9idcLAX:SAXS:SAXS_z_out</string>
     </property>
     <property name="background">
      <color>
@@ -1673,7 +1673,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:Pin_y_limit_offset</string>
+     <string notr="true">9idcLAX:SAXS:SAXS_y_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1779,7 +1779,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXS_vslit_ap</string>
+     <string notr="true">9idcLAX:SAXS:USAXS_vslit_ap</string>
     </property>
     <property name="background">
      <color>
@@ -1808,7 +1808,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:waxs_x_limit_offset</string>
+     <string notr="true">9idcLAX:SAXS:WAXS_x_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1878,7 +1878,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:Pin_z_limit_offset</string>
+     <string notr="true">9idcLAX:SAXS:SAXS_z_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1926,7 +1926,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:waxs_x_out</string>
+     <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
     </property>
     <property name="background">
      <color>
@@ -1955,7 +1955,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:Pin_y_out</string>
+     <string notr="true">9idcLAX:SAXS:SAXS_y_out</string>
     </property>
     <property name="background">
      <color>
@@ -2013,7 +2013,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXS_hgslit_ap</string>
+     <string notr="true">9idcLAX:SAXS:USAXS_hgslit_ap</string>
     </property>
     <property name="background">
      <color>
@@ -2042,7 +2042,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXS_vgslit_ap</string>
+     <string notr="true">9idcLAX:SAXS:USAXS_vgslit_ap</string>
     </property>
     <property name="background">
      <color>

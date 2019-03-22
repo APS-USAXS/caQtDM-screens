@@ -43,7 +43,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Pin_z_out</string>
+          <string notr="true">9idcLAX:SAXS:SAXS_z_out</string>
          </property>
          <property name="foreground">
           <color>
@@ -107,7 +107,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Pin_z_in</string>
+          <string notr="true">9idcLAX:SAXS:SAXS_z_in</string>
          </property>
          <property name="foreground">
           <color>
@@ -287,7 +287,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Pin_z_in</string>
+          <string notr="true">9idcLAX:SAXS:SAXS_z_in</string>
          </property>
          <property name="foreground">
           <color>
@@ -361,7 +361,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Pin_z_out</string>
+          <string notr="true">9idcLAX:SAXS:SAXS_z_out</string>
          </property>
          <property name="foreground">
           <color>

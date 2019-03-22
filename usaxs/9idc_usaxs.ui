@@ -4751,7 +4751,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+      <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
      </property>
      <property name="trueColor">
       <color>
@@ -4777,7 +4777,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+      <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
      </property>
      <property name="trueColor">
       <color>
@@ -6118,7 +6118,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+     <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
     </property>
     <property name="trueColor">
      <color>
@@ -6157,7 +6157,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+     <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
     </property>
     <property name="trueColor">
      <color>
@@ -6196,7 +6196,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+     <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
     </property>
     <property name="trueColor">
      <color>
@@ -6235,7 +6235,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+     <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
     </property>
     <property name="trueColor">
      <color>

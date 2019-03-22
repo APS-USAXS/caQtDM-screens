@@ -477,7 +477,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:USAXS_hgslit_ap</string>
+          <string notr="true">9idcLAX:SAXS:USAXS_hgslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -503,7 +503,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Pin_hgslit_ap</string>
+          <string notr="true">9idcLAX:SAXS:SAXS_hgslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -545,7 +545,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:USAXS_vgslit_ap</string>
+          <string notr="true">9idcLAX:SAXS:USAXS_vgslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -571,7 +571,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:USAXS_hslit_ap</string>
+          <string notr="true">9idcLAX:SAXS:USAXS_hslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -613,7 +613,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Pin_vgslit_ap</string>
+          <string notr="true">9idcLAX:SAXS:SAXS_vgslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -655,7 +655,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Pin_hslit_ap</string>
+          <string notr="true">9idcLAX:SAXS:SAXS_hslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -681,7 +681,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Pin_vslit_ap</string>
+          <string notr="true">9idcLAX:SAXS:SAXS_vslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -707,7 +707,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:USAXS_vslit_ap</string>
+          <string notr="true">9idcLAX:SAXS:USAXS_vslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -1998,7 +1998,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_WAXS:Exp_Al_Filter.VAL</string>
+          <string notr="true">9idcLAX:WAXS:Exp_Al_Filter.VAL</string>
          </property>
          <property name="background">
           <color>
@@ -2037,7 +2037,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:NumImages</string>
+          <string notr="true">9idcLAX:SAXS:NumImages</string>
          </property>
          <property name="background">
           <color>
@@ -2076,7 +2076,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_WAXS:NumImages</string>
+          <string notr="true">9idcLAX:WAXS:NumImages</string>
          </property>
          <property name="background">
           <color>
@@ -2102,7 +2102,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_WAXS:AcquireTime</string>
+          <string notr="true">9idcLAX:WAXS:AcquireTime</string>
          </property>
          <property name="background">
           <color>
@@ -2134,7 +2134,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Exp_Al_Filter.VAL</string>
+          <string notr="true">9idcLAX:SAXS:Exp_Al_Filter.VAL</string>
          </property>
          <property name="background">
           <color>
@@ -2173,7 +2173,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:AcquireTime</string>
+          <string notr="true">9idcLAX:SAXS:AcquireTime</string>
          </property>
          <property name="background">
           <color>
@@ -2205,7 +2205,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_Pin:Exp_Ti_Filter.VAL</string>
+          <string notr="true">9idcLAX:SAXS:Exp_Ti_Filter.VAL</string>
          </property>
          <property name="background">
           <color>
@@ -2244,7 +2244,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS_WAXS:Exp_Ti_Filter.VAL</string>
+          <string notr="true">9idcLAX:WAXS:Exp_Ti_Filter.VAL</string>
          </property>
          <property name="background">
           <color>
@@ -2725,7 +2725,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:PinPixSizeY</string>
+       <string notr="true">9idcLAX:SAXS:PinPixSizeY</string>
       </property>
       <property name="background">
        <color>
@@ -2757,7 +2757,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_WAXS:PinPixSizeY</string>
+       <string notr="true">9idcLAX:WAXS:PinPixSizeY</string>
       </property>
       <property name="background">
        <color>
@@ -2802,7 +2802,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_WAXS:Distance</string>
+       <string notr="true">9idcLAX:WAXS:Distance</string>
       </property>
       <property name="background">
        <color>
@@ -2847,7 +2847,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_WAXS:PinPixSizeX</string>
+       <string notr="true">9idcLAX:WAXS:PinPixSizeX</string>
       </property>
       <property name="background">
        <color>
@@ -2956,7 +2956,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:DetectorTiltY</string>
+       <string notr="true">9idcLAX:SAXS:DetectorTiltY</string>
       </property>
       <property name="background">
        <color>
@@ -2988,7 +2988,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_WAXS:DetectorTiltY</string>
+       <string notr="true">9idcLAX:WAXS:DetectorTiltY</string>
       </property>
       <property name="background">
        <color>
@@ -3020,7 +3020,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_WAXS:BeamCenterY</string>
+       <string notr="true">9idcLAX:WAXS:BeamCenterY</string>
       </property>
       <property name="background">
        <color>
@@ -3129,7 +3129,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:BeamCenterX</string>
+       <string notr="true">9idcLAX:SAXS:BeamCenterX</string>
       </property>
       <property name="background">
        <color>
@@ -3161,7 +3161,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:PinPixSizeX</string>
+       <string notr="true">9idcLAX:SAXS:PinPixSizeX</string>
       </property>
       <property name="background">
        <color>
@@ -3219,7 +3219,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_WAXS:DetectorTiltX</string>
+       <string notr="true">9idcLAX:WAXS:DetectorTiltX</string>
       </property>
       <property name="background">
        <color>
@@ -3251,7 +3251,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:Distance</string>
+       <string notr="true">9idcLAX:SAXS:Distance</string>
       </property>
       <property name="background">
        <color>
@@ -3296,7 +3296,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:BeamCenterY</string>
+       <string notr="true">9idcLAX:SAXS:BeamCenterY</string>
       </property>
       <property name="background">
        <color>
@@ -3412,7 +3412,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_WAXS:BeamCenterX</string>
+       <string notr="true">9idcLAX:WAXS:BeamCenterX</string>
       </property>
       <property name="background">
        <color>
@@ -3528,7 +3528,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:DetectorTiltX</string>
+       <string notr="true">9idcLAX:SAXS:DetectorTiltX</string>
       </property>
       <property name="background">
        <color>
@@ -3560,7 +3560,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_Pin:CalibrationConstant</string>
+       <string notr="true">9idcLAX:SAXS:CalibrationConstant</string>
       </property>
       <property name="background">
        <color>
@@ -3595,7 +3595,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_WAXS:CalibrationConstant</string>
+       <string notr="true">9idcLAX:WAXS:CalibrationConstant</string>
       </property>
       <property name="background">
        <color>
@@ -3860,7 +3860,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="label">
            <string notr="true">USAXS mode</string>
@@ -3879,7 +3879,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="trueColor">
            <color>
@@ -3905,7 +3905,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="trueColor">
            <color>
@@ -3931,7 +3931,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="label">
            <string notr="true">SAXS mode</string>
@@ -3950,7 +3950,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="trueColor">
            <color>
@@ -3976,7 +3976,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="label">
            <string notr="true">WAXS mode</string>
@@ -3995,7 +3995,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="trueColor">
            <color>
@@ -4021,7 +4021,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="label">
            <string notr="true">Empty</string>
@@ -4040,7 +4040,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="trueColor">
            <color>
@@ -4066,7 +4066,7 @@
            </rect>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:USAXS_Pin:USAXSSAXSMode</string>
+           <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
           </property>
           <property name="label">
            <string notr="true">Imaging mode</string>
@@ -5004,7 +5004,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:ax_limit_offset</string>
+      <string notr="true">9idcLAX:SAXS:ax_limit_offset</string>
      </property>
      <property name="background">
       <color>
@@ -5065,7 +5065,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:dx_in</string>
+      <string notr="true">9idcLAX:SAXS:dx_in</string>
      </property>
      <property name="background">
       <color>
@@ -5110,7 +5110,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:ax_in</string>
+      <string notr="true">9idcLAX:SAXS:ax_in</string>
      </property>
      <property name="background">
       <color>
@@ -5142,7 +5142,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:Pin_y_limit_offset</string>
+      <string notr="true">9idcLAX:SAXS:SAXS_y_limit_offset</string>
      </property>
      <property name="background">
       <color>
@@ -5203,7 +5203,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:dx_limit_offset</string>
+      <string notr="true">9idcLAX:SAXS:dx_limit_offset</string>
      </property>
      <property name="background">
       <color>
@@ -5245,7 +5245,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:Pin_z_in</string>
+      <string notr="true">9idcLAX:SAXS:SAXS_z_in</string>
      </property>
      <property name="background">
       <color>
@@ -5277,7 +5277,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:Pin_y_in</string>
+      <string notr="true">9idcLAX:SAXS:SAXS_y_in</string>
      </property>
      <property name="background">
       <color>
@@ -5309,7 +5309,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:waxs_x_out</string>
+      <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
      </property>
      <property name="background">
       <color>
@@ -5341,7 +5341,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:waxs_x_out</string>
+      <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
      </property>
      <property name="background">
       <color>
@@ -5373,7 +5373,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:Pin_z_out</string>
+      <string notr="true">9idcLAX:SAXS:SAXS_z_out</string>
      </property>
      <property name="background">
       <color>
@@ -5405,7 +5405,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:waxs_x_in</string>
+      <string notr="true">9idcLAX:SAXS:WAXS_x_in</string>
      </property>
      <property name="background">
       <color>
@@ -5437,7 +5437,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:dx_out</string>
+      <string notr="true">9idcLAX:SAXS:dx_out</string>
      </property>
      <property name="background">
       <color>
@@ -5482,7 +5482,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:ax_out</string>
+      <string notr="true">9idcLAX:SAXS:ax_out</string>
      </property>
      <property name="background">
       <color>
@@ -5514,7 +5514,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:Pin_z_limit_offset</string>
+      <string notr="true">9idcLAX:SAXS:SAXS_z_limit_offset</string>
      </property>
      <property name="background">
       <color>
@@ -5543,7 +5543,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:Pin_y_out</string>
+      <string notr="true">9idcLAX:SAXS:SAXS_y_out</string>
      </property>
      <property name="background">
       <color>
@@ -5575,7 +5575,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Pin:waxs_x_limit_offset</string>
+      <string notr="true">9idcLAX:SAXS:WAXS_x_limit_offset</string>
      </property>
      <property name="background">
       <color>

@@ -85,7 +85,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS_Pin:directory</string>
+        <string notr="true">9idcLAX:SAXS:directory</string>
        </property>
        <property name="background">
         <color>

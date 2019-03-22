@@ -1,3 +1,4 @@
 .loglogin
 log.txt
 *BACKUP
+*.ui.old

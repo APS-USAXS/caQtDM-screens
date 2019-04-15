@@ -989,13 +989,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>LAX motor card 0;LAX motor card 1;LAX motor card 2;LAX motor card 3;LAX MAXv card 0 ;LAX MVP2001;LAX XPS controller;SFO motor card 1;SFO motor card 2;SFO motor card 3;Cmini table</string>
+     <string>LAX motor card 0;LAX motor card 1;LAX motor card 2;LAX motor card 3;LAX MAXv card 0 ;LAX MVP2001;LAX XPS controller;SFO motor card 1;SFO motor card 2;SFO motor card 3;Cmini table;PI</string>
     </property>
     <property name="files">
-     <string>motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motorxU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui</string>
+     <string>motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motorxU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor2xU.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX:, M1=m58:c0:m1, M2=m58:c0:m2, M3=m58:c0:m3, M4=m58:c0:m4, M5=m58:c0:m5, M6=m58:c0:m6, M7=m58:c0:m7, M8=m58:c0:m8;P=9idcLAX:, M1=m58:c1:m1, M2=m58:c1:m2, M3=m58:c1:m3, M4=m58:c1:m4, M5=m58:c1:m5, M6=m58:c1:m6, M7=m58:c1:m7, M8=m58:c1:m8;P=9idcLAX:, M1=m58:c2:m1, M2=m58:c2:m2, M3=m58:c2:m3, M4=m58:c2:m4, M5=m58:c2:m5, M6=m58:c2:m6, M7=m58:c2:m7, M8=m58:c2:m8;P=9idcLAX:, M1=m58:c3:m1, M2=m58:c3:m2, M3=m58:c3:m3, M4=m58:c3:m4, M5=m58:c3:m5, M6=m58:c3:m6, M7=m58:c3:m7, M8=m58:c3:m8;P=9idcLAX:, M1=mxv:c0:m1, M2=mxv:c0:m2, M3=mxv:c0:m3, M4=mxv:c0:m4, M5=mxv:c0:m5, M6=mxv:c0:m6, M7=mxv:c0:m7, M8=mxv:c0:m8;P=9idcLAX:, M=mvp:c0:m1;P=9idcLAX:, M1=xps:c0:m1, M2=xps:c0:m2, M3=xps:c0:m3, M4=xps:c0:m4, M5=xps:c0:m5, M6=xps:c0:m6, M7=xps:c0:m7, M8=xps:c0:m8;P=9idcSFO:, M1=m1, M2=m2, M3=m3, M4=m4, M5=m5, M6=m6, M7=m7, M8=m8;P=9idcSFO:, M1=m9, M2=m10, M3=m11, M4=m12, M5=m13, M6=m14, M7=m15, M8=m16;P=9idcSFO:, M1=m17, M2=m18, M3=m19, M4=m20, M5=m21, M6=m22, M7=m23, M8=m24;P=9idc:, M1=m1, M2=m2, M3=m3, M4=m4, M5=m5</string>
+     <string>P=9idcLAX:, M1=m58:c0:m1, M2=m58:c0:m2, M3=m58:c0:m3, M4=m58:c0:m4, M5=m58:c0:m5, M6=m58:c0:m6, M7=m58:c0:m7, M8=m58:c0:m8;P=9idcLAX:, M1=m58:c1:m1, M2=m58:c1:m2, M3=m58:c1:m3, M4=m58:c1:m4, M5=m58:c1:m5, M6=m58:c1:m6, M7=m58:c1:m7, M8=m58:c1:m8;P=9idcLAX:, M1=m58:c2:m1, M2=m58:c2:m2, M3=m58:c2:m3, M4=m58:c2:m4, M5=m58:c2:m5, M6=m58:c2:m6, M7=m58:c2:m7, M8=m58:c2:m8;P=9idcLAX:, M1=m58:c3:m1, M2=m58:c3:m2, M3=m58:c3:m3, M4=m58:c3:m4, M5=m58:c3:m5, M6=m58:c3:m6, M7=m58:c3:m7, M8=m58:c3:m8;P=9idcLAX:, M1=mxv:c0:m1, M2=mxv:c0:m2, M3=mxv:c0:m3, M4=mxv:c0:m4, M5=mxv:c0:m5, M6=mxv:c0:m6, M7=mxv:c0:m7, M8=mxv:c0:m8;P=9idcLAX:, M=mvp:c0:m1;P=9idcLAX:, M1=xps:c0:m1, M2=xps:c0:m2, M3=xps:c0:m3, M4=xps:c0:m4, M5=xps:c0:m5, M6=xps:c0:m6, M7=xps:c0:m7, M8=xps:c0:m8;P=9idcSFO:, M1=m1, M2=m2, M3=m3, M4=m4, M5=m5, M6=m6, M7=m7, M8=m8;P=9idcSFO:, M1=m9, M2=m10, M3=m11, M4=m12, M5=m13, M6=m14, M7=m15, M8=m16;P=9idcSFO:, M1=m17, M2=m18, M3=m19, M4=m20, M5=m21, M6=m22, M7=m23, M8=m24;P=9idc:, M1=m1, M2=m2, M3=m3, M4=m4, M5=m5;P=9idcPI:c867:c0:,M1=m1,M2=m2</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

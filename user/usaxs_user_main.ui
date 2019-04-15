@@ -549,13 +549,66 @@
        </color>
       </property>
       <property name="labels">
-       <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Microlab;Love Controllers;xiahsc;9idc Linkam;9idc New Linkam;Huber gonio;Vortex dp;Eurotherm;Keithley 2400;Mythen dp;Tomo X and Y;Pyrometer</string>
+       <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Microlab;Love Controllers;xiahsc;9idc Linkam;9idc New Linkam;Huber gonio;Vortex dp;Eurotherm;Keithley 2400;Mythen dp;Tomo X and Y;Pyrometer;PI rotational stages</string>
       </property>
       <property name="files">
-       <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;Linkam_T96.ui;huber_1003.ui;dxpSaturn.ui;eurotherm_modbus.ui;Keithley2400.ui;mca.ui;motor2xU.ui;Metis_M322.ui</string>
+       <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;Linkam_T96.ui;huber_1003.ui;dxpSaturn.ui;eurotherm_modbus.ui;Keithley2400.ui;mca.ui;motor2xU.ui;Metis_M322.ui;motor2x.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX;P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO;P=9idcLAX,PORT=:rs232b7;P=9idcLAX:,PORT=:rs232b6;P=9idcLAX:,R=microlab:,S=cmdReplya7_do_IO;P=9idcLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=9idcLAX:,HSC=hsc1:;P=9idcLAX:;P=9idcLINKAM:,T=tc1, R=asyn;P=9idcH1003:,R=dcm:;P=dp_vortex_xrd75:,D=dxp1:,M=mca1;P=9idcLAX:,TC=tc1;P=9idcLAX:,R=k24k:;P=dp_mythen:;P=9idcLAX:, M1=m58:c0:m8, M2=mxv:c0:m7;P=9idcPYRO:,R=m322</string>
+       <string>P=9idcLAX;P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO;P=9idcLAX,PORT=:rs232b7;P=9idcLAX:,PORT=:rs232b6;P=9idcLAX:,R=microlab:,S=cmdReplya7_do_IO;P=9idcLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=9idcLAX:,HSC=hsc1:;P=9idcLAX:;P=9idcLINKAM:,T=tc1, R=asyn;P=9idcH1003:,R=dcm:;P=dp_vortex_xrd75:,D=dxp1:,M=mca1;P=9idcLAX:,TC=tc1;P=9idcLAX:,R=k24k:;P=dp_mythen:;P=9idcLAX:, M1=m58:c0:m8, M2=mxv:c0:m7;P=9idcPYRO:,R=m322;P=9idcPI:c867:c0:,M1=m1,M2=m2</string>
+      </property>
+      <property name="stackingMode" stdset="0">
+       <enum>caRowColMenu::Menu</enum>
+      </property>
+      <property name="removeParent" stdset="0">
+       <string>false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false</string>
+      </property>
+     </widget>
+     <widget class="caRelatedDisplay" name="caRelatedDisplay_27">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>70</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="label">
+       <string notr="true">-Hardware2</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="labels">
+       <string>PI rotational stages</string>
+      </property>
+      <property name="files">
+       <string>motor2x.ui</string>
+      </property>
+      <property name="args">
+       <string>P=9idcPI:c867:c0:,M1=m1,M2=m2</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -3569,8 +3622,8 @@
         <widget class="caTextEntry" name="catextentry_103">
          <property name="geometry">
           <rect>
-           <x>179</x>
-           <y>232</y>
+           <x>138</x>
+           <y>230</y>
            <width>125</width>
            <height>25</height>
           </rect>
@@ -3599,8 +3652,8 @@
         <widget class="caTextEntry" name="catextentry_101">
          <property name="geometry">
           <rect>
-           <x>179</x>
-           <y>192</y>
+           <x>138</x>
+           <y>190</y>
            <width>125</width>
            <height>25</height>
           </rect>
@@ -3628,8 +3681,8 @@
         <widget class="QLabel" name="label_103">
          <property name="geometry">
           <rect>
-           <x>321</x>
-           <y>171</y>
+           <x>280</x>
+           <y>169</y>
            <width>131</width>
            <height>16</height>
           </rect>
@@ -3646,8 +3699,8 @@
         <widget class="caTextEntry" name="catextentry_104">
          <property name="geometry">
           <rect>
-           <x>321</x>
-           <y>232</y>
+           <x>280</x>
+           <y>230</y>
            <width>125</width>
            <height>25</height>
           </rect>
@@ -3705,8 +3758,8 @@
         <widget class="caTextEntry" name="catextentry_102">
          <property name="geometry">
           <rect>
-           <x>321</x>
-           <y>192</y>
+           <x>280</x>
+           <y>190</y>
            <width>125</width>
            <height>25</height>
           </rect>
@@ -3734,8 +3787,8 @@
         <widget class="QLabel" name="label_102">
          <property name="geometry">
           <rect>
-           <x>179</x>
-           <y>171</y>
+           <x>138</x>
+           <y>169</y>
            <width>125</width>
            <height>15</height>
           </rect>
@@ -3835,7 +3888,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>14</pointsize>
+           <pointsize>13</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -3932,6 +3985,146 @@
          </property>
          <property name="text">
           <string>Tuning controls</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="caToggleButton" name="catogglebutton_12">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>160</y>
+           <width>171</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Use Specific location?</string>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:USAXS:UseSpecificTuneLocation</string>
+         </property>
+        </widget>
+        <widget class="caTextEntry" name="catextentry_105">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>230</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:USAXS:preUSAXStuneSY</string>
+         </property>
+         <property name="foreground">
+          <color>
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="background">
+          <color>
+           <red>115</red>
+           <green>215</green>
+           <blue>253</blue>
+          </color>
+         </property>
+         <property name="colorMode">
+          <enum>caLineEdit::Static</enum>
+         </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
+         </property>
+        </widget>
+        <widget class="caTextEntry" name="catextentry_106">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>190</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:USAXS:preUSAXStuneSX</string>
+         </property>
+         <property name="background">
+          <color>
+           <red>115</red>
+           <green>215</green>
+           <blue>253</blue>
+          </color>
+         </property>
+         <property name="colorMode">
+          <enum>caLineEdit::Static</enum>
+         </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_134">
+         <property name="geometry">
+          <rect>
+           <x>520</x>
+           <y>190</y>
+           <width>81</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>SX</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_135">
+         <property name="geometry">
+          <rect>
+           <x>520</x>
+           <y>230</y>
+           <width>81</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>SY</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -4253,7 +4446,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4344,7 +4537,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>15</pointsize>
+         <pointsize>14</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4422,7 +4615,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>15</pointsize>
+         <pointsize>14</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>735</width>
-    <height>798</height>
+    <height>825</height>
    </rect>
   </property>
   <property name="font">
@@ -94,7 +94,7 @@
       <x>399</x>
       <y>600</y>
       <width>321</width>
-      <height>181</height>
+      <height>201</height>
      </rect>
     </property>
     <property name="title">
@@ -103,8 +103,8 @@
     <widget class="caToggleButton" name="catogglebutton">
      <property name="geometry">
       <rect>
-       <x>12</x>
-       <y>51</y>
+       <x>10</x>
+       <y>70</y>
        <width>295</width>
        <height>20</height>
       </rect>
@@ -136,8 +136,8 @@
     <widget class="caToggleButton" name="catogglebutton_2">
      <property name="geometry">
       <rect>
-       <x>12</x>
-       <y>26</y>
+       <x>10</x>
+       <y>45</y>
        <width>295</width>
        <height>20</height>
       </rect>
@@ -172,8 +172,8 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>12</x>
-       <y>76</y>
+       <x>10</x>
+       <y>20</y>
        <width>295</width>
        <height>20</height>
       </rect>
@@ -211,8 +211,8 @@
     <widget class="caTextEntry" name="catextentry_84">
      <property name="geometry">
       <rect>
-       <x>130</x>
-       <y>130</y>
+       <x>131</x>
+       <y>149</y>
        <width>81</width>
        <height>16</height>
       </rect>
@@ -244,8 +244,8 @@
     <widget class="QLabel" name="label_86">
      <property name="geometry">
       <rect>
-       <x>217</x>
-       <y>151</y>
+       <x>218</x>
+       <y>170</y>
        <width>50</width>
        <height>16</height>
       </rect>
@@ -257,8 +257,8 @@
     <widget class="QLabel" name="label_84">
      <property name="geometry">
       <rect>
-       <x>9</x>
-       <y>110</y>
+       <x>10</x>
+       <y>129</y>
        <width>115</width>
        <height>16</height>
       </rect>
@@ -270,8 +270,8 @@
     <widget class="caTextEntry" name="catextentry_83">
      <property name="geometry">
       <rect>
-       <x>130</x>
-       <y>151</y>
+       <x>131</x>
+       <y>170</y>
        <width>81</width>
        <height>16</height>
       </rect>
@@ -303,8 +303,8 @@
     <widget class="QLabel" name="label_83">
      <property name="geometry">
       <rect>
-       <x>130</x>
-       <y>110</y>
+       <x>131</x>
+       <y>129</y>
        <width>165</width>
        <height>16</height>
       </rect>
@@ -316,8 +316,8 @@
     <widget class="QLabel" name="label_85">
      <property name="geometry">
       <rect>
-       <x>217</x>
-       <y>130</y>
+       <x>218</x>
+       <y>149</y>
        <width>78</width>
        <height>16</height>
       </rect>
@@ -329,8 +329,8 @@
     <widget class="caTextEntry" name="catextentry_82">
      <property name="geometry">
       <rect>
-       <x>9</x>
-       <y>151</y>
+       <x>10</x>
+       <y>170</y>
        <width>115</width>
        <height>16</height>
       </rect>
@@ -365,8 +365,8 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>9</x>
-       <y>130</y>
+       <x>10</x>
+       <y>149</y>
        <width>115</width>
        <height>16</height>
       </rect>
@@ -393,6 +393,33 @@
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton_12">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>95</y>
+       <width>311</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>PreUSAXStune use Specific location?</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:UseSpecificTuneLocation</string>
      </property>
     </widget>
    </widget>
@@ -920,7 +947,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>10</pointsize>
+           <pointsize>9</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -959,7 +986,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>10</pointsize>
+           <pointsize>9</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -998,7 +1025,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>10</pointsize>
+           <pointsize>9</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -1076,7 +1103,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>10</pointsize>
+           <pointsize>9</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -1585,7 +1612,7 @@
         <x>530</x>
         <y>50</y>
         <width>161</width>
-        <height>141</height>
+        <height>149</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -3846,8 +3873,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>96</width>
-           <height>26</height>
+           <width>675</width>
+           <height>285</height>
           </rect>
          </property>
          <widget class="caMessageButton" name="camessagebutton_8">
@@ -4775,9 +4802,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>602</y>
+      <y>600</y>
       <width>380</width>
-      <height>85</height>
+      <height>81</height>
      </rect>
     </property>
     <property name="title">
@@ -4879,9 +4906,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>690</y>
+      <y>680</y>
       <width>380</width>
-      <height>85</height>
+      <height>61</height>
      </rect>
     </property>
     <property name="title">
@@ -5704,6 +5731,110 @@
      </property>
     </widget>
    </widget>
+   <widget class="QGroupBox" name="groupBox_18">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>750</y>
+      <width>380</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>PreUSAXS tune position, mm</string>
+    </property>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>25</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_112">
+     <property name="geometry">
+      <rect>
+       <x>266</x>
+       <y>28</y>
+       <width>93</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:preUSAXStuneSY</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_75">
+     <property name="geometry">
+      <rect>
+       <x>7</x>
+       <y>30</y>
+       <width>52</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SX, mm</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_87">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>30</y>
+       <width>53</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SY, mm</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_110">
+     <property name="geometry">
+      <rect>
+       <x>74</x>
+       <y>28</y>
+       <width>93</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">9idcLAX:USAXS:preUSAXStuneSX</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+   </widget>
    <zorder>label_156</zorder>
    <zorder>label_157</zorder>
    <zorder>label_35</zorder>
@@ -5712,6 +5843,7 @@
    <zorder>groupBox_16</zorder>
    <zorder>groupBox_8</zorder>
    <zorder>tabWidget</zorder>
+   <zorder>groupBox_18</zorder>
   </widget>
  </widget>
  <customwidgets>

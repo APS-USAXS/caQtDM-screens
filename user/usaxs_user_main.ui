@@ -602,13 +602,13 @@
        </color>
       </property>
       <property name="labels">
-       <string>PI rotational stages</string>
+       <string>PI rotational stages;Lakeshore 340</string>
       </property>
       <property name="files">
-       <string>motor2x.ui</string>
+       <string>motor2x.ui;LakeShore340.adl</string>
       </property>
       <property name="args">
-       <string>P=9idcPI:c867:c0:,M1=m1,M2=m2</string>
+       <string>P=9idcPI:c867:c0:,M1=m1,M2=m2;P=9idcSFO:,Q=tc1</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>

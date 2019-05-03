@@ -2958,7 +2958,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;fb_epid.ui;pilatusDetector.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;userCalcs10.ui;fb_epid.ui;epicsdf.ui;ADAM_4015.ui;ADAM_4018p.ui;PTC10.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX;P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO;P=9idcLAX,PORT=:rs232b7;P=9idcLAX:,PORT=:rs232b6;P=9idcLAX:fbe:omega;P=9idcPIL:,R=cam1:;P=9idcLAX:,R=microlab:,S=cmdReplya7_do_IO;P=9idcLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=9idcLAX:,HSC=hsc1:;P=9idcLAX:;P=9idcLAX:fbCalc:;P=9idcLAX:fbe:mirror;P=9idcLAX:,D=p100:;P=9idcLAX:,R=adam1;P=9idcLAX:,R=adam2;P=9idcTEMP:,T=tc1,CT=2A,CV=5A</string>
+     <string>P=9idcLAX;P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO;P=9idcLAX,PORT=:rs232b7;P=9idcLAX:,PORT=:rs232b6;P=9idcLAX:fbe:omega;P=9idcPIL:,R=cam1:;P=9idcLAX:,R=microlab:,S=cmdReplya7_do_IO;P=9idcLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=9idcLAX:,HSC=hsc1:;P=9idcLAX:;P=9idcLAX:fbCalc:;P=9idcLAX:fbe:mirror;P=9idcLAX:,D=p100:;P=9idcLAX:,R=adam1;P=9idcLAX:,R=adam2;P=9idcTEMP:,T=tc1,CT=2A,CR=3A,CV=5A</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

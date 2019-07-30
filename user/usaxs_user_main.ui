@@ -95,7 +95,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:sampleTitle</string>
+          <string notr="true">9idcLAX:sampleTitle</string>
          </property>
         </widget>
        </item>
@@ -129,7 +129,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:specFile</string>
+          <string notr="true">9idcLAX:specFile</string>
          </property>
         </widget>
        </item>
@@ -163,7 +163,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:specScan</string>
+          <string notr="true">9idcLAX:specScan</string>
          </property>
         </widget>
        </item>
@@ -231,7 +231,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:userDir</string>
+          <string notr="true">9idcLAX:userDir</string>
          </property>
         </widget>
        </item>
@@ -265,7 +265,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:timeStamp</string>
+          <string notr="true">9idcLAX:timeStamp</string>
          </property>
         </widget>
        </item>
@@ -299,7 +299,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:state</string>
+          <string notr="true">9idcLAX:state</string>
          </property>
         </widget>
        </item>
@@ -2841,7 +2841,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS:USAXS_vgslit_ap</string>
+       <string notr="true">9idcLAX:USAXS_vgslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -2867,7 +2867,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS:SAXS_hslit_ap</string>
+       <string notr="true">9idcLAX:SAXS_hslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -2893,7 +2893,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS:SAXS_vgslit_ap</string>
+       <string notr="true">9idcLAX:SAXS_vgslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -2940,7 +2940,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS:SAXS_hgslit_ap</string>
+       <string notr="true">9idcLAX:SAXS_hgslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3008,7 +3008,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS:SAXS_vslit_ap</string>
+       <string notr="true">9idcLAX:SAXS_vslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3034,7 +3034,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS:USAXS_hgslit_ap</string>
+       <string notr="true">9idcLAX:USAXS_hgslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3102,7 +3102,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS:USAXS_hslit_ap</string>
+       <string notr="true">9idcLAX:USAXS_hslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3149,7 +3149,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS:USAXS_vslit_ap</string>
+       <string notr="true">9idcLAX:USAXS_vslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3629,7 +3629,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:EPOCHTimeOfLastTune</string>
+          <string notr="true">9idcLAX:EPOCHTimeOfLastTune</string>
          </property>
          <property name="foreground">
           <color>
@@ -3665,7 +3665,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:NumScansFromLastTune</string>
+          <string notr="true">9idcLAX:NumScansFromLastTune</string>
          </property>
          <property name="background">
           <color>
@@ -3706,7 +3706,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:ReqTimeBetweenTune</string>
+          <string notr="true">9idcLAX:ReqTimeBetweenTune</string>
          </property>
          <property name="foreground">
           <color>
@@ -3771,7 +3771,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:ReqNumScansBetweenTune</string>
+          <string notr="true">9idcLAX:ReqNumScansBetweenTune</string>
          </property>
          <property name="background">
           <color>
@@ -4014,7 +4014,7 @@
           <string>Use Specific location?</string>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:UseSpecificTuneLocation</string>
+          <string notr="true">9idcLAX:UseSpecificTuneLocation</string>
          </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_105">
@@ -4027,7 +4027,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:preUSAXStuneSY</string>
+          <string notr="true">9idcLAX:preUSAXStuneSY</string>
          </property>
          <property name="foreground">
           <color>
@@ -4069,7 +4069,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:preUSAXStuneSX</string>
+          <string notr="true">9idcLAX:preUSAXStuneSX</string>
          </property>
          <property name="background">
           <color>

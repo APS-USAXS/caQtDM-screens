@@ -426,9 +426,9 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>0</x>
       <y>50</y>
-      <width>701</width>
+      <width>731</width>
       <height>335</height>
      </rect>
     </property>
@@ -2290,7 +2290,7 @@
     </widget>
     <widget class="QWidget" name="Radiography">
      <attribute name="title">
-      <string>Radiography</string>
+      <string>RadGr</string>
      </attribute>
      <widget class="QLabel" name="label_53">
       <property name="geometry">
@@ -3873,7 +3873,7 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>675</width>
+           <width>705</width>
            <height>285</height>
           </rect>
          </property>
@@ -4437,6 +4437,481 @@
        </widget>
       </item>
      </layout>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tunning</string>
+     </attribute>
+     <widget class="caToggleButton" name="catogglebutton_13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>PreUSAXStune use Specific location?</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">9idcLAX:USAXS:UseSpecificTuneLocation</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_19">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>10</y>
+        <width>380</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>PreUSAXS tune position, mm</string>
+      </property>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>25</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_113">
+       <property name="geometry">
+        <rect>
+         <x>266</x>
+         <y>28</y>
+         <width>93</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:preUSAXStuneSY</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_76">
+       <property name="geometry">
+        <rect>
+         <x>7</x>
+         <y>30</y>
+         <width>52</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SX, mm</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_90">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>30</y>
+         <width>53</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SY, mm</string>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_114">
+       <property name="geometry">
+        <rect>
+         <x>74</x>
+         <y>28</y>
+         <width>93</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:preUSAXStuneSX</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_20">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>80</y>
+        <width>441</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>PreUSAXS tune ranges</string>
+      </property>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>25</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_35">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>30</y>
+         <width>238</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:tune_mr_range</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="precision">
+        <number>4</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::User</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_79">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>161</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;a2rp tune range [V]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_63">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>118</y>
+         <width>238</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:tune_a2rp_range</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="precision">
+        <number>0</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::User</enum>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_62">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>88</y>
+         <width>238</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:tune_m2rp_range</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="precision">
+        <number>0</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::User</enum>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_65">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>178</y>
+         <width>238</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:tune_asrp_range</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="precision">
+        <number>0</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::User</enum>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_64">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>148</y>
+         <width>238</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:tune_m2rp_range</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="precision">
+        <number>0</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::User</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_65">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>32</y>
+         <width>161</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;mr tune range [deg]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_80">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>161</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;msrp tune range [V]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_81">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>161</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;asrp tune range [V]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_78">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>161</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;m2rp tune range [V]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_77">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>161</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ar tune range [deg]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_61">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>58</y>
+         <width>238</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:USAXS:tune_ar_range</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="precision">
+        <number>4</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::User</enum>
+       </property>
+      </widget>
+      <zorder>label_17</zorder>
+      <zorder>catextentry_65</zorder>
+      <zorder>catextentry_62</zorder>
+      <zorder>label_79</zorder>
+      <zorder>catextentry_63</zorder>
+      <zorder>catextentry_64</zorder>
+      <zorder>label_65</zorder>
+      <zorder>catextentry_35</zorder>
+      <zorder>label_80</zorder>
+      <zorder>label_81</zorder>
+      <zorder>label_78</zorder>
+      <zorder>label_77</zorder>
+      <zorder>catextentry_61</zorder>
+      <zorder>catextentry_35</zorder>
+      <zorder>label_79</zorder>
+      <zorder>catextentry_63</zorder>
+      <zorder>catextentry_62</zorder>
+      <zorder>catextentry_65</zorder>
+      <zorder>catextentry_64</zorder>
+      <zorder>label_65</zorder>
+      <zorder>label_80</zorder>
+      <zorder>label_81</zorder>
+      <zorder>label_78</zorder>
+      <zorder>label_77</zorder>
+      <zorder>catextentry_61</zorder>
+     </widget>
     </widget>
     <widget class="QWidget" name="AMplifier">
      <attribute name="title">

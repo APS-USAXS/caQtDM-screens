@@ -2994,10 +2994,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>USAXS All parameters;USAXS One page parameters;USAXS Parameters short;USAXS-Pin parameters;USAXS terms;USAXS Imaging</string>
+     <string>USAXS All parameters;USAXS Imaging</string>
     </property>
     <property name="files">
-     <string>usaxs_parameters_all.ui;usaxs_parameters_onePage.ui;usaxs_parameters.ui;usaxs_pin_parameters.ui;USAXS_terms.ui;usaxs_Imaging_parameters.ui</string>
+     <string>usaxs_parameters_all.ui;usaxs_Imaging_parameters.ui</string>
     </property>
     <property name="args">
      <string>;;;;;</string>
@@ -3210,13 +3210,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SAXS Pilatus;WAXS Pilatus;Alta;BlackFly;BlackFlyImage;DP Perkin Elmer;Mythen DP;</string>
+     <string notr="true">SAXS Pilatus;WAXS Pilatus;Alta;BlackFly;BlackFlyImage;DP Perkin Elmer;Mythen DP;PD Perkin ELmer Graphite</string>
     </property>
     <property name="files">
-     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera.ui;PerkinElmer.ui;mythen.ui;</string>
+     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera.ui;PerkinElmer.ui;mythen.ui;PerkinElmer.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:</string>
+     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=dp_pe_xrd79:,R=cam1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

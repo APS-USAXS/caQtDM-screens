@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 # this will open slits for radiography
 # USAXS horizontal and vertical 
 caput 9idcLAX:m58:c2:m8.VAL 2.5

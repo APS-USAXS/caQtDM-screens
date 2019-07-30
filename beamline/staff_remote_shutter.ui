@@ -380,7 +380,7 @@
     <set>Qt::AlignCenter</set>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idb:BioEnc2B3.VAL</string>
+    <string notr="true">9idcLAX:userTran3.A</string>
    </property>
   </widget>
   <widget class="caLineEdit" name="calineedit_27">

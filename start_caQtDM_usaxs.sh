@@ -109,6 +109,8 @@ addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui
 addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui/autoconvert
 addScreenPath      AREA_DETECTOR         ADPilatus/pilatusApp/op/ui
 addScreenPath      AREA_DETECTOR         ADPilatus/pilatusApp/op/ui/autoconvert
+addScreenPath      AREA_DETECTOR         ADPerkinElmer/perkinElmerApp/op/ui
+addScreenPath      AREA_DETECTOR         ADPerkinElmer/perkinElmerApp/op/ui/autoconvert
 addScreenPath      ASYN                  opi/caqtdm
 addScreenPath      ASYN                  opi/caqtdm/autoconvert
 addScreenPath      AUTOSAVE              asApp/op/ui

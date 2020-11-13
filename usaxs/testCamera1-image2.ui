@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="caFrame" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1435</width>
+    <height>1070</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="caCamera" name="cacamera">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1391</width>
+     <height>1001</height>
+    </rect>
+   </property>
+   <property name="channelData" stdset="0">
+    <string notr="true">9idFLY1:image2:ArrayData</string>
+   </property>
+   <property name="channelWidth" stdset="0">
+    <string notr="true">9idFLY1:cam1:ArraySizeX_RBV</string>
+   </property>
+   <property name="channelHeight" stdset="0">
+    <string notr="true">9idFLY1:cam1:ArraySizeY_RBV</string>
+   </property>
+   <property name="automaticLevels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="minLevel">
+    <string notr="true">0</string>
+   </property>
+   <property name="maxLevel">
+    <string notr="true">255</string>
+   </property>
+   <property name="ColorMap" stdset="0">
+    <enum>caCamera::as_is</enum>
+   </property>
+   <property name="channelCode" stdset="0">
+    <string notr="true"/>
+   </property>
+   <property name="channelBPP" stdset="0">
+    <string notr="true"/>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caCamera</class>
+   <extends>QWidget</extends>
+   <header>caCamera</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

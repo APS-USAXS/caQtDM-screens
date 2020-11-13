@@ -25,8 +25,9 @@ log(sys.argv[0])
 try:
 	epics.caput("9idcLAX:USAXS:FS_OrderNumber", 1)
 	epics.caput("usaxs_pilatus1:cam1:FileNumber", 1)
-	epics.caput("usaxs_pilatus1:Nexus1:FileNumber", 1)
-	epics.caput("usaxs_pilatus2:Nexus1:FileNumber", 1)
+	epics.caput("usaxs_pilatus1:HDF1:FileNumber", 1)
+	epics.caput("usaxs_pilatus2:HDF1:FileNumber", 1)
 	epics.caput("usaxs_pilatus2:cam1:FileNumber", 1)
+    
 except Exception as _exc:
 	log(str(_exc))

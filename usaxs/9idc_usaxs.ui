@@ -179,13 +179,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>LAX scaler (more);LAX scaler dark signal;LAX scaler gated;LAX scaler I000</string>
+     <string>LAX scaler (more);LAX scaler dark signal;LAX scaler gated;LAX scaler I000;SFO</string>
     </property>
     <property name="files">
-     <string>scaler16_full.ui;dark16.ui;scaler16_full.ui;scaler16_full.ui</string>
+     <string>scaler16_full.ui;dark16.ui;scaler16_full.ui;scaler16_full.ui;scaler16_full.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX:, S=vsc:c0;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=9idcLAX:, S=vsc:c1;P=9idcLAX:, S=vsc:c2</string>
+     <string>P=9idcLAX:, S=vsc:c0;P=9idcLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=9idcLAX:, S=vsc:c1;P=9idcLAX:, S=vsc:c2;P=9idcSFO:, S=scaler1</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -992,7 +992,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>LAX motor card 0;LAX motor card 1;LAX motor card 2;LAX motor card 3;LAX MAXv card 0 ;LAX MVP2001;LAX XPS controller;SFO motor card 1;SFO motor card 2;SFO motor card 3;Cmini table;PI</string>
     </property>
     <property name="files">
-     <string>motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motorxU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor2xU.ui</string>
+     <string>motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motorxU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor8xU.ui;motor5xU.ui;motor2xU.ui</string>
     </property>
     <property name="args">
      <string>P=9idcLAX:, M1=m58:c0:m1, M2=m58:c0:m2, M3=m58:c0:m3, M4=m58:c0:m4, M5=m58:c0:m5, M6=m58:c0:m6, M7=m58:c0:m7, M8=m58:c0:m8;P=9idcLAX:, M1=m58:c1:m1, M2=m58:c1:m2, M3=m58:c1:m3, M4=m58:c1:m4, M5=m58:c1:m5, M6=m58:c1:m6, M7=m58:c1:m7, M8=m58:c1:m8;P=9idcLAX:, M1=m58:c2:m1, M2=m58:c2:m2, M3=m58:c2:m3, M4=m58:c2:m4, M5=m58:c2:m5, M6=m58:c2:m6, M7=m58:c2:m7, M8=m58:c2:m8;P=9idcLAX:, M1=m58:c3:m1, M2=m58:c3:m2, M3=m58:c3:m3, M4=m58:c3:m4, M5=m58:c3:m5, M6=m58:c3:m6, M7=m58:c3:m7, M8=m58:c3:m8;P=9idcLAX:, M1=mxv:c0:m1, M2=mxv:c0:m2, M3=mxv:c0:m3, M4=mxv:c0:m4, M5=mxv:c0:m5, M6=mxv:c0:m6, M7=mxv:c0:m7, M8=mxv:c0:m8;P=9idcLAX:, M=mvp:c0:m1;P=9idcLAX:, M1=xps:c0:m1, M2=xps:c0:m2, M3=xps:c0:m3, M4=xps:c0:m4, M5=xps:c0:m5, M6=xps:c0:m6, M7=xps:c0:m7, M8=xps:c0:m8;P=9idcSFO:, M1=m1, M2=m2, M3=m3, M4=m4, M5=m5, M6=m6, M7=m7, M8=m8;P=9idcSFO:, M1=m9, M2=m10, M3=m11, M4=m12, M5=m13, M6=m14, M7=m15, M8=m16;P=9idcSFO:, M1=m17, M2=m18, M3=m19, M4=m20, M5=m21, M6=m22, M7=m23, M8=m24;P=9idc:, M1=m1, M2=m2, M3=m3, M4=m4, M5=m5;P=9idcPI:c867:c0:,M1=m1,M2=m2</string>
@@ -2994,10 +2994,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>USAXS All parameters;USAXS Imaging</string>
+     <string>USAXS All parameters;USAXS Imaging;USAXS sample parameters;test</string>
     </property>
     <property name="files">
-     <string>usaxs_parameters_all.ui;usaxs_Imaging_parameters.ui</string>
+     <string>usaxs_parameters_all.ui;usaxs_Imaging_parameters.ui;usaxs_sample_parameters.ui;test.ui</string>
     </property>
     <property name="args">
      <string>;;;;;</string>
@@ -3210,13 +3210,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SAXS Pilatus;WAXS Pilatus;Alta;BlackFly;BlackFlyImage;DP Perkin Elmer;Mythen DP;PD Perkin ELmer Graphite</string>
+     <string notr="true">SAXS Pilatus;WAXS Pilatus;Alta;BlackFly;BlackFlyImage;DP Perkin Elmer;Mythen DP;PD Perkin ELmer Graphite;BlackFly2;BlackFlyImage2</string>
     </property>
     <property name="files">
-     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera.ui;PerkinElmer.ui;mythen.ui;PerkinElmer.ui</string>
+     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera.ui;PerkinElmer.ui;mythen.ui;PerkinElmer.ui;pointGrey.ui;testCamera.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=dp_pe_xrd79:,R=cam1:</string>
+     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=dp_pe_xrd79:,R=cam1:;P=9idFLY2:,R=cam1:;P=9idFLY2:,R=cam1: </string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -7328,6 +7328,90 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </item>
     </layout>
    </widget>
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_29">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">-Sample Params</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>140</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string>Sample Parameters</string>
+    </property>
+    <property name="files">
+     <string>usaxs_sample_parameters.ui</string>
+    </property>
+    <property name="args">
+     <string>;;;;;</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_45">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>300</y>
+      <width>120</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">-SOE  motors</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>140</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string>Cmini table</string>
+    </property>
+    <property name="files">
+     <string>motor5xU.ui</string>
+    </property>
+    <property name="args">
+     <string>P=9idc:, M1=m1, M2=m2, M3=m3, M4=m4, M5=m5</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false;false;false;false;false;false</string>
+    </property>
+   </widget>
    <zorder>layoutWidget</zorder>
    <zorder>groupBox_6</zorder>
    <zorder>groupBox_4</zorder>
@@ -7480,6 +7564,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>groupBox_8</zorder>
    <zorder>caRelatedDisplay_7</zorder>
    <zorder>groupBox_9</zorder>
+   <zorder>caRelatedDisplay_29</zorder>
+   <zorder>caRelatedDisplay_45</zorder>
   </widget>
  </widget>
  <customwidgets>

@@ -4092,8 +4092,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>62</width>
-           <height>16</height>
+           <width>705</width>
+           <height>285</height>
           </rect>
          </property>
          <widget class="caMessageButton" name="camessagebutton_8">
@@ -4974,7 +4974,7 @@
         <set>Qt::AlignCenter</set>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:tune_m2rp_range</string>
+        <string notr="true">9idcLAX:USAXS:tune_msrp_range</string>
        </property>
        <property name="background">
         <color>

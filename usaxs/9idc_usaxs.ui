@@ -3210,13 +3210,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SAXS Pilatus;WAXS Pilatus;Alta;BlackFly;BlackFlyImage;DP Perkin Elmer;Mythen DP;PD Perkin ELmer Graphite;BlackFly2;BlackFlyImage2</string>
+     <string notr="true">SAXS Pilatus;WAXS Pilatus;Alta;BlackFly;BlackFlyImage;DP Perkin Elmer;Mythen DP;PD Perkin ELmer Graphite;BlackFly2;BlackFlyImage2;Dexela</string>
     </property>
     <property name="files">
-     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera1.ui;PerkinElmer.ui;mythen.ui;PerkinElmer.ui;pointGrey.ui;testCamera2.ui</string>
+     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera1.ui;PerkinElmer.ui;mythen.ui;PerkinElmer.ui;pointGrey.ui;testCamera2.ui;Dexela.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=dp_pe_xrd79:,R=cam1:;P=9idFLY2:,R=cam1:;P=9idFLY2:,R=cam1: </string>
+     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=9idalta:,R=cam1:;P=9idFLY1:,R=cam1:;P=9idFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=dp_pe_xrd79:,R=cam1:;P=9idFLY2:,R=cam1:;P=9idFLY2:,R=cam1:;P=9idcDEX:,R=cam1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

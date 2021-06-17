@@ -28,6 +28,9 @@ try:
 	epics.caput("usaxs_pilatus1:HDF1:FileNumber", 1)
 	epics.caput("usaxs_pilatus2:HDF1:FileNumber", 1)
 	epics.caput("usaxs_pilatus2:cam1:FileNumber", 1)
+	epics.caput("9idcDEX:HDF1:FileNumber", 1)
+	epics.caput("9idcDEX:TIFF1:FileNumber", 1)
+    
     
 except Exception as _exc:
 	log(str(_exc))

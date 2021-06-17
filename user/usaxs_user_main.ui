@@ -638,13 +638,13 @@
        </color>
       </property>
       <property name="labels">
-       <string>PI rotational stages;Lakeshore 340;PTC10</string>
+       <string>PI rotational stages;Lakeshore 340;PTC10;Cold Stage UI;Cold sinter Stage asyn</string>
       </property>
       <property name="files">
-       <string>motor2x.ui;LakeShore340.adl;PTC10.ui</string>
+       <string>motor2x.ui;LakeShore340.adl;PTC10.ui;coldStage.ui;asynOctet.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcPI:c867:c0:,M1=m1,M2=m2;P=9idcSFO:,Q=tc1;P=9idcTEMP:,T=tc1,CT=2A,CR=3A,CV=5A</string>
+       <string>P=9idcPI:c867:c0:,M1=m1,M2=m2;P=9idcSFO:,Q=tc1;P=9idcTEMP:,T=tc1,CT=2A,CR=3A,CV=5A;;P=9idcCOLD:,R=asyn_1</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -1082,7 +1082,7 @@
                <string notr="true">color: rgb(0, 0, 0);</string>
               </property>
               <property name="text">
-               <string>Und ds</string>
+               <string>RTD5</string>
               </property>
               <property name="textFormat">
                <enum>Qt::PlainText</enum>
@@ -1390,7 +1390,7 @@
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#0000cc;&quot;&gt;9 ID-D USAXS&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#0000cc;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#0000cc;&quot;&gt;9 ID-C USAXS&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#0000cc;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::RichText</enum>

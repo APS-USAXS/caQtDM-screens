@@ -2311,6 +2311,154 @@
           <enum>caLineEdit::Static</enum>
          </property>
         </widget>
+        <widget class="caLed" name="caled_21">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>230</y>
+           <width>18</width>
+           <height>14</height>
+          </rect>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:WAXS:detectorChoice</string>
+         </property>
+         <property name="trueColor">
+          <color>
+           <red>0</red>
+           <green>255</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="trueValue">
+          <string notr="true">1</string>
+         </property>
+         <property name="falseValue">
+          <string notr="true"/>
+         </property>
+        </widget>
+        <widget class="caMessageButton" name="camessagebutton_16">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>256</y>
+           <width>100</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:WAXS:detectorChoice</string>
+         </property>
+         <property name="label">
+          <string notr="true">Dexela N2315</string>
+         </property>
+         <property name="releaseMessage">
+          <string notr="true">2</string>
+         </property>
+        </widget>
+        <widget class="caMessageButton" name="camessagebutton_17">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>226</y>
+           <width>100</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:WAXS:detectorChoice</string>
+         </property>
+         <property name="label">
+          <string notr="true">Pilatus 200kw</string>
+         </property>
+         <property name="releaseMessage">
+          <string notr="true">1</string>
+         </property>
+        </widget>
+        <widget class="caLed" name="caled_22">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>260</y>
+           <width>18</width>
+           <height>14</height>
+          </rect>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:WAXS:detectorChoice</string>
+         </property>
+         <property name="trueColor">
+          <color>
+           <red>0</red>
+           <green>255</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="trueValue">
+          <string notr="true">0</string>
+         </property>
+         <property name="falseValue">
+          <string notr="true"/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_108">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>230</y>
+           <width>161</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Detector used</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="caLed" name="caled_23">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>260</y>
+           <width>18</width>
+           <height>14</height>
+          </rect>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">9idcLAX:WAXS:detectorChoice</string>
+         </property>
+         <property name="trueColor">
+          <color>
+           <red>0</red>
+           <green>255</green>
+           <blue>0</blue>
+          </color>
+         </property>
+         <property name="trueValue">
+          <string notr="true">2</string>
+         </property>
+         <property name="falseValue">
+          <string notr="true"/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_109">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>260</y>
+           <width>101</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>No det.</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
        </widget>
       </item>
      </layout>

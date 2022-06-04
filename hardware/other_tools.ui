@@ -291,7 +291,7 @@
          <string>microlab.ui</string>
         </property>
         <property name="args">
-         <string>P=9idcLAX:,R=microlab:,S=cmdReplya7_do_IO</string>
+         <string>P=9idcLAX:,R=microlab:,S=cmdReply:a7_do_IO</string>
         </property>
         <property name="fontScaleMode" stdset="0">
          <enum>EPushButton::None</enum>

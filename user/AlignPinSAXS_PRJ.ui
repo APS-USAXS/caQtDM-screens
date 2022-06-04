@@ -578,7 +578,7 @@
         <x>50</x>
         <y>70</y>
         <width>731</width>
-        <height>111</height>
+        <height>191</height>
        </rect>
       </property>
       <property name="title">
@@ -600,8 +600,8 @@
       <widget class="QLabel" name="label_2">
        <property name="geometry">
         <rect>
-         <x>180</x>
-         <y>30</y>
+         <x>200</x>
+         <y>130</y>
          <width>227</width>
          <height>16</height>
         </rect>
@@ -613,8 +613,8 @@
       <widget class="QLabel" name="label_57">
        <property name="geometry">
         <rect>
-         <x>370</x>
-         <y>60</y>
+         <x>390</x>
+         <y>160</y>
          <width>56</width>
          <height>16</height>
         </rect>
@@ -626,8 +626,8 @@
       <widget class="QLabel" name="label_54">
        <property name="geometry">
         <rect>
-         <x>100</x>
-         <y>60</y>
+         <x>120</x>
+         <y>160</y>
          <width>55</width>
          <height>16</height>
         </rect>
@@ -639,8 +639,8 @@
       <widget class="caTextEntry" name="catextentry_68">
        <property name="geometry">
         <rect>
-         <x>430</x>
-         <y>60</y>
+         <x>450</x>
+         <y>160</y>
          <width>93</width>
          <height>20</height>
         </rect>
@@ -662,14 +662,175 @@
       <widget class="caTextEntry" name="catextentry_69">
        <property name="geometry">
         <rect>
-         <x>170</x>
-         <y>60</y>
+         <x>190</x>
+         <y>160</y>
          <width>93</width>
          <height>20</height>
         </rect>
        </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcLAX:USAXS:SAD</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+      </widget>
+      <widget class="caMessageButton" name="camessagebutton_17">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>100</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Laser On</string>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcRIO:Galil2Bo1_CMD</string>
+       </property>
+       <property name="label">
+        <string notr="true">Laser On</string>
+       </property>
+       <property name="releaseMessage">
+        <string notr="true">1</string>
+       </property>
+      </widget>
+      <widget class="caMessageButton" name="camessagebutton_18">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>100</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Laser Off</string>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcRIO:Galil2Bo1_CMD</string>
+       </property>
+       <property name="label">
+        <string notr="true">Laser On</string>
+       </property>
+       <property name="releaseMessage">
+        <string notr="true">0</string>
+       </property>
+      </widget>
+      <widget class="caLed" name="caled_21">
+       <property name="geometry">
+        <rect>
+         <x>47</x>
+         <y>20</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcRIO:Galil2Bo1_CMD</string>
+       </property>
+       <property name="trueColor">
+        <color>
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="trueValue">
+        <string notr="true">1</string>
+       </property>
+       <property name="falseValue">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_49">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>28</y>
+         <width>201</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>17</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Distance [mm]</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="caLineEdit" name="calineedit_50">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>22</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:userCalc7.VAL</string>
+       </property>
+       <property name="precision">
+        <number>1</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::User</enum>
+       </property>
+       <property name="formatType">
+        <enum>caLineEdit::decimal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_55">
+       <property name="geometry">
+        <rect>
+         <x>474</x>
+         <y>80</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Calibration offset&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_70">
+       <property name="geometry">
+        <rect>
+         <x>600</x>
+         <y>80</y>
+         <width>93</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">9idcLAX:userCalc7.B</string>
        </property>
        <property name="background">
         <color>
@@ -707,8 +868,8 @@
      <widget class="QLabel" name="label_27">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>190</y>
+        <x>50</x>
+        <y>270</y>
         <width>721</width>
         <height>121</height>
        </rect>
@@ -759,9 +920,19 @@
    <header>caTextEntry</header>
   </customwidget>
   <customwidget>
+   <class>caMessageButton</class>
+   <extends>QPushButton</extends>
+   <header>caMessageButton</header>
+  </customwidget>
+  <customwidget>
    <class>caInclude</class>
    <extends>QWidget</extends>
    <header>caInclude</header>
+  </customwidget>
+  <customwidget>
+   <class>caLed</class>
+   <extends>QWidget</extends>
+   <header>caLed</header>
   </customwidget>
   <customwidget>
    <class>caLineEdit</class>

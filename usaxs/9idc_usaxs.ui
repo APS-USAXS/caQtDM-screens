@@ -7400,7 +7400,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>Cmini table</string>
     </property>
     <property name="files">
-     <string>motor5xU.ui</string>
+     <string>motor5x.ui</string>
     </property>
     <property name="args">
      <string>P=9idc:, M1=m1, M2=m2, M3=m3, M4=m4, M5=m5</string>

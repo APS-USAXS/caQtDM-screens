@@ -91,7 +91,7 @@
           </rect>
          </property>
          <property name="text">
-          <string>pin_z ops USAXS</string>
+          <string>saxs z ops USAXS</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -174,7 +174,7 @@
           </rect>
          </property>
          <property name="text">
-          <string>pin_z ops SAXS</string>
+          <string>saxs z ops SAXS</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -234,7 +234,7 @@
           </rect>
          </property>
          <property name="macro">
-          <string notr="true">P=9idcLAX:m58:c2:,M=m2</string>
+          <string notr="true">P=9idcAERO:,M=m9</string>
          </property>
          <property name="filename" stdset="0">
           <string notr="true">motorxU.ui</string>
@@ -250,7 +250,7 @@
           </rect>
          </property>
          <property name="macro">
-          <string notr="true">P=9idcLAX:m58:c2:,M=m1</string>
+          <string notr="true">P=9idcAERO:,M=m8</string>
          </property>
          <property name="filename" stdset="0">
           <string notr="true">motorxU.ui</string>
@@ -435,7 +435,7 @@
           </rect>
          </property>
          <property name="macro">
-          <string notr="true">P=9idcLAX:mxv:c0:,M=m2</string>
+          <string notr="true">P=9idcAERO:,M=m14</string>
          </property>
          <property name="filename" stdset="0">
           <string notr="true">motorxU.ui</string>
@@ -457,7 +457,7 @@
           <bool>false</bool>
          </property>
          <property name="scriptCommand">
-          <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForSAXS.sh</string>
+          <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForSAXS.sh</string>
          </property>
         </widget>
         <widget class="caScriptButton" name="cascriptbutton_3">
@@ -476,7 +476,7 @@
           <bool>false</bool>
          </property>
          <property name="scriptCommand">
-          <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForUSAXS.py</string>
+          <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForUSAXS.py</string>
          </property>
         </widget>
         <widget class="caTextEntry" name="caTextEntry_12">
@@ -492,7 +492,7 @@
           <string/>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:mxv:c0:m2.LLM</string>
+          <string notr="true">9idcAERO:m14.LLM</string>
          </property>
          <property name="foreground">
           <color>
@@ -540,7 +540,7 @@
           </rect>
          </property>
          <property name="text">
-          <string>pin-z Low limit Val</string>
+          <string>saxs z Low limit Val</string>
          </property>
         </widget>
         <widget class="QLabel" name="label_18">
@@ -714,7 +714,7 @@
         </rect>
        </property>
        <property name="text">
-        <string>Laser Off</string>
+        <string>Laser On</string>
        </property>
        <property name="channel" stdset="0">
         <string notr="true">9idcRIO:Galil2Bo1_CMD</string>

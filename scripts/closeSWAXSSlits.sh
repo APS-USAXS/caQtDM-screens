@@ -4,8 +4,8 @@
 # USAXS horizontal and vertical 
 export USAXSH=`caget -t 9idcLAX:SAXS_hslit_ap`
 export USAXSV=`caget -t 9idcLAX:SAXS_vslit_ap`
-caput 9idcLAX:m58:c2:m8.VAL $USAXSH
-caput 9idcLAX:m58:c2:m7.VAL $USAXSV
+caput 9idcLAX:m58:c1:m8.VAL $USAXSH
+caput 9idcLAX:m58:c1:m7.VAL $USAXSV
 # Guard horizonal and vertical
 export GUARDH=`caget -t 9idcLAX:SAXS_hgslit_ap`
 export GUARDV=`caget -t 9idcLAX:SAXS_vgslit_ap`

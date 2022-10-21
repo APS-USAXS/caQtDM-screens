@@ -351,7 +351,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">P=9idcLAX:m58:c2:,M=m1</string>
+       <string notr="true">P=9idcAERO:,M=m8</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -367,7 +367,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">P=9idcLAX:m58:c2:,M=m2</string>
+       <string notr="true">P=9idcAERO:,M=m9</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -388,7 +388,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">M=m58:c2:m3,P=9idcLAX:</string>
+       <string notr="true">P=9idcAERO:,M=m1</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -404,7 +404,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">M=aero:c2:m1,P=9idcLAX:</string>
+       <string notr="true">P=9idcAERO:,M=m2</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -1537,7 +1537,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -1579,7 +1579,7 @@
     <widget class="QLabel" name="label_66">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>170</x>
        <y>20</y>
        <width>111</width>
        <height>20</height>
@@ -1638,7 +1638,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>6</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1696,7 +1696,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>6</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1754,7 +1754,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>6</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1809,7 +1809,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>6</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1867,7 +1867,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>6</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2006,7 +2006,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2302,7 +2302,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>8</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2351,7 +2351,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -2399,7 +2399,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -2439,7 +2439,6 @@
     <zorder>widget</zorder>
     <zorder>label_90</zorder>
     <zorder>catextentry_5</zorder>
-    <zorder>label_66</zorder>
     <zorder>caLabel_45</zorder>
     <zorder>caLabel_46</zorder>
     <zorder>caLabel_43</zorder>
@@ -2467,6 +2466,7 @@
     <zorder>caled_4</zorder>
     <zorder>label_95</zorder>
     <zorder>caled_9</zorder>
+    <zorder>label_66</zorder>
    </widget>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
@@ -2789,7 +2789,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/openSlits.sh</string>
+       <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/openSlits.sh</string>
       </property>
      </widget>
      <widget class="caScriptButton" name="cascriptbutton_5">
@@ -2841,7 +2841,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeSWAXSSlits.sh
+       <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/closeSWAXSSlits.sh
 </string>
       </property>
      </widget>
@@ -2861,7 +2861,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/closeUSAXSSlits.sh</string>
+       <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/closeUSAXSSlits.sh</string>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_96">
@@ -3277,7 +3277,7 @@
        <string>motor2xU.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX:m58:c2:,M1=m6,M2=m5</string>
+       <string>P=9idcLAX:m58:c1:,M1=m5,M2=m6</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Row</enum>
@@ -3322,7 +3322,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>13</pointsize>
+        <pointsize>9</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -3358,7 +3358,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>13</pointsize>
+        <pointsize>9</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -3394,7 +3394,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>13</pointsize>
+        <pointsize>9</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -3451,7 +3451,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>13</pointsize>
+        <pointsize>9</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -3502,7 +3502,7 @@
        <string>motor2xU.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX:m58:c2:,M1=m8,M2=m7</string>
+       <string>P=9idcLAX:m58:c21:,M1=m7,M2=m8</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Row</enum>
@@ -3541,7 +3541,7 @@
        <string>4slitGraphic.ui ;motor4xU.ui;motor2xU.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX:,H=GSlit1H:,V=GSlit1V:,SLIT=Guard Slits;P=9idcLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6;P=9idcLAX:,M1=m58:c1:m5,M2=m58:c0:m6</string>
+       <string>P=9idcLAX:,H=GSlit1H:,V=GSlit1V:,SLIT=Guard Slits;P=9idcLAX:m58:c1:,M1=m1,M2=m2,M3=m3,M4=m4;P=9idcAERO:,M1=m58:c0:m7,M2=m58:c0:m6</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -3569,7 +3569,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>13</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -3619,7 +3619,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>13</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -3725,7 +3725,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>13</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -3831,7 +3831,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>13</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -3849,7 +3849,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>13</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -3899,7 +3899,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>13</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -3924,7 +3924,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>13</pointsize>
+           <pointsize>9</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -3953,7 +3953,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>13</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -3974,7 +3974,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>13</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -3995,7 +3995,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>13</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -4016,7 +4016,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>16</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -4043,7 +4043,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>10</pointsize>
+           <pointsize>7</pointsize>
           </font>
          </property>
          <property name="text">
@@ -4204,7 +4204,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>13</pointsize>
+         <pointsize>9</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4303,7 +4303,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>13</pointsize>
+         <pointsize>9</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4339,7 +4339,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>13</pointsize>
+         <pointsize>9</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4374,7 +4374,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>8</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4401,7 +4401,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>8</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4428,7 +4428,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>8</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4455,7 +4455,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>8</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4482,7 +4482,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>7</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4509,7 +4509,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>8</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4600,7 +4600,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>14</pointsize>
+         <pointsize>10</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4678,7 +4678,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>14</pointsize>
+         <pointsize>10</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -5372,6 +5372,11 @@
       <height>130</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
     <property name="title">
      <string>APS Machine Parameters</string>
     </property>
@@ -5386,7 +5391,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5429,7 +5434,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5472,7 +5477,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5515,7 +5520,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5578,7 +5583,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>10</pointsize>
+       <pointsize>7</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5609,7 +5614,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>10</pointsize>
+       <pointsize>7</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5640,7 +5645,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>10</pointsize>
+       <pointsize>7</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5671,7 +5676,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>10</pointsize>
+       <pointsize>7</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5757,7 +5762,7 @@
      <string>motor2xU.ui;motorxU.ui;motor2xU.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX:, M1=m58:c2:m1, M2=m58:c2:m2;P=9idcLAX:, M=m58:c2:m3;P=9idcLAX:, M1=m58:c1:m7,M2=mxv:c0:m7</string>
+     <string>P=9idcAERO:, M1=m8, M2=m9;P=9idcLAX:, M=m58:c2:m3;P=9idcLAX:, M1=m58:c1:m7,M2=mxv:c0:m7</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -5846,7 +5851,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5873,7 +5878,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5900,7 +5905,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5927,7 +5932,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5948,7 +5953,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5967,7 +5972,7 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>15</pointsize>
+      <pointsize>10</pointsize>
       <stylestrategy>PreferDefault</stylestrategy>
      </font>
     </property>
@@ -6005,7 +6010,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="text">

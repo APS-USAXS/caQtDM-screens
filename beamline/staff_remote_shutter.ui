@@ -54,7 +54,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>16</pointsize>
+     <pointsize>10</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -77,7 +77,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>16</pointsize>
+     <pointsize>10</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -100,7 +100,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>16</pointsize>
+     <pointsize>10</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -123,7 +123,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>16</pointsize>
+     <pointsize>10</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -146,7 +146,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>16</pointsize>
+     <pointsize>10</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -342,7 +342,7 @@
     <set>Qt::AlignCenter</set>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:09ID:STA_A_FES_OPEN_PL.VAL</string>
+    <string notr="true">20id:shutter0_status.VAL</string>
    </property>
   </widget>
   <widget class="caLineEdit" name="calineedit_25">
@@ -361,7 +361,7 @@
     <set>Qt::AlignCenter</set>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:09ID:STA_B_SBS_OPEN_PL.VAL</string>
+    <string notr="true">20id:shutter1_status.VAL</string>
    </property>
   </widget>
   <widget class="caLineEdit" name="calineedit_26">
@@ -399,7 +399,7 @@
     <set>Qt::AlignCenter</set>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9ida:AShtr:Enable</string>
+    <string notr="true">9idcLAX:AShtr:Enable</string>
    </property>
   </widget>
   <widget class="caLineEdit" name="calineedit_28">
@@ -437,7 +437,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9ida:rShtrA:Open</string>
+    <string notr="true">20id:shutter0_opn</string>
    </property>
    <property name="foreground">
     <color>
@@ -470,7 +470,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9ida:rShtrA:Close</string>
+    <string notr="true">20id:shutter0_cls</string>
    </property>
    <property name="foreground">
     <color>
@@ -487,7 +487,7 @@
     </color>
    </property>
    <property name="pressMessage">
-    <string notr="true">0</string>
+    <string notr="true">1</string>
    </property>
   </widget>
   <widget class="caMessageButton" name="camessagebutton_7">
@@ -503,7 +503,7 @@
     <string>Enable</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9ida:AShtr:Enable</string>
+    <string notr="true">9idcLAX:AShtr:Enable</string>
    </property>
    <property name="foreground">
     <color>
@@ -539,7 +539,7 @@
     <string>Disable</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9ida:AShtr:Enable</string>
+    <string notr="true">9idcLAX:AShtr:Enable</string>
    </property>
    <property name="foreground">
     <color>
@@ -575,7 +575,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9ida:rShtrB:Open</string>
+    <string notr="true">20id:shutter1_opn</string>
    </property>
    <property name="foreground">
     <color>
@@ -674,7 +674,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9ida:rShtrB:Close</string>
+    <string notr="true">20id:shutter1_cls</string>
    </property>
    <property name="foreground">
     <color>
@@ -805,7 +805,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:09ID:STA_A_FES_OPEN_PL.VAL</string>
+    <string notr="true">PA:20ID:STA_A_FES_OPEN_PL.VAL</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_2">
@@ -850,7 +850,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:09ID:STA_B_SBS_OPEN_PL.VAL</string>
+    <string notr="true">PA:20ID:STA_B_SBS_OPEN_PL.VAL</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_3">
@@ -985,7 +985,7 @@
     <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:09ID:STA_A_FES_OPEN_PL.VAL</string>
+    <string notr="true">PA:20ID:STA_A_FES_OPEN_PL.VAL</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_6">
@@ -1120,7 +1120,7 @@
     <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:09ID:STA_B_SBS_OPEN_PL.VAL</string>
+    <string notr="true">PA:20ID:STA_B_SBS_OPEN_PL.VAL</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_9">
@@ -1333,7 +1333,7 @@
     <string>autoShutter.adl</string>
    </property>
    <property name="args">
-    <string>P=$(P),S=A,T1=1,T2=2,A=1</string>
+    <string>P=9idcLAX:,S=A,T1=1,T2=2,A=1</string>
    </property>
    <property name="stackingMode" stdset="0">
     <enum>caRowColMenu::Menu</enum>

@@ -2498,7 +2498,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">USAXSfly.ui;SIS38XX.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=9idcLAX:,Q=USAXSfly:;P=9idcLAX:3820:</string>
+     <string notr="true">P=9idcLAX:,PA=9idcAERO:,Q=USAXSfly:;P=9idcLAX:3820:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

@@ -638,13 +638,13 @@
        </color>
       </property>
       <property name="labels">
-       <string>PI rotational stages;Lakeshore 340;PTC10;Cold Stage UI;Cold sinter Stage asyn</string>
+       <string>PI rotational stages;Lakeshore 340;PTC10;Cold Stage UI;Cold sinter Stage asyn;ISCO Teledyne 500D</string>
       </property>
       <property name="files">
-       <string>motor2x.ui;LakeShore340.adl;PTC10.ui;coldStage.ui;asynOctet.ui</string>
+       <string>motor2x.ui;LakeShore340.adl;PTC10.ui;coldStage.ui;asynOctet.ui;SyringePumpTop.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcPI:c867:c0:,M1=m1,M2=m2;P=9idcSFO:,Q=tc1;P=9idcTEMP:,T=tc1,CT=2A,CR=3A,CV=5A;;P=9idcCOLD:,R=asyn_1</string>
+       <string>P=9idcPI:c867:c0:,M1=m1,M2=m2;P=9idcSFO:,Q=tc1;P=9idcTEMP:,T=tc1,CT=2A,CR=3A,CV=5A;;P=9idcCOLD:,R=asyn_1;P=9idcSP:</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -1638,7 +1638,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1673,10 +1673,10 @@
       <enum>caLabel::Calc</enum>
      </property>
      <property name="visibilityCalc">
-      <string notr="true">A&gt;100000</string>
+      <string notr="true">A&gt;500000</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usaxs_pilatus1:Stats1:MeanValue_RBV</string>
+      <string notr="true">usaxs_pilatus3:Stats1:MaxValue_RBV</string>
      </property>
      <property name="channelB">
       <string notr="true"/>
@@ -1696,7 +1696,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1743,61 +1743,6 @@
       <string notr="true"/>
      </property>
     </widget>
-    <widget class="caLabel" name="caLabel_43">
-     <property name="geometry">
-      <rect>
-       <x>890</x>
-       <y>40</y>
-       <width>200</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>6</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Protection Fault!</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>255</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
-     <property name="visibility">
-      <enum>caLabel::IfZero</enum>
-     </property>
-     <property name="visibilityCalc">
-      <string notr="true"/>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:plc:Y0</string>
-     </property>
-     <property name="channelB">
-      <string notr="true"/>
-     </property>
-    </widget>
     <widget class="caLabel" name="caLabel_44">
      <property name="geometry">
       <rect>
@@ -1809,7 +1754,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1867,7 +1812,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2302,7 +2247,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2441,7 +2386,6 @@
     <zorder>catextentry_5</zorder>
     <zorder>caLabel_45</zorder>
     <zorder>caLabel_46</zorder>
-    <zorder>caLabel_43</zorder>
     <zorder>caLabel_44</zorder>
     <zorder>caLabel_48</zorder>
     <zorder>caLabel_1</zorder>
@@ -3322,12 +3266,12 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>9</pointsize>
+        <pointsize>13</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:m58:c2:m8.VAL</string>
+       <string notr="true">9idcLAX:m58:c1:m8.VAL</string>
       </property>
       <property name="background">
        <color>
@@ -3358,7 +3302,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>9</pointsize>
+        <pointsize>13</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -3394,7 +3338,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>9</pointsize>
+        <pointsize>13</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -3451,12 +3395,12 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>9</pointsize>
+        <pointsize>13</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:m58:c2:m7.VAL</string>
+       <string notr="true">9idcLAX:m58:c1:m7.VAL</string>
       </property>
       <property name="background">
        <color>
@@ -3502,7 +3446,7 @@
        <string>motor2xU.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX:m58:c21:,M1=m7,M2=m8</string>
+       <string>P=9idcLAX:m58:c1:,M1=m7,M2=m8</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Row</enum>
@@ -3541,7 +3485,7 @@
        <string>4slitGraphic.ui ;motor4xU.ui;motor2xU.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX:,H=GSlit1H:,V=GSlit1V:,SLIT=Guard Slits;P=9idcLAX:m58:c1:,M1=m1,M2=m2,M3=m3,M4=m4;P=9idcAERO:,M1=m58:c0:m7,M2=m58:c0:m6</string>
+       <string>P=9idcLAX:,H=GSlit1H:,V=GSlit1V:,SLIT=Guard Slits;P=9idcLAX:m58:c1:,M1=m1,M2=m2,M3=m3,M4=m4;P=9idcLAX:,M1=m58:c0:m7,M2=m58:c0:m6</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -3924,7 +3868,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>9</pointsize>
+           <pointsize>13</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -4043,7 +3987,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>7</pointsize>
+           <pointsize>10</pointsize>
           </font>
          </property>
          <property name="text">
@@ -4204,7 +4148,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>9</pointsize>
+         <pointsize>13</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4303,7 +4247,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>9</pointsize>
+         <pointsize>13</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4339,7 +4283,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>9</pointsize>
+         <pointsize>13</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4374,7 +4318,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>8</pointsize>
+         <pointsize>12</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4401,7 +4345,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>8</pointsize>
+         <pointsize>12</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4428,7 +4372,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>8</pointsize>
+         <pointsize>12</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4455,7 +4399,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>8</pointsize>
+         <pointsize>12</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4482,7 +4426,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>7</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4509,7 +4453,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>8</pointsize>
+         <pointsize>12</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4600,7 +4544,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>10</pointsize>
+         <pointsize>14</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4678,7 +4622,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>10</pointsize>
+         <pointsize>14</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4834,122 +4778,6 @@
     <property name="title">
      <string>monitors</string>
     </property>
-    <widget class="QLabel" name="label_52">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>25</y>
-       <width>62</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="minimumSize">
-      <size>
-       <width>62</width>
-       <height>15</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(0, 0, 0)</string>
-     </property>
-     <property name="text">
-      <string>Mono T, K</string>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="calineedit_42">
-     <property name="geometry">
-      <rect>
-       <x>95</x>
-       <y>25</y>
-       <width>86</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="minimumSize">
-      <size>
-       <width>86</width>
-       <height>15</height>
-      </size>
-     </property>
-     <property name="text">
-      <string>#####</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">9ida:DP41:s1:temp</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_58">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>45</y>
-       <width>53</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="minimumSize">
-      <size>
-       <width>53</width>
-       <height>15</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(0, 0, 0)</string>
-     </property>
-     <property name="text">
-      <string>Level, %</string>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="calineedit_44">
-     <property name="geometry">
-      <rect>
-       <x>95</x>
-       <y>45</y>
-       <width>86</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="minimumSize">
-      <size>
-       <width>86</width>
-       <height>15</height>
-      </size>
-     </property>
-     <property name="text">
-      <string>#####</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">9idCRYO:MainLevel:val</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_55">
      <property name="geometry">
       <rect>
@@ -5274,7 +5102,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9ida:BraggEAO.VAL</string>
+      <string notr="true">9idcLAX:userCalc2.VAL</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_57">
@@ -5583,7 +5411,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>7</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5614,7 +5442,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>7</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5645,7 +5473,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>7</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5676,7 +5504,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>7</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5851,7 +5679,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5878,7 +5706,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5905,7 +5733,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5932,7 +5760,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5972,7 +5800,7 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>10</pointsize>
+      <pointsize>15</pointsize>
       <stylestrategy>PreferDefault</stylestrategy>
      </font>
     </property>
@@ -6010,7 +5838,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">

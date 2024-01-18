@@ -895,7 +895,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:userTran3.A</string>
+    <string notr="true">9idcLAX:softGlue:FO18_BI</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_4">
@@ -1075,7 +1075,7 @@
     <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:userTran3.A</string>
+    <string notr="true">9idcLAX:softGlue:FO18_BI</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_8">

@@ -1950,7 +1950,7 @@
       <string notr="true">A&gt;100000</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usaxs_pilatus1:Stats1:MeanValue_RBV</string>
+      <string notr="true">usaxs_pilatus3:Stats1:MeanValue_RBV</string>
      </property>
      <property name="channelB">
       <string notr="true"/>
@@ -2014,61 +2014,6 @@
       <string notr="true"/>
      </property>
      <property name="channelC">
-      <string notr="true"/>
-     </property>
-    </widget>
-    <widget class="caLabel" name="caLabel_43">
-     <property name="geometry">
-      <rect>
-       <x>890</x>
-       <y>40</y>
-       <width>200</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>9</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Protection Fault!</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>255</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
-     <property name="visibility">
-      <enum>caLabel::IfZero</enum>
-     </property>
-     <property name="visibilityCalc">
-      <string notr="true"/>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:plc:Y0</string>
-     </property>
-     <property name="channelB">
       <string notr="true"/>
      </property>
     </widget>
@@ -2716,7 +2661,6 @@
     <zorder>label_66</zorder>
     <zorder>caLabel_45</zorder>
     <zorder>caLabel_46</zorder>
-    <zorder>caLabel_43</zorder>
     <zorder>caLabel_44</zorder>
     <zorder>caLabel_48</zorder>
     <zorder>caLabel_1</zorder>
@@ -5796,7 +5740,7 @@
      <bool>false</bool>
     </property>
     <property name="scriptCommand">
-     <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/runuseModeRadiography.py</string>
+     <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/runuseModeRadiography.py</string>
     </property>
    </widget>
    <widget class="caScriptButton" name="cascriptbutton_5">
@@ -5818,7 +5762,7 @@
      <bool>false</bool>
     </property>
     <property name="scriptCommand">
-     <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/runpreUSAXStune.py</string>
+     <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/runpreUSAXStune.py</string>
     </property>
    </widget>
    <widget class="caScriptButton" name="cascriptbutton_6">
@@ -5840,7 +5784,7 @@
      <bool>false</bool>
     </property>
     <property name="scriptCommand">
-     <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/runusaxsmac.py</string>
+     <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/runusaxsmac.py</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_100">

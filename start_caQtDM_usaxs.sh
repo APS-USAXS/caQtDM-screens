@@ -272,3 +272,12 @@ fi
 # start caQtDM
 #$CAQTDM -noMsg ${screen_s} 
 $CAQTDM -style plastique -stylefile ${STYLESHEET} -noMsg ${screen_s} 
+
+#!if [ $(facter operatingsystemmajrelease) = "7" ]
+#!then
+#!  #echo "This is a RHEL7 host"
+#!  /APSshare/bin/caQtDM -style plastique -stylefile ${STYLESHEET} -noMsg ${screen_s} 
+#!else
+#!  #echo "this is a RHEL8/9 host"
+#!  /net/s100dserv/xorApps/me/caqtdm/caqtdm-4.3.0/caQtDM_Binaries/caQtDM -style plastique -stylefile ${STYLESHEET} -noMsg ${screen_s} 
+#!fi

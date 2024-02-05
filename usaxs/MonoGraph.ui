@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="Title" stdset="0">
-    <string notr="true">Levels 9id Mono</string>
+    <string notr="true">Levels 12id Mono</string>
    </property>
    <property name="TitleX">
     <string notr="true">Time</string>
@@ -32,7 +32,7 @@
     <string notr="true">Levels %</string>
    </property>
    <property name="channels" stdset="0">
-    <string>9idCRYO:MainLevel:val;9idCRYO:BufferLevel:val</string>
+    <string>12idCRYO:MainLevel:val;12idCRYO:BufferLevel:val</string>
    </property>
    <property name="units">
     <enum>caStripPlot::Minute</enum>
@@ -104,7 +104,7 @@
     </rect>
    </property>
    <property name="Title" stdset="0">
-    <string notr="true">Temperature 9id Mono</string>
+    <string notr="true">Temperature 12id Mono</string>
    </property>
    <property name="TitleX">
     <string notr="true">Time</string>
@@ -113,7 +113,7 @@
     <string notr="true">Temperature [K]</string>
    </property>
    <property name="channels" stdset="0">
-    <string>9idBLEPS:TEMP3_CURRENT;9idBLEPS:TEMP4_CURRENT</string>
+    <string>12idBLEPS:TEMP3_CURRENT;12idBLEPS:TEMP4_CURRENT</string>
    </property>
    <property name="units">
     <enum>caStripPlot::Minute</enum>
@@ -186,7 +186,7 @@
     </rect>
    </property>
    <property name="Title" stdset="0">
-    <string notr="true">Pressure and feedback 9id Mono</string>
+    <string notr="true">Pressure and feedback 12id Mono</string>
    </property>
    <property name="TitleX">
     <string notr="true">Time</string>
@@ -195,7 +195,7 @@
     <string notr="true">Pressuer/Feedback</string>
    </property>
    <property name="channels" stdset="0">
-    <string>9idCRYO:PressureDiff:val;9ida:DAC1_1</string>
+    <string>12idCRYO:PressureDiff:val;12ida:DAC1_1</string>
    </property>
    <property name="units">
     <enum>caStripPlot::Minute</enum>

@@ -47,7 +47,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
+    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
    <property name="foreground">
     <color>
@@ -109,7 +109,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string>12idcUSX:pmm01:reg01:bo01</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_37">
@@ -175,7 +175,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
+    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
   </widget>
   <widget class="caMessageButton" name="camessagebutton_5">
@@ -191,7 +191,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
+    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
    <property name="foreground">
     <color>
@@ -276,7 +276,7 @@
     <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
+    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
   </widget>
   <widget class="caLabel" name="caLabel_4">
@@ -335,7 +335,7 @@
     </font>
    </property>
    <property name="text">
-    <string>9idc_USAXS_CCD_shutter.ui</string>
+    <string>12idc_USAXS_CCD_shutter.ui</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

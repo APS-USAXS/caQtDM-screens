@@ -2,8 +2,8 @@
  
 # this will open slits for radiography
 # USAXS horizontal and vertical 
-caput 9idcLAX:m58:c1:m8.VAL 2.5
-caput 9idcLAX:m58:c1:m7.VAL 1.2
+caput usxLAX:m58:c1:m8.VAL 2.5
+caput usxLAX:m58:c1:m7.VAL 1.2
 # Guard horizonal and vertical
-caput 9idcLAX:GSlit1H:size 2.8
-caput 9idcLAX:GSlit1V:size 1.4
+caput usxLAX:GSlit1H:size 2.8
+caput usxLAX:GSlit1V:size 1.4

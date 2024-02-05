@@ -167,7 +167,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS:StartOffset</string>
+       <string notr="true">usxLAX:USAXS:StartOffset</string>
       </property>
       <property name="background">
        <color>
@@ -190,7 +190,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS:UATerm</string>
+       <string notr="true">usxLAX:USAXS:UATerm</string>
       </property>
       <property name="background">
        <color>
@@ -213,7 +213,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS:Finish</string>
+       <string notr="true">usxLAX:USAXS:Finish</string>
       </property>
       <property name="background">
        <color>
@@ -236,7 +236,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS:MinStep</string>
+       <string notr="true">usxLAX:USAXS:MinStep</string>
       </property>
       <property name="background">
        <color>
@@ -306,7 +306,7 @@
        <string/>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS:FS_ScanTime</string>
+       <string notr="true">usxLAX:USAXS:FS_ScanTime</string>
       </property>
       <property name="background">
        <color>
@@ -381,7 +381,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS:CountTime</string>
+       <string notr="true">usxLAX:USAXS:CountTime</string>
       </property>
       <property name="background">
        <color>
@@ -404,7 +404,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS:Sample_Y_Step.VAL</string>
+       <string notr="true">usxLAX:USAXS:Sample_Y_Step.VAL</string>
       </property>
       <property name="background">
        <color>
@@ -427,7 +427,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS:NumPoints</string>
+       <string notr="true">usxLAX:USAXS:NumPoints</string>
       </property>
       <property name="background">
        <color>
@@ -491,7 +491,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:SAXS_hslit_ap</string>
+        <string notr="true">usxLAX:SAXS:SAXS_hslit_ap</string>
        </property>
        <property name="background">
         <color>
@@ -514,7 +514,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:USAXS_hslit_ap</string>
+        <string notr="true">usxLAX:SAXS:USAXS_hslit_ap</string>
        </property>
        <property name="background">
         <color>
@@ -544,7 +544,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:SAXS_vslit_ap</string>
+        <string notr="true">usxLAX:SAXS:SAXS_vslit_ap</string>
        </property>
        <property name="background">
         <color>
@@ -567,7 +567,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:USAXS_vslit_ap</string>
+        <string notr="true">usxLAX:SAXS:USAXS_vslit_ap</string>
        </property>
        <property name="background">
         <color>
@@ -597,7 +597,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:SAXS_hgslit_ap</string>
+        <string notr="true">usxLAX:SAXS:SAXS_hgslit_ap</string>
        </property>
        <property name="background">
         <color>
@@ -620,7 +620,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:USAXS_hgslit_ap</string>
+        <string notr="true">usxLAX:SAXS:USAXS_hgslit_ap</string>
        </property>
        <property name="background">
         <color>
@@ -650,7 +650,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:SAXS_vgslit_ap</string>
+        <string notr="true">usxLAX:SAXS:SAXS_vgslit_ap</string>
        </property>
        <property name="background">
         <color>
@@ -673,7 +673,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:USAXS_vgslit_ap</string>
+        <string notr="true">usxLAX:SAXS:USAXS_vgslit_ap</string>
        </property>
        <property name="background">
         <color>
@@ -711,7 +711,7 @@
         <set>Qt::AlignCenter</set>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:MRcenter.VAL</string>
+        <string notr="true">usxLAX:USAXS:MRcenter.VAL</string>
        </property>
       </widget>
      </item>
@@ -763,7 +763,7 @@
         <set>Qt::AlignCenter</set>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:MSRcenter.VAL</string>
+        <string notr="true">usxLAX:USAXS:MSRcenter.VAL</string>
        </property>
       </widget>
      </item>
@@ -776,7 +776,7 @@
         <set>Qt::AlignCenter</set>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:ASRcenter.VAL</string>
+        <string notr="true">usxLAX:USAXS:ASRcenter.VAL</string>
        </property>
       </widget>
      </item>
@@ -789,7 +789,7 @@
         <set>Qt::AlignCenter</set>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:ARcenter.VAL</string>
+        <string notr="true">usxLAX:USAXS:ARcenter.VAL</string>
        </property>
       </widget>
      </item>
@@ -856,7 +856,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:ax_limit_offset</string>
+      <string notr="true">usxLAX:SAXS:ax_limit_offset</string>
      </property>
      <property name="background">
       <color>
@@ -911,7 +911,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:dx_in</string>
+      <string notr="true">usxLAX:SAXS:dx_in</string>
      </property>
      <property name="background">
       <color>
@@ -947,7 +947,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:ax_in</string>
+      <string notr="true">usxLAX:SAXS:ax_in</string>
      </property>
      <property name="background">
       <color>
@@ -970,7 +970,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:SAXS_y_limit_offset</string>
+      <string notr="true">usxLAX:SAXS:SAXS_y_limit_offset</string>
      </property>
      <property name="background">
       <color>
@@ -993,7 +993,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Img:ax_in</string>
+      <string notr="true">usxLAX:USAXS_Img:ax_in</string>
      </property>
      <property name="background">
       <color>
@@ -1016,7 +1016,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:dx_limit_offset</string>
+      <string notr="true">usxLAX:SAXS:dx_limit_offset</string>
      </property>
      <property name="background">
       <color>
@@ -1052,7 +1052,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:SAXS_z_in</string>
+      <string notr="true">usxLAX:SAXS:SAXS_z_in</string>
      </property>
      <property name="background">
       <color>
@@ -1075,7 +1075,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:SAXS_y_in</string>
+      <string notr="true">usxLAX:SAXS:SAXS_y_in</string>
      </property>
      <property name="background">
       <color>
@@ -1098,7 +1098,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
+      <string notr="true">usxLAX:SAXS:WAXS_x_out</string>
      </property>
      <property name="background">
       <color>
@@ -1121,7 +1121,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
+      <string notr="true">usxLAX:SAXS:WAXS_x_out</string>
      </property>
      <property name="background">
       <color>
@@ -1144,7 +1144,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:SAXS_z_out</string>
+      <string notr="true">usxLAX:SAXS:SAXS_z_out</string>
      </property>
      <property name="background">
       <color>
@@ -1167,7 +1167,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:WAXS_x_in</string>
+      <string notr="true">usxLAX:SAXS:WAXS_x_in</string>
      </property>
      <property name="background">
       <color>
@@ -1190,7 +1190,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:dx_out</string>
+      <string notr="true">usxLAX:SAXS:dx_out</string>
      </property>
      <property name="background">
       <color>
@@ -1226,7 +1226,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:ax_out</string>
+      <string notr="true">usxLAX:SAXS:ax_out</string>
      </property>
      <property name="background">
       <color>
@@ -1249,7 +1249,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:SAXS_z_limit_offset</string>
+      <string notr="true">usxLAX:SAXS:SAXS_z_limit_offset</string>
      </property>
      <property name="background">
       <color>
@@ -1272,7 +1272,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:SAXS_y_out</string>
+      <string notr="true">usxLAX:SAXS:SAXS_y_out</string>
      </property>
      <property name="background">
       <color>
@@ -1295,7 +1295,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:WAXS_x_limit_offset</string>
+      <string notr="true">usxLAX:SAXS:WAXS_x_limit_offset</string>
      </property>
      <property name="background">
       <color>
@@ -1318,7 +1318,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS_Img:waxs_x_in</string>
+      <string notr="true">usxLAX:USAXS_Img:waxs_x_in</string>
      </property>
      <property name="background">
       <color>
@@ -1447,7 +1447,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:DY0.VAL</string>
+      <string notr="true">usxLAX:USAXS:DY0.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1496,7 +1496,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:AY0.VAL</string>
+      <string notr="true">usxLAX:USAXS:AY0.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1558,7 +1558,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:SDD</string>
+      <string notr="true">usxLAX:USAXS:SDD</string>
      </property>
      <property name="background">
       <color>
@@ -1581,7 +1581,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:SAD</string>
+      <string notr="true">usxLAX:USAXS:SAD</string>
      </property>
      <property name="background">
       <color>
@@ -1631,7 +1631,7 @@
       <string>Run PreUSAXS tune next</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneNext</string>
+      <string notr="true">usxLAX:USAXS:RunPreUSAXStuneNext</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_2">
@@ -1658,7 +1658,7 @@
       <string>Run PreUSAXS tune on CollectData</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneOnQdo</string>
+      <string notr="true">usxLAX:USAXS:RunPreUSAXStuneOnQdo</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_3">
@@ -1694,7 +1694,7 @@
       <string>Measure pin Transmission</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:TR_MeasurePinTrans</string>
+      <string notr="true">usxLAX:USAXS:TR_MeasurePinTrans</string>
      </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_84">
@@ -1707,7 +1707,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:ReqNumScansBetweenTune</string>
+      <string notr="true">usxLAX:USAXS:ReqNumScansBetweenTune</string>
      </property>
      <property name="foreground">
       <color>
@@ -1763,7 +1763,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:ReqTimeBetweenTune</string>
+      <string notr="true">usxLAX:USAXS:ReqTimeBetweenTune</string>
      </property>
      <property name="foreground">
       <color>
@@ -1819,7 +1819,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:EPOCHTimeOfLastTune</string>
+      <string notr="true">usxLAX:USAXS:EPOCHTimeOfLastTune</string>
      </property>
      <property name="foreground">
       <color>
@@ -1852,7 +1852,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:NumScansFromLastTune</string>
+      <string notr="true">usxLAX:USAXS:NumScansFromLastTune</string>
      </property>
      <property name="foreground">
       <color>
@@ -1896,7 +1896,7 @@
       <string>use FlyScan</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:UseFlyscan</string>
+      <string notr="true">usxLAX:USAXS:UseFlyscan</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_5">
@@ -1923,7 +1923,7 @@
       <string>Stop after this scan</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:StopBeforeNextScan</string>
+      <string notr="true">usxLAX:USAXS:StopBeforeNextScan</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_6">
@@ -1950,7 +1950,7 @@
       <string>Pause Scans?</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:PauseBeforeNextScan</string>
+      <string notr="true">usxLAX:USAXS:PauseBeforeNextScan</string>
      </property>
     </widget>
    </widget>
@@ -2005,7 +2005,7 @@
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:Exp_Ti_Filter.VAL</string>
+        <string notr="true">usxLAX:SAXS:Exp_Ti_Filter.VAL</string>
        </property>
        <property name="background">
         <color>
@@ -2047,7 +2047,7 @@
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:SAXS:Exp_Al_Filter.VAL</string>
+        <string notr="true">usxLAX:SAXS:Exp_Al_Filter.VAL</string>
        </property>
        <property name="background">
         <color>
@@ -2077,7 +2077,7 @@
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:WAXS:Exp_Al_Filter.VAL</string>
+        <string notr="true">usxLAX:WAXS:Exp_Al_Filter.VAL</string>
        </property>
        <property name="background">
         <color>
@@ -2107,7 +2107,7 @@
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:WAXS:Exp_Ti_Filter.VAL</string>
+        <string notr="true">usxLAX:WAXS:Exp_Ti_Filter.VAL</string>
        </property>
        <property name="background">
         <color>
@@ -2155,7 +2155,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WavelengthSpread</string>
+      <string notr="true">usxLAX:WavelengthSpread</string>
      </property>
      <property name="background">
       <color>
@@ -2197,7 +2197,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:BeamCenterX</string>
+      <string notr="true">usxLAX:WAXS:BeamCenterX</string>
      </property>
      <property name="background">
       <color>
@@ -2226,7 +2226,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:BeamCenterY</string>
+      <string notr="true">usxLAX:SAXS:BeamCenterY</string>
      </property>
      <property name="background">
       <color>
@@ -2255,7 +2255,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:DetectorTiltY</string>
+      <string notr="true">usxLAX:WAXS:DetectorTiltY</string>
      </property>
      <property name="background">
       <color>
@@ -2297,7 +2297,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:BeamCenterY</string>
+      <string notr="true">usxLAX:WAXS:BeamCenterY</string>
      </property>
      <property name="background">
       <color>
@@ -2339,7 +2339,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:EmptyFileName</string>
+      <string notr="true">usxLAX:SAXS:EmptyFileName</string>
      </property>
      <property name="background">
       <color>
@@ -2362,7 +2362,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:DetectorTiltX</string>
+      <string notr="true">usxLAX:SAXS:DetectorTiltX</string>
      </property>
      <property name="background">
       <color>
@@ -2417,7 +2417,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:EmptyFileName</string>
+      <string notr="true">usxLAX:WAXS:EmptyFileName</string>
      </property>
      <property name="background">
       <color>
@@ -2453,7 +2453,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:PinPixSizeX</string>
+      <string notr="true">usxLAX:WAXS:PinPixSizeX</string>
      </property>
      <property name="background">
       <color>
@@ -2495,7 +2495,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:PinPixSizeY</string>
+      <string notr="true">usxLAX:WAXS:PinPixSizeY</string>
      </property>
      <property name="background">
       <color>
@@ -2524,7 +2524,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:PinPixSizeY</string>
+      <string notr="true">usxLAX:SAXS:PinPixSizeY</string>
      </property>
      <property name="background">
       <color>
@@ -2566,7 +2566,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:Distance</string>
+      <string notr="true">usxLAX:SAXS:Distance</string>
      </property>
      <property name="background">
       <color>
@@ -2595,7 +2595,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:BeamCenterX</string>
+      <string notr="true">usxLAX:SAXS:BeamCenterX</string>
      </property>
      <property name="background">
       <color>
@@ -2640,7 +2640,7 @@
       <string/>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:Distance</string>
+      <string notr="true">usxLAX:WAXS:Distance</string>
      </property>
      <property name="background">
       <color>
@@ -2682,7 +2682,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:DetectorTiltX</string>
+      <string notr="true">usxLAX:WAXS:DetectorTiltX</string>
      </property>
      <property name="background">
       <color>
@@ -2711,7 +2711,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:PinPixSizeX</string>
+      <string notr="true">usxLAX:SAXS:PinPixSizeX</string>
      </property>
      <property name="background">
       <color>
@@ -2740,7 +2740,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:DetectorTiltY</string>
+      <string notr="true">usxLAX:SAXS:DetectorTiltY</string>
      </property>
      <property name="background">
       <color>
@@ -2808,7 +2808,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:AcquireTime</string>
+      <string notr="true">usxLAX:SAXS:AcquireTime</string>
      </property>
      <property name="background">
       <color>
@@ -2850,7 +2850,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:NumImages</string>
+      <string notr="true">usxLAX:SAXS:NumImages</string>
      </property>
      <property name="background">
       <color>
@@ -2873,7 +2873,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:AcquireTime</string>
+      <string notr="true">usxLAX:WAXS:AcquireTime</string>
      </property>
      <property name="background">
       <color>
@@ -2899,7 +2899,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:WAXS:NumImages</string>
+      <string notr="true">usxLAX:WAXS:NumImages</string>
      </property>
      <property name="background">
       <color>

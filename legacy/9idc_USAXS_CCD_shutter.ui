@@ -238,7 +238,7 @@ border-radius: 2px;
                 <enum>EPushButton::WidthAndHeight</enum>
             </property>
             <property name="channel">
-                <string>9idcUSX:pmm01:reg01:bo01</string>
+                <string>12idcUSX:pmm01:reg01:bo01</string>
             </property>
             <property name="foreground">
                 <color alpha="255">
@@ -300,7 +300,7 @@ border-radius: 2px;
                 <enum>caPolyLine::IfNotZero</enum>
             </property>
             <property name="channel">
-                <string>9idcUSX:pmm01:reg01:bo01</string>
+                <string>12idcUSX:pmm01:reg01:bo01</string>
             </property>
             <property name="xyPairs">
                 <string>0,0;19,8;19,27;0,20;0,0;</string>
@@ -388,7 +388,7 @@ border-radius: 2px;
                 <enum>caPolyLine::IfZero</enum>
             </property>
             <property name="channel">
-                <string>9idcUSX:pmm01:reg01:bo01</string>
+                <string>12idcUSX:pmm01:reg01:bo01</string>
             </property>
             <property name="xyPairs">
                 <string>0,0;19,8;19,27;0,20;0,0;</string>
@@ -482,7 +482,7 @@ border-radius: 2px;
                 <enum>EPushButton::WidthAndHeight</enum>
             </property>
             <property name="channel">
-                <string>9idcUSX:pmm01:reg01:bo01</string>
+                <string>12idcUSX:pmm01:reg01:bo01</string>
             </property>
             <property name="foreground">
                 <color alpha="255">

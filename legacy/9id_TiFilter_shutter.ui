@@ -172,7 +172,7 @@ border-radius: 2px;
                 </color>
             </property>
             <property name="text">
-                <string>9id_TiFilter_shutter.adl</string>
+                <string>12id_TiFilter_shutter.adl</string>
             </property>
             <property name="fontScaleMode">
                 <enum>ESimpleLabel::WidthAndHeight</enum>
@@ -238,7 +238,7 @@ border-radius: 2px;
                 <enum>EPushButton::WidthAndHeight</enum>
             </property>
             <property name="channel">
-                <string>9idcUSX:ath01:reg01:bo04</string>
+                <string>12idcUSX:ath01:reg01:bo04</string>
             </property>
             <property name="foreground">
                 <color alpha="255">
@@ -303,10 +303,10 @@ border-radius: 2px;
                 <string>B&amp;&amp;!A</string>
             </property>
             <property name="channel">
-                <string>9idcUSX:ath01:reg01:bo04</string>
+                <string>12idcUSX:ath01:reg01:bo04</string>
             </property>
             <property name="channelB">
-                <string>9idcUSX:ath01:reg01:bo03</string>
+                <string>12idcUSX:ath01:reg01:bo03</string>
             </property>
             <property name="xyPairs">
                 <string>0,0;19,8;19,27;0,20;0,0;</string>
@@ -397,10 +397,10 @@ border-radius: 2px;
                 <string>A||!B</string>
             </property>
             <property name="channel">
-                <string>9idcUSX:ath01:reg01:bo04</string>
+                <string>12idcUSX:ath01:reg01:bo04</string>
             </property>
             <property name="channelB">
-                <string>9idcUSX:ath01:reg01:bo03</string>
+                <string>12idcUSX:ath01:reg01:bo03</string>
             </property>
             <property name="xyPairs">
                 <string>0,0;19,8;19,27;0,20;0,0;</string>
@@ -494,7 +494,7 @@ border-radius: 2px;
                 <enum>EPushButton::WidthAndHeight</enum>
             </property>
             <property name="channel">
-                <string>9idcUSX:ath01:reg01:bo04</string>
+                <string>12idcUSX:ath01:reg01:bo04</string>
             </property>
             <property name="foreground">
                 <color alpha="255">

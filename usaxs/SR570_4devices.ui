@@ -78,7 +78,7 @@
       <item row="0" column="1">
        <widget class="caMessageButton" name="camessagebutton">
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm1:sens_num.VAL</string>
+         <string notr="true">12idcSAXS:bpm1:sens_num.VAL</string>
         </property>
         <property name="background">
          <color>
@@ -92,7 +92,7 @@
       <item row="0" column="2">
        <widget class="caMessageButton" name="camessagebutton_5">
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm1:sens_unit.VAL</string>
+         <string notr="true">12idcSAXS:bpm1:sens_unit.VAL</string>
         </property>
         <property name="background">
          <color>
@@ -109,7 +109,7 @@
          <string>SET ALL</string>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm1:init.PROC</string>
+         <string notr="true">12idcSAXS:bpm1:init.PROC</string>
         </property>
         <property name="background">
          <color>
@@ -126,7 +126,7 @@
          <string>DEFAULT</string>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm1:reset.PROC</string>
+         <string notr="true">12idcSAXS:bpm1:reset.PROC</string>
         </property>
         <property name="foreground">
          <color>
@@ -160,7 +160,7 @@
       <item row="1" column="1">
        <widget class="caMessageButton" name="camessagebutton_2">
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm4:sens_num.VAL</string>
+         <string notr="true">12idcSAXS:bpm4:sens_num.VAL</string>
         </property>
         <property name="background">
          <color>
@@ -174,7 +174,7 @@
       <item row="1" column="2">
        <widget class="caMessageButton" name="camessagebutton_7">
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm4:sens_unit.VAL</string>
+         <string notr="true">12idcSAXS:bpm4:sens_unit.VAL</string>
         </property>
         <property name="background">
          <color>
@@ -191,7 +191,7 @@
          <string>SET ALL</string>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm4:init.PROC</string>
+         <string notr="true">12idcSAXS:bpm4:init.PROC</string>
         </property>
         <property name="background">
          <color>
@@ -208,7 +208,7 @@
          <string>DEFAULT</string>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm4:reset.PROC</string>
+         <string notr="true">12idcSAXS:bpm4:reset.PROC</string>
         </property>
         <property name="foreground">
          <color>
@@ -242,7 +242,7 @@
       <item row="2" column="1">
        <widget class="caMessageButton" name="camessagebutton_3">
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm3:sens_num.VAL</string>
+         <string notr="true">12idcSAXS:bpm3:sens_num.VAL</string>
         </property>
         <property name="background">
          <color>
@@ -256,7 +256,7 @@
       <item row="2" column="2">
        <widget class="caMessageButton" name="camessagebutton_6">
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm3:sens_unit.VAL</string>
+         <string notr="true">12idcSAXS:bpm3:sens_unit.VAL</string>
         </property>
         <property name="background">
          <color>
@@ -273,7 +273,7 @@
          <string>SET ALL</string>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm3:init.PROC</string>
+         <string notr="true">12idcSAXS:bpm3:init.PROC</string>
         </property>
         <property name="background">
          <color>
@@ -290,7 +290,7 @@
          <string>DEFAULT</string>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm3:reset.PROC</string>
+         <string notr="true">12idcSAXS:bpm3:reset.PROC</string>
         </property>
         <property name="foreground">
          <color>
@@ -324,7 +324,7 @@
       <item row="3" column="1">
        <widget class="caMessageButton" name="camessagebutton_4">
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm2:sens_num.VAL</string>
+         <string notr="true">12idcSAXS:bpm2:sens_num.VAL</string>
         </property>
         <property name="background">
          <color>
@@ -338,7 +338,7 @@
       <item row="3" column="2">
        <widget class="caMessageButton" name="camessagebutton_8">
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm2:sens_unit.VAL</string>
+         <string notr="true">12idcSAXS:bpm2:sens_unit.VAL</string>
         </property>
         <property name="background">
          <color>
@@ -355,7 +355,7 @@
          <string>SET ALL </string>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm2:init.PROC</string>
+         <string notr="true">12idcSAXS:bpm2:init.PROC</string>
         </property>
         <property name="background">
          <color>
@@ -372,7 +372,7 @@
          <string>DEFAULT</string>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcSAXS:bpm2:reset.PROC</string>
+         <string notr="true">12idcSAXS:bpm2:reset.PROC</string>
         </property>
         <property name="foreground">
          <color>
@@ -415,7 +415,7 @@
        <string>;SR570.ui;SR570.ui;SR570.ui;SR570.ui</string>
       </property>
       <property name="args">
-       <string>;P=9idcSAXS:,A=bpm1:,WidgetName=xbpm Left;P=9idcSAXS:,A=bpm2:,WidgetName=xbpm Bottom;P=9idcSAXS:,A=bpm3:,WidgetName=xbpm Top;P=9idcSAXS:,A=bpm4:,WidgetName=xbpm Right</string>
+       <string>;P=12idcSAXS:,A=bpm1:,WidgetName=xbpm Left;P=12idcSAXS:,A=bpm2:,WidgetName=xbpm Bottom;P=12idcSAXS:,A=bpm3:,WidgetName=xbpm Top;P=12idcSAXS:,A=bpm4:,WidgetName=xbpm Right</string>
       </property>
      </widget>
     </item>

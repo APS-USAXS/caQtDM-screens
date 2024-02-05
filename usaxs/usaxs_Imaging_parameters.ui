@@ -92,7 +92,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ExperimentTitle</string>
+     <string notr="true">usxLAX:USAXS_Img:ExperimentTitle</string>
     </property>
     <property name="background">
      <color>
@@ -146,7 +146,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:FlatFieldImage</string>
+     <string notr="true">usxLAX:USAXS_Img:FlatFieldImage</string>
     </property>
     <property name="background">
      <color>
@@ -200,7 +200,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:DarkFieldImage</string>
+     <string notr="true">usxLAX:USAXS_Img:DarkFieldImage</string>
     </property>
     <property name="background">
      <color>
@@ -254,7 +254,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:StartExposureTime</string>
+     <string notr="true">usxLAX:USAXS_Img:StartExposureTime</string>
     </property>
     <property name="background">
      <color>
@@ -308,7 +308,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:EndExposureTime</string>
+     <string notr="true">usxLAX:USAXS_Img:EndExposureTime</string>
     </property>
     <property name="background">
      <color>
@@ -362,7 +362,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:WavelengthSpread</string>
+     <string notr="true">usxLAX:WavelengthSpread</string>
     </property>
     <property name="background">
      <color>
@@ -416,7 +416,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:LensType</string>
+     <string notr="true">usxLAX:USAXS_Img:LensType</string>
     </property>
     <property name="background">
      <color>
@@ -470,7 +470,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:Magnification</string>
+     <string notr="true">usxLAX:USAXS_Img:Magnification</string>
     </property>
     <property name="background">
      <color>
@@ -524,7 +524,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ScintillatorType</string>
+     <string notr="true">usxLAX:USAXS_Img:ScintillatorType</string>
     </property>
     <property name="background">
      <color>
@@ -578,7 +578,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:SampleToScintDistance</string>
+     <string notr="true">usxLAX:USAXS_Img:SampleToScintDistance</string>
     </property>
     <property name="background">
      <color>
@@ -632,7 +632,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ScintToAnalDistance</string>
+     <string notr="true">usxLAX:USAXS_Img:ScintToAnalDistance</string>
     </property>
     <property name="background">
      <color>
@@ -686,7 +686,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ImgPixSizeX</string>
+     <string notr="true">usxLAX:USAXS_Img:ImgPixSizeX</string>
     </property>
     <property name="background">
      <color>
@@ -740,7 +740,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ImgPixSizeY</string>
+     <string notr="true">usxLAX:USAXS_Img:ImgPixSizeY</string>
     </property>
     <property name="background">
      <color>
@@ -794,7 +794,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:CrystalsMStage</string>
+     <string notr="true">usxLAX:USAXS_Img:CrystalsMStage</string>
     </property>
     <property name="background">
      <color>
@@ -848,7 +848,7 @@
      </size>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:CrystalsAStage</string>
+     <string notr="true">usxLAX:USAXS_Img:CrystalsAStage</string>
     </property>
     <property name="background">
      <color>
@@ -928,7 +928,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:Img_I0_value</string>
+     <string notr="true">usxLAX:USAXS_Img:Img_I0_value</string>
     </property>
     <property name="background">
      <color>
@@ -976,7 +976,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:Img_I0_gain</string>
+     <string notr="true">usxLAX:USAXS_Img:Img_I0_gain</string>
     </property>
     <property name="background">
      <color>
@@ -1024,7 +1024,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:Tomo_Rot_Angle</string>
+     <string notr="true">usxLAX:USAXS_Img:Tomo_Rot_Angle</string>
     </property>
     <property name="background">
      <color>
@@ -1163,7 +1163,7 @@
     </sizepolicy>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:userCalcOut7.VAL</string>
+    <string notr="true">usxLAX:userCalcOut7.VAL</string>
    </property>
    <property name="trueColor">
     <color>
@@ -1239,7 +1239,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:dx_limit_offset</string>
+     <string notr="true">usxLAX:SAXS:dx_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1340,7 +1340,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:dx_out</string>
+     <string notr="true">usxLAX:SAXS:dx_out</string>
     </property>
     <property name="background">
      <color>
@@ -1369,7 +1369,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:dx_in</string>
+     <string notr="true">usxLAX:SAXS:dx_in</string>
     </property>
     <property name="background">
      <color>
@@ -1426,7 +1426,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:ax_in</string>
+     <string notr="true">usxLAX:SAXS:ax_in</string>
     </property>
     <property name="background">
      <color>
@@ -1455,7 +1455,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:ax_out</string>
+     <string notr="true">usxLAX:SAXS:ax_out</string>
     </property>
     <property name="background">
      <color>
@@ -1484,7 +1484,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ax_in</string>
+     <string notr="true">usxLAX:USAXS_Img:ax_in</string>
     </property>
     <property name="background">
      <color>
@@ -1513,7 +1513,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:ax_limit_offset</string>
+     <string notr="true">usxLAX:SAXS:ax_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1586,7 +1586,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:USAXS_hslit_ap</string>
+     <string notr="true">usxLAX:SAXS:USAXS_hslit_ap</string>
     </property>
     <property name="background">
      <color>
@@ -1615,7 +1615,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
+     <string notr="true">usxLAX:SAXS:WAXS_x_out</string>
     </property>
     <property name="background">
      <color>
@@ -1644,7 +1644,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:SAXS_z_out</string>
+     <string notr="true">usxLAX:SAXS:SAXS_z_out</string>
     </property>
     <property name="background">
      <color>
@@ -1673,7 +1673,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:SAXS_y_limit_offset</string>
+     <string notr="true">usxLAX:SAXS:SAXS_y_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1702,7 +1702,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:waxs_x_in</string>
+     <string notr="true">usxLAX:USAXS_Img:waxs_x_in</string>
     </property>
     <property name="background">
      <color>
@@ -1750,7 +1750,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ImgVertApperture</string>
+     <string notr="true">usxLAX:USAXS_Img:ImgVertApperture</string>
     </property>
     <property name="background">
      <color>
@@ -1779,7 +1779,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:USAXS_vslit_ap</string>
+     <string notr="true">usxLAX:SAXS:USAXS_vslit_ap</string>
     </property>
     <property name="background">
      <color>
@@ -1808,7 +1808,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:WAXS_x_limit_offset</string>
+     <string notr="true">usxLAX:SAXS:WAXS_x_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1878,7 +1878,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:SAXS_z_limit_offset</string>
+     <string notr="true">usxLAX:SAXS:SAXS_z_limit_offset</string>
     </property>
     <property name="background">
      <color>
@@ -1926,7 +1926,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
+     <string notr="true">usxLAX:SAXS:WAXS_x_out</string>
     </property>
     <property name="background">
      <color>
@@ -1955,7 +1955,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:SAXS_y_out</string>
+     <string notr="true">usxLAX:SAXS:SAXS_y_out</string>
     </property>
     <property name="background">
      <color>
@@ -1984,7 +1984,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ImgHorApperture</string>
+     <string notr="true">usxLAX:USAXS_Img:ImgHorApperture</string>
     </property>
     <property name="background">
      <color>
@@ -2013,7 +2013,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:USAXS_hgslit_ap</string>
+     <string notr="true">usxLAX:SAXS:USAXS_hgslit_ap</string>
     </property>
     <property name="background">
      <color>
@@ -2042,7 +2042,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:SAXS:USAXS_vgslit_ap</string>
+     <string notr="true">usxLAX:SAXS:USAXS_vgslit_ap</string>
     </property>
     <property name="background">
      <color>
@@ -2071,7 +2071,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ImgGuardHorApperture</string>
+     <string notr="true">usxLAX:USAXS_Img:ImgGuardHorApperture</string>
     </property>
     <property name="background">
      <color>
@@ -2100,7 +2100,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ImgGuardVertApperture</string>
+     <string notr="true">usxLAX:USAXS_Img:ImgGuardVertApperture</string>
     </property>
     <property name="background">
      <color>
@@ -2218,7 +2218,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:ExposureTime</string>
+     <string notr="true">usxLAX:USAXS_Img:ExposureTime</string>
     </property>
     <property name="background">
      <color>
@@ -2266,7 +2266,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:Img_Al_Filters</string>
+     <string notr="true">usxLAX:USAXS_Img:Img_Al_Filters</string>
     </property>
     <property name="background">
      <color>
@@ -2314,7 +2314,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:Img_Ti_Filters</string>
+     <string notr="true">usxLAX:USAXS_Img:Img_Ti_Filters</string>
     </property>
     <property name="background">
      <color>
@@ -2362,7 +2362,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS_Img:Img_FilterTransmission</string>
+     <string notr="true">usxLAX:USAXS_Img:Img_FilterTransmission</string>
     </property>
     <property name="background">
      <color>

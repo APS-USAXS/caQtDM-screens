@@ -250,7 +250,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
                 <string>Hardware;  </string>
             </property>
             <property name="files">
-                <string>9idcUSXhdw.adl;9idcUSXhdw.adl</string>
+                <string>12idcUSXhdw.adl;12idcUSXhdw.adl</string>
             </property>
             <property name="args">
                 <string>P=$(P);P=$(P)</string>
@@ -337,7 +337,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
                 <string>pf4.adl;ebrickBitout8.adl;pf4.adl</string>
             </property>
             <property name="args">
-                <string>P=$(P),H=pf4:,A=A,B=B,PV=$(P)omm01:reg03:,MONO=9ida:BraggEAO;P=$(P),PV=$(P)omm01:reg03:,T=USAXS-PF4-Control;P=$(P),H=pf42:,A=A,B=B,PV=$(P)omm01:reg03:,MONO=9ida:BraggEAO</string>
+                <string>P=$(P),H=pf4:,A=A,B=B,PV=$(P)omm01:reg03:,MONO=12ida:BraggEAO;P=$(P),PV=$(P)omm01:reg03:,T=USAXS-PF4-Control;P=$(P),H=pf42:,A=A,B=B,PV=$(P)omm01:reg03:,MONO=12ida:BraggEAO</string>
             </property>
             <property name="removeParent">
                 <string>false;false;false</string>
@@ -505,7 +505,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
                 <string>femto.adl;femto.adl;femto.adl;femto.adl;femto.adl;femto.adl;femto.adl;femto.adl;RIO-47300-24ExOut.adl;femto300.adl</string>
             </property>
             <property name="args">
-                <string>P=$(P),H=fem01:,F=seq01:,AC=9idcRIO:Galil0Bo3_CMD;P=$(P),H=fem02:,F=seq01:,AC=9idcRIO:Galil0Bo8_CMD;P=$(P),H=fem03:,F=seq01:,AC=9idcRIO:Galil0Bo13_CMD;P=$(P),H=fem04:,F=seq01:,AC=9idcRIO:Galil1Bo2_CMD;P=$(P),H=fem05:,F=seq01:,AC=9idcRIO:Galil1Bo7_CMD;P=$(P),H=fem06:,F=seq01:,AC=9idcRIO:Galil1Bo12_CMD;P=$(P),H=fem07:,F=seq01:,AC=$(P)NONE;P=$(P),H=fem08:,F=seq01:,AC=$(P)NONE;P=$(P);P=$(P),A=fem09:seq02:</string>
+                <string>P=$(P),H=fem01:,F=seq01:,AC=usxRIO:Galil0Bo3_CMD;P=$(P),H=fem02:,F=seq01:,AC=usxRIO:Galil0Bo8_CMD;P=$(P),H=fem03:,F=seq01:,AC=usxRIO:Galil0Bo13_CMD;P=$(P),H=fem04:,F=seq01:,AC=usxRIO:Galil1Bo2_CMD;P=$(P),H=fem05:,F=seq01:,AC=usxRIO:Galil1Bo7_CMD;P=$(P),H=fem06:,F=seq01:,AC=usxRIO:Galil1Bo12_CMD;P=$(P),H=fem07:,F=seq01:,AC=$(P)NONE;P=$(P),H=fem08:,F=seq01:,AC=$(P)NONE;P=$(P);P=$(P),A=fem09:seq02:</string>
             </property>
             <property name="removeParent">
                 <string>false;false;false;false;false;false;false;false;false;false</string>
@@ -589,7 +589,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
                 <string>femtopd.adl;femto300pd.adl;femtopdFine.adl;femtopdFine.adl;femtopdFine.adl</string>
             </property>
             <property name="args">
-                <string>P=$(P),H=pd01:,F=seq01:,AC=9idcRIO:Galil0Bo3_CMD,PS=9idcLAX:,SS=vsc:c0,SC=4;P=$(P),H=pd01:,F=seq02:,PS=9idcLAX:,SS=vsc:c0,SC=4;P=$(P),H=pd02:,F=seq01:,AC=9idcRIO:Galil0Bo8_CMD,PS=9idcLAX:,SS=vsc:c0,SC=2;P=$(P),H=pd03:,F=seq01:,AC=9idcRIO:Galil0Bo13_CMD,PS=9idcLAX:,SS=vsc:c0,SC=3;P=$(P),H=pd05:,F=seq01:,AC=9idcRIO:Galil1Bo7_CMD,PS=9idcLAX:,SS=vsc:c0,SC=5</string>
+                <string>P=$(P),H=pd01:,F=seq01:,AC=usxRIO:Galil0Bo3_CMD,PS=usxLAX:,SS=vsc:c0,SC=4;P=$(P),H=pd01:,F=seq02:,PS=usxLAX:,SS=vsc:c0,SC=4;P=$(P),H=pd02:,F=seq01:,AC=usxRIO:Galil0Bo8_CMD,PS=usxLAX:,SS=vsc:c0,SC=2;P=$(P),H=pd03:,F=seq01:,AC=usxRIO:Galil0Bo13_CMD,PS=usxLAX:,SS=vsc:c0,SC=3;P=$(P),H=pd05:,F=seq01:,AC=usxRIO:Galil1Bo7_CMD,PS=usxLAX:,SS=vsc:c0,SC=5</string>
             </property>
             <property name="removeParent">
                 <string>false;false;false;false;false</string>

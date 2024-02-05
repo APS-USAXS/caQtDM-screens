@@ -83,16 +83,16 @@ addScreenPath      BEAMLINE_UI_DIR       hardware
 addScreenPath      BEAMLINE_UI_DIR       general
 addScreenPath      BEAMLINE_UI_DIR       beamline
 addScreenPath      BEAMLINE_UI_DIR       user
-addScreenPath      BEAMLINE_UI_DIR       ../9ida
+addScreenPath      BEAMLINE_UI_DIR       ../12ida
 addScreenPath      BEAMLINE_UI_DIR       ../bleps
 addScreenPath      BEAMLINE_UI_DIR       legacy
-addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/9idcLAX/9idcLAXApp/op/adl
-addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/9idcRIO/9idcRIOApp/op/adl
-addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/9idcH1003/9idcH1003App/op/ui
-addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/9idFLY1/9idFLY1App/op/adl
-addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/9idcPYRO/9idcPYROApp/op/adl
-addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/9idcSP/SPApp/op/ui
-addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/9idcSP/SPApp/op/ui/autoconvert
+addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxLAX/usxLAXApp/op/adl
+addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxRIO/usxRIOApp/op/adl
+addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxH1003/usxH1003App/op/ui
+addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxFLY1/usxFLY1App/op/adl
+addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxPYRO/usxPYROApp/op/adl
+addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxSP/SPApp/op/ui
+addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxSP/SPApp/op/ui/autoconvert
 addScreenPath      ALIVE                 aliveApp/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui/autoconvert
 # AREA_DETECTOR needs to be defined because xxx doesn't include it
@@ -261,7 +261,7 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/APSshare/epics/base-3.14.12.5/lib/lin
 
 #export EPICS_CA_ADDR_LIST="164.54.53.99 164.54.54.88"
 if [ "" = "${EPICS_CA_ADDR_LIST}" ]; then
-    export EPICS_CA_ADDR_LIST=`/APSshare/bin/sector_epics_net 9id`
+    export EPICS_CA_ADDR_LIST=`/APSshare/bin/sector_epics_net 12id`
 fi
 
 #!ldd $CAQTDM

@@ -43,7 +43,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:SAXS:SAXS_z_out</string>
+          <string notr="true">usxLAX:SAXS:SAXS_z_out</string>
          </property>
          <property name="foreground">
           <color>
@@ -107,7 +107,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:SAXS:SAXS_z_in</string>
+          <string notr="true">usxLAX:SAXS:SAXS_z_in</string>
          </property>
          <property name="foreground">
           <color>
@@ -234,7 +234,7 @@
           </rect>
          </property>
          <property name="macro">
-          <string notr="true">P=9idcAERO:,M=m9</string>
+          <string notr="true">P=usxAERO:,M=m9</string>
          </property>
          <property name="filename" stdset="0">
           <string notr="true">motorxU.ui</string>
@@ -250,7 +250,7 @@
           </rect>
          </property>
          <property name="macro">
-          <string notr="true">P=9idcAERO:,M=m8</string>
+          <string notr="true">P=usxAERO:,M=m8</string>
          </property>
          <property name="filename" stdset="0">
           <string notr="true">motorxU.ui</string>
@@ -287,7 +287,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:SAXS:SAXS_z_in</string>
+          <string notr="true">usxLAX:SAXS:SAXS_z_in</string>
          </property>
          <property name="foreground">
           <color>
@@ -361,7 +361,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:SAXS:SAXS_z_out</string>
+          <string notr="true">usxLAX:SAXS:SAXS_z_out</string>
          </property>
          <property name="foreground">
           <color>
@@ -435,7 +435,7 @@
           </rect>
          </property>
          <property name="macro">
-          <string notr="true">P=9idcAERO:,M=m14</string>
+          <string notr="true">P=usxAERO:,M=m14</string>
          </property>
          <property name="filename" stdset="0">
           <string notr="true">motorxU.ui</string>
@@ -492,7 +492,7 @@
           <string/>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcAERO:m14.LLM</string>
+          <string notr="true">usxAERO:m14.LLM</string>
          </property>
          <property name="foreground">
           <color>
@@ -646,7 +646,7 @@
         </rect>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:SDD</string>
+        <string notr="true">usxLAX:USAXS:SDD</string>
        </property>
        <property name="background">
         <color>
@@ -669,7 +669,7 @@
         </rect>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:SAD</string>
+        <string notr="true">usxLAX:USAXS:SAD</string>
        </property>
        <property name="background">
         <color>
@@ -695,7 +695,7 @@
         <string>Laser On</string>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcRIO:Galil2Bo1_CMD</string>
+        <string notr="true">usxRIO:Galil2Bo1_CMD</string>
        </property>
        <property name="label">
         <string notr="true">Laser On</string>
@@ -717,7 +717,7 @@
         <string>Laser On</string>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcRIO:Galil2Bo1_CMD</string>
+        <string notr="true">usxRIO:Galil2Bo1_CMD</string>
        </property>
        <property name="label">
         <string notr="true">Laser On</string>
@@ -736,7 +736,7 @@
         </rect>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcRIO:Galil2Bo1_CMD</string>
+        <string notr="true">usxRIO:Galil2Bo1_CMD</string>
        </property>
        <property name="trueColor">
         <color>
@@ -795,7 +795,7 @@
         <set>Qt::AlignCenter</set>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:userCalc7.VAL</string>
+        <string notr="true">usxLAX:userCalc7.VAL</string>
        </property>
        <property name="precision">
         <number>1</number>
@@ -830,7 +830,7 @@
         </rect>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:userCalc7.B</string>
+        <string notr="true">usxLAX:userCalc7.B</string>
        </property>
        <property name="background">
         <color>

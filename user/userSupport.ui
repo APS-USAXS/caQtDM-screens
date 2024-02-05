@@ -134,7 +134,7 @@
           <string>userCalcs10.ui</string>
          </property>
          <property name="args">
-          <string>P=9idcLAX:</string>
+          <string>P=usxLAX:</string>
          </property>
          <property name="fontScaleMode" stdset="0">
           <enum>EPushButton::None</enum>
@@ -175,7 +175,7 @@
           <string>userStringCalcs10.ui</string>
          </property>
          <property name="args">
-          <string>P=9idcLAX:</string>
+          <string>P=usxLAX:</string>
          </property>
          <property name="fontScaleMode" stdset="0">
           <enum>EPushButton::None</enum>
@@ -216,7 +216,7 @@
           <string>userTransforms10.ui</string>
          </property>
          <property name="args">
-          <string>P=9idcLAX:</string>
+          <string>P=usxLAX:</string>
          </property>
          <property name="fontScaleMode" stdset="0">
           <enum>EPushButton::None</enum>
@@ -257,7 +257,7 @@
           <string>userSequences10.ui</string>
          </property>
          <property name="args">
-          <string>P=9idcLAX:</string>
+          <string>P=usxLAX:</string>
          </property>
          <property name="fontScaleMode" stdset="0">
           <enum>EPushButton::None</enum>
@@ -298,7 +298,7 @@
           <string>userStrings.ui</string>
          </property>
          <property name="args">
-          <string>P=9idcLAX:</string>
+          <string>P=usxLAX:</string>
          </property>
          <property name="fontScaleMode" stdset="0">
           <enum>EPushButton::None</enum>
@@ -339,7 +339,7 @@
           <string>userFloats.ui</string>
          </property>
          <property name="args">
-          <string>P=9idcLAX:</string>
+          <string>P=usxLAX:</string>
          </property>
          <property name="fontScaleMode" stdset="0">
           <enum>EPushButton::None</enum>
@@ -380,7 +380,7 @@
           <string>userLongs.ui</string>
          </property>
          <property name="args">
-          <string>P=9idcLAX:</string>
+          <string>P=usxLAX:</string>
          </property>
          <property name="fontScaleMode" stdset="0">
           <enum>EPushButton::None</enum>
@@ -421,7 +421,7 @@
           <string>userBits.ui</string>
          </property>
          <property name="args">
-          <string>P=9idcLAX:</string>
+          <string>P=usxLAX:</string>
          </property>
          <property name="fontScaleMode" stdset="0">
           <enum>EPushButton::None</enum>

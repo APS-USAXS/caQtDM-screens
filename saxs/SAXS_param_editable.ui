@@ -93,7 +93,7 @@
              <item>
               <widget class="caTextEntry" name="catextentry_54">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:directory</string>
+                <string notr="true">12idcSAXS:directory</string>
                </property>
                <property name="background">
                 <color>
@@ -121,7 +121,7 @@
              <item row="0" column="1">
               <widget class="caTextEntry" name="catextentry_55">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:SampleName</string>
+                <string notr="true">12idcSAXS:SampleName</string>
                </property>
                <property name="background">
                 <color>
@@ -145,7 +145,7 @@
              <item row="1" column="1">
               <widget class="caTextEntry" name="catextentry_56">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:FileName_Empty</string>
+                <string notr="true">12idcSAXS:FileName_Empty</string>
                </property>
                <property name="background">
                 <color>
@@ -169,7 +169,7 @@
              <item row="2" column="1">
               <widget class="caTextEntry" name="catextentry_57">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:FileName_Dark</string>
+                <string notr="true">12idcSAXS:FileName_Dark</string>
                </property>
                <property name="background">
                 <color>
@@ -199,7 +199,7 @@
                <item>
                 <widget class="caTextEntry" name="catextentry_58">
                  <property name="channel" stdset="0">
-                  <string notr="true">9idcSAXS:sampleThickness.VAL</string>
+                  <string notr="true">12idcSAXS:sampleThickness.VAL</string>
                  </property>
                  <property name="background">
                   <color>
@@ -227,7 +227,7 @@
                <item>
                 <widget class="caTextEntry" name="catextentry_59">
                  <property name="channel" stdset="0">
-                  <string notr="true">9idcSAXS:CCDPV</string>
+                  <string notr="true">12idcSAXS:CCDPV</string>
                  </property>
                  <property name="background">
                   <color>
@@ -317,7 +317,7 @@
            <item row="2" column="1">
             <widget class="caTextEntry" name="catextentry_79">
              <property name="channel" stdset="0">
-              <string notr="true">9idcSAXS:SAXS_AlFilter.VAL</string>
+              <string notr="true">12idcSAXS:SAXS_AlFilter.VAL</string>
              </property>
              <property name="background">
               <color>
@@ -334,7 +334,7 @@
            <item row="2" column="2">
             <widget class="caTextEntry" name="catextentry_80">
              <property name="channel" stdset="0">
-              <string notr="true">9idcSAXS:Trans_AlFilter.VAL</string>
+              <string notr="true">12idcSAXS:Trans_AlFilter.VAL</string>
              </property>
              <property name="background">
               <color>
@@ -358,7 +358,7 @@
            <item row="3" column="1">
             <widget class="caTextEntry" name="catextentry_83">
              <property name="channel" stdset="0">
-              <string notr="true">9idcSAXS:SAXS_TiFilter.VAL</string>
+              <string notr="true">12idcSAXS:SAXS_TiFilter.VAL</string>
              </property>
              <property name="background">
               <color>
@@ -375,7 +375,7 @@
            <item row="3" column="2">
             <widget class="caTextEntry" name="catextentry_82">
              <property name="channel" stdset="0">
-              <string notr="true">9idcSAXS:Trans_TiFilter.VAL</string>
+              <string notr="true">12idcSAXS:Trans_TiFilter.VAL</string>
              </property>
              <property name="background">
               <color>
@@ -496,7 +496,7 @@
                <item row="1" column="1">
                 <widget class="caTextEntry" name="catextentry_67">
                  <property name="channel" stdset="0">
-                  <string notr="true">9idcSAXS:transAcquireTime</string>
+                  <string notr="true">12idcSAXS:transAcquireTime</string>
                  </property>
                  <property name="background">
                   <color>
@@ -520,7 +520,7 @@
                <item row="2" column="1">
                 <widget class="caTextEntry" name="catextentry_66">
                  <property name="channel" stdset="0">
-                  <string notr="true">9idcSAXS:AcquireTime</string>
+                  <string notr="true">12idcSAXS:AcquireTime</string>
                  </property>
                  <property name="background">
                   <color>
@@ -544,7 +544,7 @@
                <item row="3" column="1">
                 <widget class="caTextEntry" name="catextentry_64">
                  <property name="channel" stdset="0">
-                  <string notr="true">9idcSAXS:AcquireTimeString</string>
+                  <string notr="true">12idcSAXS:AcquireTimeString</string>
                  </property>
                  <property name="background">
                   <color>
@@ -568,7 +568,7 @@
                <item row="4" column="1">
                 <widget class="caTextEntry" name="catextentry_65">
                  <property name="channel" stdset="0">
-                  <string notr="true">9idcSAXS:NumImages</string>
+                  <string notr="true">12idcSAXS:NumImages</string>
                  </property>
                  <property name="background">
                   <color>
@@ -647,7 +647,7 @@
              <item row="1" column="1">
               <widget class="caTextEntry" name="catextentry_68">
                <property name="channel" stdset="0">
-                <string notr="true">9idcLAX:WavelengthSpread</string>
+                <string notr="true">usxLAX:WavelengthSpread</string>
                </property>
                <property name="background">
                 <color>
@@ -676,7 +676,7 @@
              <item row="2" column="1">
               <widget class="caTextEntry" name="catextentry_69">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:CCD_BeamCenterX.VAL</string>
+                <string notr="true">12idcSAXS:CCD_BeamCenterX.VAL</string>
                </property>
                <property name="background">
                 <color>
@@ -705,7 +705,7 @@
              <item row="3" column="1">
               <widget class="caTextEntry" name="catextentry_71">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:CCD_BeamCenterY.VAL</string>
+                <string notr="true">12idcSAXS:CCD_BeamCenterY.VAL</string>
                </property>
                <property name="background">
                 <color>
@@ -734,7 +734,7 @@
              <item row="4" column="1">
               <widget class="caTextEntry" name="catextentry_72">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:SDD.VAL</string>
+                <string notr="true">12idcSAXS:SDD.VAL</string>
                </property>
                <property name="background">
                 <color>
@@ -763,7 +763,7 @@
              <item row="5" column="1">
               <widget class="caTextEntry" name="catextentry_70">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:CCD_PixSizeX.VAL</string>
+                <string notr="true">12idcSAXS:CCD_PixSizeX.VAL</string>
                </property>
                <property name="background">
                 <color>
@@ -792,7 +792,7 @@
              <item row="6" column="1">
               <widget class="caTextEntry" name="catextentry_73">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:CCD_PixSizeX.VAL</string>
+                <string notr="true">12idcSAXS:CCD_PixSizeX.VAL</string>
                </property>
                <property name="background">
                 <color>
@@ -821,7 +821,7 @@
              <item row="7" column="1">
               <widget class="caTextEntry" name="catextentry_74">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:CCD_CenterX.VAL</string>
+                <string notr="true">12idcSAXS:CCD_CenterX.VAL</string>
                </property>
                <property name="background">
                 <color>
@@ -850,7 +850,7 @@
              <item row="8" column="1">
               <widget class="caTextEntry" name="catextentry_75">
                <property name="channel" stdset="0">
-                <string notr="true">9idcSAXS:CCD_CenterY.VAL</string>
+                <string notr="true">12idcSAXS:CCD_CenterY.VAL</string>
                </property>
                <property name="background">
                 <color>
@@ -924,7 +924,7 @@
            <item row="3" column="1">
             <widget class="caTextEntry" name="catextentry_77">
              <property name="channel" stdset="0">
-              <string notr="true">9idcSAXS:Coll_SizeX.VAL</string>
+              <string notr="true">12idcSAXS:Coll_SizeX.VAL</string>
              </property>
              <property name="background">
               <color>
@@ -948,7 +948,7 @@
            <item row="4" column="1">
             <widget class="caTextEntry" name="catextentry_78">
              <property name="channel" stdset="0">
-              <string notr="true">9idcSAXS:Coll_CenterY.VAL</string>
+              <string notr="true">12idcSAXS:Coll_CenterY.VAL</string>
              </property>
              <property name="background">
               <color>
@@ -985,7 +985,7 @@
               <set>Qt::AlignCenter</set>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:m58:c2:m6.RBV</string>
+              <string notr="true">usxLAX:m58:c2:m6.RBV</string>
              </property>
             </widget>
            </item>
@@ -1012,7 +1012,7 @@
               <set>Qt::AlignCenter</set>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:m58:c2:m8.RBV</string>
+              <string notr="true">usxLAX:m58:c2:m8.RBV</string>
              </property>
             </widget>
            </item>
@@ -1032,14 +1032,14 @@
               <set>Qt::AlignCenter</set>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:m58:c2:m5.RBV</string>
+              <string notr="true">usxLAX:m58:c2:m5.RBV</string>
              </property>
             </widget>
            </item>
            <item row="5" column="1">
             <widget class="caTextEntry" name="catextentry_81">
              <property name="channel" stdset="0">
-              <string notr="true">9idcSAXS:Coll_SizeY.VAL</string>
+              <string notr="true">12idcSAXS:Coll_SizeY.VAL</string>
              </property>
              <property name="background">
               <color>
@@ -1062,7 +1062,7 @@
               <set>Qt::AlignCenter</set>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">9idcLAX:m58:c2:m7.RBV</string>
+              <string notr="true">usxLAX:m58:c2:m7.RBV</string>
              </property>
             </widget>
            </item>
@@ -1076,7 +1076,7 @@
            <item row="2" column="1">
             <widget class="caTextEntry" name="catextentry_76">
              <property name="channel" stdset="0">
-              <string notr="true">9idcSAXS:Coll_CenterX.VAL</string>
+              <string notr="true">12idcSAXS:Coll_CenterX.VAL</string>
              </property>
              <property name="background">
               <color>
@@ -1160,7 +1160,7 @@
             <set>Qt::AlignCenter</set>
            </property>
            <property name="channel" stdset="0">
-            <string notr="true">9idcSAXS:Transmission</string>
+            <string notr="true">12idcSAXS:Transmission</string>
            </property>
           </widget>
          </item>
@@ -1192,7 +1192,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_L_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_L_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1205,7 +1205,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_R_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_R_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1218,7 +1218,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_T_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_T_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1231,7 +1231,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_B_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_B_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1244,7 +1244,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_T_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_T_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1257,7 +1257,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_L_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_L_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1270,7 +1270,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_R_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_R_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1297,7 +1297,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_T_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_T_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1324,7 +1324,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_R_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_R_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1337,7 +1337,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_L_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_L_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1350,7 +1350,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_B_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_B_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1363,7 +1363,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBPM_B_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:transBPM_B_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1467,7 +1467,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBSPD_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:transBSPD_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1480,7 +1480,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transPD_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:transPD_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1493,7 +1493,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transPD_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:transPD_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1543,7 +1543,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBSPD_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:transBSPD_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1556,7 +1556,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transBSPD_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:transBSPD_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1569,7 +1569,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transPD_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:transPD_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1669,7 +1669,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BeamIn.VAL</string>
+                 <string notr="true">12idcSAXS:BeamIn.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1694,7 +1694,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:MirrorIn.VAL</string>
+                 <string notr="true">12idcSAXS:MirrorIn.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1719,7 +1719,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:DiodeIn.VAL</string>
+                 <string notr="true">12idcSAXS:DiodeIn.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1774,7 +1774,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transI0_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:transI0_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1787,7 +1787,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transI0_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:transI0_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1812,7 +1812,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:transI0_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:transI0_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1853,7 +1853,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:I0_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:I0_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1866,7 +1866,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:I0_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:I0_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1879,7 +1879,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:I0_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:I0_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1925,7 +1925,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_B_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_B_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1955,7 +1955,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_R_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_R_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -1968,7 +1968,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_T_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_T_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2010,7 +2010,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_L_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_L_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2036,7 +2036,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_B_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_B_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2049,7 +2049,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_R_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_R_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2062,7 +2062,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_L_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_L_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2111,7 +2111,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_T_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_T_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2141,7 +2141,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_L_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_L_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2154,7 +2154,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_B_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_B_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2167,7 +2167,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_R_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_R_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2180,7 +2180,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BPM_T_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:BPM_T_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2237,7 +2237,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:PD_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:PD_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2277,7 +2277,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BSPD_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:BSPD_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2290,7 +2290,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:PD_Sample.VAL</string>
+                 <string notr="true">12idcSAXS:PD_Sample.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2303,7 +2303,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BSPD_Empty.VAL</string>
+                 <string notr="true">12idcSAXS:BSPD_Empty.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2316,7 +2316,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:PD_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:PD_Dark.VAL</string>
                 </property>
                </widget>
               </item>
@@ -2329,7 +2329,7 @@
                  <set>Qt::AlignCenter</set>
                 </property>
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcSAXS:BSPD_Dark.VAL</string>
+                 <string notr="true">12idcSAXS:BSPD_Dark.VAL</string>
                 </property>
                </widget>
               </item>

@@ -132,7 +132,7 @@
      <string>#####</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:temp</string>
+     <string notr="true">usxCOLD:temp</string>
     </property>
     <property name="background">
      <color>
@@ -164,7 +164,7 @@
      <string>#####</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:piston</string>
+     <string notr="true">usxCOLD:piston</string>
     </property>
     <property name="background">
      <color>
@@ -196,7 +196,7 @@
      <string>Stop</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:stop</string>
+     <string notr="true">usxCOLD:stop</string>
     </property>
     <property name="releaseMessage">
      <string notr="true">1</string>
@@ -254,7 +254,7 @@
      <string>Auto</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:auto</string>
+     <string notr="true">usxCOLD:auto</string>
     </property>
     <property name="releaseMessage">
      <string notr="true">1</string>
@@ -315,7 +315,7 @@
      <string>#####</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:Kp</string>
+     <string notr="true">usxCOLD:Kp</string>
     </property>
     <property name="background">
      <color>
@@ -363,7 +363,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:hrate_RBV</string>
+     <string notr="true">usxCOLD:hrate_RBV</string>
     </property>
     <property name="precision">
      <number>2</number>
@@ -440,7 +440,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:temp_RBV</string>
+     <string notr="true">usxCOLD:temp_RBV</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_55">
@@ -637,7 +637,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:Ki_RBV</string>
+     <string notr="true">usxCOLD:Ki_RBV</string>
     </property>
     <property name="precision">
      <number>2</number>
@@ -681,7 +681,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:Kp_RBV</string>
+     <string notr="true">usxCOLD:Kp_RBV</string>
     </property>
     <property name="frameLineWidth" stdset="0">
      <number>2</number>
@@ -739,7 +739,7 @@
      <string>#####</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:Kd</string>
+     <string notr="true">usxCOLD:Kd</string>
     </property>
     <property name="background">
      <color>
@@ -820,7 +820,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:Kd_RBV</string>
+     <string notr="true">usxCOLD:Kd_RBV</string>
     </property>
     <property name="precision">
      <number>2</number>
@@ -848,7 +848,7 @@
      <string>#####</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:hrate</string>
+     <string notr="true">usxCOLD:hrate</string>
     </property>
     <property name="background">
      <color>
@@ -877,7 +877,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:stop</string>
+     <string notr="true">usxCOLD:stop</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_61">
@@ -948,7 +948,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:piston_RBV</string>
+     <string notr="true">usxCOLD:piston_RBV</string>
     </property>
     <property name="precision">
      <number>2</number>
@@ -992,7 +992,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:userCalc5.VAL</string>
+     <string notr="true">usxLAX:userCalc5.VAL</string>
     </property>
     <property name="precision">
      <number>2</number>
@@ -1017,7 +1017,7 @@
      <string>#####</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:Ki</string>
+     <string notr="true">usxCOLD:Ki</string>
     </property>
     <property name="background">
      <color>
@@ -1098,7 +1098,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:userCalc6.VAL</string>
+     <string notr="true">usxLAX:userCalc6.VAL</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_93">
@@ -1152,7 +1152,7 @@
      <string>#####</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:force</string>
+     <string notr="true">usxCOLD:force</string>
     </property>
     <property name="background">
      <color>
@@ -1203,7 +1203,7 @@
         </rect>
        </property>
        <property name="channels" stdset="0">
-        <string>9idcCOLD:force_RBV;9idcCOLD:force</string>
+        <string>usxCOLD:force_RBV;usxCOLD:force</string>
        </property>
        <property name="units">
         <enum>caStripPlot::Second</enum>
@@ -1245,7 +1245,7 @@
         </rect>
        </property>
        <property name="channels" stdset="0">
-        <string>9idcCOLD:force_RBV;9idcCOLD:force</string>
+        <string>usxCOLD:force_RBV;usxCOLD:force</string>
        </property>
        <property name="units">
         <enum>caStripPlot::Minute</enum>
@@ -1286,7 +1286,7 @@
         </rect>
        </property>
        <property name="channels" stdset="0">
-        <string>9idcCOLD:piston_RBV;9idcCOLD:piston</string>
+        <string>usxCOLD:piston_RBV;usxCOLD:piston</string>
        </property>
        <property name="units">
         <enum>caStripPlot::Second</enum>
@@ -1328,7 +1328,7 @@
         </rect>
        </property>
        <property name="channels" stdset="0">
-        <string>9idcCOLD:piston_RBV;9idcCOLD:piston</string>
+        <string>usxCOLD:piston_RBV;usxCOLD:piston</string>
        </property>
        <property name="units">
         <enum>caStripPlot::Minute</enum>
@@ -1369,7 +1369,7 @@
         </rect>
        </property>
        <property name="channels" stdset="0">
-        <string>9idcCOLD:temp_RBV;9idcCOLD:temp</string>
+        <string>usxCOLD:temp_RBV;usxCOLD:temp</string>
        </property>
        <property name="units">
         <enum>caStripPlot::Second</enum>
@@ -1411,7 +1411,7 @@
         </rect>
        </property>
        <property name="channels" stdset="0">
-        <string>9idcCOLD:temp_RBV;9idcCOLD:temp</string>
+        <string>usxCOLD:temp_RBV;usxCOLD:temp</string>
        </property>
        <property name="units">
         <enum>caStripPlot::Minute</enum>
@@ -1475,7 +1475,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:force_RBV</string>
+     <string notr="true">usxCOLD:force_RBV</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_57">
@@ -1593,7 +1593,7 @@
      </sizepolicy>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcCOLD:auto</string>
+     <string notr="true">usxCOLD:auto</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_58">

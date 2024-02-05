@@ -86,7 +86,7 @@
          <string>vwr1167p.ui</string>
         </property>
         <property name="args">
-         <string>P=9idcLAX,PORT=:rs232b7</string>
+         <string>P=usxLAX,PORT=:rs232b7</string>
         </property>
         <property name="fontScaleMode" stdset="0">
          <enum>EPushButton::None</enum>
@@ -127,7 +127,7 @@
          <string>phd2000.ui</string>
         </property>
         <property name="args">
-         <string>P=9idcLAX:,PORT=:rs232b6</string>
+         <string>P=usxLAX:,PORT=:rs232b6</string>
         </property>
         <property name="fontScaleMode" stdset="0">
          <enum>EPushButton::None</enum>
@@ -209,7 +209,7 @@
          <string>thermoorion.ui</string>
         </property>
         <property name="args">
-         <string>P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO</string>
+         <string>P=usxLAX:250pH:,S=usxLAX:,R=cmdReply:a8_do_IO</string>
         </property>
         <property name="fontScaleMode" stdset="0">
          <enum>EPushButton::None</enum>
@@ -291,7 +291,7 @@
          <string>microlab.ui</string>
         </property>
         <property name="args">
-         <string>P=9idcLAX:,R=microlab:,S=cmdReply:a7_do_IO</string>
+         <string>P=usxLAX:,R=microlab:,S=cmdReply:a7_do_IO</string>
         </property>
         <property name="fontScaleMode" stdset="0">
          <enum>EPushButton::None</enum>

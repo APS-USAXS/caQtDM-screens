@@ -76,7 +76,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string>12idcUSX:pmm01:reg01:bo01</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_7">
@@ -121,7 +121,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string>12idcUSX:pmm01:reg01:bo01</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_33">
@@ -187,7 +187,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string>12idcUSX:pmm01:reg01:bo01</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_55">
@@ -226,7 +226,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idb:BioEnc2B3</string>
+    <string notr="true">12idb:BioEnc2B3</string>
    </property>
    <property name="foreground">
     <color>
@@ -256,7 +256,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idb:BioEnc2B3</string>
+    <string notr="true">12idb:BioEnc2B3</string>
    </property>
    <property name="foreground">
     <color>
@@ -332,7 +332,7 @@
     <enum>QFrame::NoFrame</enum>
    </property>
    <property name="text">
-    <string>9id_TiFilter_shutter.opi</string>
+    <string>12id_TiFilter_shutter.opi</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

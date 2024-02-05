@@ -335,7 +335,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_L_Empty.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_L_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -358,7 +358,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_R_Empty.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_R_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -381,7 +381,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_T_Empty.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_T_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -404,7 +404,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_B_Empty.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_B_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -427,7 +427,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_T_Dark.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_T_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -450,7 +450,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_R_Dark.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_R_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -473,7 +473,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_L_Sample.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_L_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -496,7 +496,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_R_Sample.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_R_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -519,7 +519,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_T_Sample.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_T_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -542,7 +542,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_B_Sample.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_B_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -565,7 +565,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_L_Dark.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_L_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -588,7 +588,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBPM_B_Dark.VAL</string>
+      <string notr="true">12idcSAXS:transBPM_B_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -784,7 +784,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBSPD_Sample.VAL</string>
+      <string notr="true">12idcSAXS:transBSPD_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -807,7 +807,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBSPD_Empty.VAL</string>
+      <string notr="true">12idcSAXS:transBSPD_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -830,7 +830,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transBSPD_Dark.VAL</string>
+      <string notr="true">12idcSAXS:transBSPD_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -853,7 +853,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transPD_Empty.VAL</string>
+      <string notr="true">12idcSAXS:transPD_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -876,7 +876,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transPD_Sample.VAL</string>
+      <string notr="true">12idcSAXS:transPD_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -899,7 +899,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transPD_Dark.VAL</string>
+      <string notr="true">12idcSAXS:transPD_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1015,7 +1015,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:I0_Empty.VAL</string>
+      <string notr="true">12idcSAXS:I0_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1038,7 +1038,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:I0_Sample.VAL</string>
+      <string notr="true">12idcSAXS:I0_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1061,7 +1061,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:I0_Dark.VAL</string>
+      <string notr="true">12idcSAXS:I0_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1207,7 +1207,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BeamIn.VAL</string>
+      <string notr="true">12idcSAXS:BeamIn.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1230,7 +1230,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:MirrorIn.VAL</string>
+      <string notr="true">12idcSAXS:MirrorIn.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1253,7 +1253,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:DiodeIn.VAL</string>
+      <string notr="true">12idcSAXS:DiodeIn.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1349,7 +1349,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transI0_Empty.VAL</string>
+      <string notr="true">12idcSAXS:transI0_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1372,7 +1372,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transI0_Sample.VAL</string>
+      <string notr="true">12idcSAXS:transI0_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1395,7 +1395,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:transI0_Dark.VAL</string>
+      <string notr="true">12idcSAXS:transI0_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1708,7 +1708,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_L_Empty.VAL</string>
+      <string notr="true">12idcSAXS:BPM_L_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1731,7 +1731,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_R_Empty.VAL</string>
+      <string notr="true">12idcSAXS:BPM_R_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1754,7 +1754,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_T_Empty.VAL</string>
+      <string notr="true">12idcSAXS:BPM_T_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1777,7 +1777,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_B_Empty.VAL</string>
+      <string notr="true">12idcSAXS:BPM_B_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1800,7 +1800,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_T_Dark.VAL</string>
+      <string notr="true">12idcSAXS:BPM_T_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1823,7 +1823,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_R_Dark.VAL</string>
+      <string notr="true">12idcSAXS:BPM_R_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1846,7 +1846,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_L_Sample.VAL</string>
+      <string notr="true">12idcSAXS:BPM_L_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1869,7 +1869,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_R_Sample.VAL</string>
+      <string notr="true">12idcSAXS:BPM_R_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1892,7 +1892,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_T_Sample.VAL</string>
+      <string notr="true">12idcSAXS:BPM_T_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1915,7 +1915,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_B_Sample.VAL</string>
+      <string notr="true">12idcSAXS:BPM_B_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1938,7 +1938,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_L_Dark.VAL</string>
+      <string notr="true">12idcSAXS:BPM_L_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -1961,7 +1961,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BPM_B_Dark.VAL</string>
+      <string notr="true">12idcSAXS:BPM_B_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -2157,7 +2157,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BSPD_Sample.VAL</string>
+      <string notr="true">12idcSAXS:BSPD_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -2180,7 +2180,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BSPD_Empty.VAL</string>
+      <string notr="true">12idcSAXS:BSPD_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -2203,7 +2203,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:BSPD_Dark.VAL</string>
+      <string notr="true">12idcSAXS:BSPD_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -2226,7 +2226,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:PD_Empty.VAL</string>
+      <string notr="true">12idcSAXS:PD_Empty.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -2249,7 +2249,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:PD_Sample.VAL</string>
+      <string notr="true">12idcSAXS:PD_Sample.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -2272,7 +2272,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcSAXS:PD_Dark.VAL</string>
+      <string notr="true">12idcSAXS:PD_Dark.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -2335,7 +2335,7 @@
      </rect>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcSAXS:Transmission</string>
+     <string notr="true">12idcSAXS:Transmission</string>
     </property>
     <property name="background">
      <color>

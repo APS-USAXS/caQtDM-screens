@@ -80,7 +80,7 @@
         <enum>ESimpleLabel::None</enum>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9ida:BraggEAO.VAL</string>
+        <string notr="true">12ida:BraggEAO.VAL</string>
        </property>
       </widget>
      </item>
@@ -198,7 +198,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:USAXS:sampleTitle</string>
+             <string notr="true">usxLAX:USAXS:sampleTitle</string>
             </property>
            </widget>
           </item>
@@ -228,7 +228,7 @@
                <enum>ESimpleLabel::None</enum>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:USAXS:specFile</string>
+               <string notr="true">usxLAX:USAXS:specFile</string>
               </property>
              </widget>
             </item>
@@ -259,7 +259,7 @@
                <enum>ESimpleLabel::None</enum>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:USAXS:specScan</string>
+               <string notr="true">usxLAX:USAXS:specScan</string>
               </property>
              </widget>
             </item>
@@ -289,7 +289,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:USAXS:userDir</string>
+             <string notr="true">usxLAX:USAXS:userDir</string>
             </property>
            </widget>
           </item>
@@ -317,7 +317,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:USAXS:state</string>
+             <string notr="true">usxLAX:USAXS:state</string>
             </property>
            </widget>
           </item>
@@ -345,7 +345,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:USAXS:timeStamp</string>
+             <string notr="true">usxLAX:USAXS:timeStamp</string>
             </property>
            </widget>
           </item>
@@ -385,7 +385,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:USAXS:SAD</string>
+             <string notr="true">usxLAX:USAXS:SAD</string>
             </property>
            </widget>
           </item>
@@ -416,7 +416,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:USAXS:SDD</string>
+             <string notr="true">usxLAX:USAXS:SDD</string>
             </property>
            </widget>
           </item>
@@ -460,7 +460,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:USAXS:Q</string>
+             <string notr="true">usxLAX:USAXS:Q</string>
             </property>
            </widget>
           </item>
@@ -491,7 +491,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:USAXS:I</string>
+             <string notr="true">usxLAX:USAXS:I</string>
             </property>
            </widget>
           </item>
@@ -551,7 +551,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:m58:c2:m1.RBV</string>
+             <string notr="true">usxLAX:m58:c2:m1.RBV</string>
             </property>
            </widget>
           </item>
@@ -572,7 +572,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:m58:c2:m2.RBV</string>
+             <string notr="true">usxLAX:m58:c2:m2.RBV</string>
             </property>
            </widget>
           </item>
@@ -603,7 +603,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:m58:c2:m4.RBV</string>
+             <string notr="true">usxLAX:m58:c2:m4.RBV</string>
             </property>
            </widget>
           </item>
@@ -624,7 +624,7 @@
              <enum>ESimpleLabel::None</enum>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:m58:c2:m5.RBV</string>
+             <string notr="true">usxLAX:m58:c2:m5.RBV</string>
             </property>
            </widget>
           </item>
@@ -678,7 +678,7 @@
            <enum>ESimpleLabel::None</enum>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:mr:encoder</string>
+           <string notr="true">usxLAX:mr:encoder</string>
           </property>
          </widget>
         </item>
@@ -701,7 +701,7 @@
            <enum>ESimpleLabel::None</enum>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:aero:c0:m1.RBV</string>
+           <string notr="true">usxLAX:aero:c0:m1.RBV</string>
           </property>
          </widget>
         </item>
@@ -724,7 +724,7 @@
            <enum>ESimpleLabel::None</enum>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:xps:c0:m1.RBV</string>
+           <string notr="true">usxLAX:xps:c0:m1.RBV</string>
           </property>
          </widget>
         </item>
@@ -777,7 +777,7 @@
            <enum>ESimpleLabel::None</enum>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:aero:c0:m1.RBV</string>
+           <string notr="true">usxLAX:aero:c0:m1.RBV</string>
           </property>
          </widget>
         </item>
@@ -800,7 +800,7 @@
            <enum>ESimpleLabel::None</enum>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:m58:c0:m6.RBV</string>
+           <string notr="true">usxLAX:m58:c0:m6.RBV</string>
           </property>
          </widget>
         </item>
@@ -823,7 +823,7 @@
            <enum>ESimpleLabel::None</enum>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:m58:c0:m7.RBV</string>
+           <string notr="true">usxLAX:m58:c0:m7.RBV</string>
           </property>
          </widget>
         </item>
@@ -856,7 +856,7 @@
            <enum>ESimpleLabel::None</enum>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:m58:c1:m6.RBV</string>
+           <string notr="true">usxLAX:m58:c1:m6.RBV</string>
           </property>
          </widget>
         </item>
@@ -879,7 +879,7 @@
            <enum>ESimpleLabel::None</enum>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcLAX:m58:c1:m7.RBV</string>
+           <string notr="true">usxLAX:m58:c1:m7.RBV</string>
           </property>
          </widget>
         </item>
@@ -918,7 +918,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:vsc:c0.TP</string>
+             <string notr="true">usxLAX:vsc:c0.TP</string>
             </property>
            </widget>
           </item>
@@ -946,7 +946,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:vsc:c0.S2</string>
+             <string notr="true">usxLAX:vsc:c0.S2</string>
             </property>
            </widget>
           </item>
@@ -974,7 +974,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:vsc:c0.S3</string>
+             <string notr="true">usxLAX:vsc:c0.S3</string>
             </property>
            </widget>
           </item>
@@ -1013,7 +1013,7 @@
                <set>Qt::AlignCenter</set>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcUSX:pd01:seq02:gain</string>
+               <string notr="true">12idcUSX:pd01:seq02:gain</string>
               </property>
              </widget>
             </item>
@@ -1031,7 +1031,7 @@
                <set>Qt::AlignCenter</set>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcUSX:pd01:seq02:reqrange</string>
+               <string notr="true">12idcUSX:pd01:seq02:reqrange</string>
               </property>
              </widget>
             </item>
@@ -1061,7 +1061,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcUSX:pd01:seq02:mode</string>
+             <string notr="true">12idcUSX:pd01:seq02:mode</string>
             </property>
            </widget>
           </item>
@@ -1089,7 +1089,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcUSX:pd01:seq02:lurate</string>
+             <string notr="true">12idcUSX:pd01:seq02:lurate</string>
             </property>
            </widget>
           </item>
@@ -1117,7 +1117,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">9idcUSX:pd01:seq02:lucurrent</string>
+             <string notr="true">12idcUSX:pd01:seq02:lucurrent</string>
             </property>
            </widget>
           </item>

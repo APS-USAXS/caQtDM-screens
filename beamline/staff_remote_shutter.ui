@@ -342,7 +342,7 @@
     <set>Qt::AlignCenter</set>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">20id:shutter0_status.VAL</string>
+    <string notr="true">12id:shutter0_status.VAL</string>
    </property>
   </widget>
   <widget class="caLineEdit" name="calineedit_25">
@@ -361,7 +361,7 @@
     <set>Qt::AlignCenter</set>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">20id:shutter1_status.VAL</string>
+    <string notr="true">12id:shutter1_status.VAL</string>
    </property>
   </widget>
   <widget class="caLineEdit" name="calineedit_26">
@@ -380,7 +380,7 @@
     <set>Qt::AlignCenter</set>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:userTran3.A</string>
+    <string notr="true">usxLAX:userTran3.A</string>
    </property>
   </widget>
   <widget class="caLineEdit" name="calineedit_27">
@@ -399,7 +399,7 @@
     <set>Qt::AlignCenter</set>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:AShtr:Enable</string>
+    <string notr="true">usxLAX:AShtr:Enable</string>
    </property>
   </widget>
   <widget class="caLineEdit" name="calineedit_28">
@@ -418,7 +418,7 @@
     <set>Qt::AlignCenter</set>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
+    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
    <property name="formatType">
     <enum>caLineEdit::string</enum>
@@ -437,7 +437,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">20id:shutter0_opn</string>
+    <string notr="true">12id:shutter0_opn</string>
    </property>
    <property name="foreground">
     <color>
@@ -470,7 +470,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">20id:shutter0_cls</string>
+    <string notr="true">12id:shutter0_cls</string>
    </property>
    <property name="foreground">
     <color>
@@ -503,7 +503,7 @@
     <string>Enable</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:AShtr:Enable</string>
+    <string notr="true">usxLAX:AShtr:Enable</string>
    </property>
    <property name="foreground">
     <color>
@@ -539,7 +539,7 @@
     <string>Disable</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:AShtr:Enable</string>
+    <string notr="true">usxLAX:AShtr:Enable</string>
    </property>
    <property name="foreground">
     <color>
@@ -575,7 +575,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">20id:shutter1_opn</string>
+    <string notr="true">12id:shutter1_opn</string>
    </property>
    <property name="foreground">
     <color>
@@ -608,7 +608,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:userTran3.A</string>
+    <string notr="true">usxLAX:userTran3.A</string>
    </property>
    <property name="foreground">
     <color>
@@ -641,7 +641,7 @@
     <string>Request shutter to open</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
+    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
    <property name="foreground">
     <color>
@@ -674,7 +674,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">20id:shutter1_cls</string>
+    <string notr="true">12id:shutter1_cls</string>
    </property>
    <property name="foreground">
     <color>
@@ -710,7 +710,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:userTran3.A</string>
+    <string notr="true">usxLAX:userTran3.A</string>
    </property>
    <property name="foreground">
     <color>
@@ -743,7 +743,7 @@
     <string>Request shutter to close</string>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
+    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
    <property name="foreground">
     <color>
@@ -805,7 +805,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:20ID:STA_A_FES_OPEN_PL.VAL</string>
+    <string notr="true">PA:12ID:STA_A_FES_OPEN_PL.VAL</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_2">
@@ -850,7 +850,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:20ID:STA_B_SBS_OPEN_PL.VAL</string>
+    <string notr="true">PA:12ID:STA_B_SBS_OPEN_PL.VAL</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_3">
@@ -895,7 +895,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:softGlue:FO18_BI</string>
+    <string notr="true">usxLAX:softGlue:FO18_BI</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_4">
@@ -940,7 +940,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
+    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_5">
@@ -985,7 +985,7 @@
     <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:20ID:STA_A_FES_OPEN_PL.VAL</string>
+    <string notr="true">PA:12ID:STA_A_FES_OPEN_PL.VAL</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_6">
@@ -1030,7 +1030,7 @@
     <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcRIO:Galil2Bo0_CMD</string>
+    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_7">
@@ -1075,7 +1075,7 @@
     <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcLAX:softGlue:FO18_BI</string>
+    <string notr="true">usxLAX:softGlue:FO18_BI</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_8">
@@ -1120,7 +1120,7 @@
     <enum>caPolyLine::IfZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">PA:20ID:STA_B_SBS_OPEN_PL.VAL</string>
+    <string notr="true">PA:12ID:STA_B_SBS_OPEN_PL.VAL</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_9">
@@ -1165,7 +1165,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string>12idcUSX:pmm01:reg01:bo01</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_10">
@@ -1210,7 +1210,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string>12idcUSX:pmm01:reg01:bo01</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_11">
@@ -1255,7 +1255,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string>12idcUSX:pmm01:reg01:bo01</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_12">
@@ -1300,7 +1300,7 @@
     <enum>caPolyLine::IfNotZero</enum>
    </property>
    <property name="channel" stdset="0">
-    <string>9idcUSX:pmm01:reg01:bo01</string>
+    <string>12idcUSX:pmm01:reg01:bo01</string>
    </property>
   </widget>
   <widget class="caRelatedDisplay" name="caRelatedDisplay_0">
@@ -1333,7 +1333,7 @@
     <string>autoShutter.adl</string>
    </property>
    <property name="args">
-    <string>P=9idcLAX:,S=A,T1=1,T2=2,A=1</string>
+    <string>P=usxLAX:,S=A,T1=1,T2=2,A=1</string>
    </property>
    <property name="stackingMode" stdset="0">
     <enum>caRowColMenu::Menu</enum>

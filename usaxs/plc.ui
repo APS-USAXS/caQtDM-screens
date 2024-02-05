@@ -666,7 +666,7 @@
        <string>Re-enable saxs y</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:akd:resetFault.PROC</string>
+       <string notr="true">usxLAX:akd:resetFault.PROC</string>
       </property>
       <property name="foreground">
        <color>

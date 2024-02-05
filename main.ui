@@ -131,7 +131,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          </font>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcLAX:RunCycle</string>
+         <string notr="true">usxLAX:RunCycle</string>
         </property>
         <property name="background">
          <color>
@@ -169,7 +169,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          </font>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcLAX:GUPNumber</string>
+         <string notr="true">usxLAX:GUPNumber</string>
         </property>
         <property name="background">
          <color>
@@ -207,7 +207,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          </font>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">9idcLAX:UserName</string>
+         <string notr="true">usxLAX:UserName</string>
         </property>
         <property name="background">
          <color>
@@ -361,7 +361,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           </font>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:RunCycle</string>
+          <string notr="true">usxLAX:RunCycle</string>
          </property>
          <property name="background">
           <color>
@@ -399,7 +399,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           </font>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:GUPNumber</string>
+          <string notr="true">usxLAX:GUPNumber</string>
          </property>
          <property name="background">
           <color>
@@ -437,7 +437,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           </font>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:UserName</string>
+          <string notr="true">usxLAX:UserName</string>
          </property>
          <property name="background">
           <color>
@@ -547,7 +547,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           <string>Staff Main Display</string>
          </property>
          <property name="files">
-          <string>9idc_usaxs.ui</string>
+          <string>12idc_usaxs.ui</string>
          </property>
          <property name="args">
           <string/>
@@ -600,7 +600,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
           <string>9 ID Synoptic</string>
          </property>
          <property name="files">
-          <string>9ida.ui</string>
+          <string>12ida.ui</string>
          </property>
          <property name="args">
           <string/>
@@ -928,7 +928,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <string>Staff Main Display</string>
         </property>
         <property name="files">
-         <string>9idc_usaxs.ui</string>
+         <string>12idc_usaxs.ui</string>
         </property>
         <property name="args">
          <string/>
@@ -987,7 +987,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <string>9 ID Synoptic</string>
         </property>
         <property name="files">
-         <string>9ida.ui</string>
+         <string>12ida.ui</string>
         </property>
         <property name="args">
          <string/>
@@ -1010,7 +1010,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         </rect>
        </property>
        <property name="macro">
-        <string notr="true">P=9idc:bss:</string>
+        <string notr="true">P=12idc:bss:</string>
        </property>
        <property name="filename" stdset="0">
         <string notr="true">apsbss.ui</string>

@@ -213,7 +213,7 @@
           <item row="1" column="3">
            <widget class="caTextEntry" name="catextentry_26">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:ax_in</string>
+             <string notr="true">usxLAX:SAXS:ax_in</string>
             </property>
             <property name="background">
              <color>
@@ -230,7 +230,7 @@
           <item row="1" column="4">
            <widget class="caTextEntry" name="catextentry_25">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:ax_limit_offset</string>
+             <string notr="true">usxLAX:SAXS:ax_limit_offset</string>
             </property>
             <property name="background">
              <color>
@@ -254,7 +254,7 @@
           <item row="2" column="3">
            <widget class="caTextEntry" name="catextentry_33">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:dx_in</string>
+             <string notr="true">usxLAX:SAXS:dx_in</string>
             </property>
             <property name="background">
              <color>
@@ -271,7 +271,7 @@
           <item row="2" column="4">
            <widget class="caTextEntry" name="catextentry_29">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:dx_limit_offset</string>
+             <string notr="true">usxLAX:SAXS:dx_limit_offset</string>
             </property>
             <property name="background">
              <color>
@@ -295,7 +295,7 @@
           <item row="3" column="1">
            <widget class="caTextEntry" name="catextentry_38">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
+             <string notr="true">usxLAX:SAXS:WAXS_x_out</string>
             </property>
             <property name="background">
              <color>
@@ -312,7 +312,7 @@
           <item row="3" column="2">
            <widget class="caTextEntry" name="catextentry_39">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:WAXS_x_in</string>
+             <string notr="true">usxLAX:SAXS:WAXS_x_in</string>
             </property>
             <property name="background">
              <color>
@@ -329,7 +329,7 @@
           <item row="3" column="3">
            <widget class="caTextEntry" name="catextentry_32">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:WAXS_x_out</string>
+             <string notr="true">usxLAX:SAXS:WAXS_x_out</string>
             </property>
             <property name="background">
              <color>
@@ -346,7 +346,7 @@
           <item row="3" column="4">
            <widget class="caTextEntry" name="catextentry_31">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:WAXS_x_limit_offset</string>
+             <string notr="true">usxLAX:SAXS:WAXS_x_limit_offset</string>
             </property>
             <property name="background">
              <color>
@@ -373,7 +373,7 @@
           <item row="4" column="1">
            <widget class="caTextEntry" name="catextentry_75">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_y_in</string>
+             <string notr="true">usxLAX:SAXS:SAXS_y_in</string>
             </property>
             <property name="background">
              <color>
@@ -390,7 +390,7 @@
           <item row="4" column="4">
            <widget class="caTextEntry" name="catextentry_30">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_y_limit_offset</string>
+             <string notr="true">usxLAX:SAXS:SAXS_y_limit_offset</string>
             </property>
             <property name="background">
              <color>
@@ -414,7 +414,7 @@
           <item row="5" column="1">
            <widget class="caTextEntry" name="catextentry_76">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_z_in</string>
+             <string notr="true">usxLAX:SAXS:SAXS_z_in</string>
             </property>
             <property name="background">
              <color>
@@ -431,7 +431,7 @@
           <item row="5" column="4">
            <widget class="caTextEntry" name="catextentry_28">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_z_limit_offset</string>
+             <string notr="true">usxLAX:SAXS:SAXS_z_limit_offset</string>
             </property>
             <property name="background">
              <color>
@@ -455,7 +455,7 @@
           <item row="6" column="3">
            <widget class="caTextEntry" name="catextentry_34">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:USAXS_hslit_ap</string>
+             <string notr="true">usxLAX:SAXS:USAXS_hslit_ap</string>
             </property>
             <property name="background">
              <color>
@@ -479,7 +479,7 @@
           <item row="7" column="3">
            <widget class="caTextEntry" name="catextentry_35">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:USAXS_vslit_ap</string>
+             <string notr="true">usxLAX:SAXS:USAXS_vslit_ap</string>
             </property>
             <property name="background">
              <color>
@@ -503,7 +503,7 @@
           <item row="8" column="3">
            <widget class="caTextEntry" name="catextentry_36">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:USAXS_hgslit_ap</string>
+             <string notr="true">usxLAX:SAXS:USAXS_hgslit_ap</string>
             </property>
             <property name="background">
              <color>
@@ -527,7 +527,7 @@
           <item row="9" column="3">
            <widget class="caTextEntry" name="catextentry_37">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:USAXS_vgslit_ap</string>
+             <string notr="true">usxLAX:SAXS:USAXS_vgslit_ap</string>
             </property>
             <property name="background">
              <color>
@@ -544,7 +544,7 @@
           <item row="1" column="1" colspan="2">
            <widget class="caTextEntry" name="catextentry_24">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:ax_out</string>
+             <string notr="true">usxLAX:SAXS:ax_out</string>
             </property>
             <property name="background">
              <color>
@@ -561,7 +561,7 @@
           <item row="2" column="1" colspan="2">
            <widget class="caTextEntry" name="catextentry_40">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:dx_out</string>
+             <string notr="true">usxLAX:SAXS:dx_out</string>
             </property>
             <property name="background">
              <color>
@@ -578,7 +578,7 @@
           <item row="4" column="2" colspan="2">
            <widget class="caTextEntry" name="catextentry_45">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_y_out</string>
+             <string notr="true">usxLAX:SAXS:SAXS_y_out</string>
             </property>
             <property name="background">
              <color>
@@ -595,7 +595,7 @@
           <item row="5" column="2" colspan="2">
            <widget class="caTextEntry" name="catextentry_46">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_z_out</string>
+             <string notr="true">usxLAX:SAXS:SAXS_z_out</string>
             </property>
             <property name="background">
              <color>
@@ -612,7 +612,7 @@
           <item row="6" column="1" colspan="2">
            <widget class="caTextEntry" name="catextentry_43">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_hslit_ap</string>
+             <string notr="true">usxLAX:SAXS:SAXS_hslit_ap</string>
             </property>
             <property name="background">
              <color>
@@ -629,7 +629,7 @@
           <item row="7" column="1" colspan="2">
            <widget class="caTextEntry" name="catextentry_41">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_vslit_ap</string>
+             <string notr="true">usxLAX:SAXS:SAXS_vslit_ap</string>
             </property>
             <property name="background">
              <color>
@@ -646,7 +646,7 @@
           <item row="8" column="1" colspan="2">
            <widget class="caTextEntry" name="catextentry_44">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_hgslit_ap</string>
+             <string notr="true">usxLAX:SAXS:SAXS_hgslit_ap</string>
             </property>
             <property name="background">
              <color>
@@ -663,7 +663,7 @@
           <item row="9" column="1" colspan="2">
            <widget class="caTextEntry" name="catextentry_42">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:SAXS_vgslit_ap</string>
+             <string notr="true">usxLAX:SAXS:SAXS_vgslit_ap</string>
             </property>
             <property name="background">
              <color>
@@ -702,7 +702,7 @@
           <item row="0" column="1">
            <widget class="caTextEntry" name="catextentry_51">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:directory</string>
+             <string notr="true">usxLAX:SAXS:directory</string>
             </property>
             <property name="background">
              <color>
@@ -729,7 +729,7 @@
           <item row="2" column="1">
            <widget class="caTextEntry" name="catextentry_52">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:directory</string>
+             <string notr="true">usxLAX:WAXS:directory</string>
             </property>
             <property name="background">
              <color>
@@ -764,7 +764,7 @@
             <item>
              <widget class="caTextEntry" name="catextentry_66">
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:SAXS:sampleTitle</string>
+               <string notr="true">usxLAX:SAXS:sampleTitle</string>
               </property>
               <property name="background">
                <color>
@@ -794,7 +794,7 @@
               <item row="0" column="1">
                <widget class="caTextEntry" name="catextentry_69">
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcLAX:SAXS:SAXS_TrPD.VAL</string>
+                 <string notr="true">usxLAX:SAXS:SAXS_TrPD.VAL</string>
                 </property>
                 <property name="background">
                  <color>
@@ -818,7 +818,7 @@
               <item row="1" column="1">
                <widget class="caTextEntry" name="catextentry_67">
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcLAX:SAXS:SAXS_TrI0.VAL</string>
+                 <string notr="true">usxLAX:SAXS:SAXS_TrI0.VAL</string>
                 </property>
                 <property name="background">
                  <color>
@@ -846,7 +846,7 @@
               <item row="0" column="1">
                <widget class="caTextEntry" name="catextentry_70">
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcLAX:SAXS:SAXS_TrPDgain.VAL</string>
+                 <string notr="true">usxLAX:SAXS:SAXS_TrPDgain.VAL</string>
                 </property>
                 <property name="background">
                  <color>
@@ -870,7 +870,7 @@
               <item row="1" column="1">
                <widget class="caTextEntry" name="catextentry_68">
                 <property name="channel" stdset="0">
-                 <string notr="true">9idcLAX:SAXS:SAXS_TrI0gain.VAL</string>
+                 <string notr="true">usxLAX:SAXS:SAXS_TrI0gain.VAL</string>
                 </property>
                 <property name="background">
                  <color>
@@ -904,7 +904,7 @@
           <item row="1" column="2">
            <widget class="caTextEntry" name="catextentry_47">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WavelengthSpread</string>
+             <string notr="true">usxLAX:WavelengthSpread</string>
             </property>
             <property name="background">
              <color>
@@ -928,7 +928,7 @@
           <item row="2" column="3">
            <widget class="caTextEntry" name="catextentry_48">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:BeamCenterX</string>
+             <string notr="true">usxLAX:WAXS:BeamCenterX</string>
             </property>
             <property name="background">
              <color>
@@ -945,7 +945,7 @@
           <item row="3" column="2">
            <widget class="caTextEntry" name="catextentry_59">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:BeamCenterY</string>
+             <string notr="true">usxLAX:SAXS:BeamCenterY</string>
             </property>
             <property name="background">
              <color>
@@ -962,7 +962,7 @@
           <item row="5" column="3">
            <widget class="caTextEntry" name="catextentry_61">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:DetectorTiltY</string>
+             <string notr="true">usxLAX:WAXS:DetectorTiltY</string>
             </property>
             <property name="background">
              <color>
@@ -986,7 +986,7 @@
           <item row="3" column="3">
            <widget class="caTextEntry" name="catextentry_53">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:BeamCenterY</string>
+             <string notr="true">usxLAX:WAXS:BeamCenterY</string>
             </property>
             <property name="background">
              <color>
@@ -1010,7 +1010,7 @@
           <item row="9" column="2">
            <widget class="caTextEntry" name="catextentry_62">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:EmptyFileName</string>
+             <string notr="true">usxLAX:SAXS:EmptyFileName</string>
             </property>
             <property name="background">
              <color>
@@ -1027,7 +1027,7 @@
           <item row="4" column="2">
            <widget class="caTextEntry" name="catextentry_58">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:DetectorTiltX</string>
+             <string notr="true">usxLAX:SAXS:DetectorTiltX</string>
             </property>
             <property name="background">
              <color>
@@ -1058,7 +1058,7 @@
           <item row="9" column="3">
            <widget class="caTextEntry" name="catextentry_56">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:EmptyFileName</string>
+             <string notr="true">usxLAX:WAXS:EmptyFileName</string>
             </property>
             <property name="background">
              <color>
@@ -1082,7 +1082,7 @@
           <item row="7" column="3">
            <widget class="caTextEntry" name="catextentry_50">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:PinPixSizeX</string>
+             <string notr="true">usxLAX:WAXS:PinPixSizeX</string>
             </property>
             <property name="background">
              <color>
@@ -1106,7 +1106,7 @@
           <item row="8" column="3">
            <widget class="caTextEntry" name="catextentry_63">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:PinPixSizeY</string>
+             <string notr="true">usxLAX:WAXS:PinPixSizeY</string>
             </property>
             <property name="background">
              <color>
@@ -1123,7 +1123,7 @@
           <item row="8" column="2">
            <widget class="caTextEntry" name="catextentry_57">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:PinPixSizeY</string>
+             <string notr="true">usxLAX:SAXS:PinPixSizeY</string>
             </property>
             <property name="background">
              <color>
@@ -1147,7 +1147,7 @@
           <item row="6" column="2">
            <widget class="caTextEntry" name="catextentry_55">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:Distance</string>
+             <string notr="true">usxLAX:SAXS:Distance</string>
             </property>
             <property name="background">
              <color>
@@ -1164,7 +1164,7 @@
           <item row="2" column="2">
            <widget class="caTextEntry" name="catextentry_65">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:BeamCenterX</string>
+             <string notr="true">usxLAX:SAXS:BeamCenterX</string>
             </property>
             <property name="background">
              <color>
@@ -1212,7 +1212,7 @@
           <item row="4" column="3">
            <widget class="caTextEntry" name="catextentry_54">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:DetectorTiltX</string>
+             <string notr="true">usxLAX:WAXS:DetectorTiltX</string>
             </property>
             <property name="background">
              <color>
@@ -1229,7 +1229,7 @@
           <item row="7" column="2">
            <widget class="caTextEntry" name="catextentry_49">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:PinPixSizeX</string>
+             <string notr="true">usxLAX:SAXS:PinPixSizeX</string>
             </property>
             <property name="background">
              <color>
@@ -1246,7 +1246,7 @@
           <item row="5" column="2">
            <widget class="caTextEntry" name="catextentry_60">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:DetectorTiltY</string>
+             <string notr="true">usxLAX:SAXS:DetectorTiltY</string>
             </property>
             <property name="background">
              <color>
@@ -1300,7 +1300,7 @@
           <item row="1" column="1">
            <widget class="caTextEntry" name="catextentry_71">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:Exp_Al_Filter.VAL</string>
+             <string notr="true">usxLAX:SAXS:Exp_Al_Filter.VAL</string>
             </property>
             <property name="background">
              <color>
@@ -1317,7 +1317,7 @@
           <item row="1" column="2">
            <widget class="caTextEntry" name="catextentry_73">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:Exp_Al_Filter.VAL</string>
+             <string notr="true">usxLAX:WAXS:Exp_Al_Filter.VAL</string>
             </property>
             <property name="background">
              <color>
@@ -1341,7 +1341,7 @@
           <item row="2" column="1">
            <widget class="caTextEntry" name="catextentry_74">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:SAXS:Exp_Ti_Filter.VAL</string>
+             <string notr="true">usxLAX:SAXS:Exp_Ti_Filter.VAL</string>
             </property>
             <property name="background">
              <color>
@@ -1358,7 +1358,7 @@
           <item row="2" column="2">
            <widget class="caTextEntry" name="catextentry_72">
             <property name="channel" stdset="0">
-             <string notr="true">9idcLAX:WAXS:Exp_Ti_Filter.VAL</string>
+             <string notr="true">usxLAX:WAXS:Exp_Ti_Filter.VAL</string>
             </property>
             <property name="background">
              <color>

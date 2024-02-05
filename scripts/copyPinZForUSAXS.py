@@ -23,7 +23,7 @@ def log(msg):
 
 log(sys.argv[0])
 try:
-	temp = epics.caget("9idcAERO:m14.VAL")+25
-	epics.caput("9idcLAX:SAXS_z_out", temp)
+	temp = epics.caget("usxAERO:m14.VAL")+25
+	epics.caput("usxLAX:SAXS_z_out", temp)
 except Exception as _exc:
 	log(str(_exc))

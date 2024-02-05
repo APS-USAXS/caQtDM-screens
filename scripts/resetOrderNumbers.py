@@ -23,15 +23,15 @@ def log(msg):
 
 log(sys.argv[0])
 try:
-	epics.caput("9idcLAX:USAXS:FS_OrderNumber", 1)
+	epics.caput("usxLAX:USAXS:FS_OrderNumber", 1)
 	epics.caput("usaxs_pilatus1:cam1:FileNumber", 1)
 	epics.caput("usaxs_pilatus1:HDF1:FileNumber", 1)
 	epics.caput("usaxs_pilatus2:HDF1:FileNumber", 1)
 	epics.caput("usaxs_pilatus2:cam1:FileNumber", 1)
 	epics.caput("usaxs_pilatus3:HDF1:FileNumber", 1)
 	epics.caput("usaxs_pilatus3:cam1:FileNumber", 1)
-	epics.caput("9idcDEX:HDF1:FileNumber", 1)
-	epics.caput("9idcDEX:TIFF1:FileNumber", 1)
+	epics.caput("12idcDEX:HDF1:FileNumber", 1)
+	epics.caput("12idcDEX:TIFF1:FileNumber", 1)
     
     
 except Exception as _exc:

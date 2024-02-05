@@ -23,13 +23,13 @@
     </rect>
    </property>
    <property name="channelData" stdset="0">
-    <string notr="true">9idFLY2:image2:ArrayData</string>
+    <string notr="true">usxFLY2:image2:ArrayData</string>
    </property>
    <property name="channelWidth" stdset="0">
-    <string notr="true">9idFLY2:cam1:ArraySizeX_RBV</string>
+    <string notr="true">usxFLY2:cam1:ArraySizeX_RBV</string>
    </property>
    <property name="channelHeight" stdset="0">
-    <string notr="true">9idFLY2:cam1:ArraySizeY_RBV</string>
+    <string notr="true">usxFLY2:cam1:ArraySizeY_RBV</string>
    </property>
    <property name="automaticLevels" stdset="0">
     <bool>false</bool>

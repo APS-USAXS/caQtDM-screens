@@ -95,7 +95,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:sampleTitle</string>
+          <string notr="true">usxLAX:sampleTitle</string>
          </property>
         </widget>
        </item>
@@ -129,7 +129,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:specFile</string>
+          <string notr="true">usxLAX:specFile</string>
          </property>
         </widget>
        </item>
@@ -163,7 +163,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:specScan</string>
+          <string notr="true">usxLAX:specScan</string>
          </property>
         </widget>
        </item>
@@ -197,7 +197,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:FS_OrderNumber</string>
+          <string notr="true">usxLAX:USAXS:FS_OrderNumber</string>
          </property>
         </widget>
        </item>
@@ -231,7 +231,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:userDir</string>
+          <string notr="true">usxLAX:userDir</string>
          </property>
         </widget>
        </item>
@@ -265,7 +265,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:timeStamp</string>
+          <string notr="true">usxLAX:timeStamp</string>
          </property>
         </widget>
        </item>
@@ -299,7 +299,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:state</string>
+          <string notr="true">usxLAX:state</string>
          </property>
         </widget>
        </item>
@@ -351,7 +351,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">P=9idcLAX:m58:c2:,M=m1</string>
+       <string notr="true">P=usxLAX:m58:c2:,M=m1</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -367,7 +367,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">P=9idcLAX:m58:c2:,M=m2</string>
+       <string notr="true">P=usxLAX:m58:c2:,M=m2</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -388,7 +388,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">M=m58:c2:m3,P=9idcLAX:</string>
+       <string notr="true">M=m58:c2:m3,P=usxLAX:</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -404,7 +404,7 @@
        </rect>
       </property>
       <property name="macro">
-       <string notr="true">M=aero:c2:m1,P=9idcLAX:</string>
+       <string notr="true">M=aero:c2:m1,P=usxLAX:</string>
       </property>
       <property name="filename" stdset="0">
        <string notr="true">motorxU.ui</string>
@@ -440,7 +440,7 @@
        <string>CCD shutter controls</string>
       </property>
       <property name="files">
-       <string>9idc_USAXS_CCD_shutter.ui</string>
+       <string>12idc_USAXS_CCD_shutter.ui</string>
       </property>
       <property name="args">
        <string/>
@@ -485,7 +485,7 @@
        <string>pf4more.ui;pf4more.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcUSX:,H=pf4:,A=A,B=B,MONO=9ida:BraggEAO;P=9idcUSX:,H=pf42:,A=A,B=B,MONO=9ida:BraggEAO</string>
+       <string>P=12idcUSX:,H=pf4:,A=A,B=B,MONO=12ida:BraggEAO;P=12idcUSX:,H=pf42:,A=A,B=B,MONO=12ida:BraggEAO</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -532,13 +532,13 @@
        </color>
       </property>
       <property name="labels">
-       <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Microlab;Love Controllers;xiahsc;9idc Linkam;9idc New Linkam;Huber gonio;Vortex dp;Eurotherm;Keithley 2400;Mythen dp;Tomo X and Y;Pyrometer;PI rotational stages</string>
+       <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Microlab;Love Controllers;xiahsc;12idc Linkam;12idc New Linkam;Huber gonio;Vortex dp;Eurotherm;Keithley 2400;Mythen dp;Tomo X and Y;Pyrometer;PI rotational stages</string>
       </property>
       <property name="files">
        <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;Linkam_T96.ui;huber_1003.ui;dxpSaturn.ui;eurotherm_modbus.ui;Keithley2400.ui;mca.ui;motor2xU.ui;Metis_M322.ui;motor2x.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX;P=9idcLAX:250pH:,S=9idcLAX:,R=cmdReply:a8_do_IO;P=9idcLAX,PORT=:rs232b7;P=9idcLAX:,PORT=:rs232b6;P=9idcLAX:,R=microlab:,S=cmdReply:a7_do_IO;P=9idcLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=9idcLAX:,HSC=hsc1:;P=9idcLAX:;P=9idcLINKAM:,T=tc1, R=asyn;P=9idcH1003:,R=dcm:;P=dp_vortex_xrd75:,D=dxp1:,M=mca1;P=9idcLAX:,TC=tc1;P=9idcLAX:,R=k24k:;P=dp_mythen:;P=9idcLAX:, M1=m58:c0:m8, M2=mxv:c0:m7;P=9idcPYRO:,R=m322;P=9idcPI:c867:c0:,M1=m1,M2=m2</string>
+       <string>P=usxLAX;P=usxLAX:250pH:,S=usxLAX:,R=cmdReply:a8_do_IO;P=usxLAX,PORT=:rs232b7;P=usxLAX:,PORT=:rs232b6;P=usxLAX:,R=microlab:,S=cmdReply:a7_do_IO;P=usxLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=usxLAX:,HSC=hsc1:;P=usxLAX:;P=12idcLINKAM:,T=tc1, R=asyn;P=usxH1003:,R=dcm:;P=dp_vortex_xrd75:,D=dxp1:,M=mca1;P=usxLAX:,TC=tc1;P=usxLAX:,R=k24k:;P=dp_mythen:;P=usxLAX:, M1=m58:c0:m8, M2=mxv:c0:m7;P=usxPYRO:,R=m322;P=usxPI:c867:c0:,M1=m1,M2=m2</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -591,7 +591,7 @@
        <string>motor2x.ui;LakeShore340.adl;PTC10.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcPI:c867:c0:,M1=m1,M2=m2;P=9idcSFO:,Q=tc1;P=9idcTEMP:,T=tc1,CT=2A,CR=3A,CV=5A</string>
+       <string>P=usxPI:c867:c0:,M1=m1,M2=m2;P=12idcSFO:,Q=tc1;P=usxTEMP:,T=tc1,CT=2A,CR=3A,CV=5A</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -1039,7 +1039,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam2:tc0.VAL</string>
+               <string notr="true">usxLAX:adam2:tc0.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1093,7 +1093,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam2:tc1.VAL</string>
+               <string notr="true">usxLAX:adam2:tc1.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1134,7 +1134,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam2:tc2.VAL</string>
+               <string notr="true">usxLAX:adam2:tc2.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1178,7 +1178,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam2:tc3.VAL</string>
+               <string notr="true">usxLAX:adam2:tc3.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1219,7 +1219,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam2:tc4.VAL</string>
+               <string notr="true">usxLAX:adam2:tc4.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1260,7 +1260,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam2:tc5.VAL</string>
+               <string notr="true">usxLAX:adam2:tc5.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1394,7 +1394,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam1:rtd0.VAL</string>
+               <string notr="true">usxLAX:adam1:rtd0.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1448,7 +1448,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam1:rtd1.VAL</string>
+               <string notr="true">usxLAX:adam1:rtd1.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1489,7 +1489,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam1:rtd2.VAL</string>
+               <string notr="true">usxLAX:adam1:rtd2.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1533,7 +1533,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam1:rtd3.VAL</string>
+               <string notr="true">usxLAX:adam1:rtd3.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1574,7 +1574,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam1:rtd4.VAL</string>
+               <string notr="true">usxLAX:adam1:rtd4.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1615,7 +1615,7 @@
                <bool>true</bool>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">9idcLAX:adam1:rtd5.VAL</string>
+               <string notr="true">usxLAX:adam1:rtd5.VAL</string>
               </property>
               <property name="background">
                <color>
@@ -1837,7 +1837,7 @@
       </sizepolicy>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:FS_ElapsedTime</string>
+      <string notr="true">usxLAX:USAXS:FS_ElapsedTime</string>
      </property>
      <property name="background">
       <color>
@@ -1884,7 +1884,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:USAXS:FlyScanNotSaved</string>
+      <string notr="true">usxLAX:USAXS:FlyScanNotSaved</string>
      </property>
      <property name="falseColor">
       <color>
@@ -2066,13 +2066,13 @@
       <string notr="true">(A-B)&lt;0.1 || (C-A)&lt;0.1</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:fbe:omega.OVAL</string>
+      <string notr="true">usxLAX:fbe:omega.OVAL</string>
      </property>
      <property name="channelB">
-      <string notr="true">9idcLAX:fbe:omega.DRVL</string>
+      <string notr="true">usxLAX:fbe:omega.DRVL</string>
      </property>
      <property name="channelC">
-      <string notr="true">9idcLAX:fbe:omega.DRVH</string>
+      <string notr="true">usxLAX:fbe:omega.DRVH</string>
      </property>
     </widget>
     <widget class="caLabel" name="caLabel_48">
@@ -2124,10 +2124,10 @@
       <string notr="true">A&lt;=0 &amp;&amp; B&gt;900000</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcUSX:pd01:seq02:reqrange</string>
+      <string notr="true">12idcUSX:pd01:seq02:reqrange</string>
      </property>
      <property name="channelB">
-      <string notr="true">9idcLAX:vsc:c0_cts1.D</string>
+      <string notr="true">usxLAX:vsc:c0_cts1.D</string>
      </property>
     </widget>
     <widget class="caLabel" name="caLabel_1">
@@ -2169,7 +2169,7 @@
       <enum>caLabel::IfZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string>9idcLAX:alldone</string>
+      <string>usxLAX:alldone</string>
      </property>
     </widget>
     <widget class="caLabel" name="caLabel_2">
@@ -2211,7 +2211,7 @@
       <enum>caLabel::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string>9idcLAX:vsc:c0.CNT</string>
+      <string>usxLAX:vsc:c0.CNT</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_9">
@@ -2244,7 +2244,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
+      <string notr="true">usxLAX:SAXS:USAXSSAXSMode</string>
      </property>
      <property name="trueColor">
       <color>
@@ -2296,7 +2296,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
+      <string notr="true">usxLAX:SAXS:USAXSSAXSMode</string>
      </property>
      <property name="trueColor">
       <color>
@@ -2322,7 +2322,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
+      <string notr="true">usxLAX:SAXS:USAXSSAXSMode</string>
      </property>
      <property name="trueColor">
       <color>
@@ -2361,7 +2361,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
+      <string notr="true">usxLAX:SAXS:USAXSSAXSMode</string>
      </property>
      <property name="trueColor">
       <color>
@@ -2400,7 +2400,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
+      <string notr="true">usxLAX:SAXS:USAXSSAXSMode</string>
      </property>
      <property name="trueColor">
       <color>
@@ -2452,7 +2452,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SAXS:USAXSSAXSMode</string>
+      <string notr="true">usxLAX:SAXS:USAXSSAXSMode</string>
      </property>
      <property name="trueColor">
       <color>
@@ -2507,7 +2507,7 @@
       <enum>caLabel::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:SR_disable</string>
+      <string notr="true">usxLAX:SR_disable</string>
      </property>
     </widget>
     <widget class="caLabel" name="caLabel_5">
@@ -2556,7 +2556,7 @@
       <enum>caLabel::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:dataColInProgress</string>
+      <string notr="true">usxLAX:dataColInProgress</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_94">
@@ -2590,7 +2590,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:collectingSAXS</string>
+      <string notr="true">usxLAX:collectingSAXS</string>
      </property>
      <property name="falseColor">
       <color>
@@ -2638,7 +2638,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:collectingWAXS</string>
+      <string notr="true">usxLAX:collectingWAXS</string>
      </property>
      <property name="falseColor">
       <color>
@@ -2740,7 +2740,7 @@
       <string>A&lt;=0</string>
      </property>
      <property name="channel" stdset="0">
-      <string>9idcUSX:pd01:seq02:reqrange</string>
+      <string>12idcUSX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -2788,7 +2788,7 @@
       <string>A&lt;=2</string>
      </property>
      <property name="channel" stdset="0">
-      <string>9idcUSX:pd01:seq02:reqrange</string>
+      <string>12idcUSX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -2836,7 +2836,7 @@
       <string>A&lt;=3</string>
      </property>
      <property name="channel" stdset="0">
-      <string>9idcUSX:pd01:seq02:reqrange</string>
+      <string>12idcUSX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -2884,7 +2884,7 @@
       <string>A&lt;=5</string>
      </property>
      <property name="channel" stdset="0">
-      <string>9idcUSX:pd01:seq02:reqrange</string>
+      <string>12idcUSX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -2932,7 +2932,7 @@
       <string>A&lt;=1</string>
      </property>
      <property name="channel" stdset="0">
-      <string>9idcUSX:pd01:seq02:reqrange</string>
+      <string>12idcUSX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -3029,7 +3029,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_vgslit_ap</string>
+       <string notr="true">usxLAX:USAXS_vgslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3055,7 +3055,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS_hslit_ap</string>
+       <string notr="true">usxLAX:SAXS_hslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3081,7 +3081,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS_vgslit_ap</string>
+       <string notr="true">usxLAX:SAXS_vgslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3128,7 +3128,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS_hgslit_ap</string>
+       <string notr="true">usxLAX:SAXS_hgslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3196,7 +3196,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:SAXS_vslit_ap</string>
+       <string notr="true">usxLAX:SAXS_vslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3222,7 +3222,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_hgslit_ap</string>
+       <string notr="true">usxLAX:USAXS_hgslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3290,7 +3290,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_hslit_ap</string>
+       <string notr="true">usxLAX:USAXS_hslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3337,7 +3337,7 @@
        <string>#####</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:USAXS_vslit_ap</string>
+       <string notr="true">usxLAX:USAXS_vslit_ap</string>
       </property>
       <property name="background">
        <color>
@@ -3429,7 +3429,7 @@
        <string>motor2xU.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX:m58:c2:,M1=m6,M2=m5</string>
+       <string>P=usxLAX:m58:c2:,M1=m6,M2=m5</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Row</enum>
@@ -3479,7 +3479,7 @@
        </font>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:m58:c2:m8.VAL</string>
+       <string notr="true">usxLAX:m58:c2:m8.VAL</string>
       </property>
       <property name="background">
        <color>
@@ -3515,7 +3515,7 @@
        </font>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:GSlit1H:size</string>
+       <string notr="true">usxLAX:GSlit1H:size</string>
       </property>
       <property name="background">
        <color>
@@ -3551,7 +3551,7 @@
        </font>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:GSlit1V:size</string>
+       <string notr="true">usxLAX:GSlit1V:size</string>
       </property>
       <property name="background">
        <color>
@@ -3608,7 +3608,7 @@
        </font>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">9idcLAX:m58:c2:m7.VAL</string>
+       <string notr="true">usxLAX:m58:c2:m7.VAL</string>
       </property>
       <property name="background">
        <color>
@@ -3654,7 +3654,7 @@
        <string>motor2xU.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX:m58:c2:,M1=m8,M2=m7</string>
+       <string>P=usxLAX:m58:c2:,M1=m8,M2=m7</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Row</enum>
@@ -3693,7 +3693,7 @@
        <string>4slitGraphic.ui ;motor4xU.ui;motor2xU.ui</string>
       </property>
       <property name="args">
-       <string>P=9idcLAX:,H=GSlit1H:,V=GSlit1V:,SLIT=Guard Slits;P=9idcLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6;P=9idcLAX:,M1=m58:c1:m5,M2=m58:c0:m6</string>
+       <string>P=usxLAX:,H=GSlit1H:,V=GSlit1V:,SLIT=Guard Slits;P=usxLAX:,M1=mxv:c0:m3,M2=mxv:c0:m4,M3=mxv:c0:m5,M4=mxv:c0:m6;P=usxLAX:,M1=m58:c1:m5,M2=m58:c0:m6</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -3759,7 +3759,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:EPOCHTimeOfLastTune</string>
+          <string notr="true">usxLAX:EPOCHTimeOfLastTune</string>
          </property>
          <property name="foreground">
           <color>
@@ -3795,7 +3795,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:NumScansFromLastTune</string>
+          <string notr="true">usxLAX:NumScansFromLastTune</string>
          </property>
          <property name="background">
           <color>
@@ -3836,7 +3836,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:ReqTimeBetweenTune</string>
+          <string notr="true">usxLAX:ReqTimeBetweenTune</string>
          </property>
          <property name="foreground">
           <color>
@@ -3872,7 +3872,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:SAXS:AcquireTime</string>
+          <string notr="true">usxLAX:SAXS:AcquireTime</string>
          </property>
          <property name="background">
           <color>
@@ -3901,7 +3901,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:ReqNumScansBetweenTune</string>
+          <string notr="true">usxLAX:ReqNumScansBetweenTune</string>
          </property>
          <property name="background">
           <color>
@@ -3948,7 +3948,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:WAXS:AcquireTime</string>
+          <string notr="true">usxLAX:WAXS:AcquireTime</string>
          </property>
          <property name="background">
           <color>
@@ -4002,7 +4002,7 @@
           </font>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:USAXS:FS_ScanTime</string>
+          <string notr="true">usxLAX:USAXS:FS_ScanTime</string>
          </property>
          <property name="background">
           <color>
@@ -4123,7 +4123,7 @@
           <string>Use Specific location?</string>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:UseSpecificTuneLocation</string>
+          <string notr="true">usxLAX:UseSpecificTuneLocation</string>
          </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_105">
@@ -4136,7 +4136,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:preUSAXStuneSY</string>
+          <string notr="true">usxLAX:preUSAXStuneSY</string>
          </property>
          <property name="foreground">
           <color>
@@ -4178,7 +4178,7 @@
           </sizepolicy>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">9idcLAX:preUSAXStuneSX</string>
+          <string notr="true">usxLAX:preUSAXStuneSX</string>
          </property>
          <property name="background">
           <color>
@@ -4282,7 +4282,7 @@
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:MinStep</string>
+        <string notr="true">usxLAX:USAXS:MinStep</string>
        </property>
        <property name="background">
         <color>
@@ -4381,7 +4381,7 @@
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:Finish</string>
+        <string notr="true">usxLAX:USAXS:Finish</string>
        </property>
        <property name="background">
         <color>
@@ -4417,7 +4417,7 @@
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:StartOffset</string>
+        <string notr="true">usxLAX:USAXS:StartOffset</string>
        </property>
        <property name="background">
         <color>
@@ -4454,7 +4454,7 @@
         <string>is 2D USAXS?</string>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:is2DUSAXSscan</string>
+        <string notr="true">usxLAX:USAXS:is2DUSAXSscan</string>
        </property>
       </widget>
       <widget class="caToggleButton" name="catogglebutton_2">
@@ -4481,7 +4481,7 @@
         <string>Use Fly Scan?</string>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:UseFlyscan</string>
+        <string notr="true">usxLAX:USAXS:UseFlyscan</string>
        </property>
       </widget>
       <widget class="caToggleButton" name="catogglebutton_3">
@@ -4508,7 +4508,7 @@
         <string>Measure pin transmission?</string>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:TR_MeasurePinTrans</string>
+        <string notr="true">usxLAX:USAXS:TR_MeasurePinTrans</string>
        </property>
       </widget>
       <widget class="caToggleButton" name="catogglebutton_8">
@@ -4535,7 +4535,7 @@
         <string>Run preUSAXStune next?</string>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneNext</string>
+        <string notr="true">usxLAX:USAXS:RunPreUSAXStuneNext</string>
        </property>
       </widget>
       <widget class="caToggleButton" name="catogglebutton_9">
@@ -4562,7 +4562,7 @@
         <string>Run preUSAXStune on CollectData?</string>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneOnQdo</string>
+        <string notr="true">usxLAX:USAXS:RunPreUSAXStuneOnQdo</string>
        </property>
       </widget>
       <widget class="caToggleButton" name="catogglebutton_16">
@@ -4589,7 +4589,7 @@
         <string>Save Optical Image with data?</string>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:saveFLY2Image</string>
+        <string notr="true">usxLAX:saveFLY2Image</string>
        </property>
       </widget>
      </widget>
@@ -4642,7 +4642,7 @@
         </sizepolicy>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:Sample_Y_Step.VAL</string>
+        <string notr="true">usxLAX:USAXS:Sample_Y_Step.VAL</string>
        </property>
        <property name="background">
         <color>
@@ -4678,7 +4678,7 @@
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:NumPoints</string>
+        <string notr="true">usxLAX:USAXS:NumPoints</string>
        </property>
        <property name="background">
         <color>
@@ -4756,7 +4756,7 @@
         </font>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">9idcLAX:USAXS:CountTime</string>
+        <string notr="true">usxLAX:USAXS:CountTime</string>
        </property>
        <property name="background">
         <color>
@@ -4819,7 +4819,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf4:filterAl</string>
+           <string notr="true">12idcUSX:pf4:filterAl</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -4851,7 +4851,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf4:filterTi</string>
+           <string notr="true">12idcUSX:pf4:filterTi</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -4883,7 +4883,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">9idcUSX:pf42:filterGlass</string>
+           <string notr="true">12idcUSX:pf42:filterGlass</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -4962,7 +4962,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9ida:DP41:s1:temp</string>
+      <string notr="true">12ida:DP41:s1:temp</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_58">
@@ -5020,7 +5020,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idCRYO:MainLevel:val</string>
+      <string notr="true">12idCRYO:MainLevel:val</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_55">
@@ -5078,7 +5078,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcUSX:pf4:trans</string>
+      <string notr="true">12idcUSX:pf4:trans</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_54">
@@ -5136,7 +5136,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcRIO:userAve2.VAL</string>
+      <string notr="true">usxRIO:userAve2.VAL</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_56">
@@ -5194,7 +5194,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcUSX:fem02:seq01:gain</string>
+      <string notr="true">12idcUSX:fem02:seq01:gain</string>
      </property>
      <property name="formatType">
       <enum>caLineEdit::exponential</enum>
@@ -5255,7 +5255,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcRIO:userAve1.VAL</string>
+      <string notr="true">usxRIO:userAve1.VAL</string>
      </property>
     </widget>
     <widget class="caLineEdit" name="calineedit_46">
@@ -5286,7 +5286,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcUSX:fem02:seq01:gain</string>
+      <string notr="true">12idcUSX:fem02:seq01:gain</string>
      </property>
      <property name="formatType">
       <enum>caLineEdit::exponential</enum>
@@ -5347,7 +5347,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9ida:BraggEAO.VAL</string>
+      <string notr="true">12ida:BraggEAO.VAL</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_57">
@@ -5405,7 +5405,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">9idcLAX:vsc:c2_cts1.B</string>
+      <string notr="true">usxLAX:vsc:c2_cts1.B</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_51">
@@ -5469,7 +5469,7 @@
      <string>motor2xU.ui;motorxU.ui;motor2xU.ui</string>
     </property>
     <property name="args">
-     <string>P=9idcLAX:, M1=m58:c2:m1, M2=m58:c2:m2;P=9idcLAX:, M=m58:c2:m3;P=9idcLAX:, M1=m58:c1:m7,M2=mxv:c0:m7</string>
+     <string>P=usxLAX:, M1=m58:c2:m1, M2=m58:c2:m2;P=usxLAX:, M=m58:c2:m3;P=usxLAX:, M1=m58:c1:m7,M2=mxv:c0:m7</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -5517,7 +5517,7 @@
      <enum>caLabel::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:dataColInProgress</string>
+     <string notr="true">usxLAX:dataColInProgress</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_157">
@@ -5586,7 +5586,7 @@
      <string>Pause before next scan?</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS:PauseBeforeNextScan</string>
+     <string notr="true">usxLAX:USAXS:PauseBeforeNextScan</string>
     </property>
    </widget>
    <widget class="caToggleButton" name="catogglebutton_10">
@@ -5613,7 +5613,7 @@
      <string>Stop after this scan?</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS:StopBeforeNextScan</string>
+     <string notr="true">usxLAX:USAXS:StopBeforeNextScan</string>
     </property>
    </widget>
    <widget class="caToggleButton" name="catogglebutton_11">
@@ -5640,7 +5640,7 @@
      <string>Run preUSAXStune next?</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:USAXS:RunPreUSAXStuneNext</string>
+     <string notr="true">usxLAX:USAXS:RunPreUSAXStuneNext</string>
     </property>
    </widget>
    <widget class="caToggleButton" name="catogglebutton_14">
@@ -5667,7 +5667,7 @@
      <string>Execute command below</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:AutoCollectionStart</string>
+     <string notr="true">usxLAX:AutoCollectionStart</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_61">
@@ -5708,7 +5708,7 @@
      <string>#####</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:AutoCollectionStrInput</string>
+     <string notr="true">usxLAX:AutoCollectionStrInput</string>
     </property>
     <property name="background">
      <color>
@@ -5841,7 +5841,7 @@
      </rect>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">9idcLAX:AutoCollectionPermit</string>
+     <string notr="true">usxLAX:AutoCollectionPermit</string>
     </property>
     <property name="trueColor">
      <color>

@@ -33,7 +33,7 @@
     <string notr="true">color: rgb(0, 0, 0)</string>
    </property>
    <property name="text">
-    <string>PV:9idcUSX:ath01:ana01:ai05</string>
+    <string>PV:12idcUSX:ath01:ana01:ai05</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
@@ -110,7 +110,7 @@
     </rect>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcUSX:ath01:ana01:ai05.HIGH</string>
+    <string notr="true">12idcUSX:ath01:ana01:ai05.HIGH</string>
    </property>
    <property name="background">
     <color>
@@ -133,7 +133,7 @@
     </rect>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcUSX:ath01:ana01:ai05.HSV</string>
+    <string notr="true">12idcUSX:ath01:ana01:ai05.HSV</string>
    </property>
    <property name="background">
     <color>
@@ -156,7 +156,7 @@
     </rect>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcUSX:ath01:ana01:ai05.LOW</string>
+    <string notr="true">12idcUSX:ath01:ana01:ai05.LOW</string>
    </property>
    <property name="background">
     <color>
@@ -179,7 +179,7 @@
     </rect>
    </property>
    <property name="channel" stdset="0">
-    <string notr="true">9idcUSX:ath01:ana01:ai05.LSV</string>
+    <string notr="true">12idcUSX:ath01:ana01:ai05.LSV</string>
    </property>
    <property name="background">
     <color>

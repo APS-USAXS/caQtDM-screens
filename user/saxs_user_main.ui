@@ -1066,7 +1066,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf4:trans</string>
+           <string notr="true">usxRIO:pf4:trans</string>
           </property>
          </widget>
         </item>
@@ -1100,7 +1100,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf4:trans</string>
+           <string notr="true">usxRIO:pf4:trans</string>
           </property>
          </widget>
         </item>
@@ -1198,7 +1198,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:fem02:seq01:gain</string>
+           <string notr="true">usxRIO:fem02:seq01:gain</string>
           </property>
          </widget>
         </item>
@@ -1319,7 +1319,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf4:trans</string>
+           <string notr="true">usxRIO:pf4:trans</string>
           </property>
          </widget>
         </item>
@@ -1338,7 +1338,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf4:trans</string>
+           <string notr="true">usxRIO:pf4:trans</string>
           </property>
          </widget>
         </item>
@@ -1385,7 +1385,7 @@
               <set>Qt::AlignCenter</set>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">12idcUSX:pf4:filterAl</string>
+              <string notr="true">usxRIO:pf4:filterAl</string>
              </property>
              <property name="unitsEnabled">
               <bool>true</bool>
@@ -1417,7 +1417,7 @@
               <set>Qt::AlignCenter</set>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">12idcUSX:pf4:filterTi</string>
+              <string notr="true">usxRIO:pf4:filterTi</string>
              </property>
              <property name="unitsEnabled">
               <bool>true</bool>
@@ -1449,7 +1449,7 @@
               <set>Qt::AlignCenter</set>
              </property>
              <property name="channel" stdset="0">
-              <string notr="true">12idcUSX:pf42:filterGlass</string>
+              <string notr="true">usxRIO:pf42:filterGlass</string>
              </property>
              <property name="unitsEnabled">
               <bool>true</bool>

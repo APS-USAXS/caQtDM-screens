@@ -5506,7 +5506,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">12idcUSX:femto:model</string>
+       <string notr="true">usxRIO:femto:model</string>
       </property>
       <property name="background">
        <color>

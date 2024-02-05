@@ -783,7 +783,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idcUSX:pd01:seq02:lurange</string>
+     <string notr="true">usxLAX:pd01:seq02:lurange</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_4">

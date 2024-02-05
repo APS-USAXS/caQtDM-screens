@@ -1013,7 +1013,7 @@
                <set>Qt::AlignCenter</set>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">12idcUSX:pd01:seq02:gain</string>
+               <string notr="true">usxLAX:pd01:seq02:gain</string>
               </property>
              </widget>
             </item>
@@ -1031,7 +1031,7 @@
                <set>Qt::AlignCenter</set>
               </property>
               <property name="channel" stdset="0">
-               <string notr="true">12idcUSX:pd01:seq02:reqrange</string>
+               <string notr="true">usxLAX:pd01:seq02:reqrange</string>
               </property>
              </widget>
             </item>
@@ -1061,7 +1061,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">12idcUSX:pd01:seq02:mode</string>
+             <string notr="true">usxLAX:pd01:seq02:mode</string>
             </property>
            </widget>
           </item>
@@ -1089,7 +1089,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">12idcUSX:pd01:seq02:lurate</string>
+             <string notr="true">usxLAX:pd01:seq02:lurate</string>
             </property>
            </widget>
           </item>
@@ -1117,7 +1117,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">12idcUSX:pd01:seq02:lucurrent</string>
+             <string notr="true">usxLAX:pd01:seq02:lucurrent</string>
             </property>
            </widget>
           </item>

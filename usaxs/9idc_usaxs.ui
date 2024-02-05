@@ -253,7 +253,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>femtopdFine.ui;femtopdFine.ui</string>
     </property>
     <property name="args">
-     <string>P=12idcUSX:,H=pd01:,F=seq02:,PS=usxLAX:,SS=vsc:c0,SC=4;P=12idcUSX:, H=pd01:, F=seq01:, PS=usxLAX:, SS=vsc:c0, SC=4</string>
+     <string>P=usxLAX:,H=pd01:,F=seq02:,PS=usxLAX:,SS=vsc:c0,SC=4;P=usxLAX:, H=pd01:, F=seq01:, PS=usxLAX:, SS=vsc:c0, SC=4</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -436,7 +436,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>motor3xU.ui;motorxU.ui;motor3xU.ui</string>
     </property>
     <property name="args">
-     <string>P=usxAERO:, M1=m12, M2=m10, M3=m11;P=usxLAX:, M=pi:c0:m2;P=12idcUSX:, M1=pic:m8, M2=pic:m9, M3=pic:m10</string>
+     <string>P=usxAERO:, M1=m12, M2=m10, M3=m11;P=usxLAX:, M=pi:c0:m2;P=usxLAX:, M1=pic:m4, M2=pic:m5, M3=pic:m6</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -1117,7 +1117,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>motor3xU.ui;motorxU.ui;motor3x.ui</string>
     </property>
     <property name="args">
-     <string>P=usxAERO:, M1=m6, M2=m4, M3=m5;P=usxLAX:, M=pi:c0:m1;P=12idcUSX:, M1=pic:m5, M2=pic:m6, M3=pic:m7</string>
+     <string>P=usxAERO:, M1=m6, M2=m4, M3=m5;P=usxLAX:, M=pi:c0:m1;P=usxLAX:, M1=pic:m1, M2=pic:m2, M3=pic:m3</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -1435,7 +1435,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>femto.ui;dark16.ui;motor2xU.ui;4slitGraphic.ui;motor4xU.ui</string>
     </property>
     <property name="args">
-     <string>P=12idcUSX:,H=fem02:,F=seq01:,AC=usxRIO:Galil0Bo8_CMD;P=usxLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=usxLAX:, M1=m58:c0:m7, M2=m58:c0:m6;P=usxLAX:, H=GSlit1H:, V=GSlit1V:, SLIT=Guard Slits;P=usxLAX:, M1=m58:c1:m1,  M2=m58:c1:m2,  M3=m58:c1:m3,  M4=m58:c1:m4</string>
+     <string>P=usxRIO:,H=fem02:,F=seq01:,AC=usxRIO:Galil0Bo8_CMD;P=usxLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=usxLAX:, M1=m58:c0:m7, M2=m58:c0:m6;P=usxLAX:, H=GSlit1H:, V=GSlit1V:, SLIT=Guard Slits;P=usxLAX:, M1=m58:c1:m1,  M2=m58:c1:m2,  M3=m58:c1:m3,  M4=m58:c1:m4</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -1571,7 +1571,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idcUSX:pf4:displayBit1B</string>
+     <string notr="true">usxRIO:pf4:displayBit1B</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_3">
@@ -1616,7 +1616,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idcUSX:pf4:displayBit2B</string>
+     <string notr="true">usxRIO:pf4:displayBit2B</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_4">
@@ -1661,7 +1661,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idcUSX:pf4:displayBit3B</string>
+     <string notr="true">usxRIO:pf4:displayBit3B</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_5">
@@ -1706,7 +1706,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idcUSX:pf4:displayBit4B</string>
+     <string notr="true">usxRIO:pf4:displayBit4B</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_6">
@@ -1751,7 +1751,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idcUSX:pf4:displayBit1A</string>
+     <string notr="true">usxRIO:pf4:displayBit1A</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_7">
@@ -1796,7 +1796,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idcUSX:pf4:displayBit2A</string>
+     <string notr="true">usxRIO:pf4:displayBit2A</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_8">
@@ -1841,7 +1841,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idcUSX:pf4:displayBit4A</string>
+     <string notr="true">usxRIO:pf4:displayBit4A</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_9">
@@ -1886,7 +1886,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idcUSX:pf4:displayBit3A</string>
+     <string notr="true">usxRIO:pf4:displayBit3A</string>
     </property>
    </widget>
    <widget class="caRelatedDisplay" name="caRelatedDisplay_24">
@@ -2165,7 +2165,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>A&lt;=5</string>
     </property>
     <property name="channel" stdset="0">
-     <string>12idcUSX:pd01:seq02:reqrange</string>
+     <string>usxLAX:pd01:seq02:reqrange</string>
     </property>
     <property name="form">
      <enum>caGraphics::Rectangle</enum>
@@ -2207,7 +2207,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>A&lt;=3</string>
     </property>
     <property name="channel" stdset="0">
-     <string>12idcUSX:pd01:seq02:reqrange</string>
+     <string>usxLAX:pd01:seq02:reqrange</string>
     </property>
     <property name="form">
      <enum>caGraphics::Rectangle</enum>
@@ -2249,7 +2249,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>A&lt;=2</string>
     </property>
     <property name="channel" stdset="0">
-     <string>12idcUSX:pd01:seq02:reqrange</string>
+     <string>usxLAX:pd01:seq02:reqrange</string>
     </property>
     <property name="form">
      <enum>caGraphics::Rectangle</enum>
@@ -2291,7 +2291,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>A&lt;=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string>12idcUSX:pd01:seq02:reqrange</string>
+     <string>usxLAX:pd01:seq02:reqrange</string>
     </property>
     <property name="form">
      <enum>caGraphics::Rectangle</enum>
@@ -2333,7 +2333,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>A&lt;=0</string>
     </property>
     <property name="channel" stdset="0">
-     <string>12idcUSX:pd01:seq02:reqrange</string>
+     <string>usxLAX:pd01:seq02:reqrange</string>
     </property>
     <property name="form">
      <enum>caGraphics::Rectangle</enum>
@@ -3572,7 +3572,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <string notr="true">A&lt;=0 &amp;&amp; B&gt;900000</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">12idcUSX:pd01:seq02:reqrange</string>
+      <string notr="true">usxLAX:pd01:seq02:reqrange</string>
      </property>
      <property name="channelB">
       <string notr="true">usxLAX:vsc:c0_cts1.D</string>
@@ -3850,7 +3850,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf4:filterAl</string>
+           <string notr="true">usxRIO:pf4:filterAl</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -3882,7 +3882,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf4:filterTi</string>
+           <string notr="true">usxRIO:pf4:filterTi</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -3914,7 +3914,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf42:filterGlass</string>
+           <string notr="true">usxRIO:pf42:filterGlass</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -3936,7 +3936,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf4:trans</string>
+           <string notr="true">usxRIO:pf4:trans</string>
           </property>
           <property name="precision">
            <number>4</number>

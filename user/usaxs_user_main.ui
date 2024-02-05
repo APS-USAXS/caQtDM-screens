@@ -485,7 +485,7 @@
        <string>pf4more.ui;pf4more.ui</string>
       </property>
       <property name="args">
-       <string>P=12idcUSX:,H=pf4:,A=A,B=B,MONO=12ida:BraggEAO;P=12idcUSX:,H=pf42:,A=A,B=B,MONO=12ida:BraggEAO</string>
+       <string>P=usxRIO:,H=pf4:,A=A,B=B,MONO=12ida:BraggEAO;P=usxRIO:,H=pf42:,A=A,B=B,MONO=12ida:BraggEAO</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -1850,7 +1850,7 @@
       <string notr="true">A&lt;=0 &amp;&amp; B&gt;900000</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">12idcUSX:pd01:seq02:reqrange</string>
+      <string notr="true">usxLAX:pd01:seq02:reqrange</string>
      </property>
      <property name="channelB">
       <string notr="true">usxLAX:vsc:c0_cts1.D</string>
@@ -2466,7 +2466,7 @@
       <string>A&lt;=0</string>
      </property>
      <property name="channel" stdset="0">
-      <string>12idcUSX:pd01:seq02:reqrange</string>
+      <string>usxLAX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -2514,7 +2514,7 @@
       <string>A&lt;=2</string>
      </property>
      <property name="channel" stdset="0">
-      <string>12idcUSX:pd01:seq02:reqrange</string>
+      <string>usxLAX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -2562,7 +2562,7 @@
       <string>A&lt;=3</string>
      </property>
      <property name="channel" stdset="0">
-      <string>12idcUSX:pd01:seq02:reqrange</string>
+      <string>usxLAX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -2610,7 +2610,7 @@
       <string>A&lt;=5</string>
      </property>
      <property name="channel" stdset="0">
-      <string>12idcUSX:pd01:seq02:reqrange</string>
+      <string>usxLAX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -2658,7 +2658,7 @@
       <string>A&lt;=1</string>
      </property>
      <property name="channel" stdset="0">
-      <string>12idcUSX:pd01:seq02:reqrange</string>
+      <string>usxLAX:pd01:seq02:reqrange</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -4690,7 +4690,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf4:filterAl</string>
+           <string notr="true">usxRIO:pf4:filterAl</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -4722,7 +4722,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf4:filterTi</string>
+           <string notr="true">usxRIO:pf4:filterTi</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -4754,7 +4754,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">12idcUSX:pf42:filterGlass</string>
+           <string notr="true">usxRIO:pf42:filterGlass</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -4833,7 +4833,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">12idcUSX:pf4:trans</string>
+      <string notr="true">usxRIO:pf4:trans</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_54">
@@ -4949,7 +4949,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">12idcUSX:fem02:seq01:gain</string>
+      <string notr="true">usxRIO:fem02:seq01:gain</string>
      </property>
      <property name="formatType">
       <enum>caLineEdit::exponential</enum>
@@ -5041,7 +5041,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">12idcUSX:fem02:seq01:gain</string>
+      <string notr="true">usxRIO:fem02:seq01:gain</string>
      </property>
      <property name="formatType">
       <enum>caLineEdit::exponential</enum>

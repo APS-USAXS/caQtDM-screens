@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>642</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>615</width>
+         <height>455</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="title">
+        <string>USER Experiment Information</string>
+       </property>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>55</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;User Name &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>21</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Run Cycle &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>21</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;GUP Number &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_47">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>21</y>
+          <width>100</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">usxLAX:RunCycle</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_49">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>21</y>
+          <width>100</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">usxLAX:GUPNumber</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_48">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>55</y>
+          <width>400</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">usxLAX:UserName</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="caRelatedDisplay" name="carelateddisplay_4">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>380</y>
+          <width>191</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="foreground">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="labels">
+         <string>Users Main Display</string>
+        </property>
+        <property name="files">
+         <string>usaxs_user_main.ui</string>
+        </property>
+        <property name="args">
+         <string/>
+        </property>
+        <property name="fontScaleMode" stdset="0">
+         <enum>EPushButton::None</enum>
+        </property>
+       </widget>
+       <widget class="caRelatedDisplay" name="carelateddisplay_6">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>380</y>
+          <width>181</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="label">
+         <string notr="true">USAXS Staff Main</string>
+        </property>
+        <property name="foreground">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="labels">
+         <string>Staff Main Display</string>
+        </property>
+        <property name="files">
+         <string>12idc_usaxs.ui</string>
+        </property>
+        <property name="args">
+         <string/>
+        </property>
+        <property name="fontScaleMode" stdset="0">
+         <enum>EPushButton::None</enum>
+        </property>
+        <property name="removeParent" stdset="0">
+         <string>false</string>
+        </property>
+       </widget>
+       <widget class="caRelatedDisplay" name="carelateddisplay_7">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>380</y>
+          <width>161</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="label">
+         <string notr="true">9 ID Synoptic</string>
+        </property>
+        <property name="foreground">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="background">
+         <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="labels">
+         <string>9 ID Synoptic</string>
+        </property>
+        <property name="files">
+         <string>12ida.ui</string>
+        </property>
+        <property name="args">
+         <string/>
+        </property>
+        <property name="fontScaleMode" stdset="0">
+         <enum>EPushButton::None</enum>
+        </property>
+        <property name="removeParent" stdset="0">
+         <string>false</string>
+        </property>
+       </widget>
+       <widget class="caScriptButton" name="cascriptbutton">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>310</y>
+          <width>200</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="label">
+         <string notr="true">Reset Order Numbers</string>
+        </property>
+        <property name="scriptDisplay">
+         <enum>caScriptButton::Invisible</enum>
+        </property>
+        <property name="checkBoxVisible" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="scriptCommand">
+         <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/resetOrderNumbers.py</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>90</y>
+          <width>300</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <italic>true</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Beamline Schedule Info &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>188</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;User Name &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_50">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>185</y>
+          <width>490</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:contact</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="formatType">
+         <enum>caLineEdit::string</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>150</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Title&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_51">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>149</y>
+          <width>540</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:title</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="formatType">
+         <enum>caLineEdit::string</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>248</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Other names&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_52">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>245</y>
+          <width>490</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:team_others</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="formatType">
+         <enum>caLineEdit::string</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>278</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Insitution&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_53">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>275</y>
+          <width>490</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:institution</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="formatType">
+         <enum>caLineEdit::string</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_54">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>215</y>
+          <width>100</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:badge</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="formatType">
+         <enum>caLineEdit::string</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>218</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;badge&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>218</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;e-mail&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_55">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>215</y>
+          <width>300</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:email</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="formatType">
+         <enum>caLineEdit::string</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_56">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>90</y>
+          <width>80</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:activity</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="formatType">
+         <enum>caLineEdit::string</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_57">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>90</y>
+          <width>135</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:proposal_number</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>124</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Start:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_58">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>120</y>
+          <width>200</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:time_begin</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="formatType">
+         <enum>caLineEdit::string</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="caTextEntry" name="catextentry_59">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>120</y>
+          <width>200</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Lucida Sans Typewriter</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">12id_bss:time_end</string>
+        </property>
+        <property name="background">
+         <color>
+          <red>115</red>
+          <green>215</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Static</enum>
+        </property>
+        <property name="formatType">
+         <enum>caLineEdit::string</enum>
+        </property>
+        <property name="styleSheet" stdset="0">
+         <string notr="true">caTextEntry,caLineEdit {background-color: rgba(115, 215, 253, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(57, 107, 126, 255) rgba(241, 251, 255, 255)  rgba(241, 251, 255, 255) rgba(57, 107, 126, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>124</y>
+          <width>100</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;End:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="caScriptButton" name="cascriptbutton_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>331</y>
+          <width>140</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="label">
+         <string notr="true">Read BSI</string>
+        </property>
+        <property name="scriptDisplay">
+         <enum>caScriptButton::Invisible</enum>
+        </property>
+        <property name="checkBoxVisible" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="scriptCommand">
+         <string notr="true">bss_update.sh</string>
+        </property>
+       </widget>
+       <widget class="caScriptButton" name="cascriptbutton_3">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>331</y>
+          <width>140</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="label">
+         <string notr="true">clear BSI</string>
+        </property>
+        <property name="scriptDisplay">
+         <enum>caScriptButton::Invisible</enum>
+        </property>
+        <property name="checkBoxVisible" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="scriptCommand">
+         <string notr="true">bss_clear_all.sh</string>
+        </property>
+       </widget>
+       <widget class="caScriptButton" name="cascriptbutton_4">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>340</y>
+          <width>191</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="label">
+         <string notr="true">Submit e-log</string>
+        </property>
+        <property name="scriptDisplay">
+         <enum>caScriptButton::Invisible</enum>
+        </property>
+        <property name="checkBoxVisible" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="scriptCommand">
+         <string notr="true">/home/beams/USAXS/bin/snapshot.sh</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caTextEntry</class>
+   <extends>caLineEdit</extends>
+   <header>caTextEntry</header>
+  </customwidget>
+  <customwidget>
+   <class>caLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>caLineEdit</header>
+  </customwidget>
+  <customwidget>
+   <class>caScriptButton</class>
+   <extends>QWidget</extends>
+   <header>caScriptButton</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

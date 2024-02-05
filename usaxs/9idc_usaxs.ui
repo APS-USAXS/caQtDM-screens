@@ -472,13 +472,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>usxLAX (USAXS VME);09IDA;09IDB;09IDC</string>
+     <string>usxLAX (USAXS VME);12IDA;12IDB;12IDC</string>
     </property>
     <property name="files">
      <string>IOC_Status.ui;IOC_Status.ui;IOC_Status.ui;IOC_Status.ui</string>
     </property>
     <property name="args">
-     <string>P=usxLAX;P=09IDA;P=09IDB;P=09IDC</string>
+     <string>P=usxLAX;P=12IDA;P=12IDB;P=12IDC</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -497,7 +497,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="label">
-     <string notr="true">-9ID iocs</string>
+     <string notr="true">-12ID iocs</string>
     </property>
     <property name="foreground">
      <color>
@@ -514,7 +514,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>09ID Beamline Components;12id_user;9ibdb_user;LAX;12id</string>
+     <string>12ID Beamline Components;12id_user;12ibdb_user;LAX;12id</string>
     </property>
     <property name="files">
      <string>12ida.ui;12id_user.ui;12idb_user.ui;usxLAX.ui;12idcSFO.ui</string>

@@ -242,7 +242,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <bool>false</bool>
         </property>
         <property name="scriptCommand">
-         <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/resetOrderNumbers.py</string>
+         <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/resetOrderNumbers.py</string>
         </property>
        </widget>
        <widget class="caScriptButton" name="cascriptbutton_4">

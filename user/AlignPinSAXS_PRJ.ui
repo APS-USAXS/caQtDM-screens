@@ -457,7 +457,7 @@
           <bool>false</bool>
          </property>
          <property name="scriptCommand">
-          <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForSAXS.sh</string>
+          <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForSAXS.sh</string>
          </property>
         </widget>
         <widget class="caScriptButton" name="cascriptbutton_3">
@@ -476,7 +476,7 @@
           <bool>false</bool>
          </property>
          <property name="scriptCommand">
-          <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForUSAXS.py</string>
+          <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForUSAXS.py</string>
          </property>
         </widget>
         <widget class="caTextEntry" name="caTextEntry_12">

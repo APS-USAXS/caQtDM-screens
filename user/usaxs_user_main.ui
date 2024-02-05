@@ -2733,7 +2733,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/openSlits.sh</string>
+       <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/openSlits.sh</string>
       </property>
      </widget>
      <widget class="caScriptButton" name="cascriptbutton_5">
@@ -2785,7 +2785,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/closeSWAXSSlits.sh
+       <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/closeSWAXSSlits.sh
 </string>
       </property>
      </widget>
@@ -2805,7 +2805,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/closeUSAXSSlits.sh</string>
+       <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/closeUSAXSSlits.sh</string>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_96">

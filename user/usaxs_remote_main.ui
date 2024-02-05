@@ -5740,7 +5740,7 @@
      <bool>false</bool>
     </property>
     <property name="scriptCommand">
-     <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/runuseModeRadiography.py</string>
+     <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/runuseModeRadiography.py</string>
     </property>
    </widget>
    <widget class="caScriptButton" name="cascriptbutton_5">
@@ -5762,7 +5762,7 @@
      <bool>false</bool>
     </property>
     <property name="scriptCommand">
-     <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/runpreUSAXStune.py</string>
+     <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/runpreUSAXStune.py</string>
     </property>
    </widget>
    <widget class="caScriptButton" name="cascriptbutton_6">
@@ -5784,7 +5784,7 @@
      <bool>false</bool>
     </property>
     <property name="scriptCommand">
-     <string notr="true">/net/s20dserv/xorApps/epics/screens/usaxs/scripts/runusaxsmac.py</string>
+     <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/runusaxsmac.py</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_100">

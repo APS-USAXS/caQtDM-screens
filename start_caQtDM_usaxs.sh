@@ -7,8 +7,8 @@ export EPICS_APP=/APSshare/epics/synApps_5_8/support/xxx-5-8-3
 
 export APS_UI_DIR=/APSshare/adlsys
 export EPICS_APP_UI_DIR=${EPICS_APP}/xxxApp/op/ui
-export BEAMLINE_UI_DIR=/net/s20dserv/xorApps/epics/screens/usaxs
-export DSERV_EPICS_DIR=/net/s20dserv/xorApps/epics
+export BEAMLINE_UI_DIR=/net/s12dserv/xorApps/epics/screens/usaxs
+export DSERV_EPICS_DIR=/net/s12dserv/xorApps/epics
 #export STYLESHEET=${BEAMLINE_UI_DIR}/pete.qss
 export STYLESHEET=${BEAMLINE_UI_DIR}/stylesheet.qss
 

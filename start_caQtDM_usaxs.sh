@@ -184,6 +184,12 @@ addScreenPath      APS_UI_DIR            time/injtimeApp
 addScreenPath      APS_UI_DIR            time/mtimeApp
 # 12ID screens
 addScreenPath      S12ID_UI_DIR          
+addScreenPath      S12ID_UI_DIR          iocs/12ida1
+addScreenPath      S12ID_UI_DIR          iocs/12ida2
+addScreenPath      S12ID_UI_DIR          iocs/12idb
+addScreenPath      S12ID_UI_DIR          iocs/12idc
+addScreenPath      S12ID_UI_DIR          iocs/12idd
+addScreenPath      S12ID_UI_DIR          iocs/12test
 # ============  ================  ===========================
 
 

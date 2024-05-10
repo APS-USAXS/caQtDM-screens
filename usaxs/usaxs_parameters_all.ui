@@ -471,7 +471,7 @@
      <string/>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <property name="movable">
      <bool>true</bool>
@@ -1630,7 +1630,7 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">usxLAX:traj1:NumPulsePositions</string>
+       <string notr="true">usxAERO:pm1:NumPulsePositions</string>
       </property>
       <property name="background">
        <color>
@@ -1662,7 +1662,7 @@
           <string>Fixed</string>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:traj1:PulseMode</string>
+          <string notr="true">usxAERO:pm1:PulseMode</string>
          </property>
          <property name="label">
           <string notr="true">Fixed</string>
@@ -1681,7 +1681,7 @@
           <bool>false</bool>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:traj1:PulseMode</string>
+          <string notr="true">usxAERO:pm1:PulseMode</string>
          </property>
          <property name="label">
           <string notr="true">Array</string>
@@ -1697,7 +1697,7 @@
           <string>TrajPoints</string>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:traj1:PulseMode</string>
+          <string notr="true">usxAERO:pm1:PulseMode</string>
          </property>
          <property name="label">
           <string notr="true">TrajPoints</string>
@@ -1713,7 +1713,7 @@
           <string>None</string>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:traj1:PulseMode</string>
+          <string notr="true">usxAERO:pm1:PulseMode</string>
          </property>
          <property name="label">
           <string notr="true">None</string>
@@ -1729,7 +1729,7 @@
           <string>Both</string>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:traj1:PulseDir</string>
+          <string notr="true">usxAERO:pm1:PulseDir</string>
          </property>
          <property name="label">
           <string notr="true">Both</string>
@@ -1752,7 +1752,7 @@
           <string>Pos</string>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:traj1:PulseDir</string>
+          <string notr="true">usxAERO:pm1:PulseDir</string>
          </property>
          <property name="label">
           <string notr="true">Pos</string>
@@ -1775,7 +1775,7 @@
           <string>Neg</string>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:traj1:PulseDir</string>
+          <string notr="true">usxAERO:pm1:PulseDir</string>
          </property>
          <property name="label">
           <string notr="true">Neg</string>
@@ -1804,7 +1804,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">usxLAX:traj1:PulseMode</string>
+       <string notr="true">usxAERO:pm1:PulseMode</string>
       </property>
       <property name="trueColor">
        <color>
@@ -1830,7 +1830,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">usxLAX:traj1:PulseMode</string>
+       <string notr="true">usxAERO:pm1:PulseMode</string>
       </property>
       <property name="trueColor">
        <color>
@@ -1856,7 +1856,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">usxLAX:traj1:PulseMode</string>
+       <string notr="true">usxAERO:pm1:PulseMode</string>
       </property>
       <property name="trueColor">
        <color>
@@ -1882,7 +1882,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">usxLAX:traj1:PulseDir</string>
+       <string notr="true">usxAERO:pm1:PulseDir</string>
       </property>
       <property name="trueColor">
        <color>
@@ -1908,7 +1908,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">usxLAX:traj1:PulseMode</string>
+       <string notr="true">usxAERO:pm1:PulseMode</string>
       </property>
       <property name="trueColor">
        <color>
@@ -1934,7 +1934,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">usxLAX:traj1:PulseDir</string>
+       <string notr="true">usxAERO:pm1:PulseDir</string>
       </property>
       <property name="trueColor">
        <color>
@@ -1960,7 +1960,7 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">usxLAX:traj1:PulseDir</string>
+       <string notr="true">usxAERO:pm1:PulseDir</string>
       </property>
       <property name="trueColor">
        <color>

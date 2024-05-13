@@ -138,6 +138,8 @@ addScreenPath      MODBUS                modbusApp/op/ui
 addScreenPath      MODBUS                modbusApp/op/ui/autoconvert
 addScreenPath      MOTOR                 motorApp/op/ui
 addScreenPath      MOTOR                 motorApp/op/ui/autoconvert
+addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/support/motorAutomation1/automation1App/op/ui
+addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/support/motorAutomation1/automation1App/op/ui/autoconvert
 addScreenPath      OPTICS                opticsApp/op/ui
 addScreenPath      OPTICS                opticsApp/op/ui/autoconvert
 addScreenPath      QUADEM                quadEMApp/op/ui

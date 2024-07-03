@@ -154,6 +154,9 @@ addScreenPath      VAC                   vacApp/op/ui
 addScreenPath      VAC                   vacApp/op/ui/autoconvert
 addScreenPath      VME                   vmeApp/op/ui
 addScreenPath      VME                   vmeApp/op/ui/autoconvert
+### New accelerator screens
+addScreenPath      DSERV_EPICS_DIR       screens/adlsys/screens/adl/iocs/idctl/adl_New
+### Old accelerator screens
 addScreenPath      APS_UI_DIR            sr
 #addScreenPath   APS_UI_DIR        sr/absApp
 addScreenPath      APS_UI_DIR            sr/bleeps

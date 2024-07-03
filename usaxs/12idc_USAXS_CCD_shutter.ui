@@ -279,86 +279,58 @@
     <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
   </widget>
-  <widget class="caLabel" name="caLabel_4">
+  <widget class="QLabel" name="label_59">
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>-10</y>
-     <width>421</width>
-     <height>41</height>
+     <y>0</y>
+     <width>151</width>
+     <height>32</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <pointsize>8</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <kerning>false</kerning>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0)</string>
+   </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;last edited: 2017-07-21&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>last edited 2024-05-22</string>
    </property>
-   <property name="alignment">
-    <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-   </property>
-   <property name="fontScaleMode">
-    <enum>ESimpleLabel::WidthAndHeight</enum>
-   </property>
-   <property name="foreground">
-    <color>
-     <red>0</red>
-     <green>0</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="background">
-    <color alpha="0">
-     <red>0</red>
-     <green>0</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
    </property>
   </widget>
-  <widget class="caLabel" name="caLabel_3">
+  <widget class="QLabel" name="label_60">
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>15</y>
-     <width>200</width>
-     <height>21</height>
+     <y>20</y>
+     <width>221</width>
+     <height>32</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>11</pointsize>
+     <pointsize>8</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <kerning>false</kerning>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0)</string>
+   </property>
    <property name="text">
-    <string>12idc_USAXS_CCD_shutter.ui</string>
+    <string>12idc_USAXS_CCD_shutter</string>
    </property>
-   <property name="alignment">
-    <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-   </property>
-   <property name="fontScaleMode">
-    <enum>ESimpleLabel::WidthAndHeight</enum>
-   </property>
-   <property name="foreground">
-    <color>
-     <red>0</red>
-     <green>0</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="background">
-    <color alpha="0">
-     <red>0</red>
-     <green>0</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
    </property>
   </widget>
  </widget>
@@ -373,11 +345,6 @@
    <extends>QFrame</extends>
    <header>caFrame</header>
    <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>caLabel</class>
-   <extends>QLabel</extends>
-   <header>caLabel</header>
   </customwidget>
   <customwidget>
    <class>caPolyLine</class>

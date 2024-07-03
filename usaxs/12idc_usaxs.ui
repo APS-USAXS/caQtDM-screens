@@ -472,13 +472,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>usxLAX (USAXS VME);12IDA;12IDB;12IDC</string>
+     <string>usxLAX (USAXS VME);usxLAX (USAXS VME);12IDA2;12IDB;12IDC</string>
     </property>
     <property name="files">
-     <string>IOC_Status.ui;IOC_Status.ui;IOC_Status.ui;IOC_Status.ui</string>
+     <string>IOC_Status.ui;ioc_stats_vxworks.ui;ioc_stats_vxworks.ui;IOC_Status.ui;IOC_Status.ui</string>
     </property>
     <property name="args">
-     <string>P=usxLAX;P=12IDA;P=12IDB;P=12IDC</string>
+     <string>P=usxLAX;ioc=usxLAX;ioc=12ida2;P=12IDB;P=12IDC</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -497,7 +497,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="label">
-     <string notr="true">-12ID iocs</string>
+     <string notr="true">-12ID beamline</string>
     </property>
     <property name="foreground">
      <color>
@@ -514,10 +514,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>12ID Beamline Components;12id_user;12ibdb_user;LAX;12id</string>
+     <string>12ID Beamline Components;12ida2 layout;12ibdb_user;LAX;12id</string>
     </property>
     <property name="files">
-     <string>12ida.ui;12id_user.ui;12idb_user.ui;usxLAX.ui;12idcSFO.ui</string>
+     <string>12idc_all.ui;12ida2_layout.ui;12idb_user.ui;usxLAX.ui;12idcSFO.ui</string>
     </property>
     <property name="args">
      <string>;;;;</string>
@@ -2704,10 +2704,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">Full range</string>
     </property>
     <property name="files">
-     <string notr="true">UndulatorCtl.ui</string>
+     <string notr="true">IDControl_Planar.ui</string>
     </property>
     <property name="args">
-     <string notr="true">xx=20ds</string>
+     <string notr="true">P=S12ID:USID</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -2743,13 +2743,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Mono energy control;Mono Bragg motor;Feedback;Mono motors;2nd Xtal piezo;pvHistory;pvHistory2</string>
+     <string notr="true">Mono main control;Mono Bragg motor;Feedback;Mono motors;2nd Xtal piezo;pvHistory;pvHistory2</string>
     </property>
     <property name="files">
-     <string notr="true">motorxU.ui;motorxU.ui;fb_epid.ui;motor4xU.ui;singleDAC.ui;pvHistory.ui;pvHistory.ui</string>
+     <string notr="true">BESSRC_Mono.ui;motorxU.ui;fb_epid.ui;motor4xU.ui;singleDAC.ui;pvHistory.ui;pvHistory.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=12id:,M=monoE;P=12id:,M=m41;P=usxLAX:fbe:omega;P=12id:,M1=m14,M2=m15, M3=m16,M4=m22;P=12ida:,D=1,C=1;P=usxLAX:,N=1;P=usxLAX:,N=2</string>
+     <string notr="true">P=12ida2:,MTH=m19,MSLD=m22;P=12id:,M=m41;P=usxLAX:fbe:omega;P=12id:,M1=m14,M2=m15, M3=m16,M4=m22;P=12ida:,D=1,C=1;P=usxLAX:,N=1;P=usxLAX:,N=2</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -4017,7 +4017,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <item>
       <widget class="caLabel" name="caLabel_4">
        <property name="text">
-        <string>last edited: 2022-10-08, JIL</string>
+        <string>last edited: 2024-06-27, JIL</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4048,7 +4048,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       <widget class="caLabel" name="caLabel_3">
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>10</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4227,10 +4227,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
-      <x>775</x>
+      <x>780</x>
       <y>60</y>
-      <width>5075</width>
-      <height>15</height>
+      <width>100</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
@@ -6014,7 +6014,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">usxLAX:userCalc2.VAL</string>
+     <string notr="true">12ida2:EnCalc</string>
     </property>
     <property name="precision">
      <number>2</number>
@@ -6041,6 +6041,94 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>630</y>
+      <width>181</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>Hutch</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="1">
+      <widget class="caLineEdit" name="calineedit_42">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>#####</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">usxLAX:12IDE_temperature</string>
+       </property>
+       <property name="precision">
+        <number>1</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::Channel</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_25">
+       <property name="text">
+        <string>Temperature [C]</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_26">
+       <property name="text">
+        <string>Humidity [%]</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="caLineEdit" name="calineedit_43">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>#####</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">usxLAX:12IDE_humidity</string>
+       </property>
+       <property name="precision">
+        <number>1</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::Channel</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
    <zorder>cagraphics_11</zorder>
    <zorder>caPolygon_29</zorder>
@@ -6179,6 +6267,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>label_22</zorder>
    <zorder>calineedit_41</zorder>
    <zorder>label_21</zorder>
+   <zorder>groupBox_5</zorder>
   </widget>
  </widget>
  <customwidgets>

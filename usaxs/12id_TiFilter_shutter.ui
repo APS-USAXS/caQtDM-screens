@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>265</width>
-    <height>165</height>
+    <width>270</width>
+    <height>169</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -276,7 +276,7 @@
   <widget class="caLabel" name="caLabel_4">
    <property name="geometry">
     <rect>
-     <x>0</x>
+     <x>10</x>
      <y>-10</y>
      <width>421</width>
      <height>41</height>
@@ -287,11 +287,8 @@
      <pointsize>8</pointsize>
     </font>
    </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
-   </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;last edited: 2017-07-21&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;last edited: 2024-05-22&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -313,26 +310,29 @@
      <blue>0</blue>
     </color>
    </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
   </widget>
   <widget class="caLabel" name="caLabel_3">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>15</y>
+     <x>30</x>
+     <y>20</y>
      <width>200</width>
      <height>21</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>8</pointsize>
+     <pointsize>12</pointsize>
     </font>
    </property>
-   <property name="frameShape">
-    <enum>QFrame::NoFrame</enum>
-   </property>
    <property name="text">
-    <string>12id_TiFilter_shutter.opi</string>
+    <string>12id_TiFilter_shutter</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
    </property>
    <property name="alignment">
     <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -353,6 +353,9 @@
      <green>0</green>
      <blue>0</blue>
     </color>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
    </property>
   </widget>
  </widget>

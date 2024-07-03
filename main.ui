@@ -127,7 +127,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <property name="font">
          <font>
           <family>Lucida Sans Typewriter</family>
-          <pointsize>9</pointsize>
+          <pointsize>13</pointsize>
          </font>
         </property>
         <property name="channel" stdset="0">
@@ -165,7 +165,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <property name="font">
          <font>
           <family>Lucida Sans Typewriter</family>
-          <pointsize>9</pointsize>
+          <pointsize>13</pointsize>
          </font>
         </property>
         <property name="channel" stdset="0">
@@ -203,7 +203,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <property name="font">
          <font>
           <family>Lucida Sans Typewriter</family>
-          <pointsize>9</pointsize>
+          <pointsize>13</pointsize>
          </font>
         </property>
         <property name="channel" stdset="0">
@@ -357,7 +357,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>9</pointsize>
+           <pointsize>13</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -395,7 +395,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>9</pointsize>
+           <pointsize>13</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -433,7 +433,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>9</pointsize>
+           <pointsize>13</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -1010,7 +1010,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         </rect>
        </property>
        <property name="macro">
-        <string notr="true">P=12idc:bss:</string>
+        <string notr="true">P=12ide:bss:</string>
        </property>
        <property name="filename" stdset="0">
         <string notr="true">apsbss.ui</string>

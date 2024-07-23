@@ -2,7 +2,8 @@
 
 # configures environment & starts caQtDM for 9-ID USAXS
 
-export EPICS_APP=/APSshare/epics/synApps_5_8/support/xxx-5-8-3
+export EPICS_APP=/APSshare/epics/synApps_6_3/support/xxx-6-3
+#export EPICS_APP=/APSshare/epics/synApps_5_8/support/xxx-5-8-3
 #export EPICS_APP=/APSshare/epics/synApps_5_7/support/xxx-5-7-1
 
 export APS_UI_DIR=/APSshare/adlsys
@@ -154,6 +155,8 @@ addScreenPath      VAC                   vacApp/op/ui
 addScreenPath      VAC                   vacApp/op/ui/autoconvert
 addScreenPath      VME                   vmeApp/op/ui
 addScreenPath      VME                   vmeApp/op/ui/autoconvert
+addScreenPath      LABJACK               LabJackApp/op/ui                                                                                                                                                                                               
+addScreenPath      LABJACK               LabJackApp/op/ui/autoconvert                                                                                                                                                                                   
 ### New accelerator screens
 addScreenPath      DSERV_EPICS_DIR       screens/adlsys/screens/adl/iocs/idctl/adl_New
 ### Old accelerator screens

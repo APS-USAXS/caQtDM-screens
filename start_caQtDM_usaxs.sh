@@ -2,7 +2,7 @@
 
 # configures environment & starts caQtDM for 9-ID USAXS
 
-export EPICS_APP=/APSshare/epics/synApps_6_3/support/xxx-6-3
+export EPICS_APP=/APSshare/epics/synApps_6_3/support/xxx-R6-3
 #export EPICS_APP=/APSshare/epics/synApps_5_8/support/xxx-5-8-3
 #export EPICS_APP=/APSshare/epics/synApps_5_7/support/xxx-5-7-1
 
@@ -283,7 +283,8 @@ fi
 
 #!ldd $CAQTDM
 
-#! echo $CAQTDM_DISPLAY_PATH | sed -e 's/:/\n/g'
+# For troubleshooting
+#!echo $CAQTDM_DISPLAY_PATH | sed -e 's/:/\n/g'
 
 #######################################
 # start caQtDM

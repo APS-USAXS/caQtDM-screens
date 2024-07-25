@@ -149,6 +149,8 @@ addScreenPath      SOFTGLUE              softGlueApp/op/ui
 addScreenPath      SOFTGLUE              softGlueApp/op/ui/autoconvert
 addScreenPath      SSCAN                 sscanApp/op/ui
 addScreenPath      SSCAN                 sscanApp/op/ui/autoconvert
+addScreenPath      SCALER                scalerApp/op/ui
+addScreenPath      SCALER                scalerApp/op/ui/autoconvert
 addScreenPath      STD                   stdApp/op/ui
 addScreenPath      STD                   stdApp/op/ui/autoconvert
 addScreenPath      VAC                   vacApp/op/ui

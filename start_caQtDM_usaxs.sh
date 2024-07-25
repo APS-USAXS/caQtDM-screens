@@ -89,10 +89,10 @@ addScreenPath      BEAMLINE_UI_DIR       ../12ida
 addScreenPath      BEAMLINE_UI_DIR       ../bleps
 addScreenPath      BEAMLINE_UI_DIR       legacy
 addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxLAX/usxLAXApp/op/adl
-addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxRIO/usxRIOApp/op/adl
-addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxH1003/usxH1003App/op/ui
-addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxFLY1/usxFLY1App/op/adl
-addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxPYRO/usxPYROApp/op/adl
+addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/usxRIO/usxRIOApp/op/adl
+#addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxH1003/usxH1003App/op/ui
+addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/usxFLY1/usxFLY1App/op/adl
+#addScreenPath      DSERV_EPICS_DIR       synApps_5_8/ioc/usxPYRO/usxPYROApp/op/adl
 addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxSP/SPApp/op/ui
 addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxSP/SPApp/op/ui/autoconvert
 addScreenPath      ALIVE                 aliveApp/op/ui

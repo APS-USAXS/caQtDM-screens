@@ -96,6 +96,7 @@ addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/usxFLY1/usxFLY1App/op/a
 addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxSP/SPApp/op/ui
 addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxSP/SPApp/op/ui/autoconvert
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/12idPyFilter/12idPyFilterApp/op/ui
+addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/12ideCC/12ideCCApp/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui/autoconvert
 # AREA_DETECTOR needs to be defined because xxx doesn't include it

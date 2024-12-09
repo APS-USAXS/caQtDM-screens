@@ -143,6 +143,7 @@ addScreenPath      MOTOR                 motorApp/op/ui
 addScreenPath      MOTOR                 motorApp/op/ui/autoconvert
 addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/support/motorAutomation1/automation1App/op/ui
 addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/support/motorAutomation1/automation1App/op/ui/autoconvert
+addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/support/linkam3/linkamT96App/opi/ui/autoconvert
 addScreenPath      OPTICS                opticsApp/op/ui
 addScreenPath      OPTICS                opticsApp/op/ui/autoconvert
 addScreenPath      QUADEM                quadEMApp/op/ui
@@ -159,8 +160,8 @@ addScreenPath      VAC                   vacApp/op/ui
 addScreenPath      VAC                   vacApp/op/ui/autoconvert
 addScreenPath      VME                   vmeApp/op/ui
 addScreenPath      VME                   vmeApp/op/ui/autoconvert
-addScreenPath      LABJACK               LabJackApp/op/ui                                                                                                                                                                                               
-addScreenPath      LABJACK               LabJackApp/op/ui/autoconvert                                                                                                                                                                                   
+addScreenPath      LABJACK               LabJackApp/op/ui
+addScreenPath      LABJACK               LabJackApp/op/ui/autoconvert
 ### New accelerator screens
 addScreenPath      DSERV_EPICS_DIR       screens/adlsys/screens/adl/iocs/idctl/adl_New
 ### Old accelerator screens

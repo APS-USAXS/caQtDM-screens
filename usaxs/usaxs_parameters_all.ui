@@ -123,7 +123,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>16</pointsize>
       </font>
      </property>
      <property name="text">
@@ -156,7 +156,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>16</pointsize>
       </font>
      </property>
      <property name="text">
@@ -198,7 +198,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>16</pointsize>
       </font>
      </property>
      <property name="text">
@@ -412,7 +412,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>16</pointsize>
       </font>
      </property>
      <property name="text">
@@ -439,7 +439,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>16</pointsize>
       </font>
      </property>
      <property name="text">
@@ -471,7 +471,7 @@
      <string/>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <property name="movable">
      <bool>true</bool>
@@ -984,7 +984,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>9</pointsize>
+           <pointsize>12</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -1023,7 +1023,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>9</pointsize>
+           <pointsize>12</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -1062,7 +1062,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>9</pointsize>
+           <pointsize>12</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -1140,7 +1140,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>9</pointsize>
+           <pointsize>12</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -4166,7 +4166,7 @@
       <property name="font">
        <font>
         <family>Lucida Sans Typewriter</family>
-        <pointsize>13</pointsize>
+        <pointsize>17</pointsize>
        </font>
       </property>
       <property name="alignment">
@@ -4214,7 +4214,7 @@
       <property name="font">
        <font>
         <family>Lucida Sans Typewriter</family>
-        <pointsize>13</pointsize>
+        <pointsize>17</pointsize>
        </font>
       </property>
       <property name="alignment">
@@ -4262,7 +4262,7 @@
       <property name="font">
        <font>
         <family>Lucida Sans Typewriter</family>
-        <pointsize>13</pointsize>
+        <pointsize>17</pointsize>
        </font>
       </property>
       <property name="alignment">
@@ -4310,7 +4310,7 @@
       <property name="font">
        <font>
         <family>Lucida Sans Typewriter</family>
-        <pointsize>13</pointsize>
+        <pointsize>17</pointsize>
        </font>
       </property>
       <property name="alignment">
@@ -4347,7 +4347,7 @@
            <x>0</x>
            <y>0</y>
            <width>705</width>
-           <height>285</height>
+           <height>289</height>
           </rect>
          </property>
          <widget class="caMessageButton" name="camessagebutton_8">
@@ -4932,7 +4932,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
+        <pointsize>16</pointsize>
        </font>
       </property>
       <property name="text">
@@ -5049,9 +5049,9 @@
      <widget class="QGroupBox" name="groupBox_20">
       <property name="geometry">
        <rect>
-        <x>130</x>
+        <x>10</x>
         <y>80</y>
-        <width>441</width>
+        <width>341</width>
         <height>221</height>
        </rect>
       </property>
@@ -5076,7 +5076,7 @@
         <rect>
          <x>180</x>
          <y>30</y>
-         <width>238</width>
+         <width>150</width>
          <height>25</height>
         </rect>
        </property>
@@ -5124,7 +5124,7 @@
         <rect>
          <x>180</x>
          <y>118</y>
-         <width>238</width>
+         <width>150</width>
          <height>25</height>
         </rect>
        </property>
@@ -5156,7 +5156,7 @@
         <rect>
          <x>180</x>
          <y>88</y>
-         <width>238</width>
+         <width>150</width>
          <height>25</height>
         </rect>
        </property>
@@ -5188,7 +5188,7 @@
         <rect>
          <x>180</x>
          <y>178</y>
-         <width>238</width>
+         <width>150</width>
          <height>25</height>
         </rect>
        </property>
@@ -5220,7 +5220,7 @@
         <rect>
          <x>180</x>
          <y>148</y>
-         <width>238</width>
+         <width>150</width>
          <height>25</height>
         </rect>
        </property>
@@ -5332,7 +5332,7 @@
         <rect>
          <x>180</x>
          <y>58</y>
-         <width>238</width>
+         <width>150</width>
          <height>25</height>
         </rect>
        </property>
@@ -5341,6 +5341,128 @@
        </property>
        <property name="channel" stdset="0">
         <string notr="true">usxLAX:USAXS:tune_ar_range</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="precision">
+        <number>4</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::User</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_21">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>80</y>
+        <width>341</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>PreUSAXS tune ranges</string>
+      </property>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>25</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_118">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>30</y>
+         <width>150</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">usxLAX:USAXS:tune_dx_range</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>115</red>
+         <green>215</green>
+         <blue>253</blue>
+        </color>
+       </property>
+       <property name="colorMode">
+        <enum>caLineEdit::Static</enum>
+       </property>
+       <property name="precision">
+        <number>4</number>
+       </property>
+       <property name="precisionMode">
+        <enum>caLineEdit::User</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_114">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>32</y>
+         <width>131</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>dx [mm]</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_118">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>131</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>dy [mm]</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="caTextEntry" name="catextentry_123">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>58</y>
+         <width>150</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="channel" stdset="0">
+        <string notr="true">usxLAX:USAXS:tune_dy_range</string>
        </property>
        <property name="background">
         <color>
@@ -5847,7 +5969,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>Y positions</string>
+     <string>X positions</string>
     </property>
     <widget class="QLabel" name="label_13">
      <property name="geometry">
@@ -5897,14 +6019,14 @@
     <widget class="QLabel" name="label_66">
      <property name="geometry">
       <rect>
-       <x>7</x>
-       <y>30</y>
+       <x>10</x>
+       <y>20</y>
        <width>52</width>
        <height>16</height>
       </rect>
      </property>
      <property name="text">
-      <string>DY0, mm</string>
+      <string>DX0, mm</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_82">
@@ -5917,14 +6039,14 @@
       </rect>
      </property>
      <property name="text">
-      <string>AY0</string>
+      <string>AY</string>
      </property>
     </widget>
     <widget class="caTextEntry" name="catextentry_109">
      <property name="geometry">
       <rect>
-       <x>74</x>
-       <y>28</y>
+       <x>70</x>
+       <y>20</y>
        <width>93</width>
        <height>25</height>
       </rect>
@@ -5933,7 +6055,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:Diode_dy.VAL</string>
+      <string notr="true">usxLAX:USAXS:Diode_dx.VAL</string>
      </property>
      <property name="background">
       <color>
@@ -5997,6 +6119,51 @@
       <string>SAXS X</string>
      </property>
     </widget>
+    <widget class="QLabel" name="label_113">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>52</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>DY, mm</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_119">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>50</y>
+       <width>93</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">usxLAX:USAXS:Diode_dy.VAL</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_8">
     <property name="geometry">
@@ -6010,35 +6177,6 @@
     <property name="title">
      <string>Mode Stage Positions</string>
     </property>
-    <widget class="caTextEntry" name="catextentry_43">
-     <property name="geometry">
-      <rect>
-       <x>590</x>
-       <y>45</y>
-       <width>116</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:ax_limit_offset</string>
-     </property>
-     <property name="background">
-      <color>
-       <red>115</red>
-       <green>215</green>
-       <blue>253</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precisionMode">
-      <enum>caLineEdit::User</enum>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_44">
      <property name="geometry">
       <rect>
@@ -6074,9 +6212,9 @@
     <widget class="caTextEntry" name="catextentry_45">
      <property name="geometry">
       <rect>
-       <x>345</x>
-       <y>75</y>
-       <width>117</width>
+       <x>240</x>
+       <y>70</y>
+       <width>85</width>
        <height>25</height>
       </rect>
      </property>
@@ -6084,7 +6222,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:dx_in</string>
+      <string notr="true">usxLAX:USAXS:Diode_dx</string>
      </property>
      <property name="background">
       <color>
@@ -6119,9 +6257,9 @@
     <widget class="caTextEntry" name="catextentry_47">
      <property name="geometry">
       <rect>
-       <x>345</x>
-       <y>45</y>
-       <width>117</width>
+       <x>240</x>
+       <y>40</y>
+       <width>85</width>
        <height>25</height>
       </rect>
      </property>
@@ -6148,41 +6286,12 @@
       <enum>caLineEdit::User</enum>
      </property>
     </widget>
-    <widget class="caTextEntry" name="catextentry_44">
-     <property name="geometry">
-      <rect>
-       <x>590</x>
-       <y>105</y>
-       <width>116</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:SAXS_y_limit_offset</string>
-     </property>
-     <property name="background">
-      <color>
-       <red>115</red>
-       <green>215</green>
-       <blue>253</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precisionMode">
-      <enum>caLineEdit::User</enum>
-     </property>
-    </widget>
     <widget class="caTextEntry" name="catextentry_42">
      <property name="geometry">
       <rect>
-       <x>468</x>
-       <y>45</y>
-       <width>116</width>
+       <x>330</x>
+       <y>40</y>
+       <width>85</width>
        <height>25</height>
       </rect>
      </property>
@@ -6209,35 +6318,6 @@
       <enum>caLineEdit::User</enum>
      </property>
     </widget>
-    <widget class="caTextEntry" name="catextentry_49">
-     <property name="geometry">
-      <rect>
-       <x>590</x>
-       <y>75</y>
-       <width>116</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:dx_limit_offset</string>
-     </property>
-     <property name="background">
-      <color>
-       <red>115</red>
-       <green>215</green>
-       <blue>253</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precisionMode">
-      <enum>caLineEdit::User</enum>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_47">
      <property name="geometry">
       <rect>
@@ -6254,9 +6334,9 @@
     <widget class="caTextEntry" name="catextentry_46">
      <property name="geometry">
       <rect>
-       <x>101</x>
-       <y>135</y>
-       <width>116</width>
+       <x>56</x>
+       <y>130</y>
+       <width>85</width>
        <height>25</height>
       </rect>
      </property>
@@ -6286,9 +6366,9 @@
     <widget class="caTextEntry" name="catextentry_40">
      <property name="geometry">
       <rect>
-       <x>101</x>
-       <y>105</y>
-       <width>116</width>
+       <x>56</x>
+       <y>100</y>
+       <width>85</width>
        <height>25</height>
       </rect>
      </property>
@@ -6318,9 +6398,9 @@
     <widget class="caTextEntry" name="catextentry_37">
      <property name="geometry">
       <rect>
-       <x>101</x>
-       <y>165</y>
-       <width>116</width>
+       <x>56</x>
+       <y>160</y>
+       <width>85</width>
        <height>25</height>
       </rect>
      </property>
@@ -6350,9 +6430,9 @@
     <widget class="caTextEntry" name="catextentry_48">
      <property name="geometry">
       <rect>
-       <x>345</x>
-       <y>165</y>
-       <width>117</width>
+       <x>240</x>
+       <y>160</y>
+       <width>85</width>
        <height>25</height>
       </rect>
      </property>
@@ -6382,9 +6462,9 @@
     <widget class="caTextEntry" name="catextentry_33">
      <property name="geometry">
       <rect>
-       <x>223</x>
-       <y>135</y>
-       <width>361</width>
+       <x>145</x>
+       <y>130</y>
+       <width>180</width>
        <height>25</height>
       </rect>
      </property>
@@ -6414,9 +6494,9 @@
     <widget class="caTextEntry" name="catextentry_38">
      <property name="geometry">
       <rect>
-       <x>223</x>
-       <y>165</y>
-       <width>116</width>
+       <x>145</x>
+       <y>160</y>
+       <width>90</width>
        <height>25</height>
       </rect>
      </property>
@@ -6446,9 +6526,9 @@
     <widget class="caTextEntry" name="catextentry_34">
      <property name="geometry">
       <rect>
-       <x>101</x>
-       <y>75</y>
-       <width>238</width>
+       <x>56</x>
+       <y>70</y>
+       <width>180</width>
        <height>25</height>
       </rect>
      </property>
@@ -6456,7 +6536,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:dx_out</string>
+      <string notr="true">usxLAX:USAXS:Diode_dx_out</string>
      </property>
      <property name="background">
       <color>
@@ -6491,9 +6571,9 @@
     <widget class="caTextEntry" name="catextentry_32">
      <property name="geometry">
       <rect>
-       <x>101</x>
-       <y>45</y>
-       <width>238</width>
+       <x>56</x>
+       <y>40</y>
+       <width>180</width>
        <height>25</height>
       </rect>
      </property>
@@ -6520,41 +6600,12 @@
       <enum>caLineEdit::User</enum>
      </property>
     </widget>
-    <widget class="caTextEntry" name="catextentry_39">
-     <property name="geometry">
-      <rect>
-       <x>590</x>
-       <y>135</y>
-       <width>116</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:SAXS_z_limit_offset</string>
-     </property>
-     <property name="background">
-      <color>
-       <red>115</red>
-       <green>215</green>
-       <blue>253</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precisionMode">
-      <enum>caLineEdit::User</enum>
-     </property>
-    </widget>
     <widget class="caTextEntry" name="catextentry_36">
      <property name="geometry">
       <rect>
-       <x>223</x>
-       <y>105</y>
-       <width>361</width>
+       <x>145</x>
+       <y>100</y>
+       <width>180</width>
        <height>25</height>
       </rect>
      </property>
@@ -6581,41 +6632,12 @@
       <enum>caLineEdit::User</enum>
      </property>
     </widget>
-    <widget class="caTextEntry" name="catextentry_50">
-     <property name="geometry">
-      <rect>
-       <x>590</x>
-       <y>165</y>
-       <width>116</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:WAXS_x_limit_offset</string>
-     </property>
-     <property name="background">
-      <color>
-       <red>115</red>
-       <green>215</green>
-       <blue>253</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precisionMode">
-      <enum>caLineEdit::User</enum>
-     </property>
-    </widget>
     <widget class="caTextEntry" name="catextentry_41">
      <property name="geometry">
       <rect>
-       <x>468</x>
-       <y>165</y>
-       <width>116</width>
+       <x>330</x>
+       <y>160</y>
+       <width>85</width>
        <height>25</height>
       </rect>
      </property>
@@ -6645,7 +6667,7 @@
     <widget class="QLabel" name="label_40">
      <property name="geometry">
       <rect>
-       <x>345</x>
+       <x>240</x>
        <y>20</y>
        <width>90</width>
        <height>16</height>
@@ -6661,7 +6683,7 @@
     <widget class="QLabel" name="label_42">
      <property name="geometry">
       <rect>
-       <x>223</x>
+       <x>140</x>
        <y>20</y>
        <width>90</width>
        <height>16</height>
@@ -6677,7 +6699,7 @@
     <widget class="QLabel" name="label_39">
      <property name="geometry">
       <rect>
-       <x>101</x>
+       <x>60</x>
        <y>20</y>
        <width>90</width>
        <height>16</height>
@@ -6693,7 +6715,7 @@
     <widget class="QLabel" name="label_38">
      <property name="geometry">
       <rect>
-       <x>468</x>
+       <x>330</x>
        <y>20</y>
        <width>90</width>
        <height>16</height>
@@ -6706,20 +6728,139 @@
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_41">
+    <widget class="QLabel" name="label_115">
      <property name="geometry">
       <rect>
-       <x>590</x>
-       <y>20</y>
-       <width>121</width>
+       <x>460</x>
+       <y>74</y>
+       <width>52</width>
        <height>16</height>
       </rect>
      </property>
      <property name="text">
-      <string>Limit Offset</string>
+      <string>DY, mm</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_120">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>70</y>
+       <width>93</width>
+       <height>25</height>
+      </rect>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">usxLAX:USAXS:Diode_dy.VAL</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_121">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>40</y>
+       <width>93</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">usxLAX:ay_in.VAL</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_116">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>44</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>AY</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_122">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>100</y>
+       <width>93</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">usxLAX:SAXS_x_in.VAL</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>215</green>
+       <blue>253</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_117">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>104</y>
+       <width>80</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SAXS X</string>
      </property>
     </widget>
    </widget>

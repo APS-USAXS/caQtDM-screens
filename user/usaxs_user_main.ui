@@ -34,7 +34,7 @@
 </string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <property name="tabsClosable">
      <bool>false</bool>
@@ -456,10 +456,13 @@
       <property name="geometry">
        <rect>
         <x>420</x>
-        <y>60</y>
+        <y>70</y>
         <width>131</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
       </property>
       <property name="label">
        <string>-filter</string>
@@ -479,19 +482,235 @@
        </color>
       </property>
       <property name="labels">
-       <string>PF4 filter (Al,Ti);PF4 filter (glass)</string>
+       <string>ADR-300 filters;PF4 filter (Al,Ti);PF4 filter (glass)</string>
       </property>
       <property name="files">
-       <string>pf4more.ui;pf4more.ui</string>
+       <string>pydev_filter_12.ui;pf4more.ui;pf4more.ui</string>
       </property>
       <property name="args">
-       <string>P=usxRIO:,H=pf4:,A=A,B=B,MONO=12ida:BraggEAO;P=usxRIO:,H=pf42:,A=A,B=B,MONO=12ida:BraggEAO</string>
+       <string>P=12idPyFilter:,F=FL1;P=usxRIO:,H=pf4:,A=A,B=B,MONO=12ida:BraggEAO;P=usxRIO:,H=pf42:,A=A,B=B,MONO=12ida:BraggEAO</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
       </property>
       <property name="removeParent" stdset="0">
        <string>false;false</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_12">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>120</y>
+        <width>161</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>filters</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_12">
+       <item>
+        <widget class="QWidget" name="widget_5" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(139, 130, 15);</string>
+         </property>
+         <layout class="QFormLayout" name="formLayout_3">
+          <property name="fieldGrowthPolicy">
+           <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_19">
+            <property name="text">
+             <string>Al</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="caLineEdit" name="calineedit_36">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">usxRIO:pf4:filterAl</string>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_20">
+            <property name="text">
+             <string>Ti</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="caLineEdit" name="calineedit_37">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">usxRIO:pf4:filterTi</string>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_21">
+            <property name="text">
+             <string>glass</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="caLineEdit" name="calineedit_42">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">usxRIO:pf42:filterGlass</string>
+            </property>
+            <property name="unitsEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="caLineEdit" name="calineedit_44">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>#####</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="channel" stdset="0">
+             <string notr="true">usxRIO:pf4:trans</string>
+            </property>
+            <property name="precision">
+             <number>4</number>
+            </property>
+            <property name="precisionMode">
+             <enum>caLineEdit::User</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_22">
+            <property name="text">
+             <string>I/I0</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="caLineEdit" name="calineedit_47">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>40</y>
+        <width>86</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>86</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>#####</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY1:cam1:AcquireTime</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_58">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>10</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>52</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Cam exp time</string>
       </property>
      </widget>
     </widget>
@@ -591,7 +810,7 @@
        <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;Linkam_T96.ui;huber_1003.ui;dxpSaturn.ui;eurotherm_modbus.ui;Keithley2400.ui;mca.ui;motor2xU.ui;Metis_M322.ui;motor2x.ui</string>
       </property>
       <property name="args">
-       <string>P=usxLAX;P=usxLAX:250pH:,S=usxLAX:,R=cmdReply:a8_do_IO;P=usxLAX,PORT=:rs232b7;P=usxLAX:,PORT=:rs232b6;P=usxLAX:,R=microlab:,S=cmdReply:a7_do_IO;P=usxLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=usxLAX:,HSC=hsc1:;P=usxLAX:;P=12idcLINKAM:,T=tc1, R=asyn;P=usxH1003:,R=dcm:;P=dp_vortex_xrd75:,D=dxp1:,M=mca1;P=usxLAX:,TC=tc1;P=usxLAX:,R=k24k:;P=dp_mythen:;P=usxLAX:, M1=m58:c0:m8, M2=mxv:c0:m7;P=usxPYRO:,R=m322;P=usxPI:c867:c0:,M1=m1,M2=m2</string>
+       <string>P=usxLAX;P=usxLAX:250pH:,S=usxLAX:,R=cmdReply:a8_do_IO;P=usxLAX,PORT=:rs232b7;P=usxLAX:,PORT=:rs232b6;P=usxLAX:,R=microlab:,S=cmdReply:a7_do_IO;P=usxLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=usxLAX:,HSC=hsc1:;P=usxLAX:;P=usxLINKAM:,T=tc1, R=asyn;P=usxH1003:,R=dcm:;P=dp_vortex_xrd75:,D=dxp1:,M=mca1;P=usxLAX:,TC=tc1;P=usxLAX:,R=k24k:;P=dp_mythen:;P=usxLAX:, M1=m58:c0:m8, M2=mxv:c0:m7;P=usxPYRO:,R=m322;P=usxPI:c867:c0:,M1=m1,M2=m2</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -2714,7 +2933,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setSWAXSSlits.sh</string>
+       <string notr="true">/home/beams/USAXS/screens/scripts/setSWAXSSlits.sh</string>
       </property>
      </widget>
      <widget class="caScriptButton" name="cascriptbutton">
@@ -2733,7 +2952,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/openSlits.sh</string>
+       <string notr="true">/home/beams/USAXS/screens/scripts/openSlits.sh</string>
       </property>
      </widget>
      <widget class="caScriptButton" name="cascriptbutton_5">
@@ -2766,7 +2985,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s9dserv/xorApps/epics/screens/usaxs/scripts/setUSAXSSlits.sh</string>
+       <string notr="true">/home/beams/USAXS/screens/scripts/setUSAXSSlits.sh</string>
       </property>
      </widget>
      <widget class="caScriptButton" name="cascriptbutton_2">
@@ -2785,8 +3004,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/closeSWAXSSlits.sh
-</string>
+       <string notr="true">/home/beams/USAXS/screens/scripts/closeSWAXSSlits.sh</string>
       </property>
      </widget>
      <widget class="caScriptButton" name="cascriptbutton_3">
@@ -2805,7 +3023,7 @@
        <bool>false</bool>
       </property>
       <property name="scriptCommand">
-       <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/closeUSAXSSlits.sh</string>
+       <string notr="true">/home/beams/USAXS/screens/scripts/closeUSAXSSlits.sh</string>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_96">

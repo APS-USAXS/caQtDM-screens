@@ -127,7 +127,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <property name="font">
          <font>
           <family>Lucida Sans Typewriter</family>
-          <pointsize>13</pointsize>
+          <pointsize>17</pointsize>
          </font>
         </property>
         <property name="channel" stdset="0">
@@ -165,7 +165,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <property name="font">
          <font>
           <family>Lucida Sans Typewriter</family>
-          <pointsize>13</pointsize>
+          <pointsize>17</pointsize>
          </font>
         </property>
         <property name="channel" stdset="0">
@@ -203,7 +203,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <property name="font">
          <font>
           <family>Lucida Sans Typewriter</family>
-          <pointsize>13</pointsize>
+          <pointsize>17</pointsize>
          </font>
         </property>
         <property name="channel" stdset="0">
@@ -242,7 +242,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <bool>false</bool>
         </property>
         <property name="scriptCommand">
-         <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/resetOrderNumbers.py</string>
+         <string notr="true">/home/beams/USAXS/screens/scripts/resetOrderNumbers.sh</string>
         </property>
        </widget>
        <widget class="caScriptButton" name="cascriptbutton_4">
@@ -357,7 +357,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>13</pointsize>
+           <pointsize>17</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -395,7 +395,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>13</pointsize>
+           <pointsize>17</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -433,7 +433,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>13</pointsize>
+           <pointsize>17</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">

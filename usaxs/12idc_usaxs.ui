@@ -181,8 +181,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>350</y>
+      <x>450</x>
+      <y>370</y>
       <width>101</width>
       <height>20</height>
      </rect>
@@ -514,13 +514,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>12ID Beamline Components;12ida2 layout;12ibdb_user;LAX;12id;12ID BPM Combined;12ID BPM</string>
+     <string>12ID Beamline Components;12ida2 layout;LAX;12id;12ID BPM Combined;12ID BPM</string>
     </property>
     <property name="files">
-     <string>12idc_all.ui;12ida2_layout.ui;12idb_user.ui;usxLAX.ui;12idcSFO.ui;IDbpmCanted.ui;position.ui</string>
+     <string>/net/s12dserv/xorApps/ui/12id/12ide_all.ui;12ida2_layout.ui;usxLAX.ui;12idcSFO.ui;IDbpmCanted.ui;position.ui</string>
     </property>
     <property name="args">
-     <string>;;;;;sec=12,ds=13,us=12;P=S12IDFE-XBPM:,R=P1us:</string>
+     <string>;;;;sec=12,ds=13,us=12;P=S12IDFE-XBPM:,R=P1us:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -700,8 +700,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_13">
     <property name="geometry">
      <rect>
-      <x>329</x>
-      <y>302</y>
+      <x>449</x>
+      <y>322</y>
       <width>111</width>
       <height>20</height>
      </rect>
@@ -937,7 +937,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string>usxLAX:userCalc1.VAL</string>
+     <string notr="true">usxLAX:blCalc:userCalc1.VAL</string>
     </property>
    </widget>
    <widget class="caGraphics" name="caRectangle_12">
@@ -1474,13 +1474,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>ADR-300 filters;PF4 filter (Al,Ti);PF4 filter (glass)</string>
+     <string>ADR-300 filters</string>
     </property>
     <property name="files">
-     <string>pydev_filter_12.ui;pf4more.ui;pf4more.ui</string>
+     <string>pydev_filter_12.ui</string>
     </property>
     <property name="args">
-     <string>P=12idPyFilter:,F=Filter,N=1;P=usxRIO:,H=pf4:,A=A,B=B,MONO=12ida:BraggEAO;P=usxRIO:,H=pf42:,A=A,B=B,MONO=12ida:BraggEAO</string>
+     <string>P=12idPyFilter:,F=FL1</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -1892,8 +1892,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_24">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>100</y>
+      <x>590</x>
+      <y>90</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -1973,7 +1973,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caPolyLine" name="caPolygon_11">
     <property name="geometry">
      <rect>
-      <x>405</x>
+      <x>411</x>
       <y>196</y>
       <width>8</width>
       <height>25</height>
@@ -2012,8 +2012,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caPolyLine" name="caPolygon_12">
     <property name="geometry">
      <rect>
-      <x>388</x>
-      <y>200</y>
+      <x>390</x>
+      <y>204</y>
       <width>30</width>
       <height>23</height>
      </rect>
@@ -2052,7 +2052,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>180</y>
+      <y>183</y>
       <width>30</width>
       <height>23</height>
      </rect>
@@ -2097,7 +2097,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </rect>
     </property>
     <property name="label">
-     <string notr="true">-slits/TCAM</string>
+     <string notr="true">-slits</string>
     </property>
     <property name="foreground">
      <color>
@@ -2114,13 +2114,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>Slits;Tcam</string>
+     <string>Slits</string>
     </property>
     <property name="files">
-     <string>motor4xU.ui;motorxU.ui</string>
+     <string>motor4xU.ui</string>
     </property>
     <property name="args">
-     <string>P=usxLAX:, M1=m58:c1:m5, M2=m58:c1:m6, M3=m58:c1:m7, M4=m58:c1:m8;P=usxLAX:,M=m58:c0:m5</string>
+     <string>P=usxLAX:, M1=m58:c1:m5, M2=m58:c1:m6, M3=m58:c1:m7, M4=m58:c1:m8</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -2132,8 +2132,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="caRectangle_23">
     <property name="geometry">
      <rect>
-      <x>2</x>
-      <y>297</y>
+      <x>20</x>
+      <y>288</y>
       <width>25</width>
       <height>8</height>
      </rect>
@@ -2174,8 +2174,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="caRectangle_24">
     <property name="geometry">
      <rect>
-      <x>2</x>
-      <y>289</y>
+      <x>20</x>
+      <y>280</y>
       <width>25</width>
       <height>8</height>
      </rect>
@@ -2216,8 +2216,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="caRectangle_25">
     <property name="geometry">
      <rect>
-      <x>2</x>
-      <y>281</y>
+      <x>20</x>
+      <y>272</y>
       <width>25</width>
       <height>8</height>
      </rect>
@@ -2258,8 +2258,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="caRectangle_26">
     <property name="geometry">
      <rect>
-      <x>2</x>
-      <y>273</y>
+      <x>20</x>
+      <y>264</y>
       <width>25</width>
       <height>8</height>
      </rect>
@@ -2300,8 +2300,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="caRectangle_27">
     <property name="geometry">
      <rect>
-      <x>2</x>
-      <y>265</y>
+      <x>20</x>
+      <y>256</y>
       <width>25</width>
       <height>8</height>
      </rect>
@@ -2636,8 +2636,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caLineEdit" name="calineedit_31">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>330</y>
+      <x>460</x>
+      <y>350</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -2655,8 +2655,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caLineEdit" name="calineedit_32">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>280</y>
+      <x>460</x>
+      <y>300</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -2677,7 +2677,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_39">
     <property name="geometry">
      <rect>
-      <x>980</x>
+      <x>1070</x>
       <y>150</y>
       <width>100</width>
       <height>21</height>
@@ -2719,7 +2719,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_40">
     <property name="geometry">
      <rect>
-      <x>830</x>
+      <x>870</x>
       <y>230</y>
       <width>100</width>
       <height>21</height>
@@ -2749,7 +2749,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">BESSRC_Mono.ui;motorxU.ui;fb_epid.ui;motor4xU.ui;singleDAC.ui;pvHistory.ui;pvHistory.ui;RICryo_RBK.ui;RICryo_CTRL.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=12ida2:,MTH=m19,MSLD=m22;P=12id:,M=m41;P=usxLAX:fbe:omega;P=12id:,M1=m14,M2=m15, M3=m16,M4=m22;P=12ida:,D=1,C=1;P=usxLAX:,N=1;P=usxLAX:,N=2;P=12ideCC:,R=RI1:;P=12ideCC:,R=RI1:</string>
+     <string notr="true">P=12ida2:,MTH=m19,MSLD=m22;P=12id:,M=m41;P=usxLAX:fbe:omega;P=12ida2:,M1=m19,M2=m20, M3=m21,M4=m22;P=12ida:,D=1,C=1;P=usxLAX:,N=1;P=usxLAX:,N=2;P=12ideCC:,R=RI1:;P=12ideCC:,R=RI1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -2797,16 +2797,16 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string>usxLAX:userCalc1.VAL</string>
+     <string notr="true">usxLAX:blCalc:userCalc1.VAL</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolyLine_4">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>203</y>
-      <width>240</width>
-      <height>2</height>
+      <x>870</x>
+      <y>190</y>
+      <width>291</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="foreground">
@@ -2830,7 +2830,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="xyPairs" stdset="0">
-     <string>2,1;236,1</string>
+     <string>2,10;287,10</string>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caPolyLine::Filled</enum>
@@ -2867,8 +2867,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caPolyLine" name="caPolygon_28">
     <property name="geometry">
      <rect>
-      <x>940</x>
-      <y>193</y>
+      <x>1040</x>
+      <y>190</y>
       <width>16</width>
       <height>21</height>
      </rect>
@@ -2912,8 +2912,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_2">
     <property name="geometry">
      <rect>
-      <x>934</x>
-      <y>188</y>
+      <x>1034</x>
+      <y>185</y>
       <width>30</width>
       <height>30</height>
      </rect>
@@ -2931,8 +2931,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_3">
     <property name="geometry">
      <rect>
-      <x>1029</x>
-      <y>193</y>
+      <x>1139</x>
+      <y>190</y>
       <width>12</width>
       <height>22</height>
      </rect>
@@ -2958,8 +2958,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_4">
     <property name="geometry">
      <rect>
-      <x>1053</x>
-      <y>193</y>
+      <x>1163</x>
+      <y>190</y>
       <width>12</width>
       <height>22</height>
      </rect>
@@ -2985,8 +2985,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_5">
     <property name="geometry">
      <rect>
-      <x>982</x>
-      <y>193</y>
+      <x>1092</x>
+      <y>190</y>
       <width>12</width>
       <height>22</height>
      </rect>
@@ -3012,8 +3012,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_6">
     <property name="geometry">
      <rect>
-      <x>1005</x>
-      <y>193</y>
+      <x>1115</x>
+      <y>190</y>
       <width>12</width>
       <height>22</height>
      </rect>
@@ -3039,8 +3039,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_7">
     <property name="geometry">
      <rect>
-      <x>970</x>
-      <y>193</y>
+      <x>1080</x>
+      <y>190</y>
       <width>12</width>
       <height>22</height>
      </rect>
@@ -3066,8 +3066,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_8">
     <property name="geometry">
      <rect>
-      <x>1041</x>
-      <y>193</y>
+      <x>1151</x>
+      <y>190</y>
       <width>12</width>
       <height>22</height>
      </rect>
@@ -3093,8 +3093,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_9">
     <property name="geometry">
      <rect>
-      <x>1017</x>
-      <y>193</y>
+      <x>1127</x>
+      <y>190</y>
       <width>12</width>
       <height>22</height>
      </rect>
@@ -3120,8 +3120,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_10">
     <property name="geometry">
      <rect>
-      <x>994</x>
-      <y>193</y>
+      <x>1104</x>
+      <y>190</y>
       <width>12</width>
       <height>22</height>
      </rect>
@@ -3359,56 +3359,11 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>680</x>
-      <y>260</y>
-      <width>125</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_2">
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_8">
-       <item>
-        <widget class="QLabel" name="label_40">
-         <property name="text">
-          <string>I000</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="caLineEdit" name="calineedit_45">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string>#####</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="channel" stdset="0">
-          <string notr="true">usxLAX:vsc:c2_cts1.B</string>
-         </property>
-         <property name="precisionMode">
-          <enum>caLineEdit::User</enum>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-    </layout>
-   </widget>
    <widget class="QGroupBox" name="groupBox_3">
     <property name="geometry">
      <rect>
       <x>920</x>
-      <y>290</y>
+      <y>330</y>
       <width>271</width>
       <height>141</height>
      </rect>
@@ -3485,7 +3440,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>13</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -3534,7 +3489,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>13</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -3803,168 +3758,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </item>
     </layout>
    </widget>
-   <widget class="QGroupBox" name="groupBox_6">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>260</y>
-      <width>161</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="title">
-     <string>filters</string>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_9">
-     <item>
-      <widget class="QWidget" name="widget_4" native="true">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(139, 130, 15);</string>
-       </property>
-       <layout class="QFormLayout" name="formLayout">
-        <property name="fieldGrowthPolicy">
-         <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
-        </property>
-        <item row="0" column="0">
-         <widget class="QLabel" name="label_10">
-          <property name="text">
-           <string>Al</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="caLineEdit" name="calineedit_34">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">usxRIO:pf4:filterAl</string>
-          </property>
-          <property name="unitsEnabled">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_13">
-          <property name="text">
-           <string>Ti</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="caLineEdit" name="calineedit_33">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">usxRIO:pf4:filterTi</string>
-          </property>
-          <property name="unitsEnabled">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="label_14">
-          <property name="text">
-           <string>glass</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="caLineEdit" name="calineedit_35">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">usxRIO:pf42:filterGlass</string>
-          </property>
-          <property name="unitsEnabled">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="caLineEdit" name="calineedit_40">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">usxRIO:pf4:trans</string>
-          </property>
-          <property name="precision">
-           <number>4</number>
-          </property>
-          <property name="precisionMode">
-           <enum>caLineEdit::User</enum>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0">
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>I/I0</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="caLabel" name="caLabel_0">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>260</x>
       <y>10</y>
       <width>371</width>
       <height>40</height>
@@ -4017,7 +3814,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <item>
       <widget class="caLabel" name="caLabel_4">
        <property name="text">
-        <string>last edited: 2024-07-24, JIL</string>
+        <string>last edited: 2024-11-16, JIL</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -5061,13 +4858,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         </color>
        </property>
        <property name="labels">
-        <string notr="true">I0;I00;I000;UPD;TRD;Beam in Hutch;LAX Beamline Calc;LAX Beamline Calc2</string>
+        <string notr="true">I0;I00;I000;UPD;TRD;Beam in Hutch;LAX Beamline Calc;LAX Beamline Calc2;BeamNotAvailable;BeamActive</string>
        </property>
        <property name="files">
-        <string notr="true">userCalc_full.ui;userCalc_full.ui;userCalc_full.ui;userCalc_full.ui;userCalc_full.ui;userCalc_full.ui;userCalcs10.ui;userCalcs10.ui</string>
+        <string notr="true">userCalc_full.ui;userCalc_full.ui;userCalc_full.ui;userCalc_full.ui;userCalc_full.ui;userCalc_full.ui;userCalcs10.ui;userCalcs10.ui;userCalc_full.ui;userCalc_full.ui</string>
        </property>
        <property name="args">
-        <string notr="true">P=usxLAX:USAXS:,C=I0;P=usxLAX:USAXS:,C=I00;P=usxLAX:USAXS:,C=I000;P=usxLAX:USAXS:,C=upd;P=usxLAX:USAXS:,C=trd;P=usxLAX:,C=blCalc:userCalc1;P=usxLAX:blCalc:;P=usxLAX:blCalc2:</string>
+        <string notr="true">P=usxLAX:USAXS:,C=I0;P=usxLAX:USAXS:,C=I00;P=usxLAX:USAXS:,C=I000;P=usxLAX:USAXS:,C=upd;P=usxLAX:USAXS:,C=trd;P=usxLAX:,C=blCalc:userCalc1;P=usxLAX:blCalc:;P=usxLAX:blCalc2:;P=usxLAX:USAXS:,C=BeamNotAvailable;P=usxLAX:USAXS:,C=BeamActive</string>
        </property>
        <property name="stackingMode" stdset="0">
         <enum>caRowColMenu::Menu</enum>
@@ -5550,7 +5347,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">usxLAX:userTran3.A</string>
+     <string notr="true">12idc:uniblitz:shutter:open</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_15">
@@ -5592,10 +5389,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::Polygon</enum>
     </property>
     <property name="visibility">
-     <enum>caPolyLine::IfZero</enum>
+     <enum>caPolyLine::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">usxLAX:userTran3.A</string>
+     <string notr="true">12idc:uniblitz:shutter:close</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_36">
@@ -5617,48 +5414,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shutter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="caRelatedDisplay_35">
-    <property name="geometry">
-     <rect>
-      <x>680</x>
-      <y>230</y>
-      <width>123</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true">-I000 Gain</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>140</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true"/>
-    </property>
-    <property name="files">
-     <string notr="true">femto.ui</string>
-    </property>
-    <property name="args">
-     <string notr="true">P=usxRIO:,H=fem04:,AC=usxRIO:Galil1Bo7_CMD,F=seq01:</string>
-    </property>
-    <property name="stackingMode" stdset="0">
-     <enum>caRowColMenu::Menu</enum>
-    </property>
-    <property name="removeParent" stdset="0">
-     <string>false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false</string>
     </property>
    </widget>
    <widget class="caLed" name="caled_2">
@@ -5690,7 +5445,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="caRectangle_17">
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>670</x>
       <y>190</y>
       <width>25</width>
       <height>30</height>
@@ -5726,7 +5481,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="caRectangle_18">
     <property name="geometry">
      <rect>
-      <x>860</x>
+      <x>900</x>
       <y>190</y>
       <width>25</width>
       <height>30</height>
@@ -5762,7 +5517,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caGraphics" name="cagraphics_11">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>720</x>
       <y>190</y>
       <width>30</width>
       <height>30</height>
@@ -5781,10 +5536,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caPolyLine" name="caPolygon_29">
     <property name="geometry">
      <rect>
-      <x>677</x>
-      <y>193</y>
-      <width>16</width>
-      <height>21</height>
+      <x>730</x>
+      <y>190</y>
+      <width>10</width>
+      <height>30</height>
      </rect>
     </property>
     <property name="foreground">
@@ -5808,7 +5563,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="xyPairs" stdset="0">
-     <string>0,16;16,21;16,4;0,0;0,16</string>
+     <string>0,23;10,30;10,6;0,0;0,23</string>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caPolyLine::Filled</enum>
@@ -5826,17 +5581,17 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caMessageButton" name="camessagebutton_3">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>90</y>
+      <x>580</x>
+      <y>120</y>
       <width>81</width>
-      <height>21</height>
+      <height>18</height>
      </rect>
     </property>
     <property name="text">
-     <string>TCAM ON</string>
+     <string>Shutter ON</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">usxRIO:Galil2Bo2_CMD</string>
+     <string notr="true">12idc:uniblitz:shutter:open</string>
     </property>
     <property name="foreground">
      <color>
@@ -5859,17 +5614,17 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caMessageButton" name="camessagebutton_6">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>115</y>
+      <x>580</x>
+      <y>140</y>
       <width>81</width>
-      <height>21</height>
+      <height>18</height>
      </rect>
     </property>
     <property name="text">
-     <string>TCAM OFF</string>
+     <string>Shutter OFF</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">usxRIO:Galil2Bo2_CMD</string>
+     <string notr="true">12idc:uniblitz:shutter:close</string>
     </property>
     <property name="foreground">
      <color>
@@ -5886,7 +5641,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="releaseMessage">
-     <string notr="true">0</string>
+     <string notr="true">1</string>
     </property>
     <property name="pressMessage">
      <string notr="true"/>
@@ -5895,7 +5650,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caSlider" name="caslider">
     <property name="geometry">
      <rect>
-      <x>830</x>
+      <x>860</x>
       <y>260</y>
       <width>131</width>
       <height>16</height>
@@ -5935,8 +5690,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QLabel" name="label_38">
     <property name="geometry">
      <rect>
-      <x>970</x>
-      <y>255</y>
+      <x>1000</x>
+      <y>260</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -5956,8 +5711,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caLed" name="caled_9">
     <property name="geometry">
      <rect>
-      <x>878</x>
-      <y>278</y>
+      <x>910</x>
+      <y>280</y>
       <width>18</width>
       <height>18</height>
      </rect>
@@ -5982,7 +5737,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QLabel" name="label_22">
     <property name="geometry">
      <rect>
-      <x>900</x>
+      <x>940</x>
       <y>280</y>
       <width>31</width>
       <height>16</height>
@@ -5995,7 +5750,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caLineEdit" name="calineedit_41">
     <property name="geometry">
      <rect>
-      <x>853</x>
+      <x>870</x>
       <y>160</y>
       <width>86</width>
       <height>16</height>
@@ -6029,8 +5784,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QLabel" name="label_21">
     <property name="geometry">
      <rect>
-      <x>800</x>
-      <y>160</y>
+      <x>890</x>
+      <y>140</y>
       <width>47</width>
       <height>16</height>
      </rect>
@@ -6079,7 +5834,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <number>1</number>
        </property>
        <property name="precisionMode">
-        <enum>caLineEdit::Channel</enum>
+        <enum>caLineEdit::User</enum>
        </property>
       </widget>
      </item>
@@ -6124,7 +5879,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <number>1</number>
        </property>
        <property name="precisionMode">
-        <enum>caLineEdit::Channel</enum>
+        <enum>caLineEdit::User</enum>
        </property>
       </widget>
      </item>
@@ -6222,11 +5977,506 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
+   <widget class="caLineEdit" name="calineedit_33">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>230</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>#####</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">12idPyFilter:FL1:transmission_RBV</string>
+    </property>
+    <property name="precision">
+     <number>2</number>
+    </property>
+    <property name="precisionMode">
+     <enum>caLineEdit::User</enum>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::exponential</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>230</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tran</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="caPolyLine" name="caPolygon_20">
+    <property name="geometry">
+     <rect>
+      <x>995</x>
+      <y>202</y>
+      <width>30</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>139</red>
+      <green>26</green>
+      <blue>150</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caPolyLine::Solid</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>139</red>
+      <green>26</green>
+      <blue>150</blue>
+     </color>
+    </property>
+    <property name="xyPairs" stdset="0">
+     <string>0,0;0,11;30,23;30,10;0,0</string>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caPolyLine::Filled</enum>
+    </property>
+    <property name="polystyle" stdset="0">
+     <enum>caPolyLine::Polygon</enum>
+    </property>
+   </widget>
+   <widget class="caPolyLine" name="caPolygon_21">
+    <property name="geometry">
+     <rect>
+      <x>995</x>
+      <y>180</y>
+      <width>30</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>139</red>
+      <green>26</green>
+      <blue>150</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caPolyLine::Solid</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>139</red>
+      <green>26</green>
+      <blue>150</blue>
+     </color>
+    </property>
+    <property name="xyPairs" stdset="0">
+     <string>0,0;0,11;30,23;30,10;0,0</string>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caPolyLine::Filled</enum>
+    </property>
+    <property name="polystyle" stdset="0">
+     <enum>caPolyLine::Polygon</enum>
+    </property>
+   </widget>
+   <widget class="caPolyLine" name="caPolygon_22">
+    <property name="geometry">
+     <rect>
+      <x>995</x>
+      <y>190</y>
+      <width>8</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>97</red>
+      <green>10</green>
+      <blue>117</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caPolyLine::Solid</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>97</red>
+      <green>10</green>
+      <blue>117</blue>
+     </color>
+    </property>
+    <property name="xyPairs" stdset="0">
+     <string>0,0;0,21;8,25;8,2;6,2;0,0</string>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caPolyLine::Filled</enum>
+    </property>
+    <property name="polystyle" stdset="0">
+     <enum>caPolyLine::Polygon</enum>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_34">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>150</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">-WBS</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>140</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string>Slits</string>
+    </property>
+    <property name="files">
+     <string>maskApertureSlit.ui</string>
+    </property>
+    <property name="args">
+     <string>P=12ida2:,SLITS=SL2, HOR=m1,DIAG=m3,PITCH=m4,YAW=m2</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false</string>
+    </property>
+   </widget>
+   <widget class="caPolyLine" name="caPolygon_24">
+    <property name="geometry">
+     <rect>
+      <x>815</x>
+      <y>206</y>
+      <width>30</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>139</red>
+      <green>26</green>
+      <blue>150</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caPolyLine::Solid</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>139</red>
+      <green>26</green>
+      <blue>150</blue>
+     </color>
+    </property>
+    <property name="xyPairs" stdset="0">
+     <string>0,0;0,11;30,23;30,10;0,0</string>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caPolyLine::Filled</enum>
+    </property>
+    <property name="polystyle" stdset="0">
+     <enum>caPolyLine::Polygon</enum>
+    </property>
+   </widget>
+   <widget class="caPolyLine" name="caPolygon_25">
+    <property name="geometry">
+     <rect>
+      <x>815</x>
+      <y>194</y>
+      <width>8</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>97</red>
+      <green>10</green>
+      <blue>117</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caPolyLine::Solid</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>97</red>
+      <green>10</green>
+      <blue>117</blue>
+     </color>
+    </property>
+    <property name="xyPairs" stdset="0">
+     <string>0,0;0,21;8,25;8,2;6,2;0,0</string>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caPolyLine::Filled</enum>
+    </property>
+    <property name="polystyle" stdset="0">
+     <enum>caPolyLine::Polygon</enum>
+    </property>
+   </widget>
+   <widget class="caPolyLine" name="caPolygon_26">
+    <property name="geometry">
+     <rect>
+      <x>815</x>
+      <y>184</y>
+      <width>30</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>139</red>
+      <green>26</green>
+      <blue>150</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caPolyLine::Solid</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>139</red>
+      <green>26</green>
+      <blue>150</blue>
+     </color>
+    </property>
+    <property name="xyPairs" stdset="0">
+     <string>0,0;0,11;30,23;30,10;0,0</string>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caPolyLine::Filled</enum>
+    </property>
+    <property name="polystyle" stdset="0">
+     <enum>caPolyLine::Polygon</enum>
+    </property>
+   </widget>
+   <widget class="caPolyLine" name="caPolygon_27">
+    <property name="geometry">
+     <rect>
+      <x>837</x>
+      <y>200</y>
+      <width>8</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>97</red>
+      <green>10</green>
+      <blue>117</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caPolyLine::Solid</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>97</red>
+      <green>10</green>
+      <blue>117</blue>
+     </color>
+    </property>
+    <property name="xyPairs" stdset="0">
+     <string>0,0;0,21;8,25;8,2;6,2;0,0</string>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caPolyLine::Filled</enum>
+    </property>
+    <property name="polystyle" stdset="0">
+     <enum>caPolyLine::Polygon</enum>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_36">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>160</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">-slits</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>140</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string>Slits</string>
+    </property>
+    <property name="files">
+     <string>motor4xU.ui</string>
+    </property>
+    <property name="args">
+     <string>P=12ida2:, M1=m37, M2=m38, M3=m39, M4=m40</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false</string>
+    </property>
+   </widget>
+   <widget class="caPolyLine" name="caPolygon_23">
+    <property name="geometry">
+     <rect>
+      <x>1017</x>
+      <y>193</y>
+      <width>8</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>97</red>
+      <green>10</green>
+      <blue>117</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caPolyLine::Solid</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>97</red>
+      <green>10</green>
+      <blue>117</blue>
+     </color>
+    </property>
+    <property name="xyPairs" stdset="0">
+     <string>0,0;0,21;8,25;8,2;6,2;0,0</string>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caPolyLine::Filled</enum>
+    </property>
+    <property name="polystyle" stdset="0">
+     <enum>caPolyLine::Polygon</enum>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="calineedit_45">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>230</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>#####</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">12idc:scaler1.S2</string>
+    </property>
+    <property name="precisionMode">
+     <enum>caLineEdit::User</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_40">
+    <property name="geometry">
+     <rect>
+      <x>572</x>
+      <y>230</y>
+      <width>32</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Diam</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>230</y>
+      <width>119</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_8"/>
+   </widget>
    <zorder>cagraphics_11</zorder>
    <zorder>caPolygon_29</zorder>
    <zorder>cagraphics_2</zorder>
-   <zorder>layoutWidget</zorder>
-   <zorder>groupBox_6</zorder>
    <zorder>groupBox_4</zorder>
    <zorder>layoutWidget</zorder>
    <zorder>cagraphics_4</zorder>
@@ -6347,7 +6597,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caPolygon_14</zorder>
    <zorder>caPolygon_15</zorder>
    <zorder>label_36</zorder>
-   <zorder>caRelatedDisplay_35</zorder>
    <zorder>caled_2</zorder>
    <zorder>caRectangle_17</zorder>
    <zorder>caRectangle_18</zorder>
@@ -6363,6 +6612,21 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>Labjack</zorder>
    <zorder>calineedit_44</zorder>
    <zorder>label_23</zorder>
+   <zorder>calineedit_33</zorder>
+   <zorder>label_10</zorder>
+   <zorder>caPolygon_20</zorder>
+   <zorder>caPolygon_21</zorder>
+   <zorder>caPolygon_22</zorder>
+   <zorder>caRelatedDisplay_34</zorder>
+   <zorder>caPolygon_24</zorder>
+   <zorder>caPolygon_25</zorder>
+   <zorder>caPolygon_26</zorder>
+   <zorder>caPolygon_27</zorder>
+   <zorder>caRelatedDisplay_36</zorder>
+   <zorder>caPolygon_23</zorder>
+   <zorder>calineedit_45</zorder>
+   <zorder>label_40</zorder>
+   <zorder></zorder>
   </widget>
  </widget>
  <customwidgets>

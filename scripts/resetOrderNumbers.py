@@ -3,7 +3,7 @@
 """
 resetOrderNumbers.py
 
-called from main.ui of 9-ID-C USAXS
+called from main.ui of 12-ID-C USAXS
 """
 
 import os

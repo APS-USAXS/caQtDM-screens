@@ -34,7 +34,7 @@
 </string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <property name="tabsClosable">
      <bool>false</bool>
@@ -410,53 +410,11 @@
        <string notr="true">motorxU.ui</string>
       </property>
      </widget>
-     <widget class="caRelatedDisplay" name="caRelatedDisplay_20">
-      <property name="geometry">
-       <rect>
-        <x>420</x>
-        <y>20</y>
-        <width>131</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="label">
-       <string>-shutter</string>
-      </property>
-      <property name="foreground">
-       <color>
-        <red>255</red>
-        <green>255</green>
-        <blue>255</blue>
-       </color>
-      </property>
-      <property name="background">
-       <color>
-        <red>0</red>
-        <green>0</green>
-        <blue>140</blue>
-       </color>
-      </property>
-      <property name="labels">
-       <string>CCD shutter controls</string>
-      </property>
-      <property name="files">
-       <string>12idc_USAXS_CCD_shutter.ui</string>
-      </property>
-      <property name="args">
-       <string/>
-      </property>
-      <property name="stackingMode" stdset="0">
-       <enum>caRowColMenu::Menu</enum>
-      </property>
-      <property name="removeParent" stdset="0">
-       <string>false</string>
-      </property>
-     </widget>
      <widget class="caRelatedDisplay" name="caRelatedDisplay_23">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>70</y>
+        <x>430</x>
+        <y>120</y>
         <width>131</width>
         <height>31</height>
        </rect>
@@ -501,7 +459,7 @@
       <property name="geometry">
        <rect>
         <x>420</x>
-        <y>120</y>
+        <y>160</y>
         <width>161</width>
         <height>131</height>
        </rect>
@@ -522,7 +480,7 @@
           <item row="0" column="0">
            <widget class="QLabel" name="label_19">
             <property name="text">
-             <string>Al</string>
+             <string>Filter</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -544,7 +502,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">usxRIO:pf4:filterAl</string>
+             <string notr="true">12idPyFilter:FL1:sortedIndex_RBV</string>
             </property>
             <property name="unitsEnabled">
              <bool>true</bool>
@@ -552,70 +510,16 @@
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QLabel" name="label_20">
+           <widget class="QLabel" name="label_22">
             <property name="text">
-             <string>Ti</string>
+             <string>I/I0</string>
             </property>
             <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
             </property>
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="caLineEdit" name="calineedit_37">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>#####</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-            <property name="channel" stdset="0">
-             <string notr="true">usxRIO:pf4:filterTi</string>
-            </property>
-            <property name="unitsEnabled">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="0">
-           <widget class="QLabel" name="label_21">
-            <property name="text">
-             <string>glass</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="1">
-           <widget class="caLineEdit" name="calineedit_42">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>#####</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-            <property name="channel" stdset="0">
-             <string notr="true">usxRIO:pf42:filterGlass</string>
-            </property>
-            <property name="unitsEnabled">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="1">
            <widget class="caLineEdit" name="calineedit_44">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -630,7 +534,7 @@
              <set>Qt::AlignCenter</set>
             </property>
             <property name="channel" stdset="0">
-             <string notr="true">usxRIO:pf4:trans</string>
+             <string notr="true">12idPyFilter:FL1:transmission_RBV</string>
             </property>
             <property name="precision">
              <number>4</number>
@@ -640,51 +544,10 @@
             </property>
            </widget>
           </item>
-          <item row="3" column="0">
-           <widget class="QLabel" name="label_22">
-            <property name="text">
-             <string>I/I0</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-          </item>
          </layout>
         </widget>
        </item>
       </layout>
-     </widget>
-     <widget class="caLineEdit" name="calineedit_47">
-      <property name="geometry">
-       <rect>
-        <x>670</x>
-        <y>40</y>
-        <width>86</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>86</width>
-        <height>15</height>
-       </size>
-      </property>
-      <property name="text">
-       <string>#####</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">usxFLY1:cam1:AcquireTime</string>
-      </property>
      </widget>
      <widget class="QLabel" name="label_58">
       <property name="geometry">
@@ -711,6 +574,197 @@
       </property>
       <property name="text">
        <string>Cam exp time</string>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_6">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>30</y>
+        <width>91</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY1:cam1:AcquireTime</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="caMessageButton" name="camessagebutton">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>55</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Start</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY1:cam1:Acquire</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="pressMessage">
+       <string notr="true">1</string>
+      </property>
+     </widget>
+     <widget class="caMessageButton" name="camessagebutton_2">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>80</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stop</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY1:cam1:Acquire</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="pressMessage">
+       <string notr="true">0</string>
+      </property>
+     </widget>
+     <widget class="caMessageButton" name="camessagebutton_6">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>70</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shutter OFF</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">12idc:uniblitz:shutter:close</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="releaseMessage">
+       <string notr="true">1</string>
+      </property>
+      <property name="pressMessage">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="caMessageButton" name="camessagebutton_3">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>35</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shutter ON</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">12idc:uniblitz:shutter:open</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="pressMessage">
+       <string notr="true">1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_62">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>5</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>52</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Shutter</string>
       </property>
      </widget>
     </widget>
@@ -804,13 +858,13 @@
        </color>
       </property>
       <property name="labels">
-       <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Microlab;Love Controllers;xiahsc;12idc Linkam;12idc New Linkam;Huber gonio;Vortex dp;Eurotherm;Keithley 2400;Mythen dp;Tomo X and Y;Pyrometer;PI rotational stages</string>
+       <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Microlab;12idc New Linkam;Huber gonio;Keithley 2400;Pyrometer;PI rotational stages</string>
       </property>
       <property name="files">
-       <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;Linkam_T96.ui;huber_1003.ui;dxpSaturn.ui;eurotherm_modbus.ui;Keithley2400.ui;mca.ui;motor2xU.ui;Metis_M322.ui;motor2x.ui</string>
+       <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;microlab.ui;Linkam_T96.ui;huber_1003.ui;Keithley2400.ui;Metis_M322.ui;motor2x.ui</string>
       </property>
       <property name="args">
-       <string>P=usxLAX;P=usxLAX:250pH:,S=usxLAX:,R=cmdReply:a8_do_IO;P=usxLAX,PORT=:rs232b7;P=usxLAX:,PORT=:rs232b6;P=usxLAX:,R=microlab:,S=cmdReply:a7_do_IO;P=usxLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=usxLAX:,HSC=hsc1:;P=usxLAX:;P=usxLINKAM:,T=tc1, R=asyn;P=usxH1003:,R=dcm:;P=dp_vortex_xrd75:,D=dxp1:,M=mca1;P=usxLAX:,TC=tc1;P=usxLAX:,R=k24k:;P=dp_mythen:;P=usxLAX:, M1=m58:c0:m8, M2=mxv:c0:m7;P=usxPYRO:,R=m322;P=usxPI:c867:c0:,M1=m1,M2=m2</string>
+       <string>P=usxLAX;P=usxLAX:250pH:,S=usxLAX:,R=cmdReply:a8_do_IO;P=usxLAX,PORT=:rs232b7;P=usxLAX:,PORT=:rs232b6;P=usxLAX:,R=microlab:,S=cmdReply:a7_do_IO;P=usxLINKAM:tc1, R=asyn;P=usxH1003:,R=dcm:;P=usxLAX:,R=k24k:;P=usxPYRO:,R=m322;P=usxPI:c867:c0:,M1=m1,M2=m2</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -3051,6 +3105,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_86">
       <property name="geometry">
@@ -3077,6 +3137,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_93">
       <property name="geometry">
@@ -3102,6 +3168,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_107">
@@ -3149,6 +3221,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_110">
@@ -3218,6 +3296,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_95">
       <property name="geometry">
@@ -3243,6 +3327,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_105">
@@ -3312,6 +3402,12 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
+      </property>
      </widget>
      <widget class="QLabel" name="label_106">
       <property name="geometry">
@@ -3358,6 +3454,12 @@
       </property>
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
+      </property>
+      <property name="precision">
+       <number>2</number>
+      </property>
+      <property name="precisionMode">
+       <enum>caLineEdit::User</enum>
       </property>
      </widget>
      <widget class="QLabel" name="label_48">
@@ -4875,18 +4977,18 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_9">
      <item>
-      <widget class="QWidget" name="widget_4" native="true">
+      <widget class="QWidget" name="widget_8" native="true">
        <property name="styleSheet">
         <string notr="true">background-color: rgb(139, 130, 15);</string>
        </property>
-       <layout class="QFormLayout" name="formLayout_2">
+       <layout class="QFormLayout" name="formLayout_5">
         <property name="fieldGrowthPolicy">
          <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
         </property>
         <item row="0" column="0">
-         <widget class="QLabel" name="label_10">
+         <widget class="QLabel" name="label_21">
           <property name="text">
-           <string>Al</string>
+           <string>Filter</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4894,7 +4996,7 @@
          </widget>
         </item>
         <item row="0" column="1">
-         <widget class="caLineEdit" name="calineedit_34">
+         <widget class="caLineEdit" name="calineedit_42">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -4908,7 +5010,7 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">usxRIO:pf4:filterAl</string>
+           <string notr="true">12idPyFilter:FL1:sortedIndex_RBV</string>
           </property>
           <property name="unitsEnabled">
            <bool>true</bool>
@@ -4916,17 +5018,17 @@
          </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QLabel" name="label_13">
+         <widget class="QLabel" name="label_24">
           <property name="text">
-           <string>Ti</string>
+           <string>I/I0</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
           </property>
          </widget>
         </item>
         <item row="1" column="1">
-         <widget class="caLineEdit" name="calineedit_33">
+         <widget class="caLineEdit" name="calineedit_48">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -4940,42 +5042,13 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">usxRIO:pf4:filterTi</string>
+           <string notr="true">12idPyFilter:FL1:transmission_RBV</string>
           </property>
-          <property name="unitsEnabled">
-           <bool>true</bool>
+          <property name="precision">
+           <number>4</number>
           </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="label_14">
-          <property name="text">
-           <string>glass</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="caLineEdit" name="calineedit_35">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="text">
-           <string>#####</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-          <property name="channel" stdset="0">
-           <string notr="true">usxRIO:pf42:filterGlass</string>
-          </property>
-          <property name="unitsEnabled">
-           <bool>true</bool>
+          <property name="precisionMode">
+           <enum>caLineEdit::User</enum>
           </property>
          </widget>
         </item>
@@ -5555,49 +5628,6 @@
       <string notr="true">S:SRcurrentAI.VAL</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_43">
-     <property name="geometry">
-      <rect>
-       <x>11</x>
-       <y>100</y>
-       <width>118</width>
-       <height>19</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Shutter Status:</string>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="calineedit_2">
-     <property name="geometry">
-      <rect>
-       <x>146</x>
-       <y>100</y>
-       <width>300</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="text">
-      <string>#####</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">ACIS:ShutterPermit</string>
-     </property>
-    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_6">
     <property name="geometry">
@@ -6120,6 +6150,11 @@
    <class>caTextEntry</class>
    <extends>caLineEdit</extends>
    <header>caTextEntry</header>
+  </customwidget>
+  <customwidget>
+   <class>caMessageButton</class>
+   <extends>QPushButton</extends>
+   <header>caMessageButton</header>
   </customwidget>
   <customwidget>
    <class>caToggleButton</class>

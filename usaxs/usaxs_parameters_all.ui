@@ -123,7 +123,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -156,7 +156,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -198,7 +198,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -412,7 +412,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -439,7 +439,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>16</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -543,6 +543,12 @@
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
          </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
+         </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_180">
          <property name="geometry">
@@ -568,6 +574,12 @@
          </property>
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
+         </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
          </property>
         </widget>
         <widget class="QLabel" name="label_173">
@@ -616,6 +628,12 @@
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
          </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
+         </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_179">
          <property name="geometry">
@@ -641,6 +659,12 @@
          </property>
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
+         </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
          </property>
         </widget>
         <widget class="QLabel" name="label_169">
@@ -689,6 +713,12 @@
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
          </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
+         </property>
         </widget>
         <widget class="QLabel" name="label_171">
          <property name="geometry">
@@ -715,6 +745,9 @@
            <height>25</height>
           </rect>
          </property>
+         <property name="cursor">
+          <cursorShape>SizeFDiagCursor</cursorShape>
+         </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
@@ -730,6 +763,12 @@
          </property>
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
+         </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
          </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_177">
@@ -757,6 +796,12 @@
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
          </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
+         </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_181">
          <property name="geometry">
@@ -782,6 +827,12 @@
          </property>
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
+         </property>
+         <property name="precision">
+          <number>2</number>
+         </property>
+         <property name="precisionMode">
+          <enum>caLineEdit::User</enum>
          </property>
         </widget>
         <widget class="QLabel" name="label_172">
@@ -984,7 +1035,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>12</pointsize>
+           <pointsize>9</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -992,7 +1043,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:m58:c2:m7.VAL</string>
+          <string notr="true">usxLAX:m58:c1:m7.VAL</string>
          </property>
          <property name="background">
           <color>
@@ -1023,7 +1074,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>12</pointsize>
+           <pointsize>9</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -1031,7 +1082,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:m58:c2:m8.VAL</string>
+          <string notr="true">usxLAX:m58:c1:m8.VAL</string>
          </property>
          <property name="background">
           <color>
@@ -1062,7 +1113,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>12</pointsize>
+           <pointsize>9</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -1140,7 +1191,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>12</pointsize>
+           <pointsize>9</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -4166,7 +4217,7 @@
       <property name="font">
        <font>
         <family>Lucida Sans Typewriter</family>
-        <pointsize>17</pointsize>
+        <pointsize>13</pointsize>
        </font>
       </property>
       <property name="alignment">
@@ -4214,7 +4265,7 @@
       <property name="font">
        <font>
         <family>Lucida Sans Typewriter</family>
-        <pointsize>17</pointsize>
+        <pointsize>13</pointsize>
        </font>
       </property>
       <property name="alignment">
@@ -4262,7 +4313,7 @@
       <property name="font">
        <font>
         <family>Lucida Sans Typewriter</family>
-        <pointsize>17</pointsize>
+        <pointsize>13</pointsize>
        </font>
       </property>
       <property name="alignment">
@@ -4310,7 +4361,7 @@
       <property name="font">
        <font>
         <family>Lucida Sans Typewriter</family>
-        <pointsize>17</pointsize>
+        <pointsize>13</pointsize>
        </font>
       </property>
       <property name="alignment">
@@ -4347,7 +4398,7 @@
            <x>0</x>
            <y>0</y>
            <width>705</width>
-           <height>289</height>
+           <height>285</height>
           </rect>
          </property>
          <widget class="caMessageButton" name="camessagebutton_8">
@@ -4616,7 +4667,7 @@
          <widget class="QLabel" name="label_36">
           <property name="geometry">
            <rect>
-            <x>10</x>
+            <x>9</x>
             <y>106</y>
             <width>144</width>
             <height>18</height>
@@ -4626,7 +4677,7 @@
            <string>MR center, degrees</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
          <widget class="caLineEdit" name="calineedit_100">
@@ -4651,7 +4702,7 @@
          <widget class="QLabel" name="label_34">
           <property name="geometry">
            <rect>
-            <x>10</x>
+            <x>9</x>
             <y>82</y>
             <width>116</width>
             <height>18</height>
@@ -4660,11 +4711,14 @@
           <property name="text">
            <string>Struck channels</string>
           </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
          </widget>
          <widget class="QLabel" name="label_37">
           <property name="geometry">
            <rect>
-            <x>10</x>
+            <x>9</x>
             <y>130</y>
             <width>141</width>
             <height>18</height>
@@ -4674,7 +4728,7 @@
            <string>AR center, degrees</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
          <widget class="caLineEdit" name="calineedit_84">
@@ -4731,39 +4785,45 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">usxLAX:USAXSfly:dyMaxSpeed</string>
+           <string notr="true">usxLAX:USAXSfly:dxMaxSpeed</string>
           </property>
          </widget>
          <widget class="QLabel" name="label_31">
           <property name="geometry">
            <rect>
-            <x>10</x>
+            <x>9</x>
             <y>58</y>
-            <width>107</width>
+            <width>171</width>
             <height>18</height>
            </rect>
           </property>
           <property name="text">
-           <string>DY max speed</string>
+           <string>DX max speed [mm/s]</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
          <widget class="QLabel" name="label_32">
           <property name="geometry">
            <rect>
-            <x>10</x>
+            <x>9</x>
             <y>34</y>
             <width>166</width>
             <height>18</height>
            </rect>
           </property>
           <property name="text">
-           <string>AY max speed [mm/s]</string>
+           <string>AX max speed [mm/s]</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
          <widget class="QLabel" name="label_48">
           <property name="geometry">
            <rect>
-            <x>10</x>
+            <x>9</x>
             <y>154</y>
             <width>116</width>
             <height>18</height>
@@ -4773,7 +4833,7 @@
            <string>MS center, VDC</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
          <widget class="caLineEdit" name="calineedit_83">
@@ -4811,29 +4871,29 @@
            <set>Qt::AlignCenter</set>
           </property>
           <property name="channel" stdset="0">
-           <string notr="true">usxLAX:USAXSfly:ayMaxSpeed</string>
+           <string notr="true">usxLAX:USAXSfly:axMaxSpeed</string>
           </property>
          </widget>
          <widget class="QLabel" name="label_33">
           <property name="geometry">
            <rect>
-            <x>10</x>
+            <x>9</x>
             <y>10</y>
-            <width>108</width>
+            <width>171</width>
             <height>18</height>
            </rect>
           </property>
           <property name="text">
-           <string>AR max speed</string>
+           <string>AR max speed [deg/s]</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
          <widget class="QLabel" name="label_49">
           <property name="geometry">
            <rect>
-            <x>10</x>
+            <x>9</x>
             <y>178</y>
             <width>113</width>
             <height>18</height>
@@ -4843,7 +4903,7 @@
            <string>AS center, VDC</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
          <widget class="caMessageButton" name="camessagebutton_13">
@@ -4932,7 +4992,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>16</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="text">
@@ -6731,7 +6791,7 @@
     <widget class="QLabel" name="label_115">
      <property name="geometry">
       <rect>
-       <x>460</x>
+       <x>520</x>
        <y>74</y>
        <width>52</width>
        <height>16</height>
@@ -6744,7 +6804,7 @@
     <widget class="caTextEntry" name="catextentry_120">
      <property name="geometry">
       <rect>
-       <x>500</x>
+       <x>590</x>
        <y>70</y>
        <width>93</width>
        <height>25</height>
@@ -6776,7 +6836,7 @@
     <widget class="caTextEntry" name="catextentry_121">
      <property name="geometry">
       <rect>
-       <x>500</x>
+       <x>590</x>
        <y>40</y>
        <width>93</width>
        <height>25</height>
@@ -6808,7 +6868,7 @@
     <widget class="QLabel" name="label_116">
      <property name="geometry">
       <rect>
-       <x>460</x>
+       <x>520</x>
        <y>44</y>
        <width>60</width>
        <height>16</height>
@@ -6821,7 +6881,7 @@
     <widget class="caTextEntry" name="catextentry_122">
      <property name="geometry">
       <rect>
-       <x>500</x>
+       <x>590</x>
        <y>100</y>
        <width>93</width>
        <height>25</height>
@@ -6853,7 +6913,7 @@
     <widget class="QLabel" name="label_117">
      <property name="geometry">
       <rect>
-       <x>460</x>
+       <x>520</x>
        <y>104</y>
        <width>80</width>
        <height>16</height>

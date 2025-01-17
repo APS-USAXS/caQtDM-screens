@@ -194,7 +194,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string>$(P)esaf:cycle</string>
+      <string notr="true">$(P)esaf:run</string>
      </property>
      <property name="foreground">
       <color>

@@ -573,7 +573,7 @@
        <string notr="true">color: rgb(0, 0, 0)</string>
       </property>
       <property name="text">
-       <string>Cam exp time</string>
+       <string>RadIography CAM</string>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_6">
@@ -765,6 +765,170 @@
       </property>
       <property name="text">
        <string>Shutter</string>
+      </property>
+     </widget>
+     <widget class="caRelatedDisplay" name="caRelatedDisplay_31">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>260</y>
+        <width>120</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="label">
+       <string notr="true">-Images</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="labels">
+       <string notr="true">BF Radiography;BF optical image</string>
+      </property>
+      <property name="files">
+       <string notr="true">testCamera1.ui;testCamera2.ui</string>
+      </property>
+      <property name="args">
+       <string notr="true">P=usxFLY1:,R=cam1:;P=usxFLY2:,R=cam1:</string>
+      </property>
+      <property name="stackingMode" stdset="0">
+       <enum>caRowColMenu::Menu</enum>
+      </property>
+      <property name="removeParent" stdset="0">
+       <string>false;false;false;false;false;false;false;false;false;false;false;false;false;false;false;false</string>
+      </property>
+     </widget>
+     <widget class="caMessageButton" name="camessagebutton_4">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>175</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Start</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY2:cam1:Acquire</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="pressMessage">
+       <string notr="true">1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_63">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>130</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>52</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Optical CAM</string>
+      </property>
+     </widget>
+     <widget class="caMessageButton" name="camessagebutton_5">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>200</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stop</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY2:cam1:Acquire</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="pressMessage">
+       <string notr="true">0</string>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_7">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>150</y>
+        <width>91</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY2:cam1:AcquireTime</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
       </property>
      </widget>
     </widget>
@@ -1911,7 +2075,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1969,7 +2133,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2027,7 +2191,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2085,7 +2249,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2520,7 +2684,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>16</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -3586,7 +3750,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>13</pointsize>
+        <pointsize>17</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -3622,7 +3786,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>13</pointsize>
+        <pointsize>17</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -3658,7 +3822,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>13</pointsize>
+        <pointsize>17</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -3715,7 +3879,7 @@
       <property name="font">
        <font>
         <family>Monospace</family>
-        <pointsize>13</pointsize>
+        <pointsize>17</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
@@ -4188,7 +4352,7 @@
          <property name="font">
           <font>
            <family>Monospace</family>
-           <pointsize>13</pointsize>
+           <pointsize>17</pointsize>
            <stylestrategy>PreferDefault</stylestrategy>
           </font>
          </property>
@@ -4307,7 +4471,7 @@
          </property>
          <property name="font">
           <font>
-           <pointsize>10</pointsize>
+           <pointsize>14</pointsize>
           </font>
          </property>
          <property name="text">
@@ -4468,7 +4632,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>13</pointsize>
+         <pointsize>17</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4567,7 +4731,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>13</pointsize>
+         <pointsize>17</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4603,7 +4767,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>13</pointsize>
+         <pointsize>17</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4638,7 +4802,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>16</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4665,7 +4829,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>16</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4692,7 +4856,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>16</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4719,7 +4883,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>16</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4746,7 +4910,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>11</pointsize>
+         <pointsize>15</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4773,7 +4937,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>16</pointsize>
         </font>
        </property>
        <property name="text">
@@ -4864,7 +5028,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>14</pointsize>
+         <pointsize>19</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -4942,7 +5106,7 @@
        <property name="font">
         <font>
          <family>Monospace</family>
-         <pointsize>14</pointsize>
+         <pointsize>19</pointsize>
          <stylestrategy>PreferDefault</stylestrategy>
         </font>
        </property>
@@ -5659,7 +5823,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5690,7 +5854,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5721,7 +5885,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5752,7 +5916,7 @@
      <property name="font">
       <font>
        <family>Monospace</family>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5927,7 +6091,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5954,7 +6118,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="text">
@@ -5981,7 +6145,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6008,7 +6172,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6048,7 +6212,7 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>15</pointsize>
+      <pointsize>20</pointsize>
       <stylestrategy>PreferDefault</stylestrategy>
      </font>
     </property>
@@ -6086,7 +6250,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="text">

@@ -127,7 +127,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <property name="font">
          <font>
           <family>Lucida Sans Typewriter</family>
-          <pointsize>17</pointsize>
+          <pointsize>13</pointsize>
          </font>
         </property>
         <property name="channel" stdset="0">
@@ -165,7 +165,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <property name="font">
          <font>
           <family>Lucida Sans Typewriter</family>
-          <pointsize>17</pointsize>
+          <pointsize>13</pointsize>
          </font>
         </property>
         <property name="channel" stdset="0">
@@ -203,7 +203,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         <property name="font">
          <font>
           <family>Lucida Sans Typewriter</family>
-          <pointsize>17</pointsize>
+          <pointsize>13</pointsize>
          </font>
         </property>
         <property name="channel" stdset="0">
@@ -357,7 +357,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>17</pointsize>
+           <pointsize>13</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -395,7 +395,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>17</pointsize>
+           <pointsize>13</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">
@@ -433,7 +433,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <property name="font">
           <font>
            <family>Lucida Sans Typewriter</family>
-           <pointsize>17</pointsize>
+           <pointsize>13</pointsize>
           </font>
          </property>
          <property name="channel" stdset="0">

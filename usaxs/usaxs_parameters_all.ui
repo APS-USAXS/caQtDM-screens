@@ -221,7 +221,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:ReqNumScansBetweenTune</string>
+      <string notr="true">usxLAX:ReqNumScansBetweenTune</string>
      </property>
      <property name="foreground">
       <color>
@@ -280,7 +280,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:ReqTimeBetweenTune</string>
+      <string notr="true">usxLAX:ReqTimeBetweenTune</string>
      </property>
      <property name="foreground">
       <color>
@@ -339,7 +339,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:EPOCHTimeOfLastTune</string>
+      <string notr="true">usxLAX:EPOCHTimeOfLastTune</string>
      </property>
      <property name="foreground">
       <color>
@@ -375,7 +375,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:NumScansFromLastTune</string>
+      <string notr="true">usxLAX:NumScansFromLastTune</string>
      </property>
      <property name="foreground">
       <color>
@@ -531,7 +531,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:USAXS_hgslit_ap</string>
+          <string notr="true">usxLAX:USAXS_hgslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -563,7 +563,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:SAXS_hgslit_ap</string>
+          <string notr="true">usxLAX:SAXS_hgslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -616,7 +616,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:USAXS_vgslit_ap</string>
+          <string notr="true">usxLAX:USAXS_vgslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -648,7 +648,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:USAXS_hslit_ap</string>
+          <string notr="true">usxLAX:USAXS_hslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -701,7 +701,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:SAXS_vgslit_ap</string>
+          <string notr="true">usxLAX:SAXS_vgslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -752,7 +752,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:SAXS_hslit_ap</string>
+          <string notr="true">usxLAX:SAXS_hslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -784,7 +784,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:SAXS_vslit_ap</string>
+          <string notr="true">usxLAX:SAXS_vslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -816,7 +816,7 @@
           <set>Qt::AlignCenter</set>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:USAXS_vslit_ap</string>
+          <string notr="true">usxLAX:USAXS_vslit_ap</string>
          </property>
          <property name="background">
           <color>
@@ -5040,7 +5040,7 @@
         <set>Qt::AlignCenter</set>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">usxLAX:USAXS:preUSAXStuneSY</string>
+        <string notr="true">usxLAX:preUSAXStuneSY</string>
        </property>
        <property name="background">
         <color>
@@ -5092,7 +5092,7 @@
         <set>Qt::AlignCenter</set>
        </property>
        <property name="channel" stdset="0">
-        <string notr="true">usxLAX:USAXS:preUSAXStuneSX</string>
+        <string notr="true">usxLAX:preUSAXStuneSX</string>
        </property>
        <property name="background">
         <color>
@@ -6327,7 +6327,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:ax_in</string>
+      <string notr="true">usxLAX:ax_in</string>
      </property>
      <property name="background">
       <color>
@@ -6404,7 +6404,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:SAXS_z_in</string>
+      <string notr="true">usxLAX:SAXS_z_in</string>
      </property>
      <property name="background">
       <color>
@@ -6436,7 +6436,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:SAXS_y_in</string>
+      <string notr="true">usxLAX:SAXS_y_in</string>
      </property>
      <property name="background">
       <color>
@@ -6468,7 +6468,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:WAXS_x_out</string>
+      <string notr="true">usxLAX:WAXS_x_out</string>
      </property>
      <property name="background">
       <color>
@@ -6500,7 +6500,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:WAXS_x_out</string>
+      <string notr="true">usxLAX:WAXS_x_out</string>
      </property>
      <property name="background">
       <color>
@@ -6532,7 +6532,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:SAXS_z_out</string>
+      <string notr="true">usxLAX:SAXS_z_out</string>
      </property>
      <property name="background">
       <color>
@@ -6564,7 +6564,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:WAXS_x_in</string>
+      <string notr="true">usxLAX:WAXS_x_in</string>
      </property>
      <property name="background">
       <color>
@@ -6641,7 +6641,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:ax_out</string>
+      <string notr="true">usxLAX:ax_out</string>
      </property>
      <property name="background">
       <color>
@@ -6673,7 +6673,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:SAXS:SAXS_y_out</string>
+      <string notr="true">usxLAX:SAXS_y_out</string>
      </property>
      <property name="background">
       <color>
@@ -6962,7 +6962,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:preUSAXStuneSY</string>
+      <string notr="true">usxLAX:preUSAXStuneSY</string>
      </property>
      <property name="background">
       <color>
@@ -7020,7 +7020,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:preUSAXStuneSX</string>
+      <string notr="true">usxLAX:preUSAXStuneSX</string>
      </property>
      <property name="background">
       <color>

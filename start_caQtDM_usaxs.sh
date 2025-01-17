@@ -97,17 +97,18 @@ addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxSP/SPApp/op/ui
 addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxSP/SPApp/op/ui/autoconvert
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/12idPyFilter/12idPyFilterApp/op/ui
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/12ideCC/12ideCCApp/op/ui
+addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/usxFLY2/usxFLY2App/op/adl
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/support/streamMail/sMailApp/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui/autoconvert
-# AREA_DETECTOR needs to be defined because xxx doesn't include it
-AREA_DETECTOR=/APSshare/epics/synApps_5_8/support/areaDetector-2-4
 addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui
 addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui/autoconvert
 addScreenPath      AREA_DETECTOR         ADPilatus/pilatusApp/op/ui
 addScreenPath      AREA_DETECTOR         ADPilatus/pilatusApp/op/ui/autoconvert
 addScreenPath      AREA_DETECTOR         ADPerkinElmer/perkinElmerApp/op/ui
 addScreenPath      AREA_DETECTOR         ADPerkinElmer/perkinElmerApp/op/ui/autoconvert
+addScreenPath      AREA_DETECTOR         ADAravis/aravisApp/op/ui/autoconvert
+addScreenPath      AREA_DETECTOR         ADGenICam/GenICamApp/op/ui/autoconvert
 addScreenPath      ASYN                  opi/caqtdm
 addScreenPath      ASYN                  opi/caqtdm/autoconvert
 addScreenPath      AUTOSAVE              asApp/op/ui
@@ -290,7 +291,9 @@ fi
 #!ldd $CAQTDM
 
 # For troubleshooting
-#!echo $CAQTDM_DISPLAY_PATH | sed -e 's/:/\n/g'
+echo
+echo $CAQTDM_DISPLAY_PATH | sed -e 's/:/\n/g'
+echo
 
 #######################################
 # start caQtDM

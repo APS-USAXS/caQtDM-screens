@@ -2540,7 +2540,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string notr="true">pilatusDetector.ui;pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera1.ui;PerkinElmer.ui;mythen.ui;PerkinElmer.ui;ADAravis.ui;testCamera2.ui;Dexela.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus3:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=12idalta:,R=cam1:;P=usxFLY1:,R=cam1:;P=usxFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=dp_pe_xrd79:,R=cam1:;P=usxFLY2:,R=cam1:;P=usxFLY2:,R=cam1:;P=12idcDEX:,R=cam1:</string>
+     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus3:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=12idalta:,R=cam1:;P=usxFLY1:,R=cam1:;P=usxFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=dp_pe_xrd79:,R=cam1:;P=usxFLY2:,R=cam1:,C=FLIR-BFS-PGE-16S2C;P=usxFLY2:,R=cam1:;P=12idcDEX:,R=cam1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

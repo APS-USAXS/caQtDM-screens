@@ -207,7 +207,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          </font>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">usxLAX:UserName</string>
+         <string notr="true">usxLAX:userName</string>
         </property>
         <property name="background">
          <color>
@@ -243,28 +243,6 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
         </property>
         <property name="scriptCommand">
          <string notr="true">/home/beams/USAXS/screens/scripts/resetOrderNumbers.sh</string>
-        </property>
-       </widget>
-       <widget class="caScriptButton" name="cascriptbutton_4">
-        <property name="geometry">
-         <rect>
-          <x>470</x>
-          <y>130</y>
-          <width>131</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="label">
-         <string notr="true">Submit e-log</string>
-        </property>
-        <property name="scriptDisplay">
-         <enum>caScriptButton::Invisible</enum>
-        </property>
-        <property name="checkBoxVisible" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="scriptCommand">
-         <string notr="true">/home/beams/USAXS/bin/snapshot.sh</string>
         </property>
        </widget>
        <widget class="QGroupBox" name="groupBox_4">
@@ -940,34 +918,17 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <string>false</string>
         </property>
        </widget>
-       <widget class="caRelatedDisplay" name="carelateddisplay_7">
+       <widget class="caRelatedDisplay" name="caRelatedDisplay_6">
         <property name="geometry">
          <rect>
-          <x>230</x>
-          <y>130</y>
-          <width>170</width>
-          <height>25</height>
+          <x>240</x>
+          <y>140</y>
+          <width>101</width>
+          <height>21</height>
          </rect>
         </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="baseSize">
-         <size>
-          <width>0</width>
-          <height>30</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>10</pointsize>
-         </font>
-        </property>
         <property name="label">
-         <string notr="true">9 ID Synoptic</string>
+         <string notr="true">-12ID beamline</string>
         </property>
         <property name="foreground">
          <color>
@@ -980,20 +941,20 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          <color>
           <red>0</red>
           <green>0</green>
-          <blue>255</blue>
+          <blue>140</blue>
          </color>
         </property>
         <property name="labels">
-         <string>9 ID Synoptic</string>
+         <string>12ID Beamline Components;12ida2 layout;LAX;12ID BPM Combined;12ID BPM;StreamMail Cryo</string>
         </property>
         <property name="files">
-         <string>12ida.ui</string>
+         <string>/net/s12dserv/xorApps/ui/12id/12ide_all.ui;12ida2_layout.ui;usxLAX.ui;IDbpmCanted.ui;position.ui;StreamMail.ui</string>
         </property>
         <property name="args">
-         <string/>
+         <string>;;;sec=12,ds=13,us=12;P=S12IDFE-XBPM:,R=P1us:;P=12ideCC:,SM=strMail</string>
         </property>
-        <property name="fontScaleMode" stdset="0">
-         <enum>EPushButton::None</enum>
+        <property name="stackingMode" stdset="0">
+         <enum>caRowColMenu::Menu</enum>
         </property>
         <property name="removeParent" stdset="0">
          <string>false</string>

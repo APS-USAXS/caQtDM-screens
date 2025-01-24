@@ -514,13 +514,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>12ID Beamline Components;12ida2 layout;LAX;12id;12ID BPM Combined;12ID BPM;StreamMail Cryo</string>
+     <string>12ID Beamline Components;12ida2 layout;LAX;12ID BPM Combined;12ID BPM;StreamMail Cryo</string>
     </property>
     <property name="files">
-     <string>/net/s12dserv/xorApps/ui/12id/12ide_all.ui;12ida2_layout.ui;usxLAX.ui;12idcSFO.ui;IDbpmCanted.ui;position.ui;StreamMail.ui</string>
+     <string>/net/s12dserv/xorApps/ui/12id/12ide_all.ui;12ida2_layout.ui;usxLAX.ui;IDbpmCanted.ui;position.ui;StreamMail.ui</string>
     </property>
     <property name="args">
-     <string>;;;;sec=12,ds=13,us=12;P=S12IDFE-XBPM:,R=P1us:;P=12ideCC:,SM=strMail</string>
+     <string>;;;sec=12,ds=13,us=12;P=S12IDFE-XBPM:,R=P1us:;P=12ideCC:,SM=strMail,N1=1,N2=2,N3=3,N4=4,N5=5,N6=6,N7=7,N8=8,N9=9,N10=10</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -2534,13 +2534,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SAXS Pilatus;SAXS Pilatus CdTe;WAXS Pilatus;Alta;BlackFly;BlackFlyImage;DP Perkin Elmer;Mythen DP;PD Perkin ELmer Graphite;BlackFly2;BlackFlyImage2;Dexela</string>
+     <string notr="true">WAXS Eiger;SAXS Pilatus CdTe;WAXS Pilatus;Alta;BlackFly;BlackFlyImage;DP Perkin Elmer;Mythen DP;PD Perkin ELmer Graphite;BlackFly2;BlackFlyImage2;Dexela</string>
     </property>
     <property name="files">
-     <string notr="true">pilatusDetector.ui;pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera1.ui;PerkinElmer.ui;mythen.ui;PerkinElmer.ui;ADAravis.ui;testCamera2.ui;Dexela.ui</string>
+     <string notr="true">eiger2Detector.ui;pilatusDetector.ui;pilatusDetector.ui;Alta.ui;pointGrey.ui;testCamera1.ui;PerkinElmer.ui;mythen.ui;PerkinElmer.ui;ADAravis.ui;testCamera2.ui;Dexela.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=usaxs_pilatus1:,R=cam1:;P=usaxs_pilatus3:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=12idalta:,R=cam1:;P=usxFLY1:,R=cam1:;P=usxFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=dp_pe_xrd79:,R=cam1:;P=usxFLY2:,R=cam1:,C=FLIR-BFS-PGE-16S2C;P=usxFLY2:,R=cam1:;P=12idcDEX:,R=cam1:</string>
+     <string notr="true">P=usaxs_eiger1:,R=cam1:;P=usaxs_pilatus3:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=12idalta:,R=cam1:;P=usxFLY1:,R=cam1:;P=usxFLY1:,R=cam1:;P=dp_pe2:,R=cam1:;P=dp_mythen_xrd45:,R=cam1:;P=dp_pe_xrd79:,R=cam1:;P=usxFLY2:,R=cam1:,C=FLIR-BFS-PGE-16S2C;P=usxFLY2:,R=cam1:;P=12idcDEX:,R=cam1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

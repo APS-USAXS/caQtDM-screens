@@ -109,6 +109,7 @@ addScreenPath      AREA_DETECTOR         ADPerkinElmer/perkinElmerApp/op/ui
 addScreenPath      AREA_DETECTOR         ADPerkinElmer/perkinElmerApp/op/ui/autoconvert
 addScreenPath      AREA_DETECTOR         ADAravis/aravisApp/op/ui/autoconvert
 addScreenPath      AREA_DETECTOR         ADGenICam/GenICamApp/op/ui/autoconvert
+addScreenPath      AREA_DETECTOR         ADEiger/eigerApp/op/ui/autoconvert
 addScreenPath      ASYN                  opi/caqtdm
 addScreenPath      ASYN                  opi/caqtdm/autoconvert
 addScreenPath      AUTOSAVE              asApp/op/ui

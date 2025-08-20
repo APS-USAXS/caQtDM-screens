@@ -98,6 +98,7 @@ addScreenPath      DSERV_EPICS_DIR       synApps_6_2_1/ioc/usxSP/SPApp/op/ui/aut
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/12idPyFilter/12idPyFilterApp/op/ui
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/12ideCC/12ideCCApp/op/ui
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/usxFLY2/usxFLY2App/op/adl
+addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/usxFLY3/usxFLY3App/op/adl
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/support/streamMail/sMailApp/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui/autoconvert

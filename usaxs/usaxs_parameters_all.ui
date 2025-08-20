@@ -130,7 +130,7 @@
       <string>Run PreUSAXS tune next</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:RunPreUSAXStuneNext</string>
+      <string notr="true">usxLAX:RunPreUSAXStuneNext</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_2">
@@ -163,7 +163,7 @@
       <string>Run PreUSAXS tune on CollectData</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:RunPreUSAXStuneOnQdo</string>
+      <string notr="true">usxLAX:RunPreUSAXStuneOnQdo</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_3">
@@ -419,7 +419,7 @@
       <string>PreUSAXStune use Specific location?</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">usxLAX:USAXS:UseSpecificTuneLocation</string>
+      <string notr="true">usxLAX:UseSpecificTuneLocation</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_16">
@@ -2164,6 +2164,9 @@
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
          </property>
+         <property name="minValue">
+          <double>1.000000000000000</double>
+         </property>
         </widget>
         <widget class="QLabel" name="label_165">
          <property name="geometry">
@@ -2202,6 +2205,9 @@
          </property>
          <property name="colorMode">
           <enum>caLineEdit::Static</enum>
+         </property>
+         <property name="minValue">
+          <double>1.000000000000000</double>
          </property>
         </widget>
         <widget class="caTextEntry" name="catextentry_183">
@@ -2425,6 +2431,9 @@
            <width>100</width>
            <height>22</height>
           </rect>
+         </property>
+         <property name="text">
+          <string>Pilatus 200kw</string>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">usxLAX:WAXS:detectorChoice</string>
@@ -2675,14 +2684,14 @@
      <widget class="QLabel" name="label_58">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>330</x>
         <y>30</y>
-        <width>111</width>
+        <width>141</width>
         <height>21</height>
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Rad. Al filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>Radiography filter</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -2698,7 +2707,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Rad. Ti filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>Not used</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -2922,7 +2931,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS Al filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -2938,7 +2947,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;USAXS Ti filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>Not used</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -2954,7 +2963,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;BFly dx (mm)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>Direct beam dx</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -3034,7 +3043,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;BFly Ti filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>Not used</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -3075,14 +3084,14 @@
      <widget class="QLabel" name="label_106">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>340</x>
         <y>100</y>
-        <width>111</width>
+        <width>131</width>
         <height>21</height>
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;BFly Al filter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>Direct beam filter</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -3098,7 +3107,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;BFly dy (mm)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>Direct beam dy</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -4397,8 +4406,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>705</width>
-           <height>285</height>
+           <width>96</width>
+           <height>26</height>
           </rect>
          </property>
          <widget class="caMessageButton" name="camessagebutton_8">

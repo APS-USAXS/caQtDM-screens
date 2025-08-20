@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="step1">
      <attribute name="title">
@@ -43,7 +43,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:SAXS_z_out</string>
+          <string notr="true">usxLAX:SAXS_z_out</string>
          </property>
          <property name="foreground">
           <color>
@@ -84,9 +84,9 @@
         <widget class="QLabel" name="label_15">
          <property name="geometry">
           <rect>
-           <x>420</x>
+           <x>410</x>
            <y>40</y>
-           <width>101</width>
+           <width>121</width>
            <height>25</height>
           </rect>
          </property>
@@ -107,7 +107,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:SAXS_z_in</string>
+          <string notr="true">usxLAX:SAXS_z_in</string>
          </property>
          <property name="foreground">
           <color>
@@ -287,7 +287,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:SAXS_z_in</string>
+          <string notr="true">usxLAX:SAXS_z_in</string>
          </property>
          <property name="foreground">
           <color>
@@ -361,7 +361,7 @@
           </rect>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">usxLAX:SAXS:SAXS_z_out</string>
+          <string notr="true">usxLAX:SAXS_z_out</string>
          </property>
          <property name="foreground">
           <color>
@@ -457,7 +457,7 @@
           <bool>false</bool>
          </property>
          <property name="scriptCommand">
-          <string notr="true">/home/beams/USAXS/usaxs/scripts/copyPinZForSAXS.sh</string>
+          <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForSAXS.sh</string>
          </property>
         </widget>
         <widget class="caScriptButton" name="cascriptbutton_3">
@@ -479,17 +479,48 @@
           <string notr="true">/net/s12dserv/xorApps/epics/screens/usaxs/scripts/copyPinZForUSAXS.sh</string>
          </property>
         </widget>
-        <widget class="caTextEntry" name="caTextEntry_12">
+        <widget class="QLabel" name="label_28">
          <property name="geometry">
           <rect>
-           <x>140</x>
-           <y>77</y>
-           <width>111</width>
-           <height>21</height>
+           <x>8</x>
+           <y>80</y>
+           <width>121</width>
+           <height>20</height>
           </rect>
          </property>
          <property name="text">
-          <string/>
+          <string>saxs z Low limit Val</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>311</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1.	With SAXS in, move sample approximately into the in-beam position&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="caTextEntry" name="caTextEntry_13">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>70</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
          </property>
          <property name="channel" stdset="0">
           <string notr="true">usxAERO:m14.LLM</string>
@@ -528,40 +559,6 @@
          </property>
          <property name="formatType">
           <enum>caLineEdit::decimal</enum>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_28">
-         <property name="geometry">
-          <rect>
-           <x>8</x>
-           <y>80</y>
-           <width>121</width>
-           <height>20</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>saxs z Low limit Val</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_18">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>0</y>
-           <width>311</width>
-           <height>81</height>
-          </rect>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>13</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1.	With SAXS in, move sample approximately into the in-beam position&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
          </property>
         </widget>
        </widget>

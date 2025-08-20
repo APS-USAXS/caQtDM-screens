@@ -24,12 +24,14 @@ def log(msg):
 log(sys.argv[0])
 try:
 	epics.caput("usxLAX:USAXS:FS_OrderNumber", 1)
-	epics.caput("usaxs_pilatus1:cam1:FileNumber", 1)
-	epics.caput("usaxs_pilatus1:HDF1:FileNumber", 1)
-	epics.caput("usaxs_pilatus2:HDF1:FileNumber", 1)
-	epics.caput("usaxs_pilatus2:cam1:FileNumber", 1)
+	#epics.caput("usaxs_pilatus1:cam1:FileNumber", 1)
+	#epics.caput("usaxs_pilatus1:HDF1:FileNumber", 1)
+	#epics.caput("usaxs_pilatus2:HDF1:FileNumber", 1)
+	#epics.caput("usaxs_pilatus2:cam1:FileNumber", 1)
 	epics.caput("usaxs_pilatus3:HDF1:FileNumber", 1)
 	epics.caput("usaxs_pilatus3:cam1:FileNumber", 1)
+    epics.caput("usaxs_eiger1:HDF1:FileNumber", 1)
+	epics.caput("usaxs_eiger1:cam1:FileNumber", 1)
 	epics.caput("usxDEX:HDF1:FileNumber", 1)
 	epics.caput("usxDEX:TIFF1:FileNumber", 1)
     

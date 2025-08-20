@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>613</width>
-    <height>480</height>
+    <width>620</width>
+    <height>329</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -69,8 +69,8 @@
   <widget class="QLabel" name="label_55">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>350</y>
+     <x>370</x>
+     <y>205</y>
      <width>131</width>
      <height>32</height>
     </rect>
@@ -133,29 +133,6 @@
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Auto Open&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_58">
-   <property name="geometry">
-    <rect>
-     <x>365</x>
-     <y>310</y>
-     <width>151</width>
-     <height>32</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color:rgb(0, 0, 0)</string>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;CCD Shutter &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_30">
@@ -245,8 +222,8 @@
   <widget class="QLabel" name="label_36">
    <property name="geometry">
     <rect>
-     <x>523</x>
-     <y>365</y>
+     <x>553</x>
+     <y>215</y>
      <width>51</width>
      <height>21</height>
     </rect>
@@ -266,8 +243,8 @@
   <widget class="QLabel" name="label_37">
    <property name="geometry">
     <rect>
-     <x>531</x>
-     <y>350</y>
+     <x>561</x>
+     <y>200</y>
      <width>31</width>
      <height>21</height>
     </rect>
@@ -339,28 +316,6 @@
    </property>
    <property name="channel" stdset="0">
     <string notr="true">12ida2:AShtr:Enable</string>
-   </property>
-  </widget>
-  <widget class="caLineEdit" name="calineedit_28">
-   <property name="geometry">
-    <rect>
-     <x>350</x>
-     <y>350</y>
-     <width>153</width>
-     <height>36</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>#####</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <property name="channel" stdset="0">
-    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
-   </property>
-   <property name="formatType">
-    <enum>caLineEdit::string</enum>
    </property>
   </widget>
   <widget class="caMessageButton" name="camessagebutton">
@@ -537,8 +492,8 @@
   <widget class="caMessageButton" name="camessagebutton_4">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>390</y>
+     <x>330</x>
+     <y>245</y>
      <width>171</width>
      <height>21</height>
     </rect>
@@ -563,38 +518,8 @@
      <blue>140</blue>
     </color>
    </property>
-   <property name="pressMessage">
+   <property name="releaseMessage">
     <string notr="true">1</string>
-   </property>
-  </widget>
-  <widget class="caMessageButton" name="camessagebutton_5">
-   <property name="geometry">
-    <rect>
-     <x>340</x>
-     <y>390</y>
-     <width>171</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Request shutter to open</string>
-   </property>
-   <property name="channel" stdset="0">
-    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
-   </property>
-   <property name="foreground">
-    <color>
-     <red>255</red>
-     <green>255</green>
-     <blue>255</blue>
-    </color>
-   </property>
-   <property name="background">
-    <color>
-     <red>0</red>
-     <green>0</green>
-     <blue>140</blue>
-    </color>
    </property>
    <property name="pressMessage">
     <string notr="true">1</string>
@@ -639,14 +564,17 @@
   <widget class="caMessageButton" name="camessagebutton_9">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>415</y>
+     <x>330</x>
+     <y>270</y>
      <width>171</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
     <string>Request shutter to close</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
    </property>
    <property name="channel" stdset="0">
     <string notr="true">12idc:uniblitz:shutter:close</string>
@@ -665,41 +593,11 @@
      <blue>140</blue>
     </color>
    </property>
-   <property name="pressMessage">
-    <string notr="true">0</string>
-   </property>
-  </widget>
-  <widget class="caMessageButton" name="camessagebutton_10">
-   <property name="geometry">
-    <rect>
-     <x>340</x>
-     <y>415</y>
-     <width>171</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Request shutter to close</string>
-   </property>
-   <property name="channel" stdset="0">
-    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
-   </property>
-   <property name="foreground">
-    <color>
-     <red>255</red>
-     <green>255</green>
-     <blue>255</blue>
-    </color>
-   </property>
-   <property name="background">
-    <color>
-     <red>0</red>
-     <green>0</green>
-     <blue>140</blue>
-    </color>
+   <property name="releaseMessage">
+    <string notr="true">1</string>
    </property>
    <property name="pressMessage">
-    <string notr="true">0</string>
+    <string notr="true">1</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_1">
@@ -795,8 +693,8 @@
   <widget class="caPolyLine" name="caPolygon_4">
    <property name="geometry">
     <rect>
-     <x>540</x>
-     <y>390</y>
+     <x>570</x>
+     <y>240</y>
      <width>20</width>
      <height>28</height>
     </rect>
@@ -885,8 +783,8 @@
   <widget class="caPolyLine" name="caPolygon_6">
    <property name="geometry">
     <rect>
-     <x>540</x>
-     <y>410</y>
+     <x>570</x>
+     <y>260</y>
      <width>20</width>
      <height>28</height>
     </rect>
@@ -1065,8 +963,8 @@
   <widget class="caPolyLine" name="caPolygon_12">
    <property name="geometry">
     <rect>
-     <x>532</x>
-     <y>385</y>
+     <x>562</x>
+     <y>235</y>
      <width>35</width>
      <height>60</height>
     </rect>
@@ -1177,7 +1075,6 @@
   <zorder>label_55</zorder>
   <zorder>label_56</zorder>
   <zorder>label_57</zorder>
-  <zorder>label_58</zorder>
   <zorder>label_30</zorder>
   <zorder>label_31</zorder>
   <zorder>label_32</zorder>
@@ -1187,17 +1084,14 @@
   <zorder>calineedit_24</zorder>
   <zorder>calineedit_25</zorder>
   <zorder>calineedit_27</zorder>
-  <zorder>calineedit_28</zorder>
   <zorder>camessagebutton</zorder>
   <zorder>camessagebutton_2</zorder>
   <zorder>camessagebutton_7</zorder>
   <zorder>camessagebutton_8</zorder>
   <zorder>camessagebutton_3</zorder>
   <zorder>camessagebutton_4</zorder>
-  <zorder>camessagebutton_5</zorder>
   <zorder>camessagebutton_6</zorder>
   <zorder>camessagebutton_9</zorder>
-  <zorder>camessagebutton_10</zorder>
   <zorder>caPolygon_1</zorder>
   <zorder>caPolygon_2</zorder>
   <zorder>caPolygon_4</zorder>

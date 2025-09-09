@@ -226,9 +226,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <widget class="caScriptButton" name="cascriptbutton">
         <property name="geometry">
          <rect>
-          <x>410</x>
-          <y>90</y>
-          <width>200</width>
+          <x>450</x>
+          <y>95</y>
+          <width>150</width>
           <height>25</height>
          </rect>
         </property>
@@ -753,66 +753,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
          </property>
         </widget>
        </widget>
-       <widget class="caRelatedDisplay" name="carelateddisplay_5">
-        <property name="geometry">
-         <rect>
-          <x>0</x>
-          <y>90</y>
-          <width>201</width>
-          <height>25</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="baseSize">
-         <size>
-          <width>50</width>
-          <height>30</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>10</pointsize>
-         </font>
-        </property>
-        <property name="foreground">
-         <color>
-          <red>255</red>
-          <green>255</green>
-          <blue>255</blue>
-         </color>
-        </property>
-        <property name="background">
-         <color>
-          <red>0</red>
-          <green>0</green>
-          <blue>255</blue>
-         </color>
-        </property>
-        <property name="labels">
-         <string>Remote OPS Display</string>
-        </property>
-        <property name="files">
-         <string>usaxs_remote_main.ui</string>
-        </property>
-        <property name="args">
-         <string/>
-        </property>
-        <property name="fontScaleMode" stdset="0">
-         <enum>EPushButton::None</enum>
-        </property>
-       </widget>
        <widget class="caRelatedDisplay" name="carelateddisplay_4">
         <property name="geometry">
          <rect>
           <x>210</x>
           <y>90</y>
-          <width>191</width>
-          <height>25</height>
+          <width>190</width>
+          <height>31</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -862,9 +809,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <widget class="caRelatedDisplay" name="carelateddisplay_6">
         <property name="geometry">
          <rect>
-          <x>0</x>
-          <y>130</y>
-          <width>201</width>
+          <x>10</x>
+          <y>90</y>
+          <width>190</width>
           <height>31</height>
          </rect>
         </property>
@@ -921,7 +868,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
        <widget class="caRelatedDisplay" name="caRelatedDisplay_6">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>150</x>
           <y>140</y>
           <width>101</width>
           <height>21</height>

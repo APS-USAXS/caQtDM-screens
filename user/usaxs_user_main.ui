@@ -414,7 +414,7 @@
       <property name="geometry">
        <rect>
         <x>640</x>
-        <y>10</y>
+        <y>0</y>
         <width>131</width>
         <height>21</height>
        </rect>
@@ -536,7 +536,7 @@
       <property name="geometry">
        <rect>
         <x>650</x>
-        <y>230</y>
+        <y>220</y>
         <width>120</width>
         <height>21</height>
        </rect>
@@ -559,13 +559,13 @@
        </color>
       </property>
       <property name="labels">
-       <string notr="true">BF Radiography;BF optical image</string>
+       <string notr="true">BF Radiography;BF optical image;HR optical image</string>
       </property>
       <property name="files">
-       <string notr="true">testCamera1.ui;testCamera2.ui</string>
+       <string notr="true">testCamera1.ui;testCamera2.ui;testCamera3.ui</string>
       </property>
       <property name="args">
-       <string notr="true">P=usxFLY1:,R=cam1:;P=usxFLY2:,R=cam1:</string>
+       <string notr="true">P=usxFLY1:,R=cam1:;P=usxFLY2:,R=cam1:;P=usxFLY3:,R=cam1:</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>
@@ -578,7 +578,7 @@
       <property name="geometry">
        <rect>
         <x>470</x>
-        <y>200</y>
+        <y>140</y>
         <width>51</width>
         <height>20</height>
        </rect>
@@ -611,7 +611,7 @@
       <property name="geometry">
        <rect>
         <x>480</x>
-        <y>140</y>
+        <y>80</y>
         <width>101</width>
         <height>21</height>
        </rect>
@@ -638,7 +638,7 @@
       <property name="geometry">
        <rect>
         <x>530</x>
-        <y>200</y>
+        <y>140</y>
         <width>51</width>
         <height>20</height>
        </rect>
@@ -671,7 +671,7 @@
       <property name="geometry">
        <rect>
         <x>480</x>
-        <y>170</y>
+        <y>110</y>
         <width>91</width>
         <height>19</height>
        </rect>
@@ -730,8 +730,8 @@
      <widget class="QLabel" name="label_62">
       <property name="geometry">
        <rect>
-        <x>550</x>
-        <y>60</y>
+        <x>670</x>
+        <y>20</y>
         <width>71</width>
         <height>21</height>
        </rect>
@@ -758,7 +758,7 @@
       <property name="geometry">
        <rect>
         <x>400</x>
-        <y>170</y>
+        <y>110</y>
         <width>71</width>
         <height>21</height>
        </rect>
@@ -779,6 +779,155 @@
       </property>
       <property name="text">
        <string>Exp time:</string>
+      </property>
+     </widget>
+     <widget class="caMessageButton" name="camessagebutton_7">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>260</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stop</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY3:cam1:Acquire</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="pressMessage">
+       <string notr="true">0</string>
+      </property>
+     </widget>
+     <widget class="caTextEntry" name="catextentry_8">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>230</y>
+        <width>91</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY3:cam1:AcquireTime</string>
+      </property>
+      <property name="background">
+       <color>
+        <red>115</red>
+        <green>215</green>
+        <blue>253</blue>
+       </color>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Static</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_65">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>230</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>52</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Exp time:</string>
+      </property>
+     </widget>
+     <widget class="caMessageButton" name="camessagebutton_8">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>260</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Start</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY3:cam1:Acquire</string>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>140</blue>
+       </color>
+      </property>
+      <property name="pressMessage">
+       <string notr="true">1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_67">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>200</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>52</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Optical HR CAM</string>
       </property>
      </widget>
     </widget>

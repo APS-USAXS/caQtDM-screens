@@ -2,8 +2,8 @@
 
 # this will set values for slits for USAXS
 # USAXS horizontal and vertical 
-export USAXSH=`caget -t usxLAX:m58:c2:m8.VAL`
-export USAXSV=`caget -t usxLAX:m58:c2:m7.VAL`
+export USAXSH=`caget -t usxLAX:m58:c1:m8.VAL`
+export USAXSV=`caget -t usxLAX:m58:c1:m7.VAL`
 caput usxLAX:USAXS_hslit_ap $USAXSH
 caput usxLAX:USAXS_vslit_ap $USAXSV
 # Guard horizonal and vertical

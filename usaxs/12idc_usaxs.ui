@@ -2408,13 +2408,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string notr="true">WAXS Eiger;SAXS Pilatus CdTe;WAXS Pilatus;Alta;BlackFly Xray;BlackFlyImage XRAY;BlackFly Optical;BlackFly HR;BlackFlyImage Optical;Dexela</string>
+     <string notr="true">WAXS Eiger;SAXS Pilatus CdTe;WAXS Pilatus;Alta;BlackFly Xray;BlackFlyImage XRAY;BlackFly Optical;BlackFly HR;BlackFlyImage Optical;BlackFlyImage HR;Dexela</string>
     </property>
     <property name="files">
-     <string notr="true">eiger2Detector.ui;pilatusDetector.ui;pilatusDetector.ui;Alta.ui;ADAravis.ui;testCamera1.ui;ADAravis.ui;ADAravis.ui;testCamera2.ui;Dexela.ui</string>
+     <string notr="true">eiger2Detector.ui;pilatusDetector.ui;pilatusDetector.ui;Alta.ui;ADAravis.ui;testCamera1.ui;ADAravis.ui;ADAravis.ui;testCamera2.ui;testCamera3.ui;Dexela.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=usaxs_eiger1:,R=cam1:;P=usaxs_pilatus3:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=12idalta:,R=cam1:;P=usxFLY1:,R=cam1:;P=usxFLY1:,R=cam1:;P=usxFLY2:,R=cam1:,C=FLIR-BFS-PGE-16S2C;P=usxFLY3:,R=cam1:,C=BFLY-PGE-23S6M;P=usxFLY2:,R=cam1:;P=12idcDEX:,R=cam1:</string>
+     <string notr="true">P=usaxs_eiger1:,R=cam1:;P=usaxs_pilatus3:,R=cam1:;P=usaxs_pilatus2:,R=cam1:;P=12idalta:,R=cam1:;P=usxFLY1:,R=cam1:;P=usxFLY1:,R=cam1:;P=usxFLY2:,R=cam1:,C=FLIR-BFS-PGE-16S2C;P=usxFLY3:,R=cam1:,C=BFLY-PGE-23S6M;P=usxFLY2:,R=cam1:;P=usxFLY3:,R=cam1:;P=12idcDEX:,R=cam1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

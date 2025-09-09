@@ -100,6 +100,7 @@ addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/12ideCC/12ideCCApp/op/u
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/usxFLY2/usxFLY2App/op/adl
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/ioc/usxFLY3/usxFLY3App/op/adl
 addScreenPath      DSERV_EPICS_DIR       synApps_6_3/support/streamMail/sMailApp/op/ui
+addScreenPath      DSERV_EPICS_DIR       synApps_SG/12ideMZ1/12ideMZ1App/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui
 addScreenPath      ALIVE                 aliveApp/op/ui/autoconvert
 addScreenPath      AREA_DETECTOR         ADCore/ADApp/op/ui

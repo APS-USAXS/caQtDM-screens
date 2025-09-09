@@ -814,13 +814,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>SoftGlue</string>
+     <string>SoftGlue;SoftGlueZynq</string>
     </property>
     <property name="files">
-     <string>softGlueMenu.ui</string>
+     <string>softGlueMenu.ui;softGlueZynqMenu.ui</string>
     </property>
     <property name="args">
-     <string>P=usxLAX:, H=softGlue:</string>
+     <string>P=usxLAX:, H=softGlue:;P=12ideMZ1:,H=SG:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -3631,7 +3631,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <item>
       <widget class="caLabel" name="caLabel_4">
        <property name="text">
-        <string>last edited: 2025-6-6, JIL</string>
+        <string>last edited: 2025-9-9, JIL</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

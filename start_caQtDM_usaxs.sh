@@ -155,6 +155,8 @@ addScreenPath      QUADEM                quadEMApp/op/ui
 addScreenPath      QUADEM                quadEMApp/op/ui/autoconvert
 addScreenPath      SOFTGLUE              softGlueApp/op/ui
 addScreenPath      SOFTGLUE              softGlueApp/op/ui/autoconvert
+addScreenPath      SOFTGLUEZYNQ          softGlueApp/op/ui
+addScreenPath      SOFTGLUEZYNQ          softGlueApp/op/ui/autoconvert
 addScreenPath      SSCAN                 sscanApp/op/ui
 addScreenPath      SSCAN                 sscanApp/op/ui/autoconvert
 addScreenPath      SCALER                scalerApp/op/ui

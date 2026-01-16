@@ -2243,10 +2243,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>Watson/Marlow 505Du;ThermoOrion pH;VWR1167 Recirculator;HARVARD PHD2000;Feedback;Pilatus;Microlab;Love Controllers;xiahsc;12idc Linkam;Feedback Input Calcs;Mirror Feedback;Pilatus disk free space;Adam RTD;Adam TC;PTC10;too many items</string>
     </property>
     <property name="files">
-     <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;fb_epid.ui;pilatusDetector.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;userCalcs10.ui;fb_epid.ui;epicsdf.ui;ADAM_4015.ui;ADAM_4018p.ui;PTC10.ui;configMenu.ui</string>
+     <string>watsonMarlow.ui;thermoorion.ui;vwr1167p.ui;phd2000.ui;fb_epid.ui;pilatusDetector.ui;microlab.ui;LoveList4.ui;xiahsc.ui;ci94.ui;userCalcs10.ui;fb_epid.ui;epicsdf.ui;ADAM_4015.ui;ADAM_4018p.ui;PTC10_top.ui;configMenu.ui</string>
     </property>
     <property name="args">
-     <string>P=usxLAX;P=usxLAX:250pH:,S=usxLAX:,R=cmdReply:a8_do_IO;P=usxLAX,PORT=:rs232b7;P=usxLAX:,PORT=:rs232b6;P=usxLAX:fbe:omega;P=usxPIL:,R=cam1:;P=usxLAX:,R=microlab:,S=cmdReply:a7_do_IO;P=usxLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=usxLAX:,HSC=hsc1:;P=usxLAX:;P=usxLAX:fbCalc:;P=usxLAX:fbe:mirror;P=usxLAX:,D=p100:;P=usxLAX:,R=adam1;P=usxLAX:,R=adam2;P=usxTEMP:,T=tc1,CT=2A,CR=3A,CV=5A;P=usxCFG:,CONFIG=example</string>
+     <string>P=usxLAX;P=usxLAX:250pH:,S=usxLAX:,R=cmdReply:a8_do_IO;P=usxLAX,PORT=:rs232b7;P=usxLAX:,PORT=:rs232b6;P=usxLAX:fbe:omega;P=usxPIL:,R=cam1:;P=usxLAX:,R=microlab:,S=cmdReply:a7_do_IO;P=usxLAX:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4;P=usxLAX:,HSC=hsc1:;P=usxLAX:;P=usxLAX:fbCalc:;P=usxLAX:fbe:mirror;P=usxLAX:,D=p100:;P=usxLAX:,R=adam1;P=usxLAX:,R=adam2;P=usxTEMP:,T=tc1,T1=2A,T2=2B,T3=2C,T4=2D,R1=3A,R2=3B,A1=5A,A2=5B,A3=5C,A4=5D;P=usxCFG:,CONFIG=example</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

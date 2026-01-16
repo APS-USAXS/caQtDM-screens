@@ -339,6 +339,40 @@
          </property>
         </widget>
        </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sample Data Dir&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="caLineEdit" name="calineedit_17">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>#####</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="channel" stdset="0">
+          <string notr="true">usxLAX:sampleDir</string>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
      <widget class="caInclude" name="cainclude">
@@ -413,9 +447,9 @@
      <widget class="QLabel" name="label_58">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>650</x>
         <y>0</y>
-        <width>131</width>
+        <width>111</width>
         <height>21</height>
        </rect>
       </property>
@@ -434,15 +468,15 @@
        <string notr="true">color: rgb(0, 0, 0)</string>
       </property>
       <property name="text">
-       <string>Radiography CAM</string>
+       <string>Rad. CAM FLY1</string>
       </property>
      </widget>
      <widget class="caTextEntry" name="catextentry_6">
       <property name="geometry">
        <rect>
         <x>660</x>
-        <y>110</y>
-        <width>91</width>
+        <y>100</y>
+        <width>71</width>
         <height>19</height>
        </rect>
       </property>
@@ -470,7 +504,7 @@
       <property name="geometry">
        <rect>
         <x>650</x>
-        <y>140</y>
+        <y>130</y>
         <width>51</width>
         <height>20</height>
        </rect>
@@ -503,7 +537,7 @@
       <property name="geometry">
        <rect>
         <x>710</x>
-        <y>140</y>
+        <y>130</y>
         <width>51</width>
         <height>20</height>
        </rect>
@@ -535,8 +569,8 @@
      <widget class="caRelatedDisplay" name="caRelatedDisplay_31">
       <property name="geometry">
        <rect>
-        <x>650</x>
-        <y>220</y>
+        <x>410</x>
+        <y>160</y>
         <width>120</width>
         <height>21</height>
        </rect>
@@ -577,8 +611,8 @@
      <widget class="caMessageButton" name="camessagebutton_4">
       <property name="geometry">
        <rect>
-        <x>470</x>
-        <y>140</y>
+        <x>440</x>
+        <y>70</y>
         <width>51</width>
         <height>20</height>
        </rect>
@@ -610,9 +644,9 @@
      <widget class="QLabel" name="label_63">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>80</y>
-        <width>101</width>
+        <x>440</x>
+        <y>10</y>
+        <width>120</width>
         <height>21</height>
        </rect>
       </property>
@@ -631,14 +665,14 @@
        <string notr="true">color: rgb(0, 0, 0)</string>
       </property>
       <property name="text">
-       <string>Optical CAM</string>
+       <string>Optical CAM FLY2</string>
       </property>
      </widget>
      <widget class="caMessageButton" name="camessagebutton_5">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>140</y>
+        <x>500</x>
+        <y>70</y>
         <width>51</width>
         <height>20</height>
        </rect>
@@ -670,9 +704,9 @@
      <widget class="caTextEntry" name="catextentry_7">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>110</y>
-        <width>91</width>
+        <x>460</x>
+        <y>40</y>
+        <width>61</width>
         <height>19</height>
        </rect>
       </property>
@@ -700,7 +734,7 @@
       <property name="geometry">
        <rect>
         <x>640</x>
-        <y>50</y>
+        <y>40</y>
         <width>121</width>
         <height>51</height>
        </rect>
@@ -757,8 +791,8 @@
      <widget class="QLabel" name="label_64">
       <property name="geometry">
        <rect>
-        <x>400</x>
-        <y>110</y>
+        <x>390</x>
+        <y>40</y>
         <width>71</width>
         <height>21</height>
        </rect>
@@ -784,8 +818,8 @@
      <widget class="caMessageButton" name="camessagebutton_7">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>260</y>
+        <x>710</x>
+        <y>270</y>
         <width>51</width>
         <height>20</height>
        </rect>
@@ -817,9 +851,9 @@
      <widget class="caTextEntry" name="catextentry_8">
       <property name="geometry">
        <rect>
-        <x>480</x>
-        <y>230</y>
-        <width>91</width>
+        <x>660</x>
+        <y>240</y>
+        <width>71</width>
         <height>19</height>
        </rect>
       </property>
@@ -846,8 +880,8 @@
      <widget class="QLabel" name="label_65">
       <property name="geometry">
        <rect>
-        <x>400</x>
-        <y>230</y>
+        <x>580</x>
+        <y>240</y>
         <width>71</width>
         <height>21</height>
        </rect>
@@ -873,8 +907,8 @@
      <widget class="caMessageButton" name="camessagebutton_8">
       <property name="geometry">
        <rect>
-        <x>470</x>
-        <y>260</y>
+        <x>650</x>
+        <y>270</y>
         <width>51</width>
         <height>20</height>
        </rect>
@@ -906,8 +940,8 @@
      <widget class="QLabel" name="label_67">
       <property name="geometry">
        <rect>
-        <x>460</x>
-        <y>200</y>
+        <x>640</x>
+        <y>160</y>
         <width>131</width>
         <height>21</height>
        </rect>
@@ -927,7 +961,143 @@
        <string notr="true">color: rgb(0, 0, 0)</string>
       </property>
       <property name="text">
-       <string>Optical HR CAM</string>
+       <string>Rad. HR CAM FLY3</string>
+      </property>
+     </widget>
+     <widget class="caNumeric" name="canumeric_2">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>180</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="integerDigits" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="decimalDigits" stdset="0">
+       <number>3</number>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY3:cam1:AcquireTime</string>
+      </property>
+      <property name="precisionMode">
+       <enum>caNumeric::User</enum>
+      </property>
+      <property name="limitsMode">
+       <enum>caNumeric::User</enum>
+      </property>
+      <property name="maxValue">
+       <double>2.000000000000000</double>
+      </property>
+      <property name="minValue">
+       <double>0.001000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_68">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>100</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>52</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0)</string>
+      </property>
+      <property name="text">
+       <string>Exp time:</string>
+      </property>
+     </widget>
+     <widget class="caLed" name="caled_10">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>40</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY2:cam1:Acquire</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">1</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true">0</string>
+      </property>
+     </widget>
+     <widget class="caLed" name="caled_11">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>100</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY1:cam1:Acquire</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">1</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true">0</string>
+      </property>
+     </widget>
+     <widget class="caLed" name="caled_12">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>240</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">usxFLY3:cam1:Acquire</string>
+      </property>
+      <property name="trueColor">
+       <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="trueValue">
+       <string notr="true">1</string>
+      </property>
+      <property name="falseValue">
+       <string notr="true">0</string>
       </property>
      </widget>
     </widget>

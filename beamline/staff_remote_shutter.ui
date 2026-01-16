@@ -690,51 +690,6 @@
     <string notr="true">PB:12ID:STA_C_SCS_CLSD_PL.VAL</string>
    </property>
   </widget>
-  <widget class="caPolyLine" name="caPolygon_4">
-   <property name="geometry">
-    <rect>
-     <x>570</x>
-     <y>240</y>
-     <width>20</width>
-     <height>28</height>
-    </rect>
-   </property>
-   <property name="foreground">
-    <color>
-     <red>0</red>
-     <green>216</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="linestyle" stdset="0">
-    <enum>caPolyLine::Solid</enum>
-   </property>
-   <property name="lineSize">
-    <number>2</number>
-   </property>
-   <property name="lineColor">
-    <color>
-     <red>0</red>
-     <green>216</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="xyPairs" stdset="0">
-    <string>0,22;20,28;20,5;0,0;0,22</string>
-   </property>
-   <property name="fillstyle" stdset="0">
-    <enum>caPolyLine::Filled</enum>
-   </property>
-   <property name="polystyle" stdset="0">
-    <enum>caPolyLine::Polygon</enum>
-   </property>
-   <property name="visibility">
-    <enum>caPolyLine::IfNotZero</enum>
-   </property>
-   <property name="channel" stdset="0">
-    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
-   </property>
-  </widget>
   <widget class="caPolyLine" name="caPolygon_5">
    <property name="geometry">
     <rect>
@@ -778,51 +733,6 @@
    </property>
    <property name="channel" stdset="0">
     <string notr="true">PA:12ID:STA_A_FES_OPEN_PL.VAL</string>
-   </property>
-  </widget>
-  <widget class="caPolyLine" name="caPolygon_6">
-   <property name="geometry">
-    <rect>
-     <x>570</x>
-     <y>260</y>
-     <width>20</width>
-     <height>28</height>
-    </rect>
-   </property>
-   <property name="foreground">
-    <color>
-     <red>255</red>
-     <green>0</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="linestyle" stdset="0">
-    <enum>caPolyLine::Solid</enum>
-   </property>
-   <property name="lineSize">
-    <number>2</number>
-   </property>
-   <property name="lineColor">
-    <color>
-     <red>255</red>
-     <green>0</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="xyPairs" stdset="0">
-    <string>0,22;20,28;20,5;0,0;0,22</string>
-   </property>
-   <property name="fillstyle" stdset="0">
-    <enum>caPolyLine::Filled</enum>
-   </property>
-   <property name="polystyle" stdset="0">
-    <enum>caPolyLine::Polygon</enum>
-   </property>
-   <property name="visibility">
-    <enum>caPolyLine::IfZero</enum>
-   </property>
-   <property name="channel" stdset="0">
-    <string notr="true">usxRIO:Galil2Bo0_CMD</string>
    </property>
   </widget>
   <widget class="caPolyLine" name="caPolygon_8">
@@ -1067,6 +977,102 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Config&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
+  <widget class="caPolyLine" name="caPolygon_15">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>260</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfZero</enum>
+   </property>
+   <property name="visibilityCalc">
+    <string notr="true">A</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">usxLAX:userStringCalc10.VAL</string>
+   </property>
+  </widget>
+  <widget class="caPolyLine" name="caPolygon_14">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>240</y>
+     <width>20</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="foreground">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="linestyle" stdset="0">
+    <enum>caPolyLine::Solid</enum>
+   </property>
+   <property name="lineSize">
+    <number>2</number>
+   </property>
+   <property name="lineColor">
+    <color>
+     <red>0</red>
+     <green>216</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="xyPairs" stdset="0">
+    <string>0,22;20,28;20,5;0,0;0,22</string>
+   </property>
+   <property name="fillstyle" stdset="0">
+    <enum>caPolyLine::Filled</enum>
+   </property>
+   <property name="polystyle" stdset="0">
+    <enum>caPolyLine::Polygon</enum>
+   </property>
+   <property name="visibility">
+    <enum>caPolyLine::IfNotZero</enum>
+   </property>
+   <property name="visibilityCalc">
+    <string notr="true">A</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string notr="true">usxLAX:userStringCalc10.VAL</string>
+   </property>
+  </widget>
   <zorder>caPolygon_12</zorder>
   <zorder>caPolygon_10</zorder>
   <zorder>caPolygon_9</zorder>
@@ -1094,12 +1100,12 @@
   <zorder>camessagebutton_9</zorder>
   <zorder>caPolygon_1</zorder>
   <zorder>caPolygon_2</zorder>
-  <zorder>caPolygon_4</zorder>
   <zorder>caPolygon_5</zorder>
-  <zorder>caPolygon_6</zorder>
   <zorder>caPolygon_8</zorder>
   <zorder>caRelatedDisplay_0</zorder>
   <zorder>label_59</zorder>
+  <zorder>caPolygon_15</zorder>
+  <zorder>caPolygon_14</zorder>
  </widget>
  <customwidgets>
   <customwidget>

@@ -814,13 +814,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>SoftGlue;SoftGlueZynq</string>
+     <string>SoftGlue;SoftGlueZynq;SoftGlueZynqAll</string>
     </property>
     <property name="files">
-     <string>softGlueMenu.ui;softGlueZynqMenu.ui</string>
+     <string>softGlueMenu.ui;softGlueZynqMenu.ui;softGlueZynqAll.ui</string>
     </property>
     <property name="args">
-     <string>P=usxLAX:, H=softGlue:;P=12ideMZ1:,H=SG:</string>
+     <string>P=usxLAX:, H=softGlue:;P=12ideMZ1:,H=SG:;P=12ideMZ1:,H=SG:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -5121,8 +5121,11 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="visibility">
      <enum>caPolyLine::IfNotZero</enum>
     </property>
+    <property name="visibilityCalc">
+     <string notr="true">A</string>
+    </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idc:uniblitz:shutter:open</string>
+     <string notr="true">usxLAX:userStringCalc10.VAL</string>
     </property>
    </widget>
    <widget class="caPolyLine" name="caPolygon_15">
@@ -5164,10 +5167,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caPolyLine::Polygon</enum>
     </property>
     <property name="visibility">
-     <enum>caPolyLine::IfNotZero</enum>
+     <enum>caPolyLine::IfZero</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string notr="true">A</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">12idc:uniblitz:shutter:close</string>
+     <string notr="true">usxLAX:userStringCalc10.VAL</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_36">
@@ -6612,6 +6618,48 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caGraphics::Rectangle</enum>
     </property>
    </widget>
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_38">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>230</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">-motor</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>140</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string>Slits</string>
+    </property>
+    <property name="files">
+     <string>motorxU.ui</string>
+    </property>
+    <property name="args">
+     <string>P=12ida2:, M=m35</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false</string>
+    </property>
+   </widget>
    <zorder>caRectangle_17</zorder>
    <zorder>cagraphics_11</zorder>
    <zorder>caPolygon_29</zorder>
@@ -6768,6 +6816,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caLabel_17</zorder>
    <zorder>caLabel_18</zorder>
    <zorder>caLabel_19</zorder>
+   <zorder>caRelatedDisplay_38</zorder>
   </widget>
  </widget>
  <customwidgets>

@@ -1247,10 +1247,10 @@
        <string>PI rotational stages;Lakeshore 340;PTC10;Cold Stage UI;Cold sinter Stage asyn;ISCO Teledyne 500D</string>
       </property>
       <property name="files">
-       <string>motor2x.ui;LakeShore340.adl;PTC10.ui;coldStage.ui;asynOctet.ui;SyringePumpTop.ui</string>
+       <string>motor2x.ui;LakeShore340.adl;PTC10_top.ui;coldStage.ui;asynOctet.ui;SyringePumpTop.ui</string>
       </property>
       <property name="args">
-       <string>P=usxPI:c867:c0:,M1=m1,M2=m2;P=12idcSFO:,Q=tc1;P=usxTEMP:,T=tc1,CT=2A,CR=3A,CV=5A;;P=usxCOLD:,R=asyn_1;P=usxSP:</string>
+       <string>P=usxPI:c867:c0:,M1=m1,M2=m2;P=12idcSFO:,Q=tc1;P=usxTEMP:,T=tc1,T1=2A,T2=2B,T3=2C,T4=2D,R1=3A,R2=3B,A1=5A,A2=5B,A3=5C,A4=5D;;P=usxCOLD:,R=asyn_1;P=usxSP:</string>
       </property>
       <property name="stackingMode" stdset="0">
        <enum>caRowColMenu::Menu</enum>

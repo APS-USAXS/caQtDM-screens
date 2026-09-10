@@ -10,6 +10,11 @@
     <height>724</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <kerning>false</kerning>
+   </font>
+  </property>
   <property name="styleSheet">
    <string notr="true">
 
@@ -253,13 +258,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>USAXS Femto Amplifier 300;USAXS Femto Amplifier 200</string>
+     <string>USAXS Femto Amplifier 300;USAXS Femto Amplifier 200;FX4;quadEM FX4</string>
     </property>
     <property name="files">
-     <string>femtopdFine.ui;femtopdFine.ui</string>
+     <string>femtopdFine.ui;femtopdFine.ui;FX4.ui;quadEM.ui</string>
     </property>
     <property name="args">
-     <string>P=usxLAX:,H=pd01:,F=seq02:,PS=usxLAX:,SS=vsc:c0,SC=4;P=usxLAX:, H=pd01:, F=seq01:, PS=usxLAX:, SS=vsc:c0, SC=4</string>
+     <string>P=usxLAX:,H=pd01:,F=seq02:,PS=usxLAX:,SS=vsc:c0,SC=4;P=usxLAX:, H=pd01:, F=seq01:, PS=usxLAX:, SS=vsc:c0, SC=4;P=usxFX4:,R=FX4:;P=usxFX4:,R=FX4:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -2468,7 +2473,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_33">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>170</x>
       <y>680</y>
       <width>100</width>
       <height>21</height>
@@ -3078,8 +3083,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>700</x>
-      <y>510</y>
+      <x>780</x>
+      <y>360</y>
       <width>131</width>
       <height>81</height>
      </rect>
@@ -3189,7 +3194,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="geometry">
      <rect>
       <x>920</x>
-      <y>330</y>
+      <y>300</y>
       <width>271</width>
       <height>141</height>
      </rect>
@@ -3266,7 +3271,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -3315,7 +3320,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -3370,7 +3375,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>11</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -3419,7 +3424,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>11</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -3461,8 +3466,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QGroupBox" name="groupBox_4">
     <property name="geometry">
      <rect>
-      <x>680</x>
-      <y>590</y>
+      <x>690</x>
+      <y>530</y>
       <width>161</width>
       <height>121</height>
      </rect>
@@ -3938,8 +3943,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QGroupBox" name="groupBox_7">
     <property name="geometry">
      <rect>
-      <x>850</x>
-      <y>500</y>
+      <x>855</x>
+      <y>440</y>
       <width>170</width>
       <height>211</height>
      </rect>
@@ -4331,8 +4336,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="QGroupBox" name="groupBox_8">
     <property name="geometry">
      <rect>
-      <x>1025</x>
-      <y>500</y>
+      <x>1030</x>
+      <y>440</y>
       <width>170</width>
       <height>211</height>
      </rect>
@@ -4633,7 +4638,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>500</y>
+      <y>450</y>
       <width>160</width>
       <height>211</height>
      </rect>
@@ -5540,7 +5545,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="geometry">
      <rect>
       <x>490</x>
-      <y>630</y>
+      <y>570</y>
       <width>181</width>
       <height>81</height>
      </rect>
@@ -5912,10 +5917,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>Slits</string>
     </property>
     <property name="files">
-     <string>maskApertureSlit.ui</string>
+     <string>MaskAperture.ui</string>
     </property>
     <property name="args">
-     <string>P=12ida2:,SLITS=SL2, HOR=m1,DIAG=m3,PITCH=m4,YAW=m2</string>
+     <string>P=12idaACS1:,SLITS=DS_WBS, HOR=m5,DIAG=m6,PITCH=m7,YAW=m8</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -6660,6 +6665,127 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>false</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_55">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>660</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SAXS Cal:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="calineedit_55">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>660</y>
+      <width>801</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>15</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>#####</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">usxLAX:SAXS:CalibrationReport</string>
+    </property>
+    <property name="precision">
+     <number>3</number>
+    </property>
+    <property name="precisionMode">
+     <enum>caLineEdit::User</enum>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>caLineEdit::WidthAndHeight</enum>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::engr_notation</enum>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="calineedit_56">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>690</y>
+      <width>801</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>15</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>#####</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">usxLAX:WAXS:CalibrationReport</string>
+    </property>
+    <property name="precision">
+     <number>3</number>
+    </property>
+    <property name="precisionMode">
+     <enum>caLineEdit::User</enum>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>caLineEdit::WidthAndHeight</enum>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::engr_notation</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_56">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>690</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>WAXS Cal:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
    <zorder>caRectangle_17</zorder>
    <zorder>cagraphics_11</zorder>
    <zorder>caPolygon_29</zorder>
@@ -6817,6 +6943,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>caLabel_18</zorder>
    <zorder>caLabel_19</zorder>
    <zorder>caRelatedDisplay_38</zorder>
+   <zorder>label_55</zorder>
+   <zorder>calineedit_55</zorder>
+   <zorder>calineedit_56</zorder>
+   <zorder>label_56</zorder>
   </widget>
  </widget>
  <customwidgets>

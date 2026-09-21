@@ -1308,13 +1308,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>amplifier;scaler dark signal;Guard/I0 xy stage;Guard Slits size;Guard Slits motors</string>
+     <string>amplifier;scaler dark signal;Guard/I0 xy stage;Guard Slits size;Guard Slits motors;FX4;QuadEM FX4</string>
     </property>
     <property name="files">
-     <string>femto.ui;dark16.ui;motor2xU.ui;4slitGraphic.ui;motor4xU.ui</string>
+     <string>femto.ui;dark16.ui;motor2xU.ui;4slitGraphic.ui;motor4xU.ui;FX4.ui;quadEM.ui</string>
     </property>
     <property name="args">
-     <string>P=usxRIO:,H=fem02:,F=seq01:,AC=usxRIO:Galil0Bo8_CMD;P=usxLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=usxLAX:, M1=m58:c0:m7, M2=m58:c0:m6;P=usxLAX:, H=GSlit1H:, V=GSlit1V:, SLIT=Guard Slits;P=usxLAX:, M1=m58:c1:m1,  M2=m58:c1:m2,  M3=m58:c1:m3,  M4=m58:c1:m4</string>
+     <string>P=usxRIO:,H=fem02:,F=seq01:,AC=usxRIO:Galil0Bo8_CMD;P=usxLAX:, S=vsc:c0, D=dark:, CLOSED=iad:shutterClosed;P=usxLAX:, M1=m58:c0:m7, M2=m58:c0:m6;P=usxLAX:, H=GSlit1H:, V=GSlit1V:, SLIT=Guard Slits;P=usxLAX:, M1=m58:c1:m1,  M2=m58:c1:m2,  M3=m58:c1:m3,  M4=m58:c1:m4;P=usxFX42:,R=FX4:;P=usxFX42:,R=FX4:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
@@ -6786,6 +6786,57 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
    </widget>
+   <widget class="QLabel" name="label_57">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>100</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>USAXS enabled</string>
+    </property>
+   </widget>
+   <widget class="caLed" name="caled_10">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>90</y>
+      <width>41</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>6</width>
+      <height>6</height>
+     </size>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">usxLAX:blCalc:userCalc2.VAL</string>
+    </property>
+    <property name="falseColor">
+     <color>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="trueColor">
+     <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </widget>
    <zorder>caRectangle_17</zorder>
    <zorder>cagraphics_11</zorder>
    <zorder>caPolygon_29</zorder>
@@ -6947,6 +6998,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <zorder>calineedit_55</zorder>
    <zorder>calineedit_56</zorder>
    <zorder>label_56</zorder>
+   <zorder>label_57</zorder>
+   <zorder>caled_10</zorder>
   </widget>
  </widget>
  <customwidgets>

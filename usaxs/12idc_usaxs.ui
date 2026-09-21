@@ -258,13 +258,13 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="labels">
-     <string>USAXS Femto Amplifier 300;USAXS Femto Amplifier 200;FX4;quadEM FX4</string>
+     <string>USAXS Femto Amplifier 300;USAXS Femto Amplifier 200;FX4;quadEM FX4;FX4 auto-ranging</string>
     </property>
     <property name="files">
-     <string>femtopdFine.ui;femtopdFine.ui;FX4.ui;quadEM.ui</string>
+     <string>femtopdFine.ui;femtopdFine.ui;FX4.ui;quadEM.ui;FX4_autoRange.ui</string>
     </property>
     <property name="args">
-     <string>P=usxLAX:,H=pd01:,F=seq02:,PS=usxLAX:,SS=vsc:c0,SC=4;P=usxLAX:, H=pd01:, F=seq01:, PS=usxLAX:, SS=vsc:c0, SC=4;P=usxFX4:,R=FX4:;P=usxFX4:,R=FX4:</string>
+     <string>P=usxLAX:,H=pd01:,F=seq02:,PS=usxLAX:,SS=vsc:c0,SC=4;P=usxLAX:, H=pd01:, F=seq01:, PS=usxLAX:, SS=vsc:c0, SC=4;P=usxFX4:,R=FX4:;P=usxFX4:,R=FX4:;P=usxFX4:,F=FX4:,S=seq01:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

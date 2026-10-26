@@ -199,6 +199,8 @@ addScreenPath      APS_UI_DIR            sr/pss/adl
 addScreenPath      APS_UI_DIR            sr/scraperApp
 addScreenPath      APS_UI_DIR            sr/tuneApp
 addScreenPath      APS_UI_DIR            sr/vacApp
+# UserSteeringUSID.adl comes from the following dir
+addScreenPath      APS_UI_DIR            screens/adl/iocs/sr-steering
 addScreenPath      APS_UI_DIR            time
 addScreenPath      APS_UI_DIR            time/injtimeApp
 addScreenPath      APS_UI_DIR            time/mtimeApp
